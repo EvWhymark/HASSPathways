@@ -34,13 +34,13 @@ def login():
 		return redirect(cas.get_login_url())
 
 	print(ticket)
+	user, attributes, pgtiou = cas.verify_ticket(ticket)
 
 	if not user:
 		return "Failed to Verify Login Ticket"
 	else:
 		session['username'] = user
 		return redirect(next)
-	user, attributes, pgtiou = cas.verify_ticket(ticket)
 
 
 
