@@ -8,7 +8,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 cas = CASClient(
 	version = 3,
-	service_url='https://127.0.0.1:5000/',
+	service_url='https://hasspathways.com/login/rpi',
 	server_url='https://cas.auth.rpi.edu/cas/'
 	)
 
@@ -24,7 +24,7 @@ def guard(method=['GET']):
 def index():
 	return redirect(url_for('login'))
 
-@app.route('/login', methods=["POST", "GET"])
+@app.route('/login/rpi', methods=["POST", "GET"])
 def login():
 	next = request.args.get('nxt')
 	#print(next)
