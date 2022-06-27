@@ -8,7 +8,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 cas = CASClient(
 	version = 3,
-	service_url='https://hasspathways.com/login/rpi',
+	service_url='https://ec2-52-90-250-109.compute-1.amazonaws.com/login/rpi?next=%2Fadmin-portal',
 	server_url='https://cas.auth.rpi.edu/cas/'
 	)
 
@@ -40,7 +40,7 @@ def login():
 		return "Failed to Verify Login Ticket"
 	else:
 		session['username'] = user
-		return redirect(next)
+		return redirect('hasspathways.com/' + next)
 
 
 
