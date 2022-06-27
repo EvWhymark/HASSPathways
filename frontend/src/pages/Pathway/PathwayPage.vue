@@ -55,7 +55,7 @@
                         </v-icon>
                     </v-btn>
                 </div>
-                <div v-for="key in classTabs" :key="key" class="tab">
+                <div v-for="key in classTabs" :key="key" class="tab" v-bind:style="{backgroundColor: tabColor(key)}">
                     <h2 class="courseTitle">
                         {{ key }}
                     </h2>
@@ -302,6 +302,10 @@ export default {
         toggleGraph() {
             // console.log(this.courses);
             this.showGraph = !this.showGraph
+        },
+        tabColor(key) {
+            if (key === 'Remaining') return 'orange'
+            return "green"
         },
     },
 }
