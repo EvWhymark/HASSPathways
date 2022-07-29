@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="yeardropdown">
+        <div class="yeardropdown" role="form" aria-label="Year Selection">
             <v-select
                 v-model="selection"
                 no-data-text

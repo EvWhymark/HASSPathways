@@ -14,12 +14,12 @@
                     close all
                 </v-btn>
             </div>
-            <div>
+            <div role="tabpanel">
                 <!-- allows you to make a 'set' of dropdowns -->
-                <v-expansion-panels v-model="panel" multiple focusable>
+                <v-expansion-panels v-model="panel" multiple focusable role="tablist">
                     <!-- example of adding a new dropdown menu -->
                     <!-- starts one new dropdown -->
-                    <v-expansion-panel>
+                    <v-expansion-panel role="tab">
                         <v-expansion-panel-header> Do I need to take an IHSS course for my pathway? </v-expansion-panel-header> <!-- 'question' goes here -->
                         <v-expansion-panel-content> 
                             <!-- answer goes in here -->
@@ -27,28 +27,28 @@
                         </v-expansion-panel-content> 
                     </v-expansion-panel> 
                     <!-- end of example-->
-                    <v-expansion-panel>
+                    <v-expansion-panel role="tab">
                         <v-expansion-panel-header> Do I need to take a 4000 level course for my pathway? </v-expansion-panel-header>
                         <v-expansion-panel-content> 
                             Check the individual pathway requirements. Some pathways might require one course to be 4000 level and some might not.
                         </v-expansion-panel-content> 
                     </v-expansion-panel> 
 
-                    <v-expansion-panel>
+                    <v-expansion-panel role="tab">
                         <v-expansion-panel-header> Do I need to take a communication intensive course for my pathway? </v-expansion-panel-header>
                         <v-expansion-panel-content> 
                             This is not a requirement for the pathways.
                         </v-expansion-panel-content> 
                     </v-expansion-panel>
 
-                    <v-expansion-panel>
+                    <v-expansion-panel role="tab">
                         <v-expansion-panel-header> Am I allowed to come up with my own pathway? </v-expansion-panel-header>
                         <v-expansion-panel-content>
                             Students are not allowed to create their own pathway.
                         </v-expansion-panel-content> 
                     </v-expansion-panel>
                     
-                    <v-expansion-panel>
+                    <v-expansion-panel role="tab">
                         <v-expansion-panel-header> Can my pathway courses count towards a minor? </v-expansion-panel-header>
                         <v-expansion-panel-content> 
                             Yes, lots of pathways even have an associated minor which sometimes might only require one more course to achieve.
