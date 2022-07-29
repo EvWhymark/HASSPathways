@@ -1,31 +1,33 @@
 <template>
     <v-tooltip v-if="$vuetify.theme.dark" bottom>
-        <template #activator="{on}">
-            <v-btn
-                class="mr-2 button"
+        <template #activator="{off}">
+            <v-switch
+                inset
                 small fab elevation="0"
-                v-on="on"
+                v-on="off"
                 @click="darkMode"
+                size="small"
+                prepend-icon="mdi-moon-waxing-crescent"
+                style="padding-top:21px;"
             >
-                <v-icon class="mr-1">
-                    mdi-moon-waxing-crescent
-                </v-icon>
-            </v-btn>
+        
+            </v-switch>
         </template>
         <span>Switch to Light Mode</span>
     </v-tooltip> 
     <v-tooltip v-else bottom>
         <template #activator="{on}">
-            <v-btn
-                class="mr-2 button"
+            <v-switch
                 small fab elevation="0"
-                v-on="on"
+                inset
+                prepend-icon="mdi-white-balance-sunny" 
+                color="yellow darken-2"
+                value="yellow darken-2"
+                size="small"
                 @click="darkMode"
+                style="padding-top:21px;"
             >
-                <v-icon color="yellow darken-2">
-                    mdi-white-balance-sunny
-                </v-icon>
-            </v-btn>
+            </v-switch>
         </template>
         <span>Switch to Dark Mode</span>
     </v-tooltip>
