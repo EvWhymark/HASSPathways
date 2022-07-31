@@ -1,5 +1,5 @@
-import coursesJSON  from './json/courses.json'
-import pathwaysJSON from './json/pathways.json'
+import coursesJSON  from './json/2021-2022/courses.json'
+import pathwaysJSON from './json/2021-2022/pathways.json'
 import pathwayCategoriesJSON from './json/pathway_categories.json'
 
 // Neatify JSON data:

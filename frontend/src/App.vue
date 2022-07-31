@@ -3,7 +3,8 @@
         <Header />
 
         <v-main class="main-content">
-            <router-view />
+            <router-view :appCourses='courses' :appPathways='pathways' />
+            <!-- <router-view /> -->
         </v-main>
 
         <Footer />
@@ -26,8 +27,14 @@ export default {
     data: () => ({
         deleteClicked: false,
         searchInput: '',
-        extension: ''
+        extension: '',
+        courses: null,
+        pathways: null
     }),
+    async created() {
+        this.courses = await import('./data/json/' + this.$store.state.year + '/courses.json');
+        this.pathways = await import('./data/json/' + this.$store.state.year + '/pathways.json');
+    },
     mounted() {
         // Load dark mode directly from localStorage for faster response time
         // Note: localStorage saves as a string

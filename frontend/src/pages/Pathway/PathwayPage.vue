@@ -109,7 +109,7 @@
 </template>
 
 <script>
-import { pathwayCategories, pathways, courses } from '../../data/data.js'
+import { pathwayCategories, courses, pathways } from '../../data/data.js'
 import CourseTable from '../../components/CourseTable'
 // import GraphTab from '../../components/GraphTab.vue'
 import Breadcrumbs from '../../components/Breadcrumbs'
@@ -120,6 +120,16 @@ import YearSelection from '../../components/YearSelection.vue'
 export default {
     components: {
         CourseTable, Breadcrumbs, YearSelection, Bookmark
+    },
+    props: {
+        appPathways: {
+            required: false,
+            default: null
+        },
+        appCourses: {
+            required: false,
+            default: null
+        }
     },
     data() {
         return {
@@ -141,13 +151,15 @@ export default {
         },
         // Get actual pathway object
         pathway() {
-            return pathways[this.pathwayID];
+            return this.appPathways[this.pathwayID];
         },
         // Name of category to display, ie 'Major Restricted'
         categoryName() {
-            for (let category of pathwayCategories)
+            for (let category of pathwayCategories) {
+                //console.log(category);
                 if (category.pathways.includes(this.pathwayID))
                     return category.name;
+            }
             return '';
         },
         // Outputs an object containing the
@@ -170,7 +182,7 @@ export default {
             for(const prio in curr) {
                 // Search through each course in the pathway
                 for(const course_name in curr[prio]) {
-                    const course = courses[course_name];
+                    const course = this.appCourses[course_name];
                     curr[prio][course_name] = course ? course : null;
                 }
             }
@@ -178,6 +190,8 @@ export default {
         },
         // Get breadcrumb data
         breadcrumbs() {
+            console.log(breadcrumbs.pathway_template);
+
             return breadcrumbs.pathway_template.map(x => x || {
                 text: this.categoryName ?
                     `${this.pathway.name} (${this.categoryName})` :
