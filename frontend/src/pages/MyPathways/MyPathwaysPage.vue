@@ -18,8 +18,18 @@
 
             <v-divider class="my-4" />
 
-
-            <MyPathway
+            <span v-for="(item, index) in pathwaysToShow" :key="index">
+                <MyPathway 
+                    :title = item.name
+                    :courses = item.courses
+                    :pathway-category = item.name
+                    :pre-reequisite = item.preRequisite
+                    @update="update()"
+                />
+            
+            </span>
+            
+            <!-- <MyPathway
                 v-for="(item, index) in pathwaysToShow"
                 :key="index"
                 :title="item.name"
@@ -27,7 +37,10 @@
                 :pathway-category="item.name"
                 :pre-requisite="item.preRequisite"
                 @update="update()"
-            />
+            /> -->
+            
+
+
         </v-container>
     </div>
 </template>
@@ -51,6 +64,8 @@ export default {
         return {
             breadcrumbs: breadcrumbs.my_pathways,
             bookmarkedOnly: false,
+            test: 0,
+
         };
     },
     computed: {
@@ -96,7 +111,7 @@ export default {
             }});
             return output 
         },
-        update() {
+        update( ) {
             this.$forceUpdate();
         },
     }

@@ -176,7 +176,7 @@ export default {
             let selection = window.getSelection();
             if (selection.isCollapsed) {
                 this.selected = 1 - this.selected;
-                console.log(this.course.prerequisites)
+                // console.log(this.course.prerequisites)
 
                 // Save selection
                 const c = { pathwayID: this.pathwayId, course: this.course.name };

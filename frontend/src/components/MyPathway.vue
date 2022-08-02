@@ -160,6 +160,8 @@ export default {
                 this.$store.commit('delPathway', this.title);
                 // this.$store.commit('unBookmarkPathway', this.title) dont need this i think
                 this.$emit('update');
+                // console.log(this.title);
+                // console.log()
             }
         }
     }
