@@ -2,7 +2,7 @@
     <div>
         <v-container>
             <Breadcrumbs :breadcrumbs="breadcrumbs" />
-            <!-- <v-btn @click="debug()">click me</v-btn> -->
+            <v-btn @click="debug()">click me</v-btn>
 
             <h1>My HASS Pathways</h1>
 
@@ -100,8 +100,9 @@ export default {
     },
     methods: {
         debug() {
-            console.log(this.pathways)
-            console.log(this.bookmarked)
+            let c = { "pathwayID": "Artificial Intelligence", "course": "Minds and Machines" }
+            this.$store.commit('addCourse', c);
+            this.$forceUpdate();
         },
         get_pathways() {
             let output = Object.entries(this.$store.state.pathways).map(v => { return {
@@ -113,6 +114,7 @@ export default {
         },
         update( ) {
             this.$forceUpdate();
+            this.$router.go(0)
         },
     }
 }

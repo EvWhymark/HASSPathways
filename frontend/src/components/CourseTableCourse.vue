@@ -180,6 +180,7 @@ export default {
 
                 // Save selection
                 const c = { pathwayID: this.pathwayId, course: this.course.name };
+                console.log(c)
                 if (this.selected) {
                     this.$store.commit('addCourse', c);
                     this.$emit('checkbox-clicked', { name: this.course.name, selected: true });
