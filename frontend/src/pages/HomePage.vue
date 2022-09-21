@@ -63,7 +63,7 @@
                         Advanced course search
                     </v-btn>
                 </div>
-                <!-- <div class="homepage-btn">
+                <div class="homepage-btn">
                      <v-btn
                      x-large
                      block
@@ -74,7 +74,7 @@
                      </v-icon>
                      Admin and secure portal
                      </v-btn>
-                     </div> -->
+                     </div>
             </div>
         </v-container>
     </div>
