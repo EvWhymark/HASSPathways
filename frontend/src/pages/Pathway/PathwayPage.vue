@@ -8,9 +8,17 @@
             <Bookmark :pathway-id="pathwayID" />
         </div>
         <p>{{ pathway.description }}</p>
-        <v-btn @click="toggleGraph()">
-            click me to toggle graph view
-        </v-btn>
+        <div class="buttons">
+            <v-btn @click="displayDetails()">
+                detail view
+            </v-btn>
+            <v-btn @click="displayGraph()">
+                graph view
+            </v-btn>
+            <v-btn @click="displayTree()">
+                tree view
+            </v-btn>
+        </div>
         <v-container v-show="showGraph">
             <div id="graphView">
                 <div class="graph-fab-container">
@@ -77,7 +85,7 @@
                 </div>
             </div>
         </v-container>
-        <v-container v-show="!showGraph">
+        <v-container v-show="showDetails">
             <div class="fab-container">
                 <v-btn
                     color="light grey"
@@ -179,7 +187,9 @@ export default {
         return {
             tab: null,
             category: '',
+            showDetails: true,
             showGraph: false,
+            showTree: false,
             changeTabOnSelection: false,
             hover: false,
             pathwaysData: {},
@@ -342,8 +352,22 @@ export default {
                 this.$refs[i][0].deselectAll();
             }
         },
-        toggleGraph() {
-            this.showGraph = !this.showGraph;
+        displayDetails() {
+            this.showGraph = false;
+            this.showTree = false;
+            this.showDetails = true;
+            this.resize( this.ratio() );
+        },
+        displayGraph() {
+            this.showDetails = false;
+            this.showTree = false;
+            this.showGraph = true;
+            this.resize( this.ratio() );
+        },
+        displayTree() {
+            this.showDetails = false;
+            this.showGraph = false;
+            this.showTree = true;
             this.resize( this.ratio() );
         },
         resize( params ) {
@@ -486,6 +510,12 @@ export default {
 #info {
     padding-top: 20px;
     text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
 /* @media only screen and (min-width: 600px) {
