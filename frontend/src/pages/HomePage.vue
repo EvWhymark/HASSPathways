@@ -63,6 +63,19 @@
                         Advanced course search
                     </v-btn>
                 </div>
+                <div class="homepage-btn">
+                    <v-btn
+                        x-large
+                        block
+                        color="primary"
+                        :to="{ name: 'search-classes' }"
+                    >
+                        <v-icon left dark>
+                            mdi-compass
+                        </v-icon>
+                        Explore minors
+                    </v-btn>
+                </div>
                 <!-- <div class="homepage-btn">
                      <v-btn
                      x-large
