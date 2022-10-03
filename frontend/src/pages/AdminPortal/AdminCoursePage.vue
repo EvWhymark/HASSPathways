@@ -249,7 +249,10 @@ export default {
         submit() {
             const endpoint = 'http://127.0.0.1:5000/edit'
             axios.post(endpoint, {
-                courses:this.thisCourse,
+                courses: this.thisCourse,
+                pathways: this.inPathways,
+                type: 'add',
+                year: this.$store.state.year
             })
                 .then(response => {
                     console.log(response);
