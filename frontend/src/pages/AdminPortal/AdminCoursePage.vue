@@ -177,62 +177,62 @@ export default {
     created() {
         const year = this.$store.state.year;
         import('../../data/json/' + year + '/courses.json').then((val) => {
-             this.coursesData = Object.freeze(val);
-             const course = this.getCourse;
-             if(course) {
-                 for (const outside in course) {
-                     if (this.coursesData[outside] instanceof Object && !(this.coursesData[outside] instanceof Array)) {
-                         this.thisCourse[outside] = {};
-                         for (const inside in course[outside]) {
-                             this.thisCourse[outside][inside] = this.coursesData[outside][inside];
-                         }
-                     }
-                     else {
-                         this.thisCourse[outside] = this.coursesData[outside];
-                     }
-                 }
-             }
-             else {
-                 for (const course in this.coursesData) {
-                     for (const outside in this.coursesData[course]) {
-                         const attr = this.coursesData[course][outside];
-                         if (typeof attr === 'string') {
-                             this.thisCourse[outside] = "";
-                         }
-                         else if (typeof attr === 'boolean') {
-                             this.thisCourse[outside] = false;
-                         }
-                         else if (attr instanceof Array) {
-                             this.thisCourse[outside] = [];
-                         }
-                         else if (attr instanceof Object) {
-                             this.thisCourse[outside] = {};
-                             for (const inside in attr) {
-                                 const attr2 = attr[inside];
-                                 if (typeof attr2 === 'string') {
-                                     this.thisCourse[outside][inside] = "";
-                                 }
-                                 else if (typeof attr2 === 'boolean') {
-                                     this.thisCourse[outside][inside] = false;
-                                 }
-                                 else if (attr2 instanceof Array) {
-                                     this.thisCourse[outside][inside] = [];
-                                 }
-                             }
-                         }
-                     }
-                     break;
-                 }
-             }
-             this.filesReceived++;
-         });
-         import('../../data/json/' + year + '/pathways.json').then((val) => {
-             this.pathwaysData = Object.freeze(val);
-             const course = this.getCourse;
-             if(course) {
-                 for(const key in this.pathwaysData) {
-                     const singlePathway = this.pathwaysData[key];
-                     for(const prio in singlePathway) {
+            this.coursesData = Object.freeze(val);
+            const course = this.getCourse;
+            if(course) {
+                for (const outside in course) {
+                    if (this.coursesData[outside] instanceof Object && !(this.coursesData[outside] instanceof Array)) {
+                        this.thisCourse[outside] = {};
+                        for (const inside in course[outside]) {
+                            this.thisCourse[outside][inside] = this.coursesData[outside][inside];
+                        }
+                    }
+                    else {
+                        this.thisCourse[outside] = this.coursesData[outside];
+                    }
+                }
+            }
+            else {
+                for (const course in this.coursesData) {
+                    for (const outside in this.coursesData[course]) {
+                        const attr = this.coursesData[course][outside];
+                        if (typeof attr === 'string') {
+                            this.thisCourse[outside] = "";
+                        }
+                        else if (typeof attr === 'boolean') {
+                            this.thisCourse[outside] = false;
+                        }
+                        else if (attr instanceof Array) {
+                            this.thisCourse[outside] = [];
+                        }
+                        else if (attr instanceof Object) {
+                            this.thisCourse[outside] = {};
+                            for (const inside in attr) {
+                                const attr2 = attr[inside];
+                                if (typeof attr2 === 'string') {
+                                    this.thisCourse[outside][inside] = "";
+                                }
+                                else if (typeof attr2 === 'boolean') {
+                                    this.thisCourse[outside][inside] = false;
+                                }
+                                else if (attr2 instanceof Array) {
+                                    this.thisCourse[outside][inside] = [];
+                                }
+                            }
+                        }
+                    }
+                    break;
+                }
+            }
+            this.filesReceived++;
+        });
+        import('../../data/json/' + year + '/pathways.json').then((val) => {
+            this.pathwaysData = Object.freeze(val);
+            const course = this.getCourse;
+            if(course) {
+                for(const key in this.pathwaysData) {
+                    const singlePathway = this.pathwaysData[key];
+                    for(const prio in singlePathway) {
                         if(singlePathway[prio] instanceof Object && !(singlePathway[prio] instanceof Array)) {
                             if(course.name in singlePathway[prio]) {
                                 this.inPathways.push(singlePathway.name);
@@ -242,7 +242,7 @@ export default {
                 }
             }
             this.filesReceived++;
-         });
+        });
     },
     methods: {
         submit() {

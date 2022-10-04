@@ -64,17 +64,17 @@
                     </v-btn>
                 </div>
                 <div class="homepage-btn">
-                     <v-btn
-                     x-large
-                     block
-                     :to="{ name: 'admin-portal' }"
-                     >
-                     <v-icon left dark>
-                     mdi-cog
-                     </v-icon>
-                     Admin and secure portal
-                     </v-btn>
-                     </div>
+                    <v-btn
+                        x-large
+                        block
+                        :to="{ name: 'admin-portal' }"
+                    >
+                        <v-icon left dark>
+                            mdi-cog
+                        </v-icon>
+                        Admin and secure portal
+                    </v-btn>
+                </div>
             </div>
         </v-container>
     </div>
