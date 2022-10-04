@@ -68,7 +68,7 @@
                         x-large
                         block
                         color="primary"
-                        :to="{ name: 'search-classes' }"
+                        :to="{ name: 'minor' }"
                     >
                         <v-icon left dark>
                             mdi-compass
