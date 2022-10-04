@@ -45,23 +45,28 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/edit", methods=["POST", "GET"])
 def editAdmin():
         response = {'status':'success'}
-        response['check'] = 'yes'
         if request.method == "POST":
                 dat = request.get_json()
-                print(dat)
-                print("---")
-                print(dat.get('courses'))
-                with open('../frontend/src/data/json/' + dat.get('year') + '/courses.json','r') as cs_file:
+
+                with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','r') as cs_file:
                         cs_data = json.load(cs_file)
-                with open('../frontend/src/data/json/' + dat.get('year') + '/pathways.json','r') as pw_file:
+                with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','r') as pw_file:
                         pw_data = json.load(pw_file)
                 course_name = dat['courses']['name']
 
                 if dat.get('type') == 'add':
-                        cs_data[course_name] = dat.get('courses')
+                        cs_data[course_name] = dat['courses']
+                        full_code = dat['courses']['subj'] + dat['courses']['ID']
+                        for pw in dat['pathways']:
+                            pw_data[pw]['Remaining'] = full_code
 
-                with open('../frontend/src/data/json/' + dat.get('year') + '/courses.json','w') as cs_file:
+                with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','w') as cs_file:
                         json.dump(cs_data,cs_file,indent=2)
+                with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','w') as pw_file:
+                        json.dump(pw_data,pw_file,indent=2)
+
+                os.execl('./admin.sh',dat['year'])
+
                 response['received'] = course_name
                 response['message'] = 'Success!'
         return jsonify(response)

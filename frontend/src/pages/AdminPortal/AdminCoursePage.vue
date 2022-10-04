@@ -221,7 +221,6 @@ export default {
                              }
                          }
                      }
-                     console.log(this.thisCourse);
                      break;
                  }
              }
@@ -248,10 +247,17 @@ export default {
     methods: {
         submit() {
             const endpoint = 'http://127.0.0.1:5000/edit'
+            const action;
+            if (this.getCourse() == null) {
+                action = 'add';
+            }
+            else {
+                action = 'edit';
+            }
             axios.post(endpoint, {
                 courses: this.thisCourse,
                 pathways: this.inPathways,
-                type: 'add',
+                type: action,
                 year: this.$store.state.year
             })
                 .then(response => {
