@@ -247,8 +247,8 @@ export default {
     methods: {
         submit() {
             const endpoint = 'http://127.0.0.1:5000/edit'
-            const action;
-            if (this.getCourse() == null) {
+            let action = "";
+            if (this.getCourse == null) {
                 action = 'add';
             }
             else {

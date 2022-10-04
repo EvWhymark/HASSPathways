@@ -1,3 +1,4 @@
+import subprocess
 from flask import Flask, request, json, jsonify, session, redirect, url_for
 from flask_cors import CORS, cross_origin
 app = Flask(__name__)
@@ -65,7 +66,7 @@ def editAdmin():
                 with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','w') as pw_file:
                         json.dump(pw_data,pw_file,indent=2)
 
-                os.execl('./admin.sh',dat['year'])
+                subprocess.run(['./admin.sh',dat['year']])
 
                 response['received'] = course_name
                 response['message'] = 'Success!'
