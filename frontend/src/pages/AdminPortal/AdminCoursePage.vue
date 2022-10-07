@@ -181,14 +181,14 @@ export default {
             const course = this.getCourse;
             if(course) {
                 for (const outside in course) {
-                    if (this.coursesData[outside] instanceof Object && !(this.coursesData[outside] instanceof Array)) {
+                    if (course[outside] instanceof Object && !(course[outside] instanceof Array)) {
                         this.thisCourse[outside] = {};
                         for (const inside in course[outside]) {
-                            this.thisCourse[outside][inside] = this.coursesData[outside][inside];
+                            this.thisCourse[outside][inside] = course[outside][inside];
                         }
                     }
                     else {
-                        this.thisCourse[outside] = this.coursesData[outside];
+                        this.thisCourse[outside] = course[outside];
                     }
                 }
             }
@@ -255,7 +255,8 @@ export default {
                 action = 'edit';
             }
             axios.post(endpoint, {
-                courses: this.thisCourse,
+                course: this.thisCourse,
+                original_course: this.getCourse,
                 pathways: this.inPathways,
                 type: action,
                 year: this.$store.state.year

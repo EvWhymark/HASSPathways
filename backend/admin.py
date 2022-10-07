@@ -53,18 +53,34 @@ def editAdmin():
                         cs_data = json.load(cs_file)
                 with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','r') as pw_file:
                         pw_data = json.load(pw_file)
-                course_name = dat['courses']['name']
 
-                if dat.get('type') == 'add':
-                        cs_data[course_name] = dat['courses']
-                        full_code = dat['courses']['subj'] + dat['courses']['ID']
+                course_name = dat['course']['name']
+                full_code = dat['course']['subj'] + dat['course']['ID']
+
+                if dat['type'] == 'add':
+                        cs_data[course_name] = dat['course']
                         for pw in dat['pathways']:
-                            pw_data[pw]['Remaining'] = full_code
+                                pw_data[pw]['Remaining'][course_name] = full_code
+
+                elif dat['type'] == 'edit':
+                        original_name = dat['original_course']['name']
+                        if original_name != course_name:
+                                dat.pop(original_name)
+                        cs_data[course_name] = dat['course']
+                        for pw in pw_data:
+                                inside = False
+                                for key in pw_data[pw]:
+                                        if original_name in pw_data[pw][key]:
+                                                inside = True
+                                                pw_data[pw][key].pop(original_name)
+                                                pw_data[pw][key][course_name] = full_code
+                                if not inside and pw in dat['pathways']:
+                                        pw_data[pw]['Remaining'][course_name] = full_code
 
                 with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','w') as cs_file:
-                        json.dump(cs_data,cs_file,indent=2)
+                        json.dump(cs_data,cs_file,indent=2,ensure_ascii=False)
                 with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','w') as pw_file:
-                        json.dump(pw_data,pw_file,indent=2)
+                        json.dump(pw_data,pw_file,indent=2,ensure_ascii=False)
 
                 subprocess.run(['./admin.sh',dat['year']])
 
