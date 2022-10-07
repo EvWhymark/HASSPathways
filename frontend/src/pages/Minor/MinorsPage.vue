@@ -2,11 +2,9 @@
     <div>
         <v-container>
             <Breadcrumbs :breadcrumbs="breadcrumbs" />
-            <h1>HASS Pathways</h1>
+            <h1>Minors</h1>
             <p>
-                Select a pathway below to get started, or <router-link to="/choose-classes">
-                    choose a pathway from the classes you've taken
-                </router-link>
+                Select a minor below to get started
             </p>
 
             <v-divider class="my-4" />
@@ -36,7 +34,7 @@ export default {
     data: () => {
         return {
             pathwayCategories,
-            breadcrumbs: breadcrumbs.pathways
+            breadcrumbs: breadcrumbs.minors
         };
     },
 }
