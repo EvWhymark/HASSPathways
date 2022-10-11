@@ -246,7 +246,7 @@ export default {
     },
     methods: {
         submit() {
-            const endpoint = 'http://127.0.0.1:5000/edit'
+            const endpoint = 'http://127.0.0.1:5000/edit-course'
             let action = "";
             if (this.getCourse == null) {
                 action = 'add';
@@ -261,13 +261,12 @@ export default {
                 type: action,
                 year: this.$store.state.year
             })
-                .then(response => {
-                    console.log(response);
-                })
-                .catch(err =>{
-                    console.log(err);
-                });
-            console.log(this.thisCourse);
+            .then(response => {
+                console.log(response);
+            })
+            .catch(err =>{
+                console.log(err);
+            });
         }
     }
 }

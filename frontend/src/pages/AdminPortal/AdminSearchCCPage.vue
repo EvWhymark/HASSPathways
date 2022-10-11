@@ -50,6 +50,7 @@
 <script>
 import Breadcrumbs from '../../components/Breadcrumbs'
 import breadcrumbs from '../../data/breadcrumbs.js'
+import axios from 'axios'
 
 export default {
     components: {
@@ -95,7 +96,18 @@ export default {
         },
         remove() {
             this.dialog = false;
-            console.log("Remove " + this.chosenCourse);
+            const endpoint = 'http://127.0.0.1:5000/edit-course'
+            axios.post(endpoint, {
+                course: this.chosenCourse,
+                type: 'remove',
+                year: this.$store.state.year
+            })
+            .then(response => {
+                console.log(response);
+            })
+            .catch(err =>{
+                console.log(err);
+            });
         }
     }
 }

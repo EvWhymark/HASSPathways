@@ -27,7 +27,7 @@
                     <v-text-field
                         v-model="item.name"
                         single-line
-                        clearable   
+                        clearable
                     />
                 </template>
 
@@ -35,7 +35,7 @@
                     <v-text-field
                         v-model="item.subj"
                         single-line
-                        clearable   
+                        clearable
                     />
                 </template>
 
@@ -43,7 +43,7 @@
                     <v-text-field
                         v-model="item.ID"
                         single-line
-                        clearable   
+                        clearable
                     />
                 </template>
                 <template #item.fall="{ item }">
@@ -53,7 +53,7 @@
                             :ripple="false"
                         />
                     </div>
-                </template> 
+                </template>
                 <template #item.summer="{ item }">
                     <div style="display: flex; justify-content: center">
                         <v-checkbox
@@ -61,7 +61,7 @@
                             :ripple="false"
                         />
                     </div>
-                </template> 
+                </template>
                 <template #item.spring="{ item }">
                     <div style="display: flex; justify-content: center">
                         <v-checkbox
@@ -69,7 +69,7 @@
                             :ripple="false"
                         />
                     </div>
-                </template> 
+                </template>
                 <template #item.uia=" {item} ">
                     <div style="display: flex; justify-content: center">
                         <v-checkbox
@@ -85,7 +85,7 @@
                             :ripple="false"
                         />
                     </div>
-                </template> 
+                </template>
                 <template #item.HI="{ item }">
                     <div style="display: flex; justify-content: center">
                         <v-checkbox
@@ -93,14 +93,14 @@
                             :ripple="false"
                         />
                     </div>
-                </template> 
+                </template>
                 <template #item.delete="{ item }">
                     <div style="display: flex; justify-content: center">
                         <v-btn color="error" @click="remove(item.name)">
                             <v-icon>mdi-delete</v-icon>
                         </v-btn>
                     </div>
-                </template> 
+                </template>
             </v-data-table>
         </v-container>
     </div>
@@ -109,6 +109,7 @@
 <script>
 import Breadcrumbs from '../../components/Breadcrumbs'
 import breadcrumbs from '../../data/breadcrumbs.js'
+import axios from 'axios'
 
 export default {
     components: {
@@ -161,7 +162,7 @@ export default {
         });
         import('../../data/json/' + year + '/courses.json').then((val) => this.coursesData = Object.freeze(val));
     },
-    methods: {  
+    methods: {
         toClass(clazz) {
             let urlStart = "/admin-portal/course?class=";
             let urlEnd = clazz;
@@ -194,24 +195,39 @@ export default {
             }
         },
         submit() {
-            const classes = this.filteredCourses;
-
-            for(const clazz in classes) {
-                const key = classes[clazz].name;
-                const curr = JSON.parse(JSON.stringify(classes[clazz]));
-                const course = this.coursesData[key];
-                if(JSON.stringify(curr) != JSON.stringify(course)) {
-                    console.log(curr);
-                }
-            }
+            const endpoint = 'http://127.0.0.1:5000/edit-pathway'
+            axios.post(endpoint, {
+                courses: this.filteredCourses,
+                pathway: this.selectedPathway,
+                type: 'update',
+                year: this.$store.state.year
+            })
+            .then(response => {
+                console.log(response);
+            })
+            .catch(err =>{
+                console.log(err);
+            });
         },
         remove(name) {
-            console.log("remove " + name + " from " + this.selectedPathway);
+            const endpoint = 'http://127.0.0.1:5000/edit-pathway'
+            axios.post(endpoint, {
+                course: this.coursesData[name],
+                pathway: this.selectedPathway,
+                type: 'remove',
+                year: this.$store.state.year
+            })
+            .then(response => {
+                console.log(response);
+            })
+            .catch(err =>{
+                console.log(err);
+            });
         }
     }
 }
 </script>
 
 <style>
-    
+
 </style>

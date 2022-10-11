@@ -43,8 +43,8 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 #
 #
 #
-@app.route("/edit", methods=["POST", "GET"])
-def editAdmin():
+@app.route("/edit-course", methods=["POST", "GET"])
+def editAdminCourse():
         response = {'status':'success'}
         if request.method == "POST":
                 dat = request.get_json()
@@ -69,13 +69,20 @@ def editAdmin():
                         cs_data[course_name] = dat['course']
                         for pw in pw_data:
                                 inside = False
-                                for key in pw_data[pw]:
-                                        if original_name in pw_data[pw][key]:
+                                for heading in pw_data[pw]:
+                                        if original_name in pw_data[pw][heading]:
                                                 inside = True
-                                                pw_data[pw][key].pop(original_name)
-                                                pw_data[pw][key][course_name] = full_code
+                                                pw_data[pw][heading].pop(original_name)
+                                                pw_data[pw][heading][course_name] = full_code
                                 if not inside and pw in dat['pathways']:
                                         pw_data[pw]['Remaining'][course_name] = full_code
+
+                elif dat['type'] == 'remove':
+                        cs_data.pop(course_name)
+                        for pw in pw_data:
+                                for heading in pw_data[pw]:
+                                        if course_name in pw_data[pw][heading]:
+                                                pw_data[pw][heading].pop(course_name)
 
                 with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','w') as cs_file:
                         json.dump(cs_data,cs_file,indent=2,ensure_ascii=False)
@@ -87,6 +94,40 @@ def editAdmin():
                 response['received'] = course_name
                 response['message'] = 'Success!'
         return jsonify(response)
+
+@app.route("/edit-pathway", methods=["POST", "GET"])
+def editAdminPathway():
+    response = {'status':'success'}
+    if request.method == "POST":
+            dat = request.get_json()
+
+            print(dat['courses'])
+
+            with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','r') as cs_file:
+                    cs_data = json.load(cs_file)
+            with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','r') as pw_file:
+                    pw_data = json.load(pw_file)
+
+            pathway_name = dat['pathway']
+
+            if dat['type'] == 'update':
+                    for course in dat['courses']:
+                            cs_data[course['name']] = course
+
+            elif dat['type'] == 'remove':
+                    for heading in pw_data[pathway_name]:
+                            if dat['course']['name'] in pw_data[pathway_name][heading]:
+                                    pw_data[pathway_name][heading].pop(dat['course']['name'])
+
+            with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','w') as cs_file:
+                    json.dump(cs_data,cs_file,indent=2,ensure_ascii=False)
+            with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','w') as pw_file:
+                    json.dump(pw_data,pw_file,indent=2,ensure_ascii=False)
+
+            subprocess.run(['./admin.sh',dat['year']])
+
+            response['message'] = 'Success!'
+    return jsonify(response)
 
 if __name__ == '__main__':
         app.run(host='0.0.0.0')
