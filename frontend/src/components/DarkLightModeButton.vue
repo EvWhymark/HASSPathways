@@ -54,4 +54,10 @@ export default {
 .button:hover {
     opacity: 1;
 }
+
+/* Adjusts the centering to actually be 50% down. 7px should be constant (unless ripple or dense are invoked),
+    see https://vuetifyjs.com/en/api/v-switch/#sass-switch-track-top */
+.v-toolbar .v-input {
+    padding-top: 7px;
+}
 </style>

@@ -5,7 +5,7 @@
         <v-card
             v-if="searchBar"
             class="table-header-search elevation-0 ( pt-2 pb-2 pr-4 ) d-flex"
-        > 
+        >
             <v-text-field
                 v-model="search"
                 append-icon="mdi-magnify"
@@ -16,20 +16,20 @@
                 class="ma-0"
                 style="width: 400px; max-width: 100%"
             />
-            <div id class="SORT"> 
+            <div id class="SORT">
                 <!-- search bar -->
-                <v-select 
-                    v-model="advanced_search" 
+                <v-select
+                    v-model="advanced_search"
                     dense
-                    :items="sort_dropbox" 
+                    :items="sort_dropbox"
                     multiple
                     outlined
                     chips
-                    label = "Sort" 
+                    label="Filter" 
                     clearable
                     style="width: 275px; max-width: 100%; z-index: 100"
-                    >
-                    <template v-slot:selection="{ item, index }">
+                >
+                    <template #selection="{ item, index }">
                         <v-chip v-if="index === 0">
                             <span>{{ item }}</span>
                         </v-chip>
@@ -40,8 +40,7 @@
                             (+{{ advanced_search.length - 1 }} others)
                         </span>
                     </template>
-                </v-select> 
-
+                </v-select>
             </div>
         </v-card>
         <div :class="{graphContainer: graph}">
@@ -110,8 +109,8 @@ export default {
     },
     data() {
         return {    advanced_search: [],
-                    search: '' ,
-                    sort_dropbox: ['Fall', 'Spring', 'Summer', 'CI','HI', 'No Prerequistes'],
+            search: '' ,
+            sort_dropbox: ['Fall', 'Spring', 'Summer', 'CI','HI', 'No Prerequistes'],
         }
     },
     // watch: {
@@ -129,10 +128,10 @@ export default {
             //whenever the "data" is changed but since this.courses
             //doesn't change since it is a reference to the courses from
             //the parent component we need to change a data piece that
-            //is used in this function. I created the hasData prop to do 
+            //is used in this function. I created the hasData prop to do
             //this. We need to then use the hasData to do "something"
             //in order for it to be rerendered, I used an arbitrary if
-            //statement that will have no effect in order to compile with 
+            //statement that will have no effect in order to compile with
             // no warnings.
             if(this.hasData) {
                 tempCourses = JSON.parse(JSON.stringify(tempCourses));
@@ -172,9 +171,9 @@ export default {
                 if (this.advanced_search.includes("Summer") && !tempCourses[course].offered.summer) {
                     continue;
                 }
-                 if (this.advanced_search.includes("HI") && !tempCourses[course].properties.HI) {
+                if (this.advanced_search.includes("HI") && !tempCourses[course].properties.HI) {
                     continue;
-                 }
+                }
                 //check prereq
                 if (this.advanced_search.includes("No Prerequistes") && tempCourses[course].prerequisites.length != 0) {
                     continue;
@@ -210,7 +209,7 @@ export default {
                 if (child.setSelected) child.setSelected(0);
             });
         },
-        update( data ) {   
+        update( data ) {
             data.ref = this.category;
             // data: { name: course name, selected: true/false, category: "One Of"/"Remaining"/... }
             this.$emit('checkbox-clicked', data);
@@ -239,7 +238,7 @@ export default {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
-    
+
 }
 .graphContainer * {
     width: 300px;
