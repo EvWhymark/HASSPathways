@@ -1,11 +1,13 @@
 from flask import Flask, request, json, jsonify, session, redirect, url_for
 from flask_cors import CORS, cross_origin
 from cas import CASClient
+from login_data.login import admin_login
 
 app = Flask(__name__)
 c = CORS(app)
 CORS(app, resources={r'/*': {'origins': '*'}},CORS_SUPPORTS_CREDENTIALS = True)
 app.config['CORS_HEADERS'] = 'Content-Type'
+app.register_blueprint(admin_login)
 
 cas = CASClient(
         version = 3,

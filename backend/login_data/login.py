@@ -1,13 +1,14 @@
-from flask import Flask, request
+from flask import Flask, request, Blueprint, current_app
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 from passlib.context import CryptContext
+from db import db
 
 db = SQLAlchemy()
-app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-db.init_app(app)
+admin_login = Blueprint('admin_login', __name__)
+current_app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
+current_app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+db.init_admin_login(admin_login)
 
 class Entry(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -24,28 +25,30 @@ def hash(str: password):
 def dehash(str: password, hash):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").verify(password, hash)
 #how to write a route for flask
-@app.route(methods = ["GET", "POST"])
+@admin_login.route(methods = ["GET", "POST"])
 def requests():
     if request.method=="POST":
         first_got = request.form["first"]
         # request.form.get('first')
 
-    #Entry.query.filter_by(email=email_got).first() <search database
-        return "STRING"
+    # Entry.query.filter_by(email=email_got).first() <search database
+    #     return "STRING"
 
-    #some variable = Entry() <- args should be (first=first_got ... )
+    # entry = Entry() <- args should be (first=first_got)
 
     #commit to the database
-    db.session #.add() <- add entry object
-    db.session #.commit()
+    #db.session.add(entry) <- add entry object
+    #db.session #.commit()
+    return 'a'
 
-@app.route(methods = ["GET", "POST"])
+@admin_login.route(methods = ["GET", "POST"])
 def login():
     if request.method == 'POST':
+        return 'a'
         #get username
         #get password
         
-        check = #Entry.query.filter_by(email=email_got).first()
+        #check = #Entry.query.filter_by(email=email_got).first()
         #search database for username
 
 
