@@ -1,0 +1,16 @@
+{
+  "Architectural Acoustics Minor": {
+    "Required": {
+      "Sonics Research Lab 2": "ARCH4810",
+      "Architectural Acoustics 1": "ARCH4840",
+      "Architectural Acoustics 2": "ARCH4850",
+      "Applied Psychoacoustics": "ARCH4860",
+      "Sonics Research Lab 1": "ARCH4870",
+      "Aural Architecture": "ARCH4880",
+      "Engineering Acoustics Credit": "ARCH4890"
+    },
+    "description": "The minor in architectural acoustics is open to all Rensselaer students interested in advanced study focusing on the optimization of acoustical quality of performance spaces and other aurally sensitive environments. After completing the minor, the student will be well-prepared for an entry level position dealing with acoustics issues in architectural practice, in acoustical consulting, or as a preparation for graduate studies in acoustics, for example in the Graduate Program in Architectural Acoustics at Rensselaer Polytechnic Institute. The program consists of 15 credits. Proficiency in Calculus I is necessary to comprehend the basics of architectural acoustics. Approval required by director of program.",
+    "name": "Architectural Acoustics Minor",
+    "remaining_header": "Students, with the assistance of their adviser, select 4 courses that best fit their educational objectives. Total at least 15 credits."
+  }
+}
