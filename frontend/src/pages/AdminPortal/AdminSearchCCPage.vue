@@ -29,17 +29,36 @@
                 </div>
             </div>
         </v-container>
-        <v-dialog v-model="dialog" width="500">
+        <v-dialog
+            v-model="dialog"
+            light
+            width="500"
+            overlay-opacity="0.8"
+        >
             <v-card>
-                <v-card-text>
-                    Are you sure you want to delete this course?
+                <v-card-text class="pt-4">
+                    <p style="font-size: 1.3em">
+                        Are you sure you want to delete this course?
+                    </p>
                 </v-card-text>
+                <v-divider />
                 <v-card-actions>
-                    <v-btn @click="dialog = false">
-                        No
-                    </v-btn>
-                    <v-btn @click="remove()">
+                    <v-spacer />
+                    <v-btn
+                        color="primary"
+                        text
+                        class="font-weight-bold"
+                        @click="remove()"
+                    >
                         Yes
+                    </v-btn>
+                    <v-btn
+                        color="primary"
+                        text
+                        class="font-weight-bold"
+                        @click="dialog = false"
+                    >
+                        No
                     </v-btn>
                 </v-card-actions>
             </v-card>
