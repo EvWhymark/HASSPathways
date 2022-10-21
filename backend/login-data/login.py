@@ -22,35 +22,39 @@ class Entry(db.Model):
 def hash(password):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").hash(password)
 
-def dehash(password, hash):
+def checkhash(password, hash):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").verify(password, hash)
 #how to write a route for flask
-@app.route('/ajfoao',methods = ["GET", "POST"])
+#THIS IS FOR ACCOUNT CREATION
+@app.route('/register',methods = ["GET", "POST"])   #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def requests():
     if request.method=="POST":
         first_got = request.args["first"]
-        # request.form.get('first')
+        last_got = request.args["last"]
+        email_got = request.args["email"]
+        if Entry.query.filter_by(email=email_got).first(): #<search database
+            return "failure"
+        password_got = hash(request.args["password"]) #----- do I hash or dehash here
 
-    #if Entry.query.filter_by(email=email_got).first(): <search database
-        return first_got
 
-    #some variable = Entry(first=first_got, username=...) <- args should be (first=first_got ... )
+        newEntry = Entry(first=first_got, last=last_got, email=email_got, password = password_got) #<- args should be (first=first_got ... )
 
-    #commit to the database
-    # db.session.add(Entry) <- add entry object
-    # db.session #.commit()
-
-@app.route('/ggggggg',methods = ["GET", "POST"])
+        #commit to the database
+        db.session.add(newEntry) #<- add entry object
+        db.session.commit()
+        return "success"
+#THIS ONE IS FOR LOGGING
+@app.route('/login',methods = ["GET", "POST"])
 def login():
     if request.method == 'POST':
-        #get username
-        #get password
-        
-        #check = #Entry.query.filter_by(email=email_got).first()
-        #search database for username
+        email_got = request.args["email"]
+        if not Entry.query.filter_by(email=email_got):
+            return "Email not in the database"
+        if checkhash(hash(request.args["password"]),Entry.query.get(email_got).password):
+            return "Success"
+        else:
+            return "Failure"
 
-        return 'yes'
-        #if and verify the password is correct
 
 
 if __name__ == "__main__":
