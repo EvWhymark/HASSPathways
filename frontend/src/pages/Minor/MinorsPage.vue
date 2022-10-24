@@ -11,12 +11,12 @@
 
             <div class="pathway-categories fade-in">
                 <PathwayCategory 
-                    v-for="item in pathwayCategories"
-                    :key="item.name"
-                    :title="item.name"
+                    v-for="item in minor_categories"
+                    :key="item.minor_category"
+                    :title="item.minor_category"
                     :image="item.image"
-                    :text="item.name"
-                    :pathways="item.pathways"
+                    :text="item.minor_category"
+                    :minors="item.minors"
                 />
             </div>
         </v-container>
@@ -28,12 +28,13 @@ import PathwayCategory from '../../components/PathwayCategory'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import { pathwayCategories } from '../../data/data.js'
 import breadcrumbs from '../../data/breadcrumbs.js'
-
+import {minor_categories} from '../../data/data.js'
+import minor_category from '../../components/MinorCategory.vue'
 export default {
     components: { PathwayCategory, Breadcrumbs },
     data: () => {
         return {
-            pathwayCategories,
+            minor_categories,
             breadcrumbs: breadcrumbs.minors
         };
     },
