@@ -1,19 +1,19 @@
 from flask import Flask, request, json, jsonify, session, redirect, url_for
 from flask_cors import CORS, cross_origin
-from cas import CASClient
+#from cas import CASClient
 from login_data.login import admin_login
 
 app = Flask(__name__)
-c = CORS(app)
-CORS(app, resources={r'/*': {'origins': '*'}},CORS_SUPPORTS_CREDENTIALS = True)
+#c = CORS(app)
+#CORS(app, resources={r'/*': {'origins': '*'}},CORS_SUPPORTS_CREDENTIALS = True)
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.register_blueprint(admin_login)
 
-cas = CASClient(
-        version = 3,
-        service_url='https://ec2-52-90-250-109.compute-1.amazonaws.com/login/rpi',
-        server_url='https://cas.auth.rpi.edu/cas/'
-        )
+# cas = CASClient(
+#         version = 3,
+#         service_url='https://ec2-52-90-250-109.compute-1.amazonaws.com/login/rpi',
+#         server_url='https://cas.auth.rpi.edu/cas/'
+#         )
 
 
 @app.route('/guard')
@@ -32,16 +32,16 @@ def login():
         #print(next)
         ticket = request.args.get('ticket')
         if not ticket:
-                print(cas.get_login_url())
+#                print(cas.get_login_url())
                 return redirect(cas.get_login_url())
 
         print(ticket)
-        user, attributes, pgtiou = cas.verify_ticket(ticket)
+#        user, attributes, pgtiou = cas.verify_ticket(ticket)
 
-        if not user:
+#        if not user:
                 return "Failed to Verify Login Ticket"
-        else:
-                session['username'] = user
+#        else:
+#                session['username'] = user
                 return redirect("https://hasspathways.com/admin-portal")
 
 
@@ -59,6 +59,16 @@ def editAdmin():
                 response['message'] = 'Success!'
 
         return jsonify(response)
+
+
+@app.route()
+def info():
+
+        output = dict()
+
+        output['name'] = 'HASS Pathways API'
+
+        return output
 
 if __name__ == '__main__':
         app.run(host='0.0.0.0')
