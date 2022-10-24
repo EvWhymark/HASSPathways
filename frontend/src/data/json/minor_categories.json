@@ -1,0 +1,10 @@
+[
+    {
+        "minor_category":"Minor Category 1",
+        "minor":[
+            "minor name1",
+            "minor name2",
+            "minor name3"
+        ]
+    }
+]
