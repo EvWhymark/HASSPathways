@@ -1,5 +1,4 @@
 [
-  "COGS",
   "LITR",
   "ITWS",
   "IHSS",
@@ -13,5 +12,24 @@
   "STSH",
   "PSYC",
   "GSAS",
-  "STSO"
+  "STSO",
+  "ARCH",
+  "ASTR",
+  "BIOL",
+  "ISCI",
+  "CHEM",
+  "ERTH",
+  "PHYS",
+  "COGS",
+  "MATH",
+  "ENVE",
+  "CIVL",
+  "ECSE",
+  "CSCI",
+  "MGMT",
+  "LGHT",
+  "BCBP",
+  "MTLE",
+  "ENGR",
+  "MATP"
 ]
