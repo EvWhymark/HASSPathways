@@ -2826,8 +2826,8 @@
       "uia": true
     },
     "prerequisites": [
-      "PHIL-2120",
-      "PSYC-2120"
+      "PSYC-2120",
+      "PHIL-2120"
     ],
     "properties": {
       "CI": false,
@@ -7174,5 +7174,319 @@
   },
   "Frontiers of Network Science": {
     "ID": "4250",
+    "cross listed": [],
+    "description": "This course will offer an introduction to network science and a review of current research in this area. Classes will interchangeably present chapters from the textbook and related current research. The emphasis will be on the mathematical background of network science: graphs and networks; random networks and various types of scale-free networks; network properties such as assortativity, mobility, robustness, social networks, and communities; and dynamics of spreading in networks.",
+    "name": "Frontiers of Network Science",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": true,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term odd-numbered years.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CSCI"
+  },
+  "Fundamentals of 2D Design": {
+    "ID": "2220",
+    "cross listed": [],
+    "description": "An introductory course which will present basic concepts about composition, line, pictorial space, light, and color in the visual arts in order to help students develop the means for expressing visual ideas effectively. Weekly homework design projects, using both traditional and electronic media, will be complemented by in-class slide lectures, videos, and critiques.",
+    "name": "Fundamentals of 2D Design",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ARTS"
+  },
+  "Fundamentals of Geometry": {
+    "ID": "4120",
+    "cross listed": [],
+    "description": "Topics may be chosen from differential geometry of curves and surfaces, involutes and evolutes, order of contact, developable surfaces, Euler's and Meusnier's Theorem, mean and Gaussian curvatures, geodesics and parallel transport, The Theorem Egregium of Gauss, Gauss-Bonnet Theorem, computer-aided geometric design, computational geometry, tessellations, tiling and patterns, projective and non-Euclidean geometries, postulates and axiomatic systems, advanced Euclidean geometry, and the history of geometry.",
+    "name": "Fundamentals of Geometry",
+    "offered": {
+      "even": true,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term even-numbered years.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "MATH"
+  },
+  "Fundamentals of Metallurgical Alloy Systems": {
+    "ID": "4430",
+    "cross listed": [],
+    "description": "This course explores principles of chemical and physical metallurgy of the common alloy systems, including mild and low alloy steels, copper, aluminum, and aluminum alloys. Applications include alloys designed for corrosion resistance and elevated temperature applications. Alloy design and development for extreme or exotic environments also will be discussed. In each case, alloy development concepts will be related to the appropriate engineering applications.",
+    "name": "Fundamentals of Metallurgical Alloy Systems",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "MTLE"
+  },
+  "Fundamentals of Music and Sound": {
+    "ID": "1380",
+    "cross listed": [],
+    "description": "This course is a hands-on introduction to the primary building blocks of music and musicianship in a 21st Century context. No formal musical background is expected. The course will explore acoustics and psychoacoustics, rhythm, pitch, harmony, melody, timbre, improvisation, composition, and music notation through performance, listening, written exercises, and creative projects.",
+    "name": "Fundamentals of Music and Sound",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ARTS"
+  },
+  "Fundamentals of RF/Microwave Engineering": {
+    "ID": "4310",
+    "cross listed": [
+      "ECSE-4310"
+    ],
+    "description": "Study of transmission lines, impedance matching, passive and active microwave systems. Work with S-parameters and experiment with the use of Smith chart. Introduction to microwave CAD tools for 2D electromagnetic (EM) simulations and microwave testing. Emphasis on physical understanding, quantitative performance evaluation using both hand calculations and EM simulations.",
+    "name": "Fundamentals of RF/Microwave Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ECSE"
+  },
+  "Fundamentals of Solid State Lighting Systems": {
+    "ID": "4380",
+    "cross listed": [],
+    "description": "The design and operation of Solid State Lighting Systems including basic design and fabrication methods of light emitting diode (LED), LED thermal management, optical characterization of lighting, LED drivers, lighting sensors/control systems and selected emerging applications.",
+    "name": "Fundamentals of Solid State Lighting Systems",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ECSE"
+  },
+  "GSAS Capstone": {
+    "ID": "4990",
+    "cross listed": [],
+    "description": "Senior capstone project course for GSAS majors. Students work individually or in teams, supervised by a faculty member, to complete a self-directed project in games that is innovative, experimental, or artistically engaged. The course emphasizes the complete development cycle, through continual iteration and critique towards completion and public release.",
+    "name": "GSAS Capstone",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually",
+      "uia": false
+    },
+    "prerequisites": [
+      "GSAS-4510"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "GSAS Research Project": {
+    "ID": "4940",
+    "cross listed": [],
+    "description": "Fall and spring terms annually.",
+    "name": "GSAS Research Project",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "Game AI": {
+    "ID": "4420",
+    "cross listed": [],
+    "description": "This course introduces students to basic concepts and methods of artificial intelligence and their applications in computer games. The topics include decision making, movement, path finding, and AI for human-like characters. This course will take the form of a combination of lectures, presentations by students, class discussions, and independent study.",
+    "name": "Game AI",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "COGS"
+  },
+  "Game Animation": {
+    "ID": "4230",
+    "cross listed": [],
+    "description": "A course building on the fundamentals of animation and focusing on implementing these fundamentals in the process of making games for 3D engines like Unreal, which involves hand-keyed cycle animation as well as utilizing motion capture data.",
+    "name": "Game Animation",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "spring term annually",
+      "uia": false
+    },
+    "prerequisites": [
+      "ARTS-2230"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "Game Architecture": {
+    "ID": "4550",
+    "cross listed": [],
+    "description": "This is a class on the composition of game engines, the substrate between hardware and scripting. Topics include entity/component systems, multithreading, event management, graphics and shader programming, rigid body dynamics, collision detection, multiplayer networking, audio, and other elements of modern game engines.",
+    "name": "Game Architecture",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "Game Development I": {
+    "ID": "4520",
+    "cross listed": [],
+    "description": "This class is a practical primer for anyone interested in a career in the rapidly evolving industry of video gaming. It is an intense, team-based, project-based course in which students will closely follow the actual game development cycle, with each team producing a complete PC game.",
+    "name": "Game Development I",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "Game Development II": {
+    "ID": "4540",
+    "cross listed": [],
+    "description": "This course follows Game Development I. Students work in interdisciplinary teams to create one large-scale 3D game, working from concept to public release. Projects may include games, educational games, serious games and simulations, and interactive artworks, and will focus on creative design, technical execution, and use of game design principles. The course builds on skills and knowledge in previous courses in the GSAS core, including game design, game mechanics, game programming, art, and narrative.",
+    "name": "Game Development II",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "GSAS"
+  },
+  "Game Narrative Design": {
+    "ID": "4260",
     "cross listed": [],
     "description": 
