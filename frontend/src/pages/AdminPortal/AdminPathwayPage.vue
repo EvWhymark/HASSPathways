@@ -78,6 +78,16 @@
                         />
                     </div>
                 </template>
+                <template #item.category="{ item }">
+                    <div style="display: flex; justify-content: center">
+                        <v-select
+                            :items="['Required', 'One Of', 'Remaining']"
+                            :value="inCategory(item)"
+                            @input="event => addToCategory(item, event)"
+                            multiple
+                        />
+                    </div>
+                </template>
                 <template #item.CI="{ item }">
                     <div style="display: flex; justify-content: center">
                         <v-checkbox
@@ -121,16 +131,13 @@ export default {
             selectedPathway: "",
             pathways: [],
             headers: [
-                {
-                    text: 'Course Name',
-                    align: 'start',
-                    value: 'name',
-                },
+                { text: 'Course Name', value: 'name', align: 'start', width: '20%'},
                 { text: 'Prefix', value: 'prefix', align: 'center'},
                 { text: 'Course Code', value: 'ID', align: 'center'},
                 { text: 'Fall', value: 'fall', align: 'center'},
                 { text: 'Spring', value: 'spring', align: 'center'},
                 { text: 'Summer', value: 'summer', align: 'center'},
+                { text: 'Category', value: 'category', align: 'center'},
                 { text: 'Comm Intensive', value: 'CI', align: 'center'},
                 { text: 'Hass Inquiry', value: 'HI', align: 'center'},
                 { text: 'Delete From Pathway', value: 'delete', align: 'center'},
@@ -168,6 +175,55 @@ export default {
             let urlEnd = clazz;
             const finalURL = urlStart + urlEnd;
             return finalURL;
+        },
+        inCategory(item) {
+            let start = [];
+            let pathway = this.pathwaysData[this.selectedPathway];
+            Object.keys(pathway).forEach(key => {
+                if (pathway[key] instanceof Object && !(pathway[key] instanceof Array)) {
+                    if (item.name in pathway[key]) {
+                        if (key.substring(0,6) === "One Of") {
+                            key = "One Of";
+                        }
+                        start.push(key);
+                    }
+                }
+            });
+            return start;
+        },
+        addToCategory(item, selection) {
+            let subtypes = {};
+            let pathway = this.pathwaysData[this.selectedPathway];
+            Object.keys(pathway).forEach(key => {
+                if (pathway[key] instanceof Object && !(pathway[key] instanceof Array)) {
+                    subtypes[key] = true;
+                }
+            })
+            for (let i = 0; i < selection.length; i++) {
+                let choice = selection[i];
+                if (choice === "One Of") choice = "One Of0";
+                delete subtypes[choice];
+                if (choice in pathway) {
+                    if (!(item["name"] in pathway[choice])) {
+                        pathway[choice][item["name"]] = item["subj"] + item["ID"];
+                    }
+                }
+                else {
+                    let insert = {}
+                    insert[item["name"]] = item["subj"] + item["ID"];
+                    pathway[choice] = insert;
+                }
+            }
+            Object.keys(subtypes).forEach(nonchoice => {
+                if (nonchoice === "One Of") nonchoice = "One Of0";
+                if (item["name"] in pathway[nonchoice]) {
+                    delete pathway[nonchoice][item["name"]];
+                    if (Object.keys(pathway[nonchoice]).length === 0) {
+                        delete pathway[nonchoice];
+                    }
+                }
+            });
+            console.log(pathway);
         },
         filterCourses() {
             if(this.selectedPathway == null || this.selectedPathway == "") {
