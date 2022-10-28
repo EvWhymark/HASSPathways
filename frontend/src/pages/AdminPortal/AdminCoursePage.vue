@@ -19,6 +19,7 @@
                             v-model="thisCourse.subj"
                             outlined dense
                             label="Subject Code"
+                            :rules="[rules.courseCode]"
                             class="text-input"
                             placeholder="COGS"
                         />
@@ -36,6 +37,82 @@
                         />
                     </v-col>
                 </v-row>
+
+                <ul style="padding: 0; list-style: none;">
+                    <li v-for="(listing,index) in thisCourse['cross listed']" :key="index">
+                        <v-row align="baseline">
+                            <v-col>
+                                <v-text-field
+                                    :value="listing.substring(0,listing.indexOf('-'))"
+                                    @input="event => listing=event.target+listing.indexOf('-')"
+                                    outlined dense
+                                    label="Subject Code"
+                                    :rules="[rules.courseCode]"
+                                    class="text-input"
+                                />
+                            </v-col>
+                            <v-col>
+                                <v-text-field
+                                    :value="listing.substring(listing.indexOf('-')+1,listing.length)"
+                                    @input="event => listing=listing.indexOf('-')+1+event.target"
+                                    outlined dense
+                                    label="Course ID"
+                                    :rules="[rules.courseCode]"
+                                    maxlength="4"
+                                    type="number"
+                                    class="text-input"
+                                />
+                            </v-col>
+                            <v-btn @click="removeFromList(thisCourse['cross listed'],index)">
+                                <v-icon>mdi-delete</v-icon>
+                            </v-btn>
+                        </v-row>
+                    </li>
+                </ul>
+
+                <v-btn block @click="addToList(thisCourse['cross listed'])">
+                    Add cross listing
+                </v-btn>
+
+                <br>
+
+                <ul style="padding: 0; list-style: none;">
+                    <li v-for="(listing,index) in thisCourse['prerequisites']" :key="index">
+                        <v-row align="baseline">
+                            <v-col>
+                                <v-text-field
+                                    :value="listing.substring(0,listing.indexOf('-'))"
+                                    @input="event => listing=event.target+listing.indexOf('-')"
+                                    outlined dense
+                                    label="Prerequisite - Subject Code"
+                                    :rules="[rules.courseCode]"
+                                    class="text-input"
+                                />
+                            </v-col>
+                            <v-col>
+                                <v-text-field
+                                    :value="listing.substring(listing.indexOf('-')+1,listing.length)"
+                                    @input="event => listing=listing.indexOf('-')+1+event.target"
+                                    outlined dense
+                                    label="Prerequisite - Course ID"
+                                    :rules="[rules.courseCode]"
+                                    maxlength="4"
+                                    type="number"
+                                    class="text-input"
+                                />
+                            </v-col>
+                            <v-btn @click="removeFromList(thisCourse['prerequisites'],index)">
+                                <v-icon>mdi-delete</v-icon>
+                            </v-btn>
+                        </v-row>
+                    </li>
+                </ul>
+
+                <v-btn block @click="addToList(thisCourse['prerequisites'])">
+                    Add prerequisite
+                </v-btn>
+
+                <br>
 
                 <v-textarea
                     v-model="thisCourse.description"
@@ -245,6 +322,14 @@ export default {
         });
     },
     methods: {
+        addToList(lis) {
+            lis.push('-');
+            this.$forceUpdate();
+        },
+        removeFromList(lis,index) {
+            lis.splice(index,1);
+            this.$forceUpdate();
+        },
         submit() {
             const endpoint = 'http://127.0.0.1:5000/edit-course'
             let action = "";
