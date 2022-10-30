@@ -141,6 +141,28 @@
     },
     "subj": "ARTS"
   },
+  "A Century of Environmental Thought": {
+    "ID": "1320",
+    "cross listed": [],
+    "description": "This course examines the emergence of environmental consciousness in the United States throughout the 20th century. Students in this course will study the original writings of some of the most important thinkers and activists in the history of environmentalism, examine the social contexts in which their ideas formed, and consider their relevance to contemporary sustainability issues.",
+    "name": "A Century of Environmental Thought",
+    "offered": {
+      "even": true,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term, even-numbered years.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "A Passion for Physics": {
     "ID": "1010",
     "cross listed": [],
@@ -386,8 +408,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-4750",
-      "CSCI-2300"
+      "CSCI-2300",
+      "ECSE-4750"
     ],
     "properties": {
       "CI": false,
@@ -459,8 +481,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-4570"
+      "ECON-4570",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -668,7 +690,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1030"
+      "ARTS-1030",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -903,8 +926,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-1200"
+      "IHSS-1200",
+      "ECON-1200",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -927,7 +951,9 @@
       "text": "Summer ARCH and Fall annually",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "CIVL-2060"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
@@ -950,7 +976,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250"
+      "ENGR-2250",
+      "CIVL-2050"
     ],
     "properties": {
       "CI": false,
@@ -1000,8 +1027,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2010"
+      "ECON-2010",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -1107,8 +1134,8 @@
   "Aqueous Geochemistry": {
     "ID": "4690",
     "cross listed": [
-      "CHEM-4690",
-      "ENVE-4110"
+      "ENVE-4110",
+      "CHEM-4690"
     ],
     "description": "Fundamentals of aqueous geochemistry as applied to the evolution of natural waters. Principles of chemical equilibrium, activity models for solutes, acid-base chemistry, redox chemistry, mineral solubility, aqueous complexes, ion exchange, and stable isotopes will be covered. The carbonate system, weathering reactions, and redox chemistry are examined in detail. Students learn theory, the basics of analytical techniques, computation methods, and the use of computer programs for speciation, mass balance, and reaction path calculations.",
     "name": "Aqueous Geochemistry",
@@ -1122,8 +1149,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "ERTH-1100"
+      "ERTH-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -1398,6 +1425,28 @@
     },
     "subj": "ARCH"
   },
+  "Are Humans Rational?": {
+    "ID": "1235",
+    "cross listed": [],
+    "description": "The Aristotelian dictum that we are rational animals is under severe attack these days. In fact, the previous sentence may seriously understate the situation: the dictum is perhaps outright rejected by many, if not most. From psychologists of reasoning and decision-making to behavioral economists to the \"new atheists\" (all groups whose message we will consider in this class), the onslaught is firmly underway, and fierce.",
+    "name": "Are Humans Rational?",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Art History": {
     "ID": "1050",
     "cross listed": [],
@@ -1525,7 +1574,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020"
+      "ARTS-1020",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -1650,7 +1700,9 @@
   },
   "Bedford Architecture Engineering Seminar": {
     "ID": "4020",
-    "cross listed": [],
+    "cross listed": [
+      "CIVL-4020"
+    ],
     "description": "This interdisciplinary seminar consists of students from both the School of Architecture and Civil Engineering department. Presentation of a variety of structural typologies bears direct relation to practical experience and the necessity for constructive interdisciplinary discourse. Specific structural typologies are examined through historic and contemporary project examples that are critically deconstructed and critically analyzed with respect to their basic engineering principles and architectural concepts. Students will be exposed to the collaborative methods inherent within the architect/engineer relationship. The course consists of lectures concerning each topic, case studies, and presentations of relevant projects, an interdisciplinary design project and discussion of the projects and presentations with respect to interdisciplinary discourse. Content and delivery may vary by instructor. Taught with CIVL 4020.",
     "name": "Bedford Architecture Engineering Seminar",
     "offered": {
@@ -1671,6 +1723,28 @@
       "major_restricted": false
     },
     "subj": "ARCH"
+  },
+  "Bedford Seminar": {
+    "ID": "4020",
+    "cross listed": [],
+    "description": "The seminar will be interdisciplinary with students from both architecture and civil engineering departments. The content of the lectures bears direct relation to practical experience and is considered to be supplementary to the other courses in the respective engineering and architecture schools. Specific types of structures will be examined with the help of suitable existing project examples clarifying and critically analyzing the basic engineering principles behind them. Students will be exposed to the collaborative methods inherent within the architect/engineer relationship.",
+    "name": "Bedford Seminar",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Beginners Architecture Career Discovery Program": {
     "ID": "1200",
@@ -1716,6 +1790,28 @@
     },
     "subj": "CSCI"
   },
+  "Beginning Programming in Civil and Environmental Engineering": {
+    "ID": "1300",
+    "cross listed": [],
+    "description": "This course teaches elementary programming concepts using the Python environment. Students are expected to have little or no prior programming experience. Topics include Python language syntax, variables, looping, function calls, manipulating arrays, perfoming statistical calculations, and plotting results.",
+    "name": "Beginning Programming in Civil and Environmental Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring terms annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Behavioral Economics": {
     "ID": "4270",
     "cross listed": [],
@@ -1732,6 +1828,7 @@
     },
     "prerequisites": [
       "MATH-1010",
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -1756,6 +1853,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -1790,6 +1888,28 @@
       "major_restricted": false
     },
     "subj": "PSYC"
+  },
+  "Behind the TV Screen": {
+    "ID": "1030",
+    "cross listed": [],
+    "description": "Television is considered a defining social, political and cultural feature of consumer culture. Television is morphing into something more expansive and diverse. In this course, we will study the impact of television and learn to make it. Through hands-on experience, students produce and direct their own multi-camera projects. Students work on technical and creative aspects of production. Students learn to operate studio gear including green screen, live switcher, cameras, audio, teleprompter, lights, etc.",
+    "name": "Behind the TV Screen",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Bench Scale Design": {
     "ID": "4240",
@@ -1877,6 +1997,7 @@
     },
     "prerequisites": [
       "STSO-2510",
+      "IHSS-1160",
       "PHIL-1110"
     ],
     "properties": {
@@ -1997,7 +2118,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020"
+      "ARTS-1020",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -2704,6 +2826,32 @@
     },
     "subj": "ARCH"
   },
+  "Civil Engineering Capstone Design": {
+    "ID": "4920",
+    "cross listed": [],
+    "description": "Open-ended design project in which students work in teams. Oral presentations and written reports cover alternates considered, design assumptions, cost, safety, and feasibility. This is a communication-intensive course.",
+    "name": "Civil Engineering Capstone Design",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "ENGR-2050",
+      "CIVL-4070",
+      "ENVE-4200"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Cloud Atlas: 20th Century Architecture, Culture and Civilization": {
     "ID": "4120",
     "cross listed": [],
@@ -2795,8 +2943,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "PSYC-1200"
+      "PSYC-1200",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -3009,9 +3157,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
+      "ENGR-1100",
       "CSCI-1100",
-      "ENGR-1100"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3084,8 +3232,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-2300"
+      "CSCI-2300",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3155,8 +3303,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2610",
-      "ENGR-2600"
+      "ENGR-2600",
+      "ECSE-2610"
     ],
     "properties": {
       "CI": false,
@@ -3345,8 +3493,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-1200"
+      "CSCI-1200",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3354,6 +3502,54 @@
       "major_restricted": false
     },
     "subj": "ECSE"
+  },
+  "Conceptual Structural Systems": {
+    "ID": "4450",
+    "cross listed": [],
+    "description": "This course covers concepts of structural systems. The course is aimed at understanding behavior of different structural systems and how they respond to various loading conditions. The concept of load transfer, shaping, and form finding is of particular interest. This concept is reinforced through analytical, digital, and physical modeling intended to foster intuitive thinking. The course includes the following: approximate analyses of statically indeterminate beams, rigid frames, and vierendeel frames; cable suspended structures, arch supported structures; masonry structures, space frame, and folded plate structures; spherical, cylindrical, and hyperbolic shells; net and tent structures; air-supported and air-inflated structures, and hybrid structural systems. The course includes guest lectures, project, computer simulation, and testing physical models.",
+    "name": "Conceptual Structural Systems",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2670"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
+  "Concrete Design": {
+    "ID": "4080",
+    "cross listed": [],
+    "description": "Analysis and design of reinforced concrete structures using ultimate strength methods. Design of beams, columns, slabs, and footings. Development and anchorage of reinforcing bars. Laboratory testing of hardened concrete mechanical properties.",
+    "name": "Concrete Design",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2670"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Construction Industry Seminar 1": {
     "ID": "4510",
@@ -3402,6 +3598,28 @@
       "major_restricted": false
     },
     "subj": "ARCH"
+  },
+  "Construction Management": {
+    "ID": "4270",
+    "cross listed": [],
+    "description": "Application of engineering principles to planning construction operations. Network scheduling (CPM, PERT), resource allocation. Cost engineering and control.",
+    "name": "Construction Management",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Construction Systems": {
     "ID": "2350",
@@ -3654,8 +3872,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-1200"
+      "IHSS-1200",
+      "ECON-1200",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3679,8 +3898,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-1100",
-      "ARTS-1020"
+      "ARTS-1020",
+      "CSCI-1100"
     ],
     "properties": {
       "CI": false,
@@ -3955,8 +4174,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-4570"
+      "ECON-4570",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -4007,10 +4226,10 @@
       "uia": false
     },
     "prerequisites": [
-      "MATP-4400",
-      "BIOL-4200",
       "CSCI-4100",
-      "ITWS-4600"
+      "MATP-4400",
+      "ITWS-4600",
+      "BIOL-4200"
     ],
     "properties": {
       "CI": false,
@@ -4070,8 +4289,8 @@
   "Data Science": {
     "ID": "4350",
     "cross listed": [
-      "CSCI-4350",
-      "ERTH-4350"
+      "ERTH-4350",
+      "CSCI-4350"
     ],
     "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.",
     "name": "Data Science",
@@ -4135,8 +4354,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ITWS-4350",
-      "CSCI-4350"
+      "CSCI-4350",
+      "ITWS-4350"
     ],
     "properties": {
       "CI": false,
@@ -4385,6 +4604,28 @@
     },
     "subj": "ENGR"
   },
+  "Design and Innovation Studio I": {
+    "ID": "1610",
+    "cross listed": [],
+    "description": "The first design studio in the Design, Innovation, and Society studio series introduces DIS majors to general design through a series of short projects. We learn the basic steps of design processes, from problem definition to concept ideation and selection, to quick low-resolution prototyping. The projects stress creative thinking and critical analysis, partnered with close discussions of how design and society intersect. This is a communication-intensive course.",
+    "name": "Design and Innovation Studio I",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Design and Innovation Studio II": {
     "ID": "2610",
     "cross listed": [],
@@ -4399,7 +4640,9 @@
       "text": "Spring term annually",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "IHSS-1610"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4428,6 +4671,30 @@
       "major_restricted": false
     },
     "subj": "ENGR"
+  },
+  "Design for Constructability": {
+    "ID": "4280",
+    "cross listed": [],
+    "description": "Design of systems to consider foundations, structures, and constructability; foundation alternatives; structural design to simplify erection; prefabrication, modulation of structures; material handling on a construction site; crane selection and placement; temporary works.",
+    "name": "Design for Constructability",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-4070"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Design, Culture, and Society": {
     "ID": "2210",
@@ -4536,6 +4803,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -4822,8 +5090,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECSE-2410"
+      "ECSE-2410",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -5040,6 +5308,28 @@
     },
     "subj": "COMM"
   },
+  "Documentary in the 21st Century: Identity Production": {
+    "ID": "1040",
+    "cross listed": [],
+    "description": "Documentary in the 21st Century: Identity Production is a production course investigating the course of documentary history leading to a focus on digital media representations today. This course will incorporate critical thinking with production. With focus on aesthetic and formal considerations, students will be asked to produce a series of multimedia projects investigating their vision of themselves in the world.",
+    "name": "Documentary in the 21st Century: Identity Production",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Drug Discovery": {
     "ID": "4330",
     "cross listed": [],
@@ -5241,7 +5531,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020"
+      "ARTS-1020",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -5266,11 +5557,12 @@
     },
     "prerequisites": [
       "MATH-1500",
-      "ENGR-2600",
-      "MATP-4600",
-      "MGMT-2100",
+      "PSYC-2310",
+      "IHSS-1200",
       "ECON-1200",
-      "PSYC-2310"
+      "ENGR-2600",
+      "MGMT-2100",
+      "MATP-4600"
     ],
     "properties": {
       "CI": false,
@@ -5294,12 +5586,12 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2600",
-      "MATP-4600",
-      "BIOL-4200",
-      "MGMT-2100",
+      "PSYC-2310",
       "MATH-2010",
-      "PSYC-2310"
+      "ENGR-2600",
+      "MGMT-2100",
+      "MATP-4600",
+      "BIOL-4200"
     ],
     "properties": {
       "CI": false,
@@ -5323,6 +5615,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5369,6 +5662,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5393,6 +5687,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5417,6 +5712,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5441,8 +5737,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2020"
+      "ECON-2020",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -5467,6 +5763,7 @@
     },
     "prerequisites": [
       "MATH-1010",
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5491,6 +5788,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -5565,8 +5863,8 @@
     },
     "prerequisites": [
       "ENGR-1600",
-      "MTLE-2100",
-      "PHYS-1200"
+      "PHYS-1200",
+      "MTLE-2100"
     ],
     "properties": {
       "CI": false,
@@ -5822,10 +6120,10 @@
       "uia": false
     },
     "prerequisites": [
+      "MATH-2400",
       "ENGR-1100",
       "PHYS-1100",
-      "ECSE-1010",
-      "MATH-2400"
+      "ECSE-1010"
     ],
     "properties": {
       "CI": false,
@@ -5923,6 +6221,28 @@
       "major_restricted": false
     },
     "subj": "ENGR"
+  },
+  "Engineering Graphics for Civil Engineers": {
+    "ID": "1200",
+    "cross listed": [],
+    "description": "An introduction to the elements of computer aided design for civil and environmental engineers using AutoCAD Civil 3D. Students will be introduced to basic AutoCAD drafting techniques as well as learn the key features of Civil 3D that aid site development design and analysis. Topics covered will include general AutoCAD techniques, existing conditions development and analysis using field collected survey data and GIS information, pipe network design, grading design, and roadway corridor layout.",
+    "name": "Engineering Graphics for Civil Engineers",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Engineering Probability": {
     "ID": "2500",
@@ -6103,7 +6423,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSO-1110"
+      "STSO-1110",
+      "IHSS-1110"
     ],
     "properties": {
       "CI": false,
@@ -6152,10 +6473,10 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1100",
-      "CHEM-1100",
+      "ERTH-1100",
       "BIOL-1010",
-      "ERTH-1100"
+      "CHEM-1100",
+      "PHYS-1100"
     ],
     "properties": {
       "CI": false,
@@ -6179,6 +6500,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -6225,7 +6547,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSO-1110"
+      "STSO-1110",
+      "IHSS-1240"
     ],
     "properties": {
       "CI": false,
@@ -6466,6 +6789,28 @@
     },
     "subj": "BIOL"
   },
+  "Experiential Learning Project": {
+    "ID": "4800",
+    "cross listed": [],
+    "description": "This is an individually tailored reading course in which the student does readings and also completes an internship-type field project. The goal is to provide students with immersion in a multicultural milieu involving science and technology issues. Projects include student exchange programs, co-op placement, public service internships, community service, and other individually tailored projects subject to adviser approval. Students are expected to write up a description of their field project that integrates their field experience with the readings.",
+    "name": "Experiential Learning Project",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon sufficient demand.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Experimental Chemistry I: Analytical Techniques": {
     "ID": "2120",
     "cross listed": [],
@@ -6601,6 +6946,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -6702,6 +7048,50 @@
     },
     "subj": "ARTS"
   },
+  "Exploring Music @Rensselaer": {
+    "ID": "1010",
+    "cross listed": [],
+    "description": "This course, which is the prerequisite for further courses in music theory and in computer music, is an introduction to the materials of music. Using a variety of examples from classical, popular, and non-western music, the class will introduce concepts of melody, harmony, rhythm, and musical form. Students will use their laptop computers for aural skills practice, notation, and basic recording exercises. Although no musical experience is required for this course, sight singing is one of the important skills to be developed.",
+    "name": "Exploring Music @Rensselaer",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
+  "Fiction: From Film to the Internet": {
+    "ID": "1550",
+    "cross listed": [],
+    "description": "A study of novels and short stories exploring the cultural contexts, social impacts, and ethical implications of film, television, robotics, simulations, info/bio technologies, the World Wide Web, Internet privacy, social media, mass advertising and entertainment, and fake news. Discussions, reading quizzes, written essays, and oral presentations based on the readings.",
+    "name": "Fiction: From Film to the Internet",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Field Methods": {
     "ID": "2210",
     "cross listed": [],
@@ -6741,9 +7131,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
       "ECSE-2010",
-      "PHYS-1200"
+      "PHYS-1200",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -6916,6 +7306,31 @@
     },
     "subj": "MGMT"
   },
+  "Fluid Mechanics for Civil and Environmental Engineering": {
+    "ID": "2050",
+    "cross listed": [],
+    "description": "Hydrostatics; Pressure Measurement; Fluid Properties; Application of Control Volume Analysis to Conservation of Mass, Energy and Momentum Principles; Bernoulli Equation for Ideal Flow; Dimensional Analysis; Pipe Flow and Pipe Networks; Pump Performance; Pipes in Pipelines. A laboratory component will illustrate the topics studied.",
+    "name": "Fluid Mechanics for Civil and Environmental Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and Spring Terms Annually",
+      "uia": false
+    },
+    "prerequisites": [
+      "ENGR-1100",
+      "PHYS-1100"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Food, Farms, and Famine": {
     "ID": "4260",
     "cross listed": [],
@@ -6986,6 +7401,30 @@
     },
     "subj": "ENGR"
   },
+  "Foundation Engineering": {
+    "ID": "4010",
+    "cross listed": [],
+    "description": "Subsurface investigation. The application of the principles of soil mechanics to the design of footings, retaining walls, pile foundations, bulkheads, cofferdams, bridge piers and abutments, and underpinnings.",
+    "name": "Foundation Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2630"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Foundation of Analysis": {
     "ID": "4090",
     "cross listed": [],
@@ -7047,8 +7486,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-1200",
-      "MATH-1010"
+      "MATH-1010",
+      "CSCI-1200"
     ],
     "properties": {
       "CI": false,
@@ -7327,8 +7766,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "GSAS-2540"
+      "GSAS-2540",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -7376,8 +7815,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-4750",
-      "CSCI-4530"
+      "CSCI-4530",
+      "ECSE-4750"
     ],
     "properties": {
       "CI": false,
@@ -7556,8 +7995,8 @@
   "General Relativity": {
     "ID": "4240",
     "cross listed": [
-      "PHYS-4240",
-      "ASTR-4240"
+      "ASTR-4240",
+      "PHYS-4240"
     ],
     "description": "Introduction to the physics of gravitation and spacetime. Special relativity, tensor calculus, and relativistic electrodynamics. General relativity with selected applications of Einstein's field equations (gravitational time dilation; gravitational lensing; frame dragging; gravitational radiation). The physics of nonrotating and rotating black holes. Relativistic models for the large-scale structure of the Universe. Observational constraints on the cosmological parameters. Big Bang nucleosynthesis, the Cosmic Background Radiation. A culminating experience project is required. (Meets with ASTR 4240).",
     "name": "General Relativity",
@@ -7624,6 +8063,28 @@
       "major_restricted": false
     },
     "subj": "BIOL"
+  },
+  "Geoenvironmental Engineering": {
+    "ID": "4140",
+    "cross listed": [],
+    "description": "The application of geotechnical engineering to the environmental area. Deals with waste disposal, waste containment systems, waste stabilization, and landfills. Emphasis on design of such facilities. Includes related topics necessary for design, e.g., geosynthetics, groundwater, contaminant transport, and slurry walls. Some field trips are possible. (Students cannot receive credit for both this course and CIVL 6550.)",
+    "name": "Geoenvironmental Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Geographic Information Systems in the Sciences": {
     "ID": "4750",
@@ -7764,6 +8225,30 @@
       "major_restricted": false
     },
     "subj": "ENVE"
+  },
+  "Geotechnical Design": {
+    "ID": "4150",
+    "cross listed": [],
+    "description": "Second course in geotechnical engineering, emphasizing the use of Laboratory obtained soil properties (consolidation, compressibility, and shear strength) in the design of geotechnical systems such as slope stability, soil structure systems, foundation settlement, etc.",
+    "name": "Geotechnical Design",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2630"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Glass Science": {
     "ID": "4030",
@@ -7981,8 +8466,8 @@
   "Gravitation and Cosmology": {
     "ID": "4240",
     "cross listed": [
-      "PHYS-4240",
-      "ASTR-4240"
+      "ASTR-4240",
+      "PHYS-4240"
     ],
     "description": "Introduction to the physics of gravitation and spacetime. Special relativity, tensor calculus, and relativistic electrodynamics. General relativity with selected applications of Einstein's field equations (gravitational time dilation; gravitational lensing; frame dragging; gravitational radiation). The physics of nonrotating and rotating black holes. Relativistic models for the large-scale structure of the Universe. Observational constraints on the cosmological parameters. Big Bang nucleosynthesis, the Cosmic Background Radiation. A culminating experience project is required. (Meets with PHYS 4240.)",
     "name": "Gravitation and Cosmology",
@@ -8005,6 +8490,28 @@
       "major_restricted": false
     },
     "subj": "ASTR"
+  },
+  "Great Ideas in Philosophy": {
+    "ID": "1165",
+    "cross listed": [],
+    "description": "This course invites you into the world of philosophical ideas and reasoning --to join a great conversation that has unfolded since Socrates exhorted people to lead an examined life 2,400 years ago in Ancient Greece. We will explore such issues as whether some ways of acting and living are morally better than others, the relationship that exists between mind and body, and whether philosophy has anything to contribute to ongoing discussions about the existence and nature of God. This course will include both frequent discussion and written assignments and will aim to help you develop your skills in each of these modes of communication. This course is communication intensive.",
+    "name": "Great Ideas in Philosophy",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Groundwater Hydrology": {
     "ID": "4710",
@@ -8070,6 +8577,7 @@
     },
     "prerequisites": [
       "MATH-1010",
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -8078,6 +8586,30 @@
       "major_restricted": false
     },
     "subj": "ECON"
+  },
+  "Highway Engineering": {
+    "ID": "4670",
+    "cross listed": [],
+    "description": "Principles of geometric design of highways, intersections, interchanges, and terminals. Practical issues of vertical and horizontal curvature, highway evaluation, driver and vehicle dynamics, and traffic safety are also addressed. Computer-aided design and modeling.",
+    "name": "Highway Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [
+      "CIVL-2030"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Histories of Jazz and Improvised Music": {
     "ID": "2510",
@@ -8167,6 +8699,28 @@
     },
     "subj": "STSO"
   },
+  "History of Animation": {
+    "ID": "1170",
+    "cross listed": [],
+    "description": "This course is an exploration of the history of animation. We will begin with a look at precursors to the medium, its formation, and development, trace its development through both mainstream and experimental animation, to the current state of the medium across film, interactive media and other forms. The course will be based around screenings, readings, discussions and response and research papers.",
+    "name": "History of Animation",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term, annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "History of Medicine": {
     "ID": "4420",
     "cross listed": [],
@@ -8182,7 +8736,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSO-1110"
+      "STSO-1110",
+      "IHSS-1410"
     ],
     "properties": {
       "CI": false,
@@ -8206,7 +8761,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSO-1110"
+      "STSO-1110",
+      "IHSS-1410"
     ],
     "properties": {
       "CI": false,
@@ -8229,7 +8785,9 @@
       "text": "Spring term annually.",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "IHSS-1420"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8524,7 +9082,9 @@
   },
   "IT and Society": {
     "ID": "1220",
-    "cross listed": [],
+    "cross listed": [
+      "IHSS-1220"
+    ],
     "description": "Will IT increase prosperity? For whom? What role should governments play in IT development? Do corporations have new responsibilities in the Information Era? What about IT professionals? This course explores the issues, the arguments and working solutions. The first section examines macro indicators and trends. The second section examines the microeconomics and politics of specific arenasthe software industry, the automated work place, telemedicine, television. The last section explores opportunities for improving society, using IT.",
     "name": "IT and Society",
     "offered": {
@@ -9227,7 +9787,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010"
+      "MATH-1010",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -9251,7 +9812,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010"
+      "MATH-1010",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -9321,6 +9883,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -9466,8 +10029,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-1200",
-      "MATH-1010"
+      "MATH-1010",
+      "CSCI-1200"
     ],
     "properties": {
       "CI": false,
@@ -9663,6 +10226,28 @@
     },
     "subj": "MTLE"
   },
+  "Introduction to Civil and Environmental Engineering": {
+    "ID": "1100",
+    "cross listed": [],
+    "description": "Deals with the practice of civil and environmental engineering. Not a highly analytical course, as the course is primarily intended for first year students. Some topics include: history of civil engineering; present practice; typical employers; typical projects; design philosophy; professional topics including organizations, registrations, ethics. Discuss case histories, bring in outside speakers. Students attend CE Capstone presentations.",
+    "name": "Introduction to Civil and Environmental Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Introduction to Cognitive Neuroscience": {
     "ID": "4330",
     "cross listed": [
@@ -9773,8 +10358,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-1100"
+      "CSCI-1100",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -9798,9 +10383,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
+      "ECSE-2500",
       "CSCI-1200",
-      "ECSE-2500"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -9917,9 +10502,10 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-1010",
       "ENGR-1100",
-      "PHYS-1200"
+      "PHYS-1200",
+      "ECSE-1010",
+      "CIVL-1200"
     ],
     "properties": {
       "CI": false,
@@ -9944,7 +10530,8 @@
     },
     "prerequisites": [
       "MATH-2400",
-      "CHEM-1100"
+      "CHEM-1100",
+      "CIVL-2050"
     ],
     "properties": {
       "CI": false,
@@ -9976,6 +10563,31 @@
       "major_restricted": false
     },
     "subj": "MATH"
+  },
+  "Introduction to Finite Elements": {
+    "ID": "4240",
+    "cross listed": [],
+    "description": "An introductory course in use of the Finite Element Method (FEM) to solve one-and two-dimensional problems in fluid mechanics, heat transfer, and elasticity. The methods are developed using weighted residuals. Algorithms for the construction and solution of the governing equations are also covered. Students will be exposed to the use of commercial finite element software.",
+    "name": "Introduction to Finite Elements",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "ENGR-2250",
+      "ECSE-4160"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Introduction to Game Design": {
     "ID": "2510",
@@ -10060,8 +10672,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-2160",
-      "ERTH-1100"
+      "ERTH-1100",
+      "BIOL-2160"
     ],
     "properties": {
       "CI": false,
@@ -10110,8 +10722,8 @@
     },
     "prerequisites": [
       "MATH-1020",
-      "PHYS-1100",
-      "ERTH-1100"
+      "ERTH-1100",
+      "PHYS-1100"
     ],
     "properties": {
       "CI": false,
@@ -10119,6 +10731,30 @@
       "major_restricted": false
     },
     "subj": "ERTH"
+  },
+  "Introduction to Geotechnical Engineering": {
+    "ID": "2630",
+    "cross listed": [],
+    "description": "The application of the basic laws and phenomena of science to particulate matter, specifically soils. Basic physical and mechanical structural characteristics of soil. Equilibrium and movement of water. Flow through porous media. Effective stress. Stress-strain-time relations. Basic laboratory work as related to practice.",
+    "name": "Introduction to Geotechnical Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "ENGR-2530"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Introduction to Graphic Design": {
     "ID": "2660",
@@ -10179,8 +10815,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECSE-4530"
+      "ECSE-4530",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -10581,6 +11217,30 @@
     },
     "subj": "PSYC"
   },
+  "Introduction to Structural Engineering": {
+    "ID": "2670",
+    "cross listed": [],
+    "description": "Introduction to the elastic behavior of structural components. Analysis of statically determinate systems. Deflection calculations by virtual work and elastic load methods. Analysis of simple statically indeterminate structures. Influence lines. Interaction of structural components. Typical structural engineering loads.",
+    "name": "Introduction to Structural Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "ENGR-2530"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Introduction to Technological Entrepreneurship": {
     "ID": "4520",
     "cross listed": [],
@@ -10626,6 +11286,28 @@
       "major_restricted": false
     },
     "subj": "MATH"
+  },
+  "Introduction to Transportation Engineering": {
+    "ID": "2030",
+    "cross listed": [],
+    "description": "Introduction to basic concepts in transportation engineering including planning, design, and operations. Introduces the challenges and issues in modeling transportation problems. Studies of various concepts related to the design of highway facilities, level of service, and demand for transportation services. Concepts related to signal optimization. Policy implications. Basics of transportation planning.",
+    "name": "Introduction to Transportation Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Introductory Astronomy and Astrophysics": {
     "ID": "2050",
@@ -10733,7 +11415,9 @@
       "text": "Fall term annually.",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "IHSS-1110"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10872,8 +11556,8 @@
       "uia": true
     },
     "prerequisites": [
-      "CHEM-1100",
-      "ERTH-1100"
+      "ERTH-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -10897,9 +11581,9 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-1600",
+      "MTLE-4100",
       "CHEM-1100",
-      "MTLE-4100"
+      "ENGR-1600"
     ],
     "properties": {
       "CI": false,
@@ -10953,6 +11637,28 @@
       "major_restricted": false
     },
     "subj": "LANG"
+  },
+  "Language and Culture": {
+    "ID": "1492",
+    "cross listed": [],
+    "description": "Language is one of the most powerful forces in the human experience and shapes the production of social identities and cultural assumptions about the world. This course examines the role that language plays in articulating, maintaining, and subverting power relations in society. Topics include language ideology, politics, gender, race/ethnicity, linguistic engineering, language death and revitalization, and disinformation.",
+    "name": "Language and Culture",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Language-Endowed Intelligent Agents": {
     "ID": "4880",
@@ -11041,6 +11747,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -11049,6 +11756,28 @@
       "major_restricted": false
     },
     "subj": "ECON"
+  },
+  "Law, Values, and Public Policy: Perspectives on Science and Technology": {
+    "ID": "1350",
+    "cross listed": [],
+    "description": "This course examines the interconnections between values and law, seeking to understand how these affect and are affected by science and technology by examining such topics as computers and privacy, medical malpractice, abortion, and other legal conflicts surrounding new reproductive technologies, problems of expert witnesses, sexual harassment, patent infringement, auto safety litigation, and siting of hazardous facilities, among others.",
+    "name": "Law, Values, and Public Policy: Perspectives on Science and Technology",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Learning": {
     "ID": "4450",
@@ -11146,6 +11875,28 @@
       "major_restricted": false
     },
     "subj": "ARTS"
+  },
+  "Life in Color": {
+    "ID": "1562",
+    "cross listed": [],
+    "description": "Color is used every day to help us decode information, inform communications, influence our buying decisions, distinguish scientific properties, and impact our emotions and health. In this course, we'll study the impact of color and learn how to use it effectively. Through a series of creative hands-on graphic design projects, we will investigate color memory, relativity, and subjectivity, communicating with color, physiological and psychological responses to color, and color across cultures.",
+    "name": "Life in Color",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Light and Health": {
     "ID": "4870",
@@ -11702,6 +12453,30 @@
     },
     "subj": "CHEM"
   },
+  "Mass Transit Systems": {
+    "ID": "4620",
+    "cross listed": [],
+    "description": "The basic concepts of planning, design, and operation of urban mass transit systems. Topics include travel demand, network configurations, communication and control systems, power systems, vehicle technology, guideway and vehicle support, and guidance technology, routing, and scheduling, operating practice, marketing and financing of transit service, interface design, and implementation. These topics are discussed with relation to bus transit systems, guided transit systems, and several new systems. Several case studies examined.",
+    "name": "Mass Transit Systems",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2030"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Materials Laboratory Skills": {
     "ID": "2500",
     "cross listed": [],
@@ -11728,8 +12503,8 @@
     "ID": "1600",
     "cross listed": [
       "CHEM-1600",
-      "ENGR-1600",
-      "ISCI-1600"
+      "ISCI-1600",
+      "ENGR-1600"
     ],
     "description": "Introduction to the scientific principles that dictate the structure and properties of engineering materials, including metals, ceramics, semiconductors, and polymers. Physical properties of materials (mechanical, electrical, thermal, optical) are discussed in terms of the underlying structure, spanning multiple length scales from atomic packing to micron scale defects in practical engineering materials. Throughout the course, the material behaviors are understood from the viewpoint of thermodynamics and kinetics.",
     "name": "Materials Science",
@@ -11767,8 +12542,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-1600",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ENGR-1600"
     ],
     "properties": {
       "CI": false,
@@ -12089,6 +12864,30 @@
     },
     "subj": "MATH"
   },
+  "Matrix Structural Analysis": {
+    "ID": "4440",
+    "cross listed": [],
+    "description": "Principles of displacement-based structural analysis; development of element and structure stiffness matrices; direct stiffness method for matrix structural analysis of trusses, beams, and frames; computer analysis of structures; introduction to finite element method.",
+    "name": "Matrix Structural Analysis",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2670"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Mechanical Properties of Materials": {
     "ID": "4250",
     "cross listed": [],
@@ -12160,6 +12959,28 @@
       "major_restricted": false
     },
     "subj": "ARTS"
+  },
+  "Media and Society": {
+    "ID": "1560",
+    "cross listed": [],
+    "description": "A survey of the historical origins and cultural impact of several mass media, including television, film, radio, the Internet, and print media. The course aims to increase media literacy through analysis of specific media products as well as discussion of broad topics such as: advertising and commercialization; politics and censorship; gender, race, and social identity.",
+    "name": "Media and Society",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Medicinal Chemistry": {
     "ID": "4300",
@@ -12338,8 +13159,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2010"
+      "ECON-2010",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -12421,6 +13242,30 @@
       "major_restricted": false
     },
     "subj": "CHEM"
+  },
+  "Minds and Machines": {
+    "ID": "1140",
+    "cross listed": [
+      "PHIL-1120"
+    ],
+    "description": "This course is an introduction to the philosophy of mind and cognitive science. Students meet in small sections to have class discussions and debates about questions like: What are minds? Are minds physical or non-physical? Do humans have free will? Does reliance on technology turn humans into cyborgs? How close are humans to building an intelligent robot or machine? Do we want this to be a goal? Students will learn how make a philosophical argument, and how to express them in writing or through an oral presentation.",
+    "name": "Minds and Machines",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Modeling and Analysis of Uncertainty": {
     "ID": "2600",
@@ -12519,8 +13364,8 @@
   "Molecular Biochemistry I": {
     "ID": "4760",
     "cross listed": [
-      "BCBP-4760",
-      "BIOL-4760"
+      "BIOL-4760",
+      "BCBP-4760"
     ],
     "description": "Part I of a two-semester sequence focusing on the chemistry, structure, and function of biological molecules, macromolecules, and systems. Topics covered include protein and nucleic acid structure, enzymology, mechanisms of catalysis, regulation, lipids and membranes, carbohydrates, bioenergetics, and carbohydrate metabolism. (Students cannot obtain credit for both this course and either BIOL 4760 or BCBP 4760.)",
     "name": "Molecular Biochemistry I",
@@ -12534,8 +13379,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-1010",
-      "CHEM-2250"
+      "CHEM-2250",
+      "BIOL-1010"
     ],
     "properties": {
       "CI": false,
@@ -12673,6 +13518,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -12809,6 +13655,28 @@
     },
     "subj": "BIOL"
   },
+  "Music and Nature": {
+    "ID": "1720",
+    "cross listed": [],
+    "description": "Music and Nature explores the intersections between music and nature from a variety of perspectives. Music will be approached as artistic expression as well as a form of knowledge that can heighten our sensitivity and awareness of the environment and natural processes. Music and Nature incorporates reading and writing assignments, individual and group creative projects.",
+    "name": "Music and Nature",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Music and Sound I": {
     "ID": "2380",
     "cross listed": [],
@@ -12940,6 +13808,7 @@
       "uia": true
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -12995,6 +13864,28 @@
     },
     "subj": "ERTH"
   },
+  "Nature/Society": {
+    "ID": "1110",
+    "cross listed": [],
+    "description": "This course focuses on the social and ecological aspects of humans in the natural world. It emphasizes critical thinking about where humans come from and where they are going as a species. The course draws on historical perspectives and addresses contemporary issues such as climate change, national energy resources, and the local foods movement. The course includes readings as well as student projects, field trips, guest lectures, and \"ethnographic\" assignments about this consumer society.",
+    "name": "Nature/Society",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Network Programming": {
     "ID": "4220",
     "cross listed": [],
@@ -13034,8 +13925,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-4210",
-      "ECSE-2660"
+      "ECSE-2660",
+      "CSCI-4210"
     ],
     "properties": {
       "CI": false,
@@ -13322,8 +14213,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "ECSE-2660"
+      "ECSE-2660",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -13769,8 +14660,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "ECSE-2660"
+      "ECSE-2660",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -13915,6 +14806,28 @@
     },
     "subj": "PHIL"
   },
+  "Philosophy, Technology, & the Human Future": {
+    "ID": "1130",
+    "cross listed": [],
+    "description": "This course explores the philosophical and ethical implications of technological developments that promise to shape  and perhaps to jeopardize  human life and society in the 21st Century: Artificial Intelligence. Robots as social companions. Robots in military and medical settings. Cloning. Genetic modification and technological implants for superhuman abilities. Students will improve their insight as well as their critical reasoning skills as we examine, analyze, and evaluate such controversial topics through the lens of philosophical reasoning. Throughout the course we will ask what sort of beings do we want to be and what sort of society do we want to have.",
+    "name": "Philosophy, Technology, & the Human Future",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": true,
+      "spring": true,
+      "summer": false,
+      "text": "spring term, odd-numbered years",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Physical Chemistry for Life Sciences": {
     "ID": "4440",
     "cross listed": [],
@@ -13980,8 +14893,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-CS 1",
-      "MATH-1010"
+      "MATH-1010",
+      "PHYS-CS 1"
     ],
     "properties": {
       "CI": false,
@@ -14096,8 +15009,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-2210",
-      "STSO-2010"
+      "STSO-2010",
+      "STSS-2210"
     ],
     "properties": {
       "CI": false,
@@ -14217,6 +15130,28 @@
       "major_restricted": false
     },
     "subj": "BIOL"
+  },
+  "Principles of Economics": {
+    "ID": "1200",
+    "cross listed": [],
+    "description": "This course is designed to introduce a wide variety of concepts and applications in the broad subject of economics, economics being the study of people's choices. Traditionally, these choices have been framed as how to best employ scarce resources to produce goods and services and distribute them for consumption. To describe these choices the cause will introduce the concepts of opportunity cost, demand and supply theory, and market structures. It will consider the role of government in making resource allocation choices. Students will also study important macroeconomic data such as gross domestic product, economic growth rates, inflation, and unemployment. Additionally, studied will be the role of money and banking in the economy and short-run events such as recessions and expansions. Overall, the course will provide the student with an encompassing view of how economic principles and concepts relate to the broader economy and society. Credit cannot be obtained for both IHSS 1200 and ECON 1200",
+    "name": "Principles of Economics",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Principles of Program Analysis": {
     "ID": "4450",
@@ -14560,6 +15495,28 @@
     },
     "subj": "ENGR"
   },
+  "Professional Practice": {
+    "ID": "2040",
+    "cross listed": [],
+    "description": "Contract essentials; types of contracts for construction and for engineering services. Bidding procedure, surety bonds, insurance, litigation. Standard contract documents, the compilation of specifications. Engineering ethical principles and codes.",
+    "name": "Professional Practice",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": true,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term odd-numbered years.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Professional Practice 1": {
     "ID": "5380",
     "cross listed": [
@@ -14697,8 +15654,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COMM-2520",
-      "WRIT-1110"
+      "WRIT-1110",
+      "COMM-2520"
     ],
     "properties": {
       "CI": false,
@@ -14909,8 +15866,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "PHYS-2210"
+      "PHYS-2210",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -14940,6 +15897,28 @@
       "major_restricted": false
     },
     "subj": "ARTS"
+  },
+  "Race and Film in U.S. Culture and History": {
+    "ID": "1300",
+    "cross listed": [],
+    "description": "This course will investigate the emergence and transformations of the concept of race in the history and culture of the United States by analyzing films. Hollywood classics will be featured, and will also be contrasted with documentary and independent films. The course will focus on social and political contexts, as well as the film's critical reception and film form.",
+    "name": "Race and Film in U.S. Culture and History",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Radical Graphics/Screenprinting": {
     "ID": "2090",
@@ -15076,6 +16055,28 @@
       "major_restricted": false
     },
     "subj": "BIOL"
+  },
+  "Readings in Civil Engineering": {
+    "ID": "4940",
+    "cross listed": [],
+    "description": "",
+    "name": "Readings in Civil Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
   },
   "Readings in Cognitive Science": {
     "ID": "4940",
@@ -15367,6 +16368,28 @@
     },
     "subj": "COMM"
   },
+  "Religion in a Global World": {
+    "ID": "1666",
+    "cross listed": [],
+    "description": "This course explores the role of religion in different cultures and in the everyday lives of people around the world. It will introduce students to key concepts, themes, and debates in social science. The role of religion and rituals will be examined through classic texts in anthropology, sociology, political science, and in ethnographic cases relating to different types of societies, from traditional to modern American cultures. It will begin with some basic theoretical issues before discussing contemporary issues such as the relations between nation and religion, violence and religion, climate change and religion, and \"magical thinking\" in technology and science.",
+    "name": "Religion in a Global World",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Religion in the Media": {
     "ID": "4550",
     "cross listed": [],
@@ -15519,8 +16542,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MGMT-2100",
       "PSYC-2310",
+      "MGMT-2100",
       "ENGR-2600"
     ],
     "properties": {
@@ -15679,7 +16702,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1030"
+      "ARTS-1030",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -15763,8 +16787,8 @@
   "Robotics II": {
     "ID": "4490",
     "cross listed": [
-      "CSCI- 449",
-      "ECSE- 649"
+      "ECSE- 649",
+      "CSCI- 449"
     ],
     "description": "This course introduces methods that leverage the basic analysis techniques learned in Robotics I to develop numerical and algorithmic techniques needed to endow robots with the \"intelligence\" to devise strategies to solve problems they will encounter. Once these abilities are sufficiently well developed, robots will become safe and autonomous, thus paving the way for pervasive personal robots. Topics include: configuration space representation, cell decomposition, roadmap methods, rapidly-exploring random trees, simultaneous localization and mapping, contact modeling, grasping, and dexterous manipulation.",
     "name": "Robotics II",
@@ -15827,7 +16851,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020"
+      "ARTS-1020",
+      "IHSS-1030"
     ],
     "properties": {
       "CI": false,
@@ -15857,6 +16882,28 @@
       "major_restricted": false
     },
     "subj": "LITR"
+  },
+  "Science and Scientific Misconduct": {
+    "ID": "1160",
+    "cross listed": [],
+    "description": "This course will provide a comprehensive introduction to the field of ethics of scientific research. Why do seemingly good people do bad things? What is science? What is \"bad\" science? What constitutes scientific misconduct? We will explore the answers to these questions through fields such as Sociology, History, Philosophy, Psychology etc. Using evidence from contemporary and historical scientific experiments we will try to understand why researchers might commit scientific misconduct such as fabrication of results, plagiarism, and falsification of data. A brief overview some philosophical theories of ethics and several professional/scientific codes of ethics will be covered.",
+    "name": "Science and Scientific Misconduct",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Science, Technology, and Society": {
     "ID": "1110",
@@ -15967,8 +17014,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "ERTH-1100"
+      "ERTH-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -16266,7 +17313,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PSYC-1200"
+      "PSYC-1200",
+      "IHSS-1150"
     ],
     "properties": {
       "CI": false,
@@ -16506,6 +17554,28 @@
       "major_restricted": false
     },
     "subj": "PHYS"
+  },
+  "Songwriting Workshop": {
+    "ID": "1700",
+    "cross listed": [],
+    "description": "A course designed for students to develop their own voice as a songwriter. The course surveys the methods of successful songwriters, highlighting aspects of melody, lyrics, harmonic progression, story-telling, audience, and social context. Students develop a portfolio of their own original songs and lyrics, presented weekly and performed in a studio or live setting at the end of the term.",
+    "name": "Songwriting Workshop",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Sonics Research Lab 1": {
     "ID": "4870",
@@ -16823,6 +17893,30 @@
     },
     "subj": "MGMT"
   },
+  "Steel Design": {
+    "ID": "4070",
+    "cross listed": [],
+    "description": "Analysis and design of metal structures. Structural materials and loads. Design of beams, columns, bolted and welded connections. Composite construction.",
+    "name": "Steel Design",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2670"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Strategic Management Theory Seminar": {
     "ID": "7870",
     "cross listed": [],
@@ -16928,8 +18022,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-1010",
-      "ENGR-1100"
+      "ENGR-1100",
+      "ECSE-1010"
     ],
     "properties": {
       "CI": false,
@@ -17266,6 +18360,28 @@
     },
     "subj": "MGMT"
   },
+  "Sustainability Debates": {
+    "ID": "1240",
+    "cross listed": [],
+    "description": "Students in this course participate in a series of class debates, presenting and cross-examining the arguments of those who have a stake in various environmental controversies (about energy, toxic chemicals, consumption, etc.). Students also work in groups to design a proposal for a project to help solve an environmental problem. Throughout the course, students are encouraged to develop their own environmental values and ideas. This is a communication-intensive course.",
+    "name": "Sustainability Debates",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "Sustainability Education": {
     "ID": "4280",
     "cross listed": [],
@@ -17360,6 +18476,30 @@
     },
     "subj": "ARCH"
   },
+  "System Modeling for Civil and Environmental Engineering": {
+    "ID": "4570",
+    "cross listed": [],
+    "description": "This course is an applications-oriented course covering basic analytical tools for modeling and optimization of large-scale civil and environmental engineering systems. Application domains that will be discussed include: scheduling in large systems, construction management, multi-purpose reservoir operation, transportation and logistics planning, as well as other civil and environmental engineering systems. An overview of different optimization techniques, with a particular focus on network flow problems and introductory stochastic analysis will be provided. Software to solve these problems will be used throughout the course.",
+    "name": "System Modeling for Civil and Environmental Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-1300"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Systems Analysis and Design": {
     "ID": "4240",
     "cross listed": [],
@@ -17427,6 +18567,50 @@
       "major_restricted": false
     },
     "subj": "CSCI"
+  },
+  "The American Dream": {
+    "ID": "1776",
+    "cross listed": [],
+    "description": "The term \"American Dream\" is familiar, but what role, specifically, does the imaginative play in American literature and culture, past and present? This course focuses on the power of imagination to shape a nation through the analysis of fiction, poetry, film, essays, comics, advertising, and historical documents. We will use diverse social histories as a means to explore contemporary experience, focusing on the tension between American dreams and American realities. Requirements include reading/viewing responses, student presentations, and a semester capstone assignment that allows students to choose between a textual or multimedia project.",
+    "name": "The American Dream",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
+  "The Art of Listening": {
+    "ID": "1180",
+    "cross listed": [],
+    "description": "Listening to each other, ourselves, and our surroundings can be a transformative experience that enhances well-being. In this course, a heightened awareness to sound will be developed through experiential exercises, creative projects, collaborations, readings, lectures, and discussion. The course introduces \"Deep Listening,\" a practice developed by pioneer composer and humanitarian Pauline Oliveros to enhance and expand listening abilities and to encourage creative work.",
+    "name": "The Art of Listening",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "The Biology of Systems": {
     "ID": "4660",
@@ -17502,6 +18686,28 @@
     },
     "subj": "LITR"
   },
+  "The Genome and You": {
+    "ID": "1150",
+    "cross listed": [],
+    "description": "The ability to sequence complete genomes has had a revolutionary impact on medicine, agriculture, our environment and the very idea of what it means to be \"human\". Genomic medicine will impact virtually everyone in the United States in the coming decades. As informed citizens, it is important that we have a working understanding of genomics and its implications for individuals and for society at large. These conversations are critical to ensure the ethical and accessible use of genomics and to allow us to make informed decisions on both personal and public-policy levels. This course will explore the science, ethics, and history of genetic research and genomics, using case studies to illustrate and personalize the issues at hand.",
+    "name": "The Genome and You",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
   "The Global Carbon Cycle": {
     "ID": "4370",
     "cross listed": [],
@@ -17517,8 +18723,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "ERTH-1100"
+      "ERTH-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -17637,10 +18843,10 @@
       "uia": false
     },
     "prerequisites": [
+      "MATH-2400",
       "ENGR-1100",
       "PHYS-1100",
-      "ECSE-1010",
-      "MATH-2400"
+      "ECSE-1010"
     ],
     "properties": {
       "CI": false,
@@ -17664,8 +18870,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-2220",
-      "MATH-2400"
+      "MATH-2400",
+      "PHYS-2220"
     ],
     "properties": {
       "CI": false,
@@ -17787,6 +18993,28 @@
     },
     "subj": "ASTR"
   },
+  "Topics in Civil Engineering": {
+    "ID": "4960",
+    "cross listed": [],
+    "description": "",
+    "name": "Topics in Civil Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Topics in Cognitive Science": {
     "ID": "4960",
     "cross listed": [],
@@ -17890,6 +19118,7 @@
       "uia": false
     },
     "prerequisites": [
+      "IHSS-1200",
       "ECON-1200"
     ],
     "properties": {
@@ -18008,6 +19237,28 @@
       "major_restricted": false
     },
     "subj": "ERTH"
+  },
+  "Topics in Interdisciplinary Humanities and Social Science Studies": {
+    "ID": "4960",
+    "cross listed": [],
+    "description": "",
+    "name": "Topics in Interdisciplinary Humanities and Social Science Studies",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Topics in Language": {
     "ID": "4960",
@@ -18297,6 +19548,54 @@
     },
     "subj": "ARTS"
   },
+  "Traffic Engineering": {
+    "ID": "4660",
+    "cross listed": [],
+    "description": "Basic characteristics of traffic flow, including driver, vehicle, volume, speed, delay, capacity, and accidents; traffic regulation and control, signs, markings, signals, and signal systems; basic traffic flow theory; study methods and analysis procedures to solve traffic engineering and control problems.",
+    "name": "Traffic Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2030"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
+  "Transportation System Planning": {
+    "ID": "4640",
+    "cross listed": [],
+    "description": "Introduction to the analysis and planning of transportation systems. Study of the basic interaction between transportation supply and demand. Role of transportation systems analysis in the social, environmental, and policy making. Trip generation. Trip distribution. Mode split. Traffic Assignment. Computer applications (meets with CIVL 6250 Transportation System Planning). Students cannot obtain credit for this course and CIVL 6250.",
+    "name": "Transportation System Planning",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2030"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Twisted Siblings: Relationships Between Contemporary Painting and Digital Architecture": {
     "ID": "4070",
     "cross listed": [],
@@ -18563,6 +19862,74 @@
     },
     "subj": "COMM"
   },
+  "War and Society": {
+    "ID": "1510",
+    "cross listed": [],
+    "description": "This course examines how culture and society shape war, and inversely, how war shapes culture and society. It views war through the lens of social sciences with case studies ranging from the role of war in non-western societies to the ways in which war has affected American culture. Some of the issues covered in the course include the study of different types of war, the relations between war and the nation-state, between weapons technology and culture, the notions of pacification and nation-building, and the role of rituals in the military institution.",
+    "name": "War and Society",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
+  "War and Technology: Past, Present, and Future": {
+    "ID": "1570",
+    "cross listed": [],
+    "description": "This course investigates the relationship between warfare and technology in historical and present-day settings. It will also cover how military technology might evolve in the future. In addition to considering the ways in which technology has changed the practices of warfare, the course will examine the ethical, political, social and economic problems and developments that have arisen from the intersection of military and technological change.",
+    "name": "War and Technology: Past, Present, and Future",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
+  },
+  "Water Resources Engineering": {
+    "ID": "2060",
+    "cross listed": [],
+    "description": "This course provides a foundational treatment of water resources engineering through theory, analysis and design. Hydrologic cycle, water resources sustainability, and water resources planning. Pipe flow and pipe networks, with application to distribution systems. Hydraulics of open-channel flow and control structures such as culverts, gates, weirs, spillways and stilling basins. Reservoir routing and design of storage. Contemporary issues including green infrastructure, storm surge and climate change. Experimental laboratory sessions reinforce lectures and provide handson learning opportunities.",
+    "name": "Water Resources Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually",
+      "uia": false
+    },
+    "prerequisites": [
+      "CIVL-2050"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "CIVL"
+  },
   "Web Science Systems Development": {
     "ID": "4500",
     "cross listed": [],
@@ -18612,6 +19979,28 @@
       "major_restricted": false
     },
     "subj": "ITWS"
+  },
+  "Well-being: Cultivating Curiosity": {
+    "ID": "1175",
+    "cross listed": [],
+    "description": "How do people maintain a sense of well-being in their lives? Each person's path to well-being in body and mind is uniquearising from an awareness of our needs, goals and what each finds fulfilling. The theme of curiosity will be used to explore what makes people tick, what makes them feel balanced, stressed, or calm. This interdisciplinary course uses practice-based learning, in-class writing, lectures, creative play, and reading.",
+    "name": "Well-being: Cultivating Curiosity",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": true,
+      "major_restricted": false
+    },
+    "subj": "IHSS"
   },
   "Women Writers": {
     "ID": "4770",
