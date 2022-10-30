@@ -906,8 +906,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Carl Pavarini",
-      "Kevin R. Stewart"
+      "Kevin R. Stewart",
+      "Carl Pavarini"
     ],
     "properties": {
       "CI": false,
@@ -1031,8 +1031,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1111,8 +1111,8 @@
       "LANG-4420"
     ],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1139,8 +1139,8 @@
       "LANG-4430"
     ],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1349,8 +1349,8 @@
       "ARTS-4380"
     ],
     "professors": [
-      "Christopher James Fisher-Lochhead",
-      "Matthew William Goodheart"
+      "Matthew William Goodheart",
+      "Christopher James Fisher-Lochhead"
     ],
     "properties": {
       "CI": false,
@@ -1855,8 +1855,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Brandon James Costelloe-Kuehn",
-      "Jarah W. Moesch"
+      "Jarah W. Moesch",
+      "Brandon James Costelloe-Kuehn"
     ],
     "properties": {
       "CI": false,
@@ -2111,12 +2111,12 @@
     },
     "prerequisites": [],
     "professors": [
-      "Nancy D. Campbell",
+      "Atsushi Akera",
       "James Wilson Malazita",
-      "Raquel Velho",
-      "Abby J. Kinchy",
       "Langdon Winner",
-      "Atsushi Akera"
+      "Abby J. Kinchy",
+      "Raquel Velho",
+      "Nancy D. Campbell"
     ],
     "properties": {
       "CI": false,
@@ -2141,18 +2141,18 @@
     },
     "prerequisites": [],
     "professors": [
-      "Wayne D. Gray",
+      "Brett R. Fajen",
       "Selmer Bringsjord",
       "James A. Hendler",
-      "Peter A Fox",
-      "Brett R. Fajen",
-      "Christopher Robert Sims",
+      "Michael J Kalsher",
       "Ron Sun",
-      "Sergei Nirenburg",
-      "Marjorie McShane",
-      "Mei Si",
       "Tomasz Strzalkowski",
-      "Michael J Kalsher"
+      "Sergei Nirenburg",
+      "Christopher Robert Sims",
+      "Wayne D. Gray",
+      "Marjorie McShane",
+      "Peter A Fox",
+      "Mei Si"
     ],
     "properties": {
       "CI": false,
@@ -2802,9 +2802,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Susan Lynn Smith",
       "William J Puka",
-      "John R Milanese"
+      "John R Milanese",
+      "Susan Lynn Smith"
     ],
     "properties": {
       "CI": true,
@@ -2881,8 +2881,8 @@
       "GSAS-4540"
     ],
     "professors": [
-      "Silvia Ruzanka",
-      "Kathleen Ruiz"
+      "Kathleen Ruiz",
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": false,
@@ -2953,9 +2953,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Diana Rae Alvarez",
+      "Curtis Bahn",
       "Christopher James Fisher-Lochhead",
-      "Curtis Bahn"
+      "Diana Rae Alvarez"
     ],
     "properties": {
       "CI": true,
@@ -3279,8 +3279,8 @@
       "GSAS-2510"
     ],
     "professors": [
-      "Rebekah Gamin Arcovitch",
       "Eric Louis Ameres",
+      "Rebekah Gamin Arcovitch",
       "Marc Christian Destefano"
     ],
     "properties": {
@@ -3308,9 +3308,9 @@
       "GSAS-4520"
     ],
     "professors": [
-      "Sylvain Payen",
       "Robert F. Nideffer",
-      "Rebekah Gamin Arcovitch"
+      "Rebekah Gamin Arcovitch",
+      "Sylvain Payen"
     ],
     "properties": {
       "CI": false,
@@ -4018,8 +4018,8 @@
       "ITWS-2210"
     ],
     "professors": [
-      "Linda Kramarchyk",
-      "Richard M. Plotka"
+      "Richard M. Plotka",
+      "Linda Kramarchyk"
     ],
     "properties": {
       "CI": true,
@@ -4380,8 +4380,8 @@
       "ECON-1200"
     ],
     "professors": [
-      "Mina Mahmoudi",
-      "Yury Yatsynovich"
+      "Yury Yatsynovich",
+      "Mina Mahmoudi"
     ],
     "properties": {
       "CI": true,
@@ -4484,8 +4484,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Benjamin P. Weissman",
-      "Bram Van Heuveln"
+      "Bram Van Heuveln",
+      "Benjamin P. Weissman"
     ],
     "properties": {
       "CI": true,
@@ -4510,8 +4510,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "James Wilson Malazita",
       "Brian Anthony Shurtleff",
+      "James Wilson Malazita",
       "Sylvain Payen",
       "Marc Christian Destefano"
     ],
@@ -4538,8 +4538,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Eric Walsh",
-      "Eric Louis Ameres"
+      "Eric Louis Ameres",
+      "Eric Walsh"
     ],
     "properties": {
       "CI": false,
@@ -4591,9 +4591,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Jean Louise Tschanz-Egger",
+      "Sara L. Tack",
       "Leah A. Rico",
-      "Sara L. Tack"
+      "Jean Louise Tschanz-Egger"
     ],
     "properties": {
       "CI": true,
@@ -4643,8 +4643,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Linda Kramarchyk",
-      "Richard M. Plotka"
+      "Richard M. Plotka",
+      "Linda Kramarchyk"
     ],
     "properties": {
       "CI": false,
@@ -4669,8 +4669,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Marjorie McShane",
-      "Benjamin P. Weissman"
+      "Benjamin P. Weissman",
+      "Marjorie McShane"
     ],
     "properties": {
       "CI": false,
@@ -4794,8 +4794,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Michael J Kalsher",
-      "Christopher L Hubbell"
+      "Christopher L Hubbell",
+      "Michael J Kalsher"
     ],
     "properties": {
       "CI": false,
@@ -5146,8 +5146,8 @@
       "ARTS-1200"
     ],
     "professors": [
-      "Caren Canier",
-      "Monica A. Hughes"
+      "Monica A. Hughes",
+      "Caren Canier"
     ],
     "properties": {
       "CI": false,
@@ -5220,8 +5220,8 @@
       "ITWS-2110"
     ],
     "professors": [
-      "Matthew John Grill",
-      "Jeffrey G Miner"
+      "Jeffrey G Miner",
+      "Matthew John Grill"
     ],
     "properties": {
       "CI": false,
@@ -5576,8 +5576,8 @@
       "ARTS-1380"
     ],
     "professors": [
-      "Christopher James Fisher-Lochhead",
-      "Matthew William Goodheart"
+      "Matthew William Goodheart",
+      "Christopher James Fisher-Lochhead"
     ],
     "properties": {
       "CI": false,
@@ -5604,8 +5604,8 @@
       "ARTS-2380"
     ],
     "professors": [
-      "Christopher James Fisher-Lochhead",
-      "Matthew William Goodheart"
+      "Matthew William Goodheart",
+      "Christopher James Fisher-Lochhead"
     ],
     "properties": {
       "CI": false,
@@ -5709,9 +5709,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Brandon James Costelloe-Kuehn",
+      "Jennifer Cardinal",
       "Atsushi Akera",
-      "Jennifer Cardinal"
+      "Brandon James Costelloe-Kuehn"
     ],
     "properties": {
       "CI": true,
@@ -5738,8 +5738,8 @@
       "ARTS-2500"
     ],
     "professors": [
-      "Silvia Ruzanka",
-      "Michael L. Century"
+      "Michael L. Century",
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": true,
@@ -5791,9 +5791,9 @@
       "ARTS-1200"
     ],
     "professors": [
-      "Caren Canier",
       "Alisa Sikelianos-Carter",
-      "Monica A. Hughes"
+      "Monica A. Hughes",
+      "Caren Canier"
     ],
     "properties": {
       "CI": false,
@@ -6315,8 +6315,8 @@
       "STSS-2100"
     ],
     "professors": [
-      "Langdon Winner",
-      "Lawrence Eliot Howard"
+      "Lawrence Eliot Howard",
+      "Langdon Winner"
     ],
     "properties": {
       "CI": false,
@@ -6652,8 +6652,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Abby J. Kinchy",
-      "Jennifer Cardinal"
+      "Jennifer Cardinal",
+      "Abby J. Kinchy"
     ],
     "properties": {
       "CI": false,
@@ -6813,8 +6813,8 @@
       "ARTS-2340"
     ],
     "professors": [
-      "Brandon James Costelloe-Kuehn",
-      "Eddie Knowles"
+      "Eddie Knowles",
+      "Brandon James Costelloe-Kuehn"
     ],
     "properties": {
       "CI": false,
@@ -6843,8 +6843,8 @@
       "STSS-4980"
     ],
     "professors": [
-      "Abby J. Kinchy",
-      "Jennifer Cardinal"
+      "Jennifer Cardinal",
+      "Abby J. Kinchy"
     ],
     "properties": {
       "CI": true,
@@ -7259,9 +7259,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Miciah Z. Yehudah",
+      "Eric Drumheller Schaffer",
       "Michael E Stanford",
-      "Eric Drumheller Schaffer"
+      "Miciah Z. Yehudah"
     ],
     "properties": {
       "CI": false,
@@ -7286,8 +7286,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Ying Liu",
-      "Peter A Fox"
+      "Peter A Fox",
+      "Ying Liu"
     ],
     "properties": {
       "CI": false,
@@ -7458,8 +7458,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "David Stephen Gerstle",
       "Sarah Virginia Seeley",
+      "David Stephen Gerstle",
       "Skye Anicca"
     ],
     "properties": {
@@ -7637,8 +7637,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Jennifer Cardinal",
-      "Eric Drumheller Schaffer"
+      "Eric Drumheller Schaffer",
+      "Jennifer Cardinal"
     ],
     "properties": {
       "CI": true,
@@ -7832,8 +7832,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Kathleen A. Galloway",
-      "Maryanne Staniszewski"
+      "Maryanne Staniszewski",
+      "Kathleen A. Galloway"
     ],
     "properties": {
       "CI": true,
@@ -7930,9 +7930,9 @@
       "ECON-1200"
     ],
     "professors": [
-      "Rui Fan",
+      "Michael A. Klein",
       "Vivek Ghosal",
-      "Michael A. Klein"
+      "Rui Fan"
     ],
     "properties": {
       "CI": false,
@@ -8250,8 +8250,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Alicia Ann Walf",
       "Holly A Traver",
+      "Alicia Ann Walf",
       "Marjorie McShane"
     ],
     "properties": {

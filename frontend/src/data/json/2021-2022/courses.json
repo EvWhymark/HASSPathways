@@ -148,9 +148,9 @@
       "ARTS-2230"
     ],
     "professors": [
-      "Silvia Ruzanka",
+      "John A. Baumann",
       "Shawn A. Lawson",
-      "John A. Baumann"
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": false,
@@ -198,9 +198,12 @@
       "text": ""
     },
     "prerequisites": [],
-    "professors": [],
+    "professors": [
+      "Michael E Stanford",
+      "Ralph G Noble"
+    ],
     "properties": {
-      "CI": false,
+      "CI": true,
       "HI": true,
       "major_restricted": false
     },
@@ -1019,8 +1022,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1074,8 +1077,8 @@
       "LANG-2410"
     ],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": true,
@@ -1102,8 +1105,8 @@
       "LANG-4420"
     ],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1130,8 +1133,8 @@
       "LANG-4430"
     ],
     "professors": [
-      "Yalun Zhou",
-      "Jianling Yue"
+      "Jianling Yue",
+      "Yalun Zhou"
     ],
     "properties": {
       "CI": false,
@@ -1487,9 +1490,9 @@
     },
     "prerequisites": [],
     "professors": [
+      "Kathryn High",
       "Branda Miller",
-      "Silvia Ruzanka",
-      "Kathryn High"
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": false,
@@ -1514,9 +1517,9 @@
     },
     "prerequisites": [],
     "professors": [
+      "Stephanie D Loveless",
       "Branda Miller",
-      "Silvia Ruzanka",
-      "Stephanie D Loveless"
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": false,
@@ -2082,8 +2085,8 @@
     "prerequisites": [],
     "professors": [
       "Silvia Ruzanka",
-      "Nathan Scott Meltz",
-      "Kathleen Ruiz"
+      "Kathleen Ruiz",
+      "Nathan Scott Meltz"
     ],
     "properties": {
       "CI": false,
@@ -2131,18 +2134,18 @@
     },
     "prerequisites": [],
     "professors": [
-      "Wayne D. Gray",
+      "Brett R. Fajen",
       "Selmer Bringsjord",
       "James A. Hendler",
-      "Peter A Fox",
-      "Brett R. Fajen",
-      "Christopher Robert Sims",
+      "Michael J Kalsher",
       "Ron Sun",
-      "Sergei Nirenburg",
-      "Marjorie McShane",
-      "Mei Si",
       "Tomasz Strzalkowski",
-      "Michael J Kalsher"
+      "Sergei Nirenburg",
+      "Christopher Robert Sims",
+      "Wayne D. Gray",
+      "Marjorie McShane",
+      "Peter A Fox",
+      "Mei Si"
     ],
     "properties": {
       "CI": false,
@@ -2848,8 +2851,8 @@
       "GSAS-4540"
     ],
     "professors": [
-      "Silvia Ruzanka",
-      "Kathleen Ruiz"
+      "Kathleen Ruiz",
+      "Silvia Ruzanka"
     ],
     "properties": {
       "CI": false,
@@ -3248,8 +3251,8 @@
       "GSAS-2510"
     ],
     "professors": [
-      "Rebekah Gamin Arcovitch",
-      "Eric Louis Ameres"
+      "Eric Louis Ameres",
+      "Rebekah Gamin Arcovitch"
     ],
     "properties": {
       "CI": false,
@@ -3276,8 +3279,8 @@
       "GSAS-4520"
     ],
     "professors": [
-      "Sylvain Payen",
-      "Rebekah Gamin Arcovitch"
+      "Rebekah Gamin Arcovitch",
+      "Sylvain Payen"
     ],
     "properties": {
       "CI": false,
@@ -3916,9 +3919,9 @@
       "ITWS-2210"
     ],
     "professors": [
-      "Matthew John Grill",
+      "Richard M. Plotka",
       "Linda Kramarchyk",
-      "Richard M. Plotka"
+      "Matthew John Grill"
     ],
     "properties": {
       "CI": true,
@@ -4091,8 +4094,8 @@
       "ARTS-1020"
     ],
     "professors": [
-      "Nathan Scott Meltz",
-      "Kathleen Ruiz"
+      "Kathleen Ruiz",
+      "Nathan Scott Meltz"
     ],
     "properties": {
       "CI": false,
@@ -4168,8 +4171,8 @@
       "PHIL-2140"
     ],
     "professors": [
-      "Selmer Bringsjord",
-      "Bram Van Heuveln"
+      "Bram Van Heuveln",
+      "Selmer Bringsjord"
     ],
     "properties": {
       "CI": false,
@@ -4357,8 +4360,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Sylvain Payen",
-      "James Wilson Malazita"
+      "James Wilson Malazita",
+      "Sylvain Payen"
     ],
     "properties": {
       "CI": false,
@@ -4435,9 +4438,9 @@
     },
     "prerequisites": [],
     "professors": [
-      "Leah A. Rico",
       "Benjamin David Gleeksman",
-      "Sara L. Tack"
+      "Sara L. Tack",
+      "Leah A. Rico"
     ],
     "properties": {
       "CI": true,
@@ -4487,8 +4490,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Linda Kramarchyk",
-      "Richard M. Plotka"
+      "Richard M. Plotka",
+      "Linda Kramarchyk"
     ],
     "properties": {
       "CI": false,
@@ -4637,9 +4640,9 @@
     "prerequisites": [],
     "professors": [
       "Alicia Ann Walf",
-      "Jason Sean Jacobskind",
+      "Christopher L Hubbell",
       "Michael J Kalsher",
-      "Christopher L Hubbell"
+      "Jason Sean Jacobskind"
     ],
     "properties": {
       "CI": false,
@@ -5393,8 +5396,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Kathleen A. Galloway",
-      "Stephanie D Loveless"
+      "Stephanie D Loveless",
+      "Kathleen A. Galloway"
     ],
     "properties": {
       "CI": true,
@@ -5448,8 +5451,8 @@
       "ARTS-2380"
     ],
     "professors": [
-      "Christopher James Fisher-Lochhead",
-      "Matthew William Goodheart"
+      "Matthew William Goodheart",
+      "Christopher James Fisher-Lochhead"
     ],
     "properties": {
       "CI": false,
@@ -5931,17 +5934,17 @@
     },
     "prerequisites": [],
     "professors": [
-      "Paul J. Quigley",
-      "Matthew P. Steckler",
-      "Karlinda D. Caldicott",
       "Jamecyn F. Morey",
-      "Akina Yura",
-      "Graeme S. Francis",
+      "Paul J. Quigley",
+      "Elissa Marie Harrigan",
       "Jingwen Tu",
       "Thomas J. Gerbino",
-      "Elissa Marie Harrigan",
-      "Omar Williams",
-      "Charles W. Olencki"
+      "Akina Yura",
+      "Matthew P. Steckler",
+      "Karlinda D. Caldicott",
+      "Charles W. Olencki",
+      "Graeme S. Francis",
+      "Omar Williams"
     ],
     "properties": {
       "CI": false,
@@ -6508,8 +6511,8 @@
       "COGS-2120"
     ],
     "professors": [
-      "Jason Sean Jacobskind",
-      "Michael J Kalsher"
+      "Michael J Kalsher",
+      "Jason Sean Jacobskind"
     ],
     "properties": {
       "CI": true,
@@ -6610,9 +6613,12 @@
       "text": ""
     },
     "prerequisites": [],
-    "professors": [],
+    "professors": [
+      "Jarah W. Moesch",
+      "Jefferson Wille Kielwagen"
+    ],
     "properties": {
-      "CI": false,
+      "CI": true,
       "HI": true,
       "major_restricted": false
     },
@@ -7012,8 +7018,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Ying Liu",
-      "Peter A Fox"
+      "Peter A Fox",
+      "Ying Liu"
     ],
     "properties": {
       "CI": false,
@@ -7190,8 +7196,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Sarah Virginia Seeley",
       "Samuel Estabrooks",
+      "Sarah Virginia Seeley",
       "Skye Anicca"
     ],
     "properties": {
@@ -7539,8 +7545,8 @@
       "COGS-2340"
     ],
     "professors": [
-      "Marjorie McShane",
-      "Sergei Nirenburg"
+      "Sergei Nirenburg",
+      "Marjorie McShane"
     ],
     "properties": {
       "CI": true,
@@ -7565,8 +7571,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Kathleen A. Galloway",
-      "Maryanne Staniszewski"
+      "Maryanne Staniszewski",
+      "Kathleen A. Galloway"
     ],
     "properties": {
       "CI": true,
@@ -7591,8 +7597,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Tomasz Strzalkowski",
-      "Bram Van Heuveln"
+      "Bram Van Heuveln",
+      "Tomasz Strzalkowski"
     ],
     "properties": {
       "CI": false,
@@ -7670,9 +7676,9 @@
       "ECON-1200"
     ],
     "professors": [
-      "Rui Fan",
       "Sarah Marsden Greene",
-      "Michael A. Klein"
+      "Michael A. Klein",
+      "Rui Fan"
     ],
     "properties": {
       "CI": false,
@@ -7697,8 +7703,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Kathleen A. Galloway",
-      "Sylvain Payen"
+      "Sylvain Payen",
+      "Kathleen A. Galloway"
     ],
     "properties": {
       "CI": false,
@@ -7887,9 +7893,9 @@
     "prerequisites": [],
     "professors": [
       "Monica A. Hughes",
-      "Kathleen A. Galloway",
+      "Kathryn High",
       "Elizabeth Press",
-      "Kathryn High"
+      "Kathleen A. Galloway"
     ],
     "properties": {
       "CI": true,
@@ -7962,11 +7968,11 @@
     },
     "prerequisites": [],
     "professors": [
-      "Ralph G Noble",
-      "Marjorie McShane",
+      "Michael J Kalsher",
       "Alicia Ann Walf",
+      "Marjorie McShane",
       "Holly A Traver",
-      "Michael J Kalsher"
+      "Ralph G Noble"
     ],
     "properties": {
       "CI": true,
@@ -8269,8 +8275,8 @@
     },
     "prerequisites": [],
     "professors": [
-      "Barbara J Lewis",
-      "Kate A. Bradley"
+      "Kate A. Bradley",
+      "Barbara J Lewis"
     ],
     "properties": {
       "CI": true,
