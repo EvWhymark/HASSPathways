@@ -55,6 +55,26 @@ def login():
         else:
             return "Failure"
 
+#maybe store censored email for multiple attempts? Nah you have to login w/ email so there's no point in sending a censored one
+#@app.route('/reset_pass1',methods = ["GET", "POST"])
+#def censored_email():
+#    if request.method == 'POST':
+#        email_got = 
+
+#maybe reset password?
+@app.route('/reset_password', methods = ["GET", "POST"])
+def reset_password():
+    if request.method == 'POST':
+        email_got = request.args["email"]
+        password_got = hash(request.args["password"])
+        Entry.query.get(email_got).password = password_got
+
+#change personal info?
+@app.route('/change_info')
+    if request.method == 'POST':
+        first_got = request.args["first"]
+        last_got = request.args["last"]
+        email_got = request.args["email"]
 
 
 if __name__ == "__main__":
