@@ -9,7 +9,7 @@
 
             <v-divider class="my-4" />
 
-            <div class="pathway-categories fade-in">
+            <!-- <div class="pathway-categories fade-in">
                 <PathwayCategory 
                     v-for="item in pathwayCategories"
                     :key="item.name"
@@ -18,7 +18,10 @@
                     :text="item.name"
                     :pathways="item.pathways"
                 />
-            </div>
+            </div> -->
+            <Minor
+
+            />
         </v-container>
     </div>
 </template>
@@ -28,14 +31,24 @@ import PathwayCategory from '../../components/PathwayCategory'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import { pathwayCategories } from '../../data/data.js'
 import breadcrumbs from '../../data/breadcrumbs.js'
+import { minorCategories } from '../../data/data.js'
+import Minor from '../../components/Minor'
+
 
 export default {
-    components: { PathwayCategory, Breadcrumbs },
-    data: () => {
+    // components: { PathwayCategory, Breadcrumbs, Minor },
+    // data: () => {
+    //     return {
+    //         pathwayCategories,
+    //         breadcrumbs: breadcrumbs.minors
+    //     };
+    // },
+    components: {Minor, Breadcrumbs},
+    data: () =>{
         return {
-            pathwayCategories,
+            minorCategories,
             breadcrumbs: breadcrumbs.minors
-        };
+        }
     },
 }
 </script>
