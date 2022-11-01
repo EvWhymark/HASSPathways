@@ -1,7 +1,10 @@
-from flask import Flask, request, json, jsonify, session, redirect, url_for
+from crypt import methods
+from unicodedata import name
+from flask import Flask, request, json, jsonify, session, redirect, url_for, render_template
 from flask_cors import CORS, cross_origin
 from cas import CASClient
-
+import flask
+flask.__version__
 app = Flask(__name__)
 c = CORS(app)
 CORS(app, resources={r'/*': {'origins': '*'}},CORS_SUPPORTS_CREDENTIALS = True)
@@ -58,5 +61,32 @@ def editAdmin():
 
         return jsonify(response)
 
+@app.route("/testing_year_courses", methods=["POST","GET"])
+def host_year_courses_data():
+        if request.method == "POST":               
+                with open("data/" + request.args['year'] + "/courses.json", "r") as route:
+                        
+                        data= json.load(route)
+                return  data
+
+@app.route("/testing_year_pathways", methods=["POST","GET"])
+def host_year_pathways_data():
+        if request.method == "POST":
+                with open("data/" + request.args['year'] + "/pathways.json", "r") as route:
+                        data= json.load(route)
+                return  data
+
+@app.route("/testing_pathawys", methods=["GET"])
+def host_pathways_data():
+        with open("data/json/pathways_categories.json", "r") as route:
+                data= json.load(route)
+        return  data
+
+@app.route("/testing_years", methods=["GET"])
+def host_years_data():
+        with open("data/json/years.json", "r") as route:
+                data= json.load(route)
+        return  data
+
 if __name__ == '__main__':
-        app.run(host='0.0.0.0')
+        app.run(host='0.0.0.0', debug=True)
