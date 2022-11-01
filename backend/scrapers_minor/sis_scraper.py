@@ -1,15 +1,6 @@
 import json
 import aiohttp
 import re
-import asyncio
-from bs4 import BeautifulSoup
-from tqdm import tqdm
-
-
-import json
-import aiohttp
-import re
-import asyncio
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
@@ -92,7 +83,7 @@ async def get_details(ID, subj, curr_year, session):
 async def scrape_CI(years, folder_path):
 
     for year in tqdm(years):
-        f1 = open(folder_path + year + '/courses.json', 'r')
+        f1 = open(folder_path + year + '/minor_courses.json', 'r')
         courses = json.load(f1)
         f1.close()
         async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(limit=5)) as session:
@@ -101,7 +92,7 @@ async def scrape_CI(years, folder_path):
                 courses[course]['properties']['CI'] = dets[0]
 
                 courses[course]['professors'] = list(dets[1])
-        f2 = open(folder_path + year + '/courses.json', 'w')
+        f2 = open(folder_path + year + '/minor_courses.json', 'w')
         json.dump(courses, f2, sort_keys=True, indent=2, ensure_ascii=False)
         f2.close()
 

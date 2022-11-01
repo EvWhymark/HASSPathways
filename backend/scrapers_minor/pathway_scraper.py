@@ -45,7 +45,7 @@ def get_pathway_ids(catalog_id: str) -> List[str]:
             f"{BASE_URL}search/programs{DEFAULT_QUERY_PARAMS}&method=listing&options[limit]=0&catalog={catalog_id}"
         ).text.encode("utf8")
     )
-    return programs_xml.xpath('//result[type="Integrative Pathway"]/id/text()')
+    return programs_xml.xpath('//result[type="Minor"]/id/text()')
 
 def course_from_string(inp, depts):
     for dept in depts:
@@ -71,7 +71,7 @@ def handle_electives(cont, courses, depts, year):
     if subj == "TEMP":
         return
     path = '../../frontend/src/data/json/' + str(year)
-    f = open(path + '/courses.json', 'r')
+    f = open(path + '/minor_courses.json', 'r')
     all_courses = json.load(f)
     for course in all_courses:
         ID = all_courses[course]["ID"]
@@ -134,24 +134,26 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
     url = f"{BASE_URL}content{DEFAULT_QUERY_PARAMS}&method=getItems&options[full]=1&catalog={catalog_id}&type=programs{ids}"
 
     pathways_xml = html.fromstring(requests.get(url).text.encode("utf8"))
-
     pathways = pathways_xml.xpath("//programs/program[not(@child-of)]");
     for pathway in pathways:
         name = pathway.xpath("./title/text()")[0].strip()
         data[name] = {}
         data[name]["name"] = name
         desc = ""
-        if len(pathway.xpath("./content/p/text()")) >= 1:
+        if len(pathway.xpath("./content/p/span/text()")) >= 1:
+            desc = pathway.xpath("./content/p/span/text()")[0].strip()
+        elif len(pathway.xpath("./content/p/text()")) >= 1:
             desc = pathway.xpath("./content/p/text()")[0].strip()
         data[name]["description"] = desc.encode("ascii", "ignore").strip().decode()
         cores = pathway.xpath("./cores/core")
         cores += pathway.xpath("./cores/core/children/core")
         one_of_index = 0
-
         for core in cores:
             anchor_name = core.xpath("./anchors/a")[0].get('name').lower()
-
-            if "required" in anchor_name:
+            if "require" in anchor_name:
+                courses = parse_courses(core, name, year)
+                data[name]["Required"] = courses
+            elif 'architectureminor'==anchor_name:
                 courses = parse_courses(core, name, year)
                 data[name]["Required"] = courses
             elif "oneof" in anchor_name:
@@ -159,11 +161,6 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 one_of_name = "One Of" + str(one_of_index)
                 data[name][one_of_name] = courses
                 one_of_index += 1
-            elif "minor" in anchor_name:
-                minors = list(filter(lambda x: x != "", \
-                 [minor.replace("Minor", "").replace("minor", "").encode("ascii", "ignore").strip().decode() \
-                 for minor in core.xpath("./content/descendant::*/text()")]))
-                data[name]["minor"] = minors
             else:
                 courses = parse_courses(core, name, year)
                 data[name]["Remaining"] = courses
@@ -176,6 +173,10 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                     if (type == "Remaining" or type[0:6] == "One Of") and req in data[name][type]:
                         del data[name][type][req]
     return data
+
+a=get_pathway_ids('24')
+b=get_pathway_data(['6543'], '24', '2022-2024')
+print(b)
 
 def scrape_pathways():
     print("Starting pathway scraping")

@@ -3,14 +3,12 @@
     "image": "ARTS.jpg",
     "name": "Art",
     "pathways": [
-      "Arts History, Theory, and Criticism",
+      "Art History, Theory, and Criticism",
       "Electronic Arts",
       "Music Composition and Production",
       "Music Performance",
       "Music and Culture",
       "Studio Arts",
-      "Video, Performance, and Social Impact",
-      "Art History, Theory, and Criticism",
       "Video, Performance, and Social Practice"
     ]
   },
@@ -42,12 +40,11 @@
     "pathways": [
       "Economics",
       "Economics of Banking and Finance",
-      "Economics of Biotech and Medical Markets",
+      "Economics of Decision-Making",
+      "Economics of Healthcare Markets",
       "Economics of Policy and Regulations",
       "Economics of Quantitative Modeling",
-      "Economics of Technology and Innovation",
-      "Economics of Decision-Making",
-      "Economics of Healthcare Markets"
+      "Economics of Technology and Innovation"
     ]
   },
   {
@@ -60,11 +57,11 @@
       "Fact and Fiction",
       "Gender, Race, Sexuality, Ethnicity, and Social Change",
       "Living in a World of Data",
+      "Pre-Health Pathway",
       "Strategic Communication",
       "Thinking with Science",
       "Transfer Student Arts and Humanities",
-      "Transfer Student Social Science",
-      "Pre-Health Pathway"
+      "Transfer Student Social Science"
     ]
   },
   {
@@ -72,10 +69,9 @@
     "name": "Language and Literature",
     "pathways": [
       "Chinese Language",
-      "Foreign Language",
+      "Language",
       "Linguistics",
-      "Literature and Creative Writing",
-      "Language"
+      "Literature and Creative Writing"
     ]
   },
   {

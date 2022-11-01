@@ -87,8 +87,8 @@ async def get_details(course, year):
     return None
 
 async def fill(folder_path):
-    f1 = open(folder_path + '/pathways.json', 'r')
-    f2 = open(folder_path + '/courses.json', 'r')
+    f1 = open(folder_path + '/minors.json', 'r')
+    f2 = open(folder_path + '/minor_courses.json', 'r')
 
     pathways = json.load(f1)
     courses = json.load(f2)
@@ -109,6 +109,6 @@ async def fill(folder_path):
                 if tmp != None:
                     courses[course[0]] = tmp
 
-    f2 = open(folder_path + '/courses.json', 'w')
+    f2 = open(folder_path + '/minor_courses.json', 'w')
     json.dump(courses, f2, sort_keys=True, indent=2, ensure_ascii=False)
     f2.close()

@@ -1,4 +1,26 @@
 {
+  "": {
+    "ID": "4990",
+    "cross listed": [],
+    "description": "No description available, course not listed on catalog, prereqs/crosslisted not checked.",
+    "name": "",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": ""
+    },
+    "prerequisites": [],
+    "professors": [],
+    "properties": {
+      "CI": true,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BIOL"
+  },
   "2D Experimental Animation": {
     "ID": "2060",
     "cross listed": [],
@@ -2826,8 +2848,8 @@
       "uia": true
     },
     "prerequisites": [
-      "PSYC-2120",
-      "PHIL-2120"
+      "PHIL-2120",
+      "PSYC-2120"
     ],
     "properties": {
       "CI": false,

@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 if __name__ == "__main__":
     years = list(map(lambda x: x[0], courses_scraper.get_catalogs()))
-    years = years[:4]
+    years = years[:1]
     all_courses = courses_scraper.scrape_courses()
 
     for year in tqdm(years):
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         f.close()
 
     print("Started scraping CI courses")
-    asyncio.run(sis_scraper.scrape_CI(years, '../../frontend/src/data/json/'))
+    #asyncio.run(sis_scraper.scrape_CI(years, '../../frontend/src/data/json/'))
     print("Finished scraping CI courses")
 
     all_pathways = pathway_scraper.scrape_pathways()
