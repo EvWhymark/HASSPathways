@@ -83,8 +83,7 @@
                         <v-select
                             :items="['Required', 'One Of', 'Remaining']"
                             :value="inCategory(item)"
-                            @input="event => addToCategory(item, event)"
-                            multiple
+                            @input="event => changeCategory(item, event)"
                         />
                     </div>
                 </template>
@@ -177,52 +176,36 @@ export default {
             return finalURL;
         },
         inCategory(item) {
-            let start = [];
             let pathway = this.pathwaysData[this.selectedPathway];
+            let cat = "";
             Object.keys(pathway).forEach(key => {
                 if (pathway[key] instanceof Object && !(pathway[key] instanceof Array)) {
                     if (item.name in pathway[key]) {
                         if (key.substring(0,6) === "One Of") {
                             key = "One Of";
                         }
-                        start.push(key);
+                        cat = key;
                     }
                 }
             });
-            return start;
+            return cat;
         },
-        addToCategory(item, selection) {
-            let subtypes = {};
+        changeCategory(item, selection) {
+            console.log(selection);
             let pathway = this.pathwaysData[this.selectedPathway];
             Object.keys(pathway).forEach(key => {
-                if (pathway[key] instanceof Object && !(pathway[key] instanceof Array)) {
-                    subtypes[key] = true;
+                if (pathway[key] instanceof Object && !(pathway[key] instanceof Array) && item.name in pathway[key]) {
+                    delete pathway[key][item.name];
+                    if (Object.keys(pathway[key]).length === 0) {
+                        delete pathway[key];
+                    }
                 }
             })
-            for (let i = 0; i < selection.length; i++) {
-                let choice = selection[i];
-                if (choice === "One Of") choice = "One Of0";
-                delete subtypes[choice];
-                if (choice in pathway) {
-                    if (!(item["name"] in pathway[choice])) {
-                        pathway[choice][item["name"]] = item["subj"] + item["ID"];
-                    }
-                }
-                else {
-                    let insert = {}
-                    insert[item["name"]] = item["subj"] + item["ID"];
-                    pathway[choice] = insert;
-                }
+            if (selection === "One Of") selection = "One Of0";
+            if (!(selection in pathway)) {
+                pathway[selection] = {};
             }
-            Object.keys(subtypes).forEach(nonchoice => {
-                if (nonchoice === "One Of") nonchoice = "One Of0";
-                if (item["name"] in pathway[nonchoice]) {
-                    delete pathway[nonchoice][item["name"]];
-                    if (Object.keys(pathway[nonchoice]).length === 0) {
-                        delete pathway[nonchoice];
-                    }
-                }
-            });
+            pathway[selection][item["name"]] = item["subj"] + item["ID"];
             console.log(pathway);
         },
         filterCourses() {
@@ -254,7 +237,7 @@ export default {
             const endpoint = 'http://127.0.0.1:5000/edit-pathway'
             axios.post(endpoint, {
                 courses: this.filteredCourses,
-                pathway: this.selectedPathway,
+                pathway: this.pathwaysData[this.selectedPathway],
                 type: 'update',
                 year: this.$store.state.year
             })
@@ -269,7 +252,7 @@ export default {
             const endpoint = 'http://127.0.0.1:5000/edit-pathway'
             axios.post(endpoint, {
                 course: this.coursesData[name],
-                pathway: this.selectedPathway,
+                pathway: this.pathwaysData[this.selectedPathway],
                 type: 'remove',
                 year: this.$store.state.year
             })

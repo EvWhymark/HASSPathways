@@ -101,18 +101,17 @@ def editAdminPathway():
     if request.method == "POST":
             dat = request.get_json()
 
-            print(dat['courses'])
-
             with open('../frontend/src/data/json/' + dat['year'] + '/courses.json','r') as cs_file:
                     cs_data = json.load(cs_file)
             with open('../frontend/src/data/json/' + dat['year'] + '/pathways.json','r') as pw_file:
                     pw_data = json.load(pw_file)
 
-            pathway_name = dat['pathway']
+            pathway_name = dat['pathway']['name']
 
             if dat['type'] == 'update':
                     for course in dat['courses']:
                             cs_data[course['name']] = course
+                    pw_data[pathway_name] = dat['pathway']
 
             elif dat['type'] == 'remove':
                     for heading in pw_data[pathway_name]:
