@@ -19,6 +19,7 @@ const ADMIN_HOME_PAGE = createBreadcrumb('Admin Portal', '/admin-portal');
 const ADMIN_PATHWAY_PAGE = createBreadcrumb('Pathways Page', '/admin-portal/pathway');
 const ADMIN_SEARCH_CC_PAGE = createBreadcrumb('Course Page', '/admin-portal/search-course-code');
 const COURSES = createBreadcrumb('Courses', '/courses');
+const FEEDBACK = createBreadcrumb('Feedback Page', '/feedback');
 
 
 export default {
@@ -37,4 +38,5 @@ export default {
     advanced_search: [HOME, ADVANCED_SEARCH],
     courses: [HOME, COURSES],
     course_template: [HOME, COURSES, null],
+    feedback: [HOME, FEEDBACK]
 };
