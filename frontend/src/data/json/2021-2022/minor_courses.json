@@ -481,8 +481,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-4570"
+      "ECON-4570",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -926,9 +926,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
+      "ECON-1200",
       "IHSS-1200",
-      "ECON-1200"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -976,8 +976,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250",
-      "CIVL-2050"
+      "CIVL-2050",
+      "ENGR-2250"
     ],
     "properties": {
       "CI": false,
@@ -1027,8 +1027,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2010"
+      "ECON-2010",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -1149,8 +1149,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1100",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1100"
     ],
     "properties": {
       "CI": false,
@@ -1828,8 +1828,8 @@
     },
     "prerequisites": [
       "MATH-1010",
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -1853,8 +1853,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -1997,8 +1997,8 @@
     },
     "prerequisites": [
       "IHSS-1160",
-      "PHIL-1110",
-      "STSO-2510"
+      "STSO-2510",
+      "PHIL-1110"
     ],
     "properties": {
       "CI": false,
@@ -3157,9 +3157,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
+      "CSCI-1100",
       "ENGR-1100",
-      "CSCI-1100"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3232,8 +3232,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-2300"
+      "CSCI-2300",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3352,8 +3352,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2610",
-      "CSCI-2500"
+      "CSCI-2500",
+      "ECSE-2610"
     ],
     "properties": {
       "CI": false,
@@ -3493,8 +3493,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-1200"
+      "CSCI-1200",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3872,9 +3872,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
+      "ECON-1200",
       "IHSS-1200",
-      "ECON-1200"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3898,8 +3898,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020",
-      "CSCI-1100"
+      "CSCI-1100",
+      "ARTS-1020"
     ],
     "properties": {
       "CI": false,
@@ -4105,8 +4105,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-4240",
-      "ASTR-4120"
+      "ASTR-4120",
+      "PHYS-4240"
     ],
     "properties": {
       "CI": false,
@@ -4174,8 +4174,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-4570"
+      "ECON-4570",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -4227,9 +4227,9 @@
     },
     "prerequisites": [
       "MATP-4400",
-      "BIOL-4200",
       "CSCI-4100",
-      "ITWS-4600"
+      "ITWS-4600",
+      "BIOL-4200"
     ],
     "properties": {
       "CI": false,
@@ -4289,8 +4289,8 @@
   "Data Science": {
     "ID": "4350",
     "cross listed": [
-      "ERTH-4350",
-      "CSCI-4350"
+      "CSCI-4350",
+      "ERTH-4350"
     ],
     "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.",
     "name": "Data Science",
@@ -4803,8 +4803,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5556,13 +5556,13 @@
       "uia": false
     },
     "prerequisites": [
-      "MATP-4600",
-      "MATH-1500",
-      "ECON-1200",
-      "MGMT-2100",
       "IHSS-1200",
+      "MATH-1500",
+      "MGMT-2100",
+      "PSYC-2310",
       "ENGR-2600",
-      "PSYC-2310"
+      "ECON-1200",
+      "MATP-4600"
     ],
     "properties": {
       "CI": false,
@@ -5586,12 +5586,12 @@
       "uia": false
     },
     "prerequisites": [
-      "MATP-4600",
-      "MATH-2010",
       "MGMT-2100",
-      "ENGR-2600",
+      "PSYC-2310",
       "BIOL-4200",
-      "PSYC-2310"
+      "ENGR-2600",
+      "MATP-4600",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -5615,8 +5615,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5662,8 +5662,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5687,8 +5687,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5712,8 +5712,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5763,8 +5763,8 @@
     },
     "prerequisites": [
       "MATH-1010",
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5788,8 +5788,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5837,8 +5837,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5862,9 +5862,9 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
       "ENGR-1600",
-      "MTLE-2100"
+      "MTLE-2100",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -6120,10 +6120,10 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2400",
       "ECSE-1010",
       "ENGR-1100",
-      "PHYS-1100"
+      "PHYS-1100",
+      "MATH-2400"
     ],
     "properties": {
       "CI": false,
@@ -6448,8 +6448,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENVE-2110",
-      "CHEM-1200"
+      "CHEM-1200",
+      "ENVE-2110"
     ],
     "properties": {
       "CI": false,
@@ -6473,10 +6473,10 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1100",
-      "CHEM-1100",
+      "PHYS-1100",
       "BIOL-1010",
-      "PHYS-1100"
+      "CHEM-1100",
+      "ERTH-1100"
     ],
     "properties": {
       "CI": false,
@@ -6500,8 +6500,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -6946,8 +6946,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -7131,9 +7131,9 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
+      "ECSE-2010",
       "MATH-2010",
-      "ECSE-2010"
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -7321,8 +7321,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-1100",
-      "PHYS-1100"
+      "PHYS-1100",
+      "ENGR-1100"
     ],
     "properties": {
       "CI": false,
@@ -7486,8 +7486,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "CSCI-1200"
+      "CSCI-1200",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -7695,8 +7695,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2050"
+      "ECSE-2050",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -7888,8 +7888,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COMM-4240",
-      "GSAS-2520"
+      "GSAS-2520",
+      "COMM-4240"
     ],
     "properties": {
       "CI": false,
@@ -7995,8 +7995,8 @@
   "General Relativity": {
     "ID": "4240",
     "cross listed": [
-      "PHYS-4240",
-      "ASTR-4240"
+      "ASTR-4240",
+      "PHYS-4240"
     ],
     "description": "Introduction to the physics of gravitation and spacetime. Special relativity, tensor calculus, and relativistic electrodynamics. General relativity with selected applications of Einstein's field equations (gravitational time dilation; gravitational lensing; frame dragging; gravitational radiation). The physics of nonrotating and rotating black holes. Relativistic models for the large-scale structure of the Universe. Observational constraints on the cosmological parameters. Big Bang nucleosynthesis, the Cosmic Background Radiation. A culminating experience project is required. (Meets with ASTR 4240).",
     "name": "General Relativity",
@@ -8466,8 +8466,8 @@
   "Gravitation and Cosmology": {
     "ID": "4240",
     "cross listed": [
-      "PHYS-4240",
-      "ASTR-4240"
+      "ASTR-4240",
+      "PHYS-4240"
     ],
     "description": "Introduction to the physics of gravitation and spacetime. Special relativity, tensor calculus, and relativistic electrodynamics. General relativity with selected applications of Einstein's field equations (gravitational time dilation; gravitational lensing; frame dragging; gravitational radiation). The physics of nonrotating and rotating black holes. Relativistic models for the large-scale structure of the Universe. Observational constraints on the cosmological parameters. Big Bang nucleosynthesis, the Cosmic Background Radiation. A culminating experience project is required. (Meets with PHYS 4240.)",
     "name": "Gravitation and Cosmology",
@@ -8577,8 +8577,8 @@
     },
     "prerequisites": [
       "MATH-1010",
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -8884,8 +8884,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1020",
-      "PHYS-1100"
+      "PHYS-1100",
+      "MATH-1020"
     ],
     "properties": {
       "CI": false,
@@ -9305,8 +9305,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2660",
-      "CSCI-2500"
+      "CSCI-2500",
+      "ECSE-2660"
     ],
     "properties": {
       "CI": false,
@@ -9354,8 +9354,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1200",
-      "ENGR-1600"
+      "ENGR-1600",
+      "CHEM-1200"
     ],
     "properties": {
       "CI": false,
@@ -9883,8 +9883,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -9980,8 +9980,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2660",
-      "CSCI-2500"
+      "CSCI-2500",
+      "ECSE-2660"
     ],
     "properties": {
       "CI": false,
@@ -10029,8 +10029,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "CSCI-1200"
+      "CSCI-1200",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -10358,8 +10358,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "CSCI-1100"
+      "CSCI-1100",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -10383,9 +10383,9 @@
       "uia": false
     },
     "prerequisites": [
+      "CSCI-1200",
       "ECSE-2500",
-      "MATH-2010",
-      "CSCI-1200"
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -10455,8 +10455,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -10502,10 +10502,10 @@
       "uia": false
     },
     "prerequisites": [
-      "CIVL-1200",
-      "PHYS-1200",
       "ECSE-1010",
-      "ENGR-1100"
+      "CIVL-1200",
+      "ENGR-1100",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -10529,9 +10529,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2400",
+      "CIVL-2050",
       "CHEM-1100",
-      "CIVL-2050"
+      "MATH-2400"
     ],
     "properties": {
       "CI": false,
@@ -10579,8 +10579,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250",
-      "ECSE-4160"
+      "ECSE-4160",
+      "ENGR-2250"
     ],
     "properties": {
       "CI": false,
@@ -10672,8 +10672,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-2160",
-      "ERTH-1100"
+      "ERTH-1100",
+      "BIOL-2160"
     ],
     "properties": {
       "CI": false,
@@ -10721,9 +10721,9 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1020",
+      "PHYS-1100",
       "ERTH-1100",
-      "PHYS-1100"
+      "MATH-1020"
     ],
     "properties": {
       "CI": false,
@@ -10815,8 +10815,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECSE-4530"
+      "ECSE-4530",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -11020,8 +11020,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-4800",
-      "CSCI-4800"
+      "CSCI-4800",
+      "MATH-4800"
     ],
     "properties": {
       "CI": false,
@@ -11161,8 +11161,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2500",
-      "ENGR-2600"
+      "ENGR-2600",
+      "ECSE-2500"
     ],
     "properties": {
       "CI": false,
@@ -11556,8 +11556,8 @@
       "uia": true
     },
     "prerequisites": [
-      "ERTH-1100",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1100"
     ],
     "properties": {
       "CI": false,
@@ -11581,8 +11581,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MTLE-4100",
       "ENGR-1600",
+      "MTLE-4100",
       "CHEM-1100"
     ],
     "properties": {
@@ -11747,8 +11747,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -11818,8 +11818,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-4150",
-      "COGS-4420"
+      "COGS-4420",
+      "CSCI-4150"
     ],
     "properties": {
       "CI": false,
@@ -12503,8 +12503,8 @@
     "ID": "1600",
     "cross listed": [
       "ENGR-1600",
-      "CHEM-1600",
-      "ISCI-1600"
+      "ISCI-1600",
+      "CHEM-1600"
     ],
     "description": "Introduction to the scientific principles that dictate the structure and properties of engineering materials, including metals, ceramics, semiconductors, and polymers. Physical properties of materials (mechanical, electrical, thermal, optical) are discussed in terms of the underlying structure, spanning multiple length scales from atomic packing to micron scale defects in practical engineering materials. Throughout the course, the material behaviors are understood from the viewpoint of thermodynamics and kinetics.",
     "name": "Materials Science",
@@ -12805,9 +12805,9 @@
       "uia": false
     },
     "prerequisites": [
+      "CSCI-1100",
       "PSYC-1200",
-      "COGS-2120",
-      "CSCI-1100"
+      "COGS-2120"
     ],
     "properties": {
       "CI": false,
@@ -13159,8 +13159,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2010"
+      "ECON-2010",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -13184,8 +13184,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13379,8 +13379,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-1010",
-      "CHEM-2250"
+      "CHEM-2250",
+      "BIOL-1010"
     ],
     "properties": {
       "CI": false,
@@ -13518,8 +13518,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13569,8 +13569,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2050",
-      "MTLE-4910"
+      "MTLE-4910",
+      "ENGR-2050"
     ],
     "properties": {
       "CI": false,
@@ -13808,8 +13808,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13925,8 +13925,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2660",
-      "CSCI-4210"
+      "CSCI-4210",
+      "ECSE-2660"
     ],
     "properties": {
       "CI": false,
@@ -14116,8 +14116,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "PHYS-1100"
+      "PHYS-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -14453,8 +14453,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1200",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1200"
     ],
     "properties": {
       "CI": false,
@@ -14868,8 +14868,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENVE-2110",
-      "CHEM-1200"
+      "CHEM-1200",
+      "ENVE-2110"
     ],
     "properties": {
       "CI": false,
@@ -14893,8 +14893,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "PHYS-CS 1"
+      "PHYS-CS 1",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -14918,8 +14918,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1020",
-      "PHYS-1100"
+      "PHYS-1100",
+      "MATH-1020"
     ],
     "properties": {
       "CI": false,
@@ -15009,8 +15009,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSO-2010",
-      "STSS-2210"
+      "STSS-2210",
+      "STSO-2010"
     ],
     "properties": {
       "CI": false,
@@ -15654,8 +15654,8 @@
       "uia": false
     },
     "prerequisites": [
-      "WRIT-1110",
-      "COMM-2520"
+      "COMM-2520",
+      "WRIT-1110"
     ],
     "properties": {
       "CI": false,
@@ -15866,8 +15866,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "PHYS-2210"
+      "PHYS-2210",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -16542,9 +16542,9 @@
       "uia": false
     },
     "prerequisites": [
-      "PSYC-2310",
+      "ENGR-2600",
       "MGMT-2100",
-      "ENGR-2600"
+      "PSYC-2310"
     ],
     "properties": {
       "CI": false,
@@ -17014,8 +17014,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1100",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1100"
     ],
     "properties": {
       "CI": false,
@@ -18723,8 +18723,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1100",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1100"
     ],
     "properties": {
       "CI": false,
@@ -18843,10 +18843,10 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2400",
       "ECSE-1010",
       "ENGR-1100",
-      "PHYS-1100"
+      "PHYS-1100",
+      "MATH-2400"
     ],
     "properties": {
       "CI": false,
@@ -18895,8 +18895,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ENGR-2250"
     ],
     "properties": {
       "CI": false,
@@ -19118,8 +19118,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -20107,8 +20107,8 @@
       "uia": false
     },
     "prerequisites": [
-      "WRIT-2330",
-      "GSAS-2520"
+      "GSAS-2520",
+      "WRIT-2330"
     ],
     "properties": {
       "CI": false,
@@ -20166,8 +20166,8 @@
   "X-Informatics": {
     "ID": "4400",
     "cross listed": [
-      "ERTH-4400",
-      "CSCI-4400"
+      "CSCI-4400",
+      "ERTH-4400"
     ],
     "description": "Informatics covers a broad range of disciplines addressing challenges in the explosion of data and information resources. X-informatics provides commonality for implementations in specific disciplines, e.g. X=astro, geo. Informatics' theoretical bases are information and computer science, cognitive science, social science, library science, aggregating these studies and adding the practice of information processing, and the engineering of information systems. This course grounds the material that students will learn in discipline areas by coursework and project assignments.",
     "name": "X-Informatics",

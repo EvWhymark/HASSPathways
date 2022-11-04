@@ -2848,8 +2848,8 @@
       "uia": true
     },
     "prerequisites": [
-      "PHIL-2120",
-      "PSYC-2120"
+      "PSYC-2120",
+      "PHIL-2120"
     ],
     "properties": {
       "CI": false,
@@ -6255,6 +6255,28 @@
       "major_restricted": false
     },
     "subj": "ERTH"
+  },
+  "Environmental Justice": {
+    "ID": "4330",
+    "cross listed": [],
+    "description": "What is environmental justice? Why are some people exposed to environmental hazards while others are not? In this class, we will explore the intersection of environmental concerns and social justice. We will read the works of activists and scholars working across a range of disciplines, engage in discussion, analysis, research, and mapping. We will learn about global historical processes that structure contemporary inequity and contemporary cases including environmental justice work in our own community.",
+    "name": "Environmental Justice",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "spring term annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "STSO"
   },
   "Environmental Measurements": {
     "ID": "4190",

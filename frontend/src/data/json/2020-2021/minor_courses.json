@@ -406,8 +406,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "ECSE-4750"
+      "ECSE-4750",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -479,12 +479,12 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-4200",
-      "ENGR-2600",
       "MGMT-2100",
       "PSYC-2310",
-      "ECON-4580",
+      "BIOL-4200",
+      "ENGR-2600",
       "MATP-4600",
+      "ECON-4580",
       "MATH-2010"
     ],
     "properties": {
@@ -904,11 +904,11 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-4200",
-      "ENGR-2600",
       "MGMT-2100",
       "PSYC-2310",
       "ECON-4570",
+      "BIOL-4200",
+      "ENGR-2600",
       "MATP-4600",
       "MATH-2010"
     ],
@@ -934,8 +934,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
       "ECON-1200",
+      "IHSS-1200",
       "MATH-2010"
     ],
     "properties": {
@@ -1787,9 +1787,9 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
+      "MATH-1010",
       "ECON-1200",
-      "MATH-1010"
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -1813,10 +1813,10 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2600",
+      "IHSS-1200",
       "MGMT-2100",
       "PSYC-2310",
-      "IHSS-1200",
+      "ENGR-2600",
       "ECON-1200",
       "MATP-4600"
     ],
@@ -1960,9 +1960,9 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-2510",
       "IHSS-1160",
       "STSH-2500",
+      "STSS-2510",
       "PHIL-1110"
     ],
     "properties": {
@@ -2850,9 +2850,9 @@
       "uia": false
     },
     "prerequisites": [
-      "ENVE-4200",
       "ENGR-2050",
-      "CIVL-4070"
+      "CIVL-4070",
+      "ENVE-4200"
     ],
     "properties": {
       "CI": false,
@@ -2952,8 +2952,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "PSYC-1200"
+      "PSYC-1200",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -2977,8 +2977,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COGS-2120",
-      "PSYC-1200"
+      "PSYC-1200",
+      "COGS-2120"
     ],
     "properties": {
       "CI": false,
@@ -3189,8 +3189,8 @@
     },
     "prerequisites": [
       "CSCI-1100",
-      "MATH-2010",
-      "ENGR-1100"
+      "ENGR-1100",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -3214,8 +3214,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1100",
-      "CSCI-1100"
+      "CSCI-1100",
+      "PHYS-1100"
     ],
     "properties": {
       "CI": false,
@@ -3383,8 +3383,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2610",
-      "CSCI-2500"
+      "CSCI-2500",
+      "ECSE-2610"
     ],
     "properties": {
       "CI": false,
@@ -3930,8 +3930,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ARTS-1020",
-      "CSCI-1100"
+      "CSCI-1100",
+      "ARTS-1020"
     ],
     "properties": {
       "CI": false,
@@ -4237,10 +4237,10 @@
       "uia": false
     },
     "prerequisites": [
+      "MATP-4400",
       "CSCI-4100",
-      "BIOL-4200",
       "ITWS-4600",
-      "MATP-4400"
+      "BIOL-4200"
     ],
     "properties": {
       "CI": false,
@@ -4300,8 +4300,8 @@
   "Data Science": {
     "ID": "4350",
     "cross listed": [
-      "ERTH-4350",
-      "CSCI-4350"
+      "CSCI-4350",
+      "ERTH-4350"
     ],
     "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.",
     "name": "Data Science",
@@ -4794,8 +4794,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5362,8 +5362,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-1110",
-      "STSH-1110"
+      "STSH-1110",
+      "STSS-1110"
     ],
     "properties": {
       "CI": false,
@@ -5552,12 +5552,12 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2600",
+      "IHSS-1200",
+      "MATH-1500",
       "MGMT-2100",
       "PSYC-2310",
-      "IHSS-1200",
+      "ENGR-2600",
       "ECON-1200",
-      "MATH-1500",
       "MATP-4600"
     ],
     "properties": {
@@ -5582,10 +5582,10 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-4200",
-      "ENGR-2600",
       "MGMT-2100",
       "PSYC-2310",
+      "BIOL-4200",
+      "ENGR-2600",
       "MATP-4600",
       "MATH-2010"
     ],
@@ -5611,8 +5611,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5658,8 +5658,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5683,8 +5683,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5708,8 +5708,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5733,8 +5733,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-2010",
-      "ECON-2020"
+      "ECON-2020",
+      "MATH-2010"
     ],
     "properties": {
       "CI": false,
@@ -5758,9 +5758,9 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
+      "MATH-1010",
       "ECON-1200",
-      "MATH-1010"
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5784,8 +5784,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5833,8 +5833,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5858,9 +5858,9 @@
       "uia": false
     },
     "prerequisites": [
+      "ENGR-1600",
       "MTLE-2100",
-      "PHYS-1200",
-      "ENGR-1600"
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -5884,8 +5884,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-2210",
-      "MATH-4600"
+      "MATH-4600",
+      "PHYS-2210"
     ],
     "properties": {
       "CI": false,
@@ -5955,8 +5955,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "MATH-2400"
+      "MATH-2400",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -6052,8 +6052,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSH-S 11",
-      "STSS-2300"
+      "STSS-2300",
+      "STSH-S 11"
     ],
     "properties": {
       "CI": false,
@@ -6144,9 +6144,9 @@
     },
     "prerequisites": [
       "ECSE-1010",
+      "ENGR-1100",
       "PHYS-1100",
-      "MATH-2400",
-      "ENGR-1100"
+      "MATH-2400"
     ],
     "properties": {
       "CI": false,
@@ -6214,8 +6214,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-1110",
-      "STSH-1110"
+      "STSH-1110",
+      "STSS-1110"
     ],
     "properties": {
       "CI": false,
@@ -6423,8 +6423,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-1110",
-      "STSH-1110"
+      "STSH-1110",
+      "STSS-1110"
     ],
     "properties": {
       "CI": false,
@@ -6448,8 +6448,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENVE-2110",
-      "CHEM-1200"
+      "CHEM-1200",
+      "ENVE-2110"
     ],
     "properties": {
       "CI": false,
@@ -6473,8 +6473,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -6520,8 +6520,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1350",
-      "STSS-2700"
+      "STSS-2700",
+      "IHSS-1350"
     ],
     "properties": {
       "CI": false,
@@ -6917,11 +6917,11 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-4200",
-      "ENGR-2600",
+      "IHSS-1200",
       "MGMT-2100",
       "PSYC-2310",
-      "IHSS-1200",
+      "BIOL-4200",
+      "ENGR-2600",
       "ECON-1200",
       "MATP-4600"
     ],
@@ -7108,8 +7108,8 @@
     },
     "prerequisites": [
       "ECSE-2010",
-      "PHYS-1200",
-      "MATH-2010"
+      "MATH-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -7642,8 +7642,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2050"
+      "ECSE-2050",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -7762,8 +7762,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-4530",
-      "ECSE-4750"
+      "ECSE-4750",
+      "CSCI-4530"
     ],
     "properties": {
       "CI": false,
@@ -7835,8 +7835,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COMM-4240",
-      "GSAS-2520"
+      "GSAS-2520",
+      "COMM-4240"
     ],
     "properties": {
       "CI": false,
@@ -7860,8 +7860,8 @@
       "uia": true
     },
     "prerequisites": [
-      "STSS-2100",
-      "STSH-2500"
+      "STSH-2500",
+      "STSS-2100"
     ],
     "properties": {
       "CI": false,
@@ -8353,8 +8353,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-1100",
-      "MATH-4090"
+      "MATH-4090",
+      "CSCI-1100"
     ],
     "properties": {
       "CI": false,
@@ -8500,9 +8500,9 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
+      "MATH-1010",
       "ECON-1200",
-      "MATH-1010"
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -8729,9 +8729,9 @@
       "uia": false
     },
     "prerequisites": [
-      "STSH-S 11",
       "STSS-2520",
-      "IHSS-1410"
+      "IHSS-1410",
+      "STSH-S 11"
     ],
     "properties": {
       "CI": false,
@@ -8755,9 +8755,9 @@
       "uia": false
     },
     "prerequisites": [
-      "STSH-S 11",
       "STSS-2520",
-      "IHSS-1420"
+      "IHSS-1420",
+      "STSH-S 11"
     ],
     "properties": {
       "CI": false,
@@ -9347,8 +9347,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1200",
-      "ENGR-1600"
+      "ENGR-1600",
+      "CHEM-1200"
     ],
     "properties": {
       "CI": false,
@@ -9780,8 +9780,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "MATH-1010"
+      "MATH-1010",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -9805,8 +9805,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "MATH-1010"
+      "MATH-1010",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -9876,8 +9876,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -10103,8 +10103,8 @@
   "Introduction to Astrobiology": {
     "ID": "1510",
     "cross listed": [
-      "ERTH-1510",
-      "ISCI-1510"
+      "ISCI-1510",
+      "ERTH-1510"
     ],
     "description": "The field of Astrobiology considers the emergence and evolution of life on Earth, and the potential for life elsewhere. This course explores fundamental concepts in Astrobiology including the creation of the chemical elements, origin and evolution of the solar system, the definition and requirements for life, early Earth environments and life's emergence, habitability throughout the solar system, Mars, Icy worlds, exoplanets, and life detection.",
     "name": "Introduction to Astrobiology",
@@ -10278,8 +10278,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COGS-2120",
-      "PSYC-1200"
+      "PSYC-1200",
+      "COGS-2120"
     ],
     "properties": {
       "CI": false,
@@ -10371,8 +10371,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "CSCI-1100"
+      "CSCI-1100",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -10396,8 +10396,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2500",
       "CSCI-1200",
+      "ECSE-2500",
       "MATH-2010"
     ],
     "properties": {
@@ -10468,8 +10468,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -10517,8 +10517,8 @@
     "prerequisites": [
       "ECSE-1010",
       "CIVL-1200",
-      "PHYS-1200",
-      "ENGR-1100"
+      "ENGR-1100",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -10542,8 +10542,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
       "CIVL-2050",
+      "CHEM-1100",
       "MATH-2400"
     ],
     "properties": {
@@ -10592,8 +10592,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250",
-      "ECSE-4160"
+      "ECSE-4160",
+      "ENGR-2250"
     ],
     "properties": {
       "CI": false,
@@ -10685,8 +10685,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-2160",
-      "ERTH-1100"
+      "ERTH-1100",
+      "BIOL-2160"
     ],
     "properties": {
       "CI": false,
@@ -11218,8 +11218,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2500",
-      "ENGR-2600"
+      "ENGR-2600",
+      "ECSE-2500"
     ],
     "properties": {
       "CI": false,
@@ -11473,9 +11473,9 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-1110",
+      "STSH-1110",
       "IHSS-1110",
-      "STSH-1110"
+      "STSS-1110"
     ],
     "properties": {
       "CI": false,
@@ -11601,8 +11601,8 @@
   "Isotope Geochemistry": {
     "ID": "4560",
     "cross listed": [
-      "ENVE-4560",
-      "ERTH-4560"
+      "ERTH-4560",
+      "ENVE-4560"
     ],
     "description": "Fundamentals of Isotope geochemistry as applied to biogeochemical systems in modern and ancient environments. This course covers the principles of both radiogenic and stable isotope distribution, decay, and transfer through Earth's exchangeable reservoirs. This course will emphasize stable isotopes, equilibrium and kinetic isotope fractionation, distribution, isotope mass balance, and using these systems to track global biogeochemical cycles in the modern environment and in deep time. Meets with ENVE 4560.",
     "name": "Isotope Geochemistry",
@@ -11641,9 +11641,9 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
       "ENGR-1600",
-      "MTLE-4100"
+      "MTLE-4100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -11829,8 +11829,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -12480,8 +12480,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "MATH-1020"
+      "MATH-1020",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -12539,9 +12539,9 @@
   "Materials Science": {
     "ID": "1600",
     "cross listed": [
-      "CHEM-1600",
       "ENGR-1600",
-      "ISCI-1600"
+      "ISCI-1600",
+      "CHEM-1600"
     ],
     "description": "Introduction to the scientific principles that dictate the structure and properties of engineering materials, including metals, ceramics, semiconductors, and polymers. Physical properties of materials (mechanical, electrical, thermal, optical) are discussed in terms of the underlying structure, spanning multiple length scales from atomic packing to micron scale defects in practical engineering materials. Throughout the course, the material behaviors are understood from the viewpoint of thermodynamics and kinetics.",
     "name": "Materials Science",
@@ -12579,8 +12579,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "ENGR-1600"
+      "ENGR-1600",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -12843,8 +12843,8 @@
     },
     "prerequisites": [
       "CSCI-1100",
-      "COGS-2120",
-      "PSYC-1200"
+      "PSYC-1200",
+      "COGS-2120"
     ],
     "properties": {
       "CI": false,
@@ -12940,8 +12940,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MTLE-2100",
-      "ENGR-1600"
+      "ENGR-1600",
+      "MTLE-2100"
     ],
     "properties": {
       "CI": false,
@@ -13223,8 +13223,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "ECSE-2010"
+      "ECSE-2010",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13403,8 +13403,8 @@
   "Molecular Biochemistry I": {
     "ID": "4760",
     "cross listed": [
-      "BCBP-4760",
-      "BIOL-4760"
+      "BIOL-4760",
+      "BCBP-4760"
     ],
     "description": "Part I of a two-semester sequence focusing on the chemistry, structure, and function of biological molecules, macromolecules, and systems. Topics covered include protein and nucleic acid structure, enzymology, mechanisms of catalysis, regulation, lipids and membranes, carbohydrates, bioenergetics, and carbohydrate metabolism. (Students cannot obtain credit for both this course and either BIOL 4760 or BCBP 4760.)",
     "name": "Molecular Biochemistry I",
@@ -13418,8 +13418,8 @@
       "uia": false
     },
     "prerequisites": [
-      "BIOL-1010",
-      "CHEM-2250"
+      "CHEM-2250",
+      "BIOL-1010"
     ],
     "properties": {
       "CI": false,
@@ -13557,8 +13557,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13608,8 +13608,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2050",
-      "MTLE-4910"
+      "MTLE-4910",
+      "ENGR-2050"
     ],
     "properties": {
       "CI": false,
@@ -13845,8 +13845,8 @@
       "uia": true
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -13962,8 +13962,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ECSE-2660",
-      "CSCI-4210"
+      "CSCI-4210",
+      "ECSE-2660"
     ],
     "properties": {
       "CI": false,
@@ -14153,8 +14153,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CHEM-1100",
-      "PHYS-1100"
+      "PHYS-1100",
+      "CHEM-1100"
     ],
     "properties": {
       "CI": false,
@@ -14250,8 +14250,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "ECSE-2660"
+      "ECSE-2660",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -14345,8 +14345,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "MATH-2400"
+      "MATH-2400",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -14490,8 +14490,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ERTH-1200",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ERTH-1200"
     ],
     "properties": {
       "CI": false,
@@ -14573,8 +14573,8 @@
   "Origins of Life: A Cosmic Perspective": {
     "ID": "4510",
     "cross listed": [
-      "ERTH-4510",
-      "ASTR-4510"
+      "ASTR-4510",
+      "ERTH-4510"
     ],
     "description": "To understand the origin of life is a fundamental goal of science. This course discusses evidence for important prebiotic molecules in the clouds from which new planetary systems are born, and compares cosmic and terrestrial sources of such molecules on the primitive Earth. The course is multidisciplinary, covering topics in physics, astronomy, chemistry, earth sciences, and biology.",
     "name": "Origins of Life: A Cosmic Perspective",
@@ -14724,8 +14724,8 @@
       "uia": false
     },
     "prerequisites": [
-      "CSCI-2300",
-      "ECSE-2660"
+      "ECSE-2660",
+      "CSCI-2300"
     ],
     "properties": {
       "CI": false,
@@ -14907,8 +14907,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "CHEM-1200"
+      "CHEM-1200",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -14932,8 +14932,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENVE-2110",
-      "CHEM-1200"
+      "CHEM-1200",
+      "ENVE-2110"
     ],
     "properties": {
       "CI": false,
@@ -14957,8 +14957,8 @@
       "uia": false
     },
     "prerequisites": [
-      "MATH-1010",
-      "PHYS-CS 1"
+      "PHYS-CS 1",
+      "MATH-1010"
     ],
     "properties": {
       "CI": false,
@@ -15073,8 +15073,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSH-2010",
-      "STSS-2010"
+      "STSS-2010",
+      "STSH-2010"
     ],
     "properties": {
       "CI": false,
@@ -15672,8 +15672,8 @@
       "uia": false
     },
     "prerequisites": [
-      "WRIT-1110",
-      "COMM-2520"
+      "COMM-2520",
+      "WRIT-1110"
     ],
     "properties": {
       "CI": false,
@@ -15837,8 +15837,8 @@
       "uia": false
     },
     "prerequisites": [
-      "STSS-2100",
-      "STSH-2500"
+      "STSH-2500",
+      "STSS-2100"
     ],
     "properties": {
       "CI": false,
@@ -15886,8 +15886,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-1200",
-      "MATH-1020"
+      "MATH-1020",
+      "PHYS-1200"
     ],
     "properties": {
       "CI": false,
@@ -16584,8 +16584,8 @@
       "uia": false
     },
     "prerequisites": [
-      "COGS-2120",
-      "PSYC-1200"
+      "PSYC-1200",
+      "COGS-2120"
     ],
     "properties": {
       "CI": false,
@@ -16609,9 +16609,9 @@
       "uia": false
     },
     "prerequisites": [
-      "PSYC-2310",
       "ENGR-2600",
-      "MGMT-2100"
+      "MGMT-2100",
+      "PSYC-2310"
     ],
     "properties": {
       "CI": false,
@@ -16880,8 +16880,8 @@
   "Robotics II": {
     "ID": "4490",
     "cross listed": [
-      "CSCI- 449",
-      "ECSE- 649"
+      "ECSE- 649",
+      "CSCI- 449"
     ],
     "description": "This course introduces methods that leverage the basic analysis techniques learned in Robotics I to develop numerical and algorithmic techniques needed to endow robots with the \"intelligence\" to devise strategies to solve problems they will encounter. Once these abilities are sufficiently well developed, robots will become safe and autonomous, thus paving the way for pervasive personal robots. Topics include: configuration space representation, cell decomposition, roadmap methods, rapidly-exploring random trees, simultaneous localization and mapping, contact modeling, grasping, and dexterous manipulation.",
     "name": "Robotics II",
@@ -17480,8 +17480,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PSYC-1200",
-      "IHSS-1150"
+      "IHSS-1150",
+      "PSYC-1200"
     ],
     "properties": {
       "CI": false,
@@ -19039,9 +19039,9 @@
     },
     "prerequisites": [
       "ECSE-1010",
+      "ENGR-1100",
       "PHYS-1100",
-      "MATH-2400",
-      "ENGR-1100"
+      "MATH-2400"
     ],
     "properties": {
       "CI": false,
@@ -19065,8 +19065,8 @@
       "uia": false
     },
     "prerequisites": [
-      "PHYS-2220",
-      "MATH-2400"
+      "MATH-2400",
+      "PHYS-2220"
     ],
     "properties": {
       "CI": false,
@@ -19090,8 +19090,8 @@
       "uia": false
     },
     "prerequisites": [
-      "ENGR-2250",
-      "CHEM-1100"
+      "CHEM-1100",
+      "ENGR-2250"
     ],
     "properties": {
       "CI": false,
@@ -19313,8 +19313,8 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1200",
-      "ECON-1200"
+      "ECON-1200",
+      "IHSS-1200"
     ],
     "properties": {
       "CI": false,
@@ -20326,8 +20326,8 @@
       "uia": false
     },
     "prerequisites": [
-      "WRIT-2330",
-      "GSAS-2520"
+      "GSAS-2520",
+      "WRIT-2330"
     ],
     "properties": {
       "CI": false,
@@ -20407,8 +20407,8 @@
   "X-Informatics": {
     "ID": "4400",
     "cross listed": [
-      "ERTH-4400",
-      "CSCI-4400"
+      "CSCI-4400",
+      "ERTH-4400"
     ],
     "description": "Informatics covers a broad range of disciplines addressing challenges in the explosion of data and information resources. X-informatics provides commonality for implementations in specific disciplines, e.g. X=astro, geo. Informatics' theoretical bases are information and computer science, cognitive science, social science, library science, aggregating these studies and adding the practice of information processing, and the engineering of information systems. This course grounds the material that students will learn in discipline areas by coursework and project assignments.",
     "name": "X-Informatics",

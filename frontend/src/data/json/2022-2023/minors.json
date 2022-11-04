@@ -10,12 +10,12 @@
       "Sonics Research Lab 1": "ARCH4870",
       "Sonics Research Lab 2": "ARCH4810"
     },
-    "description": "",
+    "description": "The minor in architectural acoustics is open to all Rensselaer students interested in advanced study focusing on the optimization of acoustical quality of performance spaces and other aurally sensitive environments. After completing the minor, the student will be well-prepared for an entry level position dealing with acoustics issues in architectural practice, in acoustical consulting, or as a preparation for graduate studies in acoustics, for example in the Graduate Program in Architectural Acoustics at Rensselaer Polytechnic Institute. The program consists of 15 credits.Proficiency in Calculus I is necessary to comprehend the basics of architectural acoustics. Approval required by director of program.",
     "name": "Architectural Acoustics Minor",
     "remaining_header": "Footnote"
   },
   "Architectural History Minor": {
-    "Remaining": {
+    "Required": {
       "An Architectural Genealogy": "ARCH4100",
       "Architectural Media": "ARCH2160",
       "Cities and Their Territories": "ARCH4050",
@@ -24,15 +24,16 @@
       "The Ethos of Architecture": "ARCH2150"
     },
     "description": "",
-    "name": "Architectural History Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Architectural History Minor"
   },
   "Architecture Minor": {
     "Remaining": {},
+    "Required": {
+      "Energy, Comfort, and Ecology": "ARCH2370",
+      "Materials and Design": "ARCH2510",
+      "The Ethos of Architecture": "ARCH2150"
+    },
     "description": "A minor in architecture is directed toward Rensselaer students interested in architecture as asocio-cultural phenomenon, the student who intends to study architecture at the graduate level,and/or those envisioning a career in some segment of the building industry. The minor program provides an exposure to architecturewhat it is, what it includes, its history, how it is accomplished; and to architectswho they are and how they think and work. In order to earn a minor in architecture, students must compile at least 16 credits of architecture-related courses except for Architecture Design Studio, which is for B.Arch. majors only.",
-    "minor": [
-      "Required courses for the  in architecture are:"
-    ],
     "name": "Architecture Minor",
     "remaining_header": "Footnote"
   },
@@ -52,6 +53,9 @@
       "Topics in Astronomy and Astrophysics": "ASTR1960",
       "Topics in Physics": "PHYS2960"
     },
+    "Required": {
+      "Introductory Astronomy and Astrophysics": "ASTR2050"
+    },
     "description": "",
     "name": "Astronomy Minor",
     "remaining_header": "Plus 12 credits selected from:"
@@ -62,6 +66,10 @@
       "General Relativity": "PHYS4240",
       "Gravitation and Cosmology": "ASTR4240",
       "Observational Astronomy": "ASTR4120"
+    },
+    "Required": {
+      "Introductory Astronomy and Astrophysics": "ASTR2050",
+      "Special Projects in Astronomy": "ASTR4940"
     },
     "description": "The Astrophysics Minor is intended primarily for students who intend to pursue a career in astronomy or astrophysics.",
     "name": "Astrophysics Minor",
@@ -91,6 +99,10 @@
       "Protein Structure Determination": "BCBP4870",
       "The Biology of Systems": "BCBP4660"
     },
+    "Required": {
+      "Molecular Biochemistry II": "BCBP4770",
+      "Physical Chemistry for Life Sciences": "CHEM4440"
+    },
     "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
     "name": "Biochemistry/Biophysics Minor for Biology Majors",
     "remaining_header": "And two of the following:"
@@ -106,14 +118,13 @@
       "Protein Folding": "BCBP4780",
       "Protein Structure Determination": "BCBP4870"
     },
-    "Remaining": {
+    "Required": {
       "Molecular Biochemistry I": "BCBP4760",
       "Molecular Biochemistry II": "BCBP4770",
       "Organic Chemistry I": "CHEM2250"
     },
     "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
-    "name": "Biochemistry/Biophysics Minor for Biomedical Engineering Majors",
-    "remaining_header": "Program Requirements"
+    "name": "Biochemistry/Biophysics Minor for Biomedical Engineering Majors"
   },
   "Biochemistry/Biophysics Minor for Chemical Engineering Majors": {
     "Remaining": {
@@ -125,6 +136,10 @@
       "Molecular Biology": "BIOL4620",
       "Protein Folding": "BCBP4780",
       "Protein Structure Determination": "BCBP4870"
+    },
+    "Required": {
+      "Molecular Biochemistry I": "BCBP4760",
+      "Molecular Biochemistry II": "BCBP4770"
     },
     "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
     "name": "Biochemistry/Biophysics Minor for Chemical Engineering Majors",
@@ -141,6 +156,10 @@
       "Protein Folding": "BCBP4780",
       "Protein Structure Determination": "BCBP4870"
     },
+    "Required": {
+      "Molecular Biochemistry I": "BCBP4760",
+      "Molecular Biochemistry II": "BCBP4770"
+    },
     "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
     "name": "Biochemistry/Biophysics Minor for Chemistry Majors",
     "remaining_header": "And two of the following:"
@@ -150,12 +169,11 @@
     "name": "Biological Neuroscience Minor"
   },
   "Biology Minor": {
-    "Remaining": {
+    "Required": {
       "": "BIOL4990"
     },
     "description": "",
-    "name": "Biology Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Biology Minor"
   },
   "Biomedical Engineering and Management Minor": {
     "description": "The B.S. with Minor in Management can be completed by following the traditional BME Baccalaureate template and choosing appropriate classes from the Lally School for the four Free Electives. A list of acceptable classes for the different Management Minor programs can be found at",
@@ -189,11 +207,21 @@
   "Civil Engineering Minor": {
     "Remaining": {
       "Construction Management": "CIVL4270",
-      "Design for Constructability": "CIVL4280",
+      "Design for Constructability": "CIVL4280"
+    },
+    "Required": {
+      "Concrete Design": "CIVL4080",
       "Foundation Engineering": "CIVL4010",
       "Geotechnical Design": "CIVL4150",
+      "Highway Engineering": "CIVL4670",
+      "Introduction to Environmental Engineering": "ENVE2110",
       "Introduction to Geotechnical Engineering": "CIVL2630",
-      "Matrix Structural Analysis": "CIVL4440"
+      "Introduction to Structural Engineering": "CIVL2670",
+      "Introduction to Transportation Engineering": "CIVL2030",
+      "Introduction to Water Resources Engineering": "CIVL2060",
+      "Matrix Structural Analysis": "CIVL4440",
+      "Steel Design": "CIVL4070",
+      "Traffic Engineering": "CIVL4660"
     },
     "description": "Students pursuing this minor must satisfy the prerequisites and/or corequisites for these courses, which may involve other course work.",
     "name": "Civil Engineering Minor",
@@ -245,6 +273,26 @@
     ],
     "name": "Computer and Systems Engineering Minor"
   },
+  "Data Science and Engineering": {
+    "Remaining": {
+      "Biomedical Data Science": null,
+      "Biostatistics": "BIOL4200",
+      "Biostatistics for Life Science Applications": null,
+      "Computational Intelligence": null,
+      "Econometrics": "ECON4570",
+      "Human Performance Modeling and Support": null,
+      "Mathematical Statistics": null,
+      "Research Methods and Statistics II": "PSYC4310"
+    },
+    "Required": {
+      "Design of Experiments": null,
+      "Information and Data Systems": null,
+      "Statistical Analysis": null
+    },
+    "description": "The Department of Industrial and Systems Engineering offers a minor inData Science and Engineering(DSE) for undergraduates (minimum of 17 credits required). The minor contributes to students' ability to organize, analyze and act upon data, particularly for data associated with engineered systems.",
+    "name": "Data Science and Engineering",
+    "remaining_header": "Area 2: Inference and Learning"
+  },
   "Ecology Minor": {
     "Remaining": {
       "Chemistry of the Environment": "CHEM4810",
@@ -253,12 +301,13 @@
       "Human Population": "BIOL4961",
       "Lake George Limnology and Underwater Ecology (BLUE)": "BIOL4870"
     },
+    "Required": {
+      "Global Environmental Change": "BIOL4880",
+      "Non-thesis Research": "BIOL4970",
+      "Principles of Ecology": "BIOL4850",
+      "Senior Research Thesis": "BIOL4990"
+    },
     "description": "Ecology is a branch of Biology that studies the relations of organisms to one another and to their environment. RPI has a substantial depth in Ecological research and faculty expertise, as well as Institute-wide initiatives such as the Jefferson Project. The Institute offers a minor in Ecology to all students consisting of 16 credit hours, as noted below.",
-    "minor": [
-      "Restricted Elective",
-      "Credit Hours: 4",
-      "(See list of accepted courses below)"
-    ],
     "name": "Ecology Minor",
     "remaining_header": "Restricted Elective"
   },
@@ -406,19 +455,19 @@
     "remaining_header": "Studio Course Options"
   },
   "Entrepreneurship Minor": {
-    "Remaining": {
+    "Required": {
       "Introduction to Technological Entrepreneurship": "MGMT4520",
       "Invention, Innovation, and Entrepreneurship": "MGMT4510",
       "Management in the Digital Age": "MGMT1100",
       "Starting Up a New Venture": "MGMT4530"
     },
     "description": "",
-    "name": "Entrepreneurship Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Entrepreneurship Minor"
   },
   "Environmental Design": {
     "Remaining": {
       "Design and Innovation Studio A": "STSO4600",
+      "Environmental Justice": "STSO4330",
       "Environmental Media & Data": "STSO4320",
       "Materials Systems and Productions": "ARCH4580",
       "Politics of Design": "STSO4350",
@@ -437,14 +486,19 @@
     "remaining_header": "Remaining Credits:"
   },
   "Environmental Engineering Minor": {
-    "Remaining": {
+    "One Of0": {
       "Applied Hydrology and Design": "ENVE4370",
       "Introduction to Air Quality": "ENVE4330",
       "Solid and Hazardous Waste Engineering": "ENVE4200"
     },
+    "Required": {
+      "Biological Processes in Environmental Engineering": "ENVE4350",
+      "Environmental Chemodynamics": "ENVE4320",
+      "Introduction to Environmental Engineering": "ENVE2110",
+      "Physicochemical Processes in Environmental Engineering": "ENVE4340"
+    },
     "description": "",
-    "name": "Environmental Engineering Minor",
-    "remaining_header": "Elective courses (choose one):"
+    "name": "Environmental Engineering Minor"
   },
   "Finance Minor": {
     "Remaining": {
@@ -453,6 +507,10 @@
       "Financial Trading and Investing": "MGMT4310",
       "Investments I": "MGMT4320",
       "Risk Management": "MGMT4370"
+    },
+    "Required": {
+      "Financial Accounting in the Digital Age": "MGMT2300",
+      "Managerial Finance": "MGMT2320"
     },
     "description": "",
     "name": "Finance Minor",
@@ -468,13 +526,12 @@
     "remaining_header": "Three additional PSYC courses, with at least one at the 4000 level."
   },
   "Geology Minor": {
-    "Remaining": {},
+    "Required": {},
     "description": "",
-    "name": "Geology Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Geology Minor"
   },
   "Graphic Design Minor": {
-    "Remaining": {
+    "Required": {
       "2D Motion Graphics": "COMM4970",
       "Brand Identity Design": "COMM4730",
       "Interactive Data Visualization": "COMM4880",
@@ -487,10 +544,14 @@
       "Visual Poetics and Narrative": "COMM4320"
     },
     "description": "Study graphic design through the integration of theory and practice, in print and digital media. Use creative and critical thinking to solve visual communication problems and reach target audiences with words, symbols, and images.",
-    "name": "Graphic Design Minor",
-    "remaining_header": "Requirements:"
+    "name": "Graphic Design Minor"
   },
   "History Minor": {
+    "One Of0": {
+      "A Century of Environmental Thought": "IHSS1320",
+      "Science, Technology, and Society": "STSO1110",
+      "War and Technology: Past, Present, and Future": "IHSS1570"
+    },
     "Remaining": {
       "Consumer Culture": "STSO4720",
       "Drugs in History": "STSO4430",
@@ -507,29 +568,27 @@
     "remaining_header": "Remaining credits from the following 4000-level options:"
   },
   "Hydrogeology Minor": {
-    "Remaining": {
+    "Required": {
       "Environmental Geology": "ERTH4180",
       "Groundwater Hydrology": "ERTH4710"
     },
     "description": "",
-    "name": "Hydrogeology Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Hydrogeology Minor"
   },
   "Information Technology and Web Science Minor": {
     "One Of0": {
       "IT and Society": "ITWS1220"
     },
-    "Remaining": {
+    "Required": {
       "Introduction to Information Technology and Web Science": "ITWS1100",
       "Managing IT Resources": "ITWS4310",
       "Web Systems Development": "ITWS2110"
     },
     "description": "The ITWS minor requires16 credit hours that must be approved by the minor adviser in ITWS.",
-    "name": "Information Technology and Web Science Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Information Technology and Web Science Minor"
   },
   "Interactive Media/Data Design Minor": {
-    "Remaining": {
+    "Required": {
       "Communication Theory and Practice": "COMM2520",
       "Foundations of HCI Usability": "COMM4420",
       "Information Design": "COMM4470",
@@ -541,19 +600,32 @@
       "Writing in Context": "WRIT1110"
     },
     "description": "This minor covers communication, interaction, and information design theory and practice to prepare students for creating different forms of interactive, multimedia communication, and data representation.",
-    "name": "Interactive Media/Data Design Minor",
-    "remaining_header": "Requirements:"
+    "name": "Interactive Media/Data Design Minor"
   },
   "Lighting Minor": {
     "Remaining": {},
+    "Required": {
+      "Advanced Individual Projects in Lighting": "LGHT4940",
+      "Human Factors in Lighting": "LGHT4840",
+      "Light and Health": "LGHT4870",
+      "Lighting Design": "LGHT4230",
+      "Lighting Technologies and Applications": "LGHT4770",
+      "Lighting Workshop": "LGHT4760",
+      "Physics of Light": "LGHT4830"
+    },
     "description": "The minor in lighting gives students the awareness and the confidence to extend their creative work through controlled use of light. The program covers human responses to light, both visual andnon-visual, and the means by which light is produced and controlled. Interactions of light with form, texture, and color are examined in the contexts of daylight, electric lighting, and their integration. The Lightingminor requires 15 credits.",
     "name": "Lighting Minor",
     "remaining_header": "Footnotes"
   },
   "Lighting Minor in Biological Sciences": {
     "Remaining": {},
+    "Required": {
+      "Advanced Individual Projects in Lighting": "LGHT4940",
+      "Human Factors in Lighting": "LGHT4840",
+      "Light and Health": "LGHT4870",
+      "Physics of Light": "LGHT4830"
+    },
     "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center.",
-    "minor": [],
     "name": "Lighting Minor in Biological Sciences",
     "remaining_header": "Footnote"
   },
@@ -564,7 +636,7 @@
     "remaining_header": "Notes"
   },
   "Literature and Creative Writing Minor": {
-    "Remaining": {
+    "Required": {
       "Creative Nonfiction Writing": "WRIT2320",
       "Creative Writing:  Short Story": "WRIT2330",
       "Fiction: From Film to the Internet": "IHSS1550",
@@ -578,32 +650,29 @@
       "Writing in Context": "WRIT1110"
     },
     "description": "The Literature and Creative Writing minor offers discussion-oriented courses across a range of literary genres and themes, with a choice of emphasis on either literature, creative writing, or both. Students will learn to read and write literary art critically and creatively, with clarity and imagination, and with sensitivity to multi-cultural expressions of diversity.",
-    "name": "Literature and Creative Writing Minor",
-    "remaining_header": "Requirements:"
+    "name": "Literature and Creative Writing Minor"
   },
   "Management Minor": {
-    "Remaining": {
+    "Required": {
       "Financial Accounting in the Digital Age": "MGMT2300",
       "Management in the Digital Age": "MGMT1100",
       "Managerial Finance": "MGMT2320"
     },
     "description": "",
-    "name": "Management Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Management Minor"
   },
   "Marketing Minor": {
     "One Of0": {
       "Advertising Strategy and Promotions": "MGMT4490",
       "Consumer Behavior and Product Design": "MGMT4460"
     },
-    "Remaining": {
+    "Required": {
       "Management in the Digital Age": "MGMT1100",
       "Marketing Principles": "MGMT2430",
       "Marketing Research": "MGMT4470"
     },
     "description": "",
-    "name": "Marketing Minor",
-    "remaining_header": "Program Requirements"
+    "name": "Marketing Minor"
   },
   "Materials Engineering Minor": {
     "description": "Students not majoring in Materials Engineering may receive a minor in this discipline by completing 15 credit hours of courses with a MTLE designation. As general preparation for these courses,students should have taken ENGR 1600 Materials Science for Engineers.",
@@ -614,7 +683,7 @@
     "name": "Mathematics Minor"
   },
   "Media and Culture Minor": {
-    "Remaining": {
+    "Required": {
       "Advertising and Culture": "COMM4580",
       "Communication Theory and Practice": "COMM2520",
       "Critical Television": "COMM2750",
@@ -629,8 +698,7 @@
       "Visual Culture": "COMM4540"
     },
     "description": "This minor examines different forms of expression and their cultural contexts in a variety of media, including film, television, photography, and new media. Its components will enhance creative and critical thinking, communication practices, and awareness of cultural and individual identities.",
-    "name": "Media and Culture Minor",
-    "remaining_header": "Requirements:"
+    "name": "Media and Culture Minor"
   },
   "Music Minor": {
     "Remaining": {
@@ -659,6 +727,11 @@
     "name": "Philosophy Minor"
   },
   "Philosophy of Logic, Computation, and Mind Minor": {
+    "One Of0": {
+      "Introduction to Philosophy": "PHIL1110",
+      "Minds and Machines": "IHSS1140",
+      "Philosophy, Technology, and the Human Future": "IHSS1XXX"
+    },
     "Remaining": {
       "Computability and Logic": "PHIL4420",
       "Critical Thinking": "PHIL2100",
@@ -688,11 +761,17 @@
     "remaining_header": "Two additional PSYC courses; including one at the 4000 level if PSYC 4310 is not chosen."
   },
   "Public Health Minor": {
-    "Remaining": {
+    "One Of0": {
+      "Introduction to Psychological Science": "PSYC1200",
+      "Science, Technology, and Society": "STSO1110",
+      "The Genome and You": "IHSS1150"
+    },
+    "One Of1": {
       "Behavioral Neuroscience": "PSYC4360",
       "Bioethics": "STSO4250",
       "Drugs in History": "STSO4430",
       "Drugs, Society, and Behavior": "PSYC4500",
+      "Environmental Justice": "STSO4330",
       "Food, Farms, and Famine": "STSO4260",
       "Gender, Science, and Technology": "STSO4560",
       "Health Economics and Policy": "ECON4170",
@@ -705,8 +784,7 @@
       "Sociology": "STSO2520"
     },
     "description": "The minor in Public Health is designed for students interested in health-related careers who wish to develop skills and knowledge about global public health challenges. It also offers important courses for students on a pre-medical track.",
-    "name": "Public Health Minor",
-    "remaining_header": "Choose one 4000-level option:"
+    "name": "Public Health Minor"
   },
   "Science, Technology, and Society Minor": {
     "One Of0": {
@@ -718,7 +796,7 @@
       "Sociology": "STSO2520"
     },
     "Remaining": {},
-    "description": "",
+    "description": "The minor in Science, Technology, and Society (STS) is designed for students broadly interested in the social and political dimensions of science, technology, engineering, and medicine. Students use political and social science methods to investigate scientific and technological developments. A minor in Science, Technology, and Society is completed by taking the following courses:",
     "name": "Science, Technology, and Society Minor",
     "remaining_header": "Remaining credits should be from 4000-level STSO courses."
   },
@@ -755,6 +833,7 @@
     },
     "Remaining": {
       "Consumer Culture": "STSO4720",
+      "Environmental Justice": "STSO4330",
       "Environmental Media & Data": "STSO4320",
       "Environmental Philosophy": "STSO4340",
       "Food, Farms, and Famine": "STSO4260",
@@ -772,20 +851,12 @@
     "remaining_header": "Choose two of the following:"
   },
   "Technology in Commercialization and Entrepreneurship": {
-    "Remaining": {
-      "Financial Accounting in the Digital Age": "MGMT2300",
-      "Management in the Digital Age": "MGMT1100",
-      "Managerial Finance": "MGMT2320",
-      "Marketing Principles": "MGMT2430",
-      "Operations Management": "MGMT4110"
-    },
     "Required": {
       "Modeling and Analysis of Uncertainty": "ENGR2600",
       "Statistical Methods": "MGMT2100"
     },
-    "description": "",
-    "name": "Technology in Commercialization and Entrepreneurship",
-    "remaining_header": "Program Requirements"
+    "description": "This is a special Management minor for undergraduate students from other departments who are interested in the M.S. in Management in TC&E.It is suggested that students from these departments take the following strong minor in Management in order to enter the M.S. in TC&E with a sound knowledge of business fundamentals.",
+    "name": "Technology in Commercialization and Entrepreneurship"
   },
   "Video, Performance, and Social Practice": {
     "Remaining": {
@@ -804,6 +875,15 @@
     "remaining_header": "The remaining (at least) 8 credits should be from:"
   },
   "Well-being": {
+    "One Of0": {
+      "Basic Drawing": "ARTS1200",
+      "Minds and Machines": "IHSS1140",
+      "Music, Sound, & the Environment": "ARTS2570",
+      "Nature/Society": "IHSS1110",
+      "Psychedelic Cultures": "IHSS196X",
+      "The Art of Listening": "IHSS1180",
+      "Well-being: Cultivating Curiosity": "IHSS1175"
+    },
     "Remaining": {
       "Creative Nonfiction Writing": "WRIT2320",
       "Creative Writing:  Short Story": "WRIT2330",

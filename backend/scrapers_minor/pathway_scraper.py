@@ -156,11 +156,16 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
             elif 'architectureminor'==anchor_name:
                 courses = parse_courses(core, name, year)
                 data[name]["Required"] = courses
-            elif "oneof" in anchor_name:
+            elif "oneof" in anchor_name or "chooseone" in anchor_name:
                 courses = parse_courses(core, name, year)
                 one_of_name = "One Of" + str(one_of_index)
                 data[name][one_of_name] = courses
                 one_of_index += 1
+            elif "minor" in anchor_name:
+                minors = list(filter(lambda x: x != "", \
+                 [minor.replace("Minor", "").replace("minor", "").encode("ascii", "ignore").strip().decode() \
+                 for minor in core.xpath("./content/descendant::*/text()")]))
+                data[name]["minor"] = minors
             else:
                 courses = parse_courses(core, name, year)
                 data[name]["Remaining"] = courses
@@ -175,7 +180,7 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
     return data
 
 a=get_pathway_ids('24')
-b=get_pathway_data(['6543'], '24', '2022-2024')
+b=get_pathway_data(['6549'], '24', '2022-2023')
 print(b)
 
 def scrape_pathways():
