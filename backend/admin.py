@@ -64,29 +64,40 @@ def editAdmin():
 @app.route("/testing_year_courses", methods=["POST","GET"])
 def host_year_courses_data():
         if request.method == "POST":               
-                with open("data/" + request.args['year'] + "/courses.json", "r") as route:
-                        
+                with open("data/json/" + request.args['year'] + "/courses.json", "r") as route:
                         data= json.load(route)
                 return  data
 
 @app.route("/testing_year_pathways", methods=["POST","GET"])
 def host_year_pathways_data():
         if request.method == "POST":
-                with open("data/" + request.args['year'] + "/pathways.json", "r") as route:
+                with open("data/json/" + request.args['year'] + "/pathways.json", "r") as route:
                         data= json.load(route)
                 return  data
 
-@app.route("/testing_pathawys", methods=["GET"])
+@app.route("/testing_pathawys")
 def host_pathways_data():
-        with open("data/json/pathways_categories.json", "r") as route:
+        with open("data/json/pathway_categories.json", "r") as route:
                 data= json.load(route)
         return  data
 
-@app.route("/testing_years", methods=["GET"])
+@app.route("/testing_years")
 def host_years_data():
         with open("data/json/years.json", "r") as route:
                 data= json.load(route)
         return  data
+
+@app.route("/testing_JSON_FILES_courses")
+def host_jsonfile_courses():
+        with open("JSONfiles/courses.json", "r") as route:
+                data= json.load(route)
+        return  data
+
+@app.route("/testing_JSON_FILES_pathways")
+def host_jsonfile_pathways():
+        with open("../JSONfiles/pathways.json", "r") as route:
+                data= json.load(route)
+        return  data 
 
 if __name__ == '__main__':
         app.run(host='0.0.0.0', debug=True)
