@@ -34,10 +34,10 @@ def requests():
         email_got = request.args["email"]
         if Entry.query.filter_by(email=email_got).first(): #<search database
             return "failure"
-        password_got = hash(request.args["password"]) #----- do I hash or dehash here
+        #password_got = hash(request.args["password"]) #----- do I hash or dehash here
 
 
-        newEntry = Entry(first=first_got, last=last_got, email=email_got, password = password_got) #<- args should be (first=first_got ... )
+        newEntry = Entry(first=first_got, last=last_got, email=email_got, password = hash(request.args["password"])) #<- args should be (first=first_got ... )
 
         #commit to the database
         db.session.add(newEntry) #<- add entry object
@@ -51,9 +51,9 @@ def login():
         if not Entry.query.filter_by(email=email_got):
             return "Email not in the database"
         if checkhash(hash(request.args["password"]),Entry.query.get(email_got).password):
-            return "Success"
+            return "success"
         else:
-            return "Failure"
+            return "failure"
 
 #maybe store censored email for multiple attempts? Nah you have to login w/ email so there's no point in sending a censored one
 #@app.route('/reset_pass1',methods = ["GET", "POST"])
@@ -62,19 +62,38 @@ def login():
 #        email_got = 
 
 #maybe reset password?
-@app.route('/reset_password', methods = ["GET", "POST"])
+@app.route('/reset_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def reset_password():
     if request.method == 'POST':
         email_got = request.args["email"]
+        if Entry.query.filter_by(email=email_got).first(): #<search database
+            return "failure"
         password_got = hash(request.args["password"])
         Entry.query.get(email_got).password = password_got
+        return "success"
+    #if request.method == 'GET':
+        #rand is good
+
+    #how to sennd passwod
+    #generate unique number, store it somewhere(local) json file: key: name, code check if code same
+
 
 #change personal info?
-@app.route('/change_info')
+@app.route('/change_info', methods = ["GET", "POST"])
+def change_info():
     if request.method == 'POST':
+        old_email_got = request.args["old_email"]
+        if Entry.query.filter_by(email=old_email_got).first(): #<search database
+            return "failure"
         first_got = request.args["first"]
         last_got = request.args["last"]
-        email_got = request.args["email"]
+        new_email_got = request.args["new_email"]
+        Entry.query.get(old_email_got).first = first_got
+        Entry.query.get(old_email_got).last = last_got
+        Entry.query.get(old_email_got).email = new_email_got
+        return "success"
+    
+        
 
 
 if __name__ == "__main__":
