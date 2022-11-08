@@ -139,24 +139,27 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
         name = pathway.xpath("./title/text()")[0].strip()
         data[name] = {}
         data[name]["name"] = name
-        desc = ""
+        desc = []
         if len(pathway.xpath("./content/p/span/text()")) >= 1:
-            desc = pathway.xpath("./content/p/span/text()")[0].strip()
+            desc = pathway.xpath("./content/p/span/text()")
         elif len(pathway.xpath("./content/p/text()")) >= 1:
-            desc = pathway.xpath("./content/p/text()")[0].strip()
-        data[name]["description"] = desc.encode("ascii", "ignore").strip().decode()
+            desc = pathway.xpath("./content/p/text()")
+        for i in range(len(desc)):
+            desc[i]=desc[i].strip()
+            desc[i]=desc[i].encode("ascii", "ignore").strip().decode()
+        data[name]["description"] = ' '.join(desc)
         cores = pathway.xpath("./cores/core")
         cores += pathway.xpath("./cores/core/children/core")
         one_of_index = 0
         for core in cores:
             anchor_name = core.xpath("./anchors/a")[0].get('name').lower()
-            if "require" in anchor_name:
+            if "require" in anchor_name or "takethefollowing" in anchor_name or "studiocourses" in anchor_name:
                 courses = parse_courses(core, name, year)
                 data[name]["Required"] = courses
             elif 'architectureminor'==anchor_name:
                 courses = parse_courses(core, name, year)
                 data[name]["Required"] = courses
-            elif "oneof" in anchor_name or "chooseone" in anchor_name:
+            elif ("oneof" in anchor_name or "chooseone" in anchor_name) and "philcourses" not in anchor_name:
                 courses = parse_courses(core, name, year)
                 one_of_name = "One Of" + str(one_of_index)
                 data[name][one_of_name] = courses
@@ -180,7 +183,7 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
     return data
 
 a=get_pathway_ids('24')
-b=get_pathway_data(['6549'], '24', '2022-2023')
+b=get_pathway_data(['6547'], '24', '2022-2023')
 print(b)
 
 def scrape_pathways():

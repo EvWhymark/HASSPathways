@@ -165,7 +165,7 @@
     "remaining_header": "And two of the following:"
   },
   "Biological Neuroscience Minor": {
-    "description": "Students who have taken",
+    "description": "Students who have taken may choose to earn a minor in Neuroscience by taking the 3 required courses From Neuron to Behavior, Advanced Cell Biology, and Cellular Neuroscience, and one course from the list below. Some of the courses in this list may have additional prerequisites",
     "name": "Biological Neuroscience Minor"
   },
   "Biology Minor": {
@@ -249,7 +249,7 @@
     "remaining_header": "Choose remaining credits from the following with at least 8 credits at the 4000-level:"
   },
   "Computer Science Minor": {
-    "description": "A computer science minor requires a minimum of four CSCI courses, which must include",
+    "description": "A computer science minor requires a minimum of four CSCI courses, which must include Introduction toAlgorithms andthree additional 3- or 4-credit courses at the 2000 level or above, excluding Foundations of Computer Science. At least two of these three additional courses must be at the 4000 (or 6000) level. Overall, at least two courses must be taken at RPI. Given that RPI requires a minimum of 15 credits for a minor, if the above required four courses falls below this 15-credit requirement, any other CSCI credits may be used.Reading and independent study courses and courses required by name for the student's major(s) cannot be used for the minor. The Pass/No Credit option cannot be used for any of these courses.",
     "name": "Computer Science Minor"
   },
   "Computer and Systems Engineering Minor": {
@@ -351,7 +351,7 @@
       "Introductory Economics": "ECON1200",
       "Principles of Economics": "IHSS1200"
     },
-    "description": "The Minor in Economics of Decision-Making consists of 16 credits from the following template:",
+    "description": "The Minor in Economics of Decision-Making consists of 16 credits from the following template: ",
     "name": "Economics of Decision-Making",
     "remaining_header": "Remaining credits from the following:"
   },
@@ -481,7 +481,7 @@
       "Environmental Parametrics": "ARCH4170",
       "Geo Actors": "ARCH4967"
     },
-    "description": "The minor in Environmental Design is a 17-credit cross-school, interdisciplinary minor focused on developing skills related to environmentally sustainable design while developing students' critical understanding of the social and cultural context of sustainability debates and environmental justice. As an interdisciplinary minor, students are required to take at least one course from the School of Humanities, Arts, and Social Sciences and one course from the School of Architecture, with the remaining credits being freely selected from applicable courses. Courses are offered at both the Troy campus as well as CASE in New York City, enabling students to spend a semester at CASE while fulfilling minor requirements.",
+    "description": "The minor in Environmental Design is a 17-credit cross-school, interdisciplinary minor focused on developing skills related to environmentally sustainable design while developing students' critical understanding of the social and cultural context of sustainability debates and environmental justice. As an interdisciplinary minor, students are required to take at least one course from the School of Humanities, Arts, and Social Sciences and one course from the School of Architecture, with the remaining credits being freely selected from applicable courses. Courses are offered at both the Troy campus as well as CASE in New York City, enabling students to spend a semester at CASE while fulfilling minor requirements. Students are strongly recommended to use their HASS Core, namely the or pathways towards this minor. ",
     "name": "Environmental Design",
     "remaining_header": "Remaining Credits:"
   },
@@ -563,7 +563,7 @@
     "Required": {
       "American History": "STSO2500"
     },
-    "description": "The minor in History is designed for students interested in the U.S. and world history. Courses primarily focus on the social history and evolution of technology, scientific enterprise, medicine, and law.",
+    "description": "The minor in History is designed for students interested in the U.S. and world history. Courses primarily focus on the social history and evolution of technology, scientific enterprise, medicine, and law. A minor in History requires completion of 16 credits from the following:",
     "name": "History Minor",
     "remaining_header": "Remaining credits from the following 4000-level options:"
   },
@@ -625,7 +625,7 @@
       "Light and Health": "LGHT4870",
       "Physics of Light": "LGHT4830"
     },
-    "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center.",
+    "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center. Light-dark patterns that reach the back of our eyes set the timing of the biological clock, and tell our bodies to do \"the right thing at the right time.\" A global lighting revolution is taking place because of the awareness of how profound the impact of light is in our daily lives. Humans and most terrestrial species perceive the time of day because of their internal biological or circadian clock. This circadian clock is a network of genes and proteins that regulates daily oscillations such as sleep, hormone release, rise and fall of blood pressure and body temperature, as well as other cellular functions and physiological responses. Because of this tight regulation, a disrupted circadian clock can be detrimental to daily function and human health, as evidenced by the increased rates of disease in nightshift workers and submariners, known to experience circadian disruption. Tailored lighting intervention, on the other hand, helps adolescents fall asleep earlier, premature infants be discharged from the hospital sooner, Alzheimer's disease patients sleep better, and cancer patients experience less fatigue. Because the light people are exposed to can have a profound impact on the proper timing of their circadian clocks, it is important to effectively specify, measure and apply lighting in the built environment. It is also important to understand how various species (human, mammals, and plants) respond to light. This minor will provide the foundation to understand the basic principles of how to specify, measure, and apply light to positively impact various species, and to work side-by-side with leading experts in the field in a professional project. This minor requires four courses with a minimum of 15 credits.",
     "name": "Lighting Minor in Biological Sciences",
     "remaining_header": "Footnote"
   },
@@ -675,7 +675,7 @@
     "name": "Marketing Minor"
   },
   "Materials Engineering Minor": {
-    "description": "Students not majoring in Materials Engineering may receive a minor in this discipline by completing 15 credit hours of courses with a MTLE designation. As general preparation for these courses,students should have taken ENGR 1600 Materials Science for Engineers.",
+    "description": "Students not majoring in Materials Engineering may receive a minor in this discipline by completing 15 credit hours of courses with a MTLE designation. As general preparation for these courses,students should have taken ENGR 1600 Materials Science for Engineers. A list of suggested courses is given below.These are only suggestions, and courses can be chosen according tointerest and scheduling. It ispossible to take some courses out of sequence if the student iswilling to put in the appropriate effort. Note, that some courses in the Department of Materials Science and Engineering are offered once a year, whereas some electives are offered only every other year. An excellent program for a Minor in Materials Engineering, givingstudents a solid foundation, would be to take Structure of Engineering Materials (MTLE 2100), plus any two of the 4-credit courses:Thermodynamics of Materials (MTLE 4100), Kinetics in Materials Science (MTLE 4150),Electrical and Optical Propertiesof Materials (MTLE 4200), Mechanical Properties ofMaterials (MTLE 4250), plus one 3-credit materials elective.",
     "name": "Materials Engineering Minor"
   },
   "Mathematics Minor": {
@@ -708,7 +708,7 @@
       "Private Music Lessons": "ARTS2750",
       "Rensselaer Orchestra": "ARTS2300"
     },
-    "description": "A music minor consists of 16credits from the music curriculum. Students may select 12 credits from any combination of courses at the 1000 and 2000 levels. The remaining 4 credits should be earned at the 4000 level, or by approved substitution at the 2000 level.",
+    "description": "A music minor consists of 16credits from the music curriculum. Students may select 12 credits from any combination of courses at the 1000 and 2000 levels. The remaining 4 credits should be earned at the 4000 level, or by approved substitution at the 2000 level. The courses in the music curriculum are organized in three broad categories: Music and Culture, Composition and Production, and Performance. Students may elect to focus their selection of courses within a single category, but this is not mandatory.Students may earn the minor within or by combining courses between any of the three categories.",
     "name": "Music Minor",
     "remaining_header": "Performance"
   },
@@ -723,7 +723,7 @@
       "Minds and Machines": "IHSS1140"
     },
     "One Of1": {},
-    "description": "The Minor in Philosophy allows the interested student to attain a foundation in philosophy that will complement any academic major.",
+    "description": "The Minor in Philosophy allows the interested student to attain a foundation in philosophy that will complement any academic major. To complete this minor, students must choose a minimum of four (4) Philosophy courses, distributed as follows:",
     "name": "Philosophy Minor"
   },
   "Philosophy of Logic, Computation, and Mind Minor": {
@@ -739,7 +739,7 @@
       "Metaphysics and Consciousness": "PHIL4480",
       "Philosophy of Artificial Intelligence": "PHIL4260"
     },
-    "description": "This minor focuses on the nature of reasoning and formal systems, and the relations they bear on the study of mind and consciousness whether natural or artificial (artificial intelligence, AI).",
+    "description": "This minor focuses on the nature of reasoning and formal systems, and the relations they bear on the study of mind and consciousness whether natural or artificial (artificial intelligence, AI). To complete this minor, students must choose a minimum of four (4) Philosophy courses distributed as follows:",
     "name": "Philosophy of Logic, Computation, and Mind Minor",
     "remaining_header": "Choose two (2) additional courses from the following list (4 credit hours each)"
   },
@@ -783,7 +783,7 @@
     "Required": {
       "Sociology": "STSO2520"
     },
-    "description": "The minor in Public Health is designed for students interested in health-related careers who wish to develop skills and knowledge about global public health challenges. It also offers important courses for students on a pre-medical track.",
+    "description": "The minor in Public Health is designed for students interested in health-related careers who wish to develop skills and knowledge about global public health challenges. It also offers important courses for students on a pre-medical track. A minor in Public Health is completed by completing 16 credits from the following:",
     "name": "Public Health Minor"
   },
   "Science, Technology, and Society Minor": {
@@ -846,7 +846,7 @@
     "Required": {
       "Environment and Society": "STSO2300"
     },
-    "description": "The minor in Sustainability Studies focuses on the interactions between various systemssocial, political, cultural, economic, technological, and ecological that undergird environmental sustainability. Students use interdisciplinary approaches to investigate environmental problems.",
+    "description": "The minor in Sustainability Studies focuses on the interactions between various systemssocial, political, cultural, economic, technological, and ecological that undergird environmental sustainability. Students use interdisciplinary approaches to investigate environmental problems. A minor in Sustainability Studies is completed by taking 16 credits from the following:",
     "name": "Sustainability Studies Minor",
     "remaining_header": "Choose two of the following:"
   },
@@ -870,7 +870,7 @@
       "Science Fictions": "ARTS4640",
       "Writing and Directing for Video": "ARTS4630"
     },
-    "description": "Theminor allows students to study video, performance and social impact through the integration of theory and practice. Students are prepared to analyze and critique moving images; plan, produce and edit their own media productions in video/television and/or performance; and communicate through visual as well as audio medium. Strategically situating art, media and technology in a social context, students engage in a creative practice designed to make the change from the local to the global.",
+    "description": "Theminor allows students to study video, performance and social impact through the integration of theory and practice. Students are prepared to analyze and critique moving images; plan, produce and edit their own media productions in video/television and/or performance; and communicate through visual as well as audio medium. Strategically situating art, media and technology in a social context, students engage in a creative practice designed to make the change from the local to the global. The minor consists of 16 credits:",
     "name": "Video, Performance, and Social Practice",
     "remaining_header": "The remaining (at least) 8 credits should be from:"
   },
