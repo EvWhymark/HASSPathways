@@ -31,7 +31,7 @@
 <script>
 import Breadcrumbs from '../../components/Breadcrumbs'
 import breadcrumbs from '../../data/breadcrumbs.js'
-
+import axios from 'axios'
 
 export default {
     components: {
@@ -47,7 +47,17 @@ export default {
     },
     methods: {
         submit() {
-
+            const endpoint = 'http://127.0.0.1:5000/feedback'
+            axios.post(endpoint, {
+                responseType: this.selection,
+                submittedFeedback: this.comment
+            })
+                .then(response => {
+                    console.log(response);
+                })
+                .catch(err =>{
+                    console.log(err);
+                });
         }
     }
 }
