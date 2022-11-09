@@ -61,43 +61,72 @@ def editAdmin():
 
         return jsonify(response)
 
+#opens courses.json file based on a certain year range
 @app.route("/testing_year_courses", methods=["POST","GET"])
 def host_year_courses_data():
-        if request.method == "POST":               
+        if request.method == "GET":      
+                try:
+                        request.args['year'] = "2019-2020"
+                except:   
+                        return render_template('post_endpoint.html')    
                 with open("data/json/" + request.args['year'] + "/courses.json", "r") as route:
                         data= json.load(route)
-                return  data
+                return  data            
 
+#opens pathways.json file based on a certain year range
 @app.route("/testing_year_pathways", methods=["POST","GET"])
 def host_year_pathways_data():
-        if request.method == "POST":
+        if request.method == "GET":
+                try:
+                        (request.args['year'] == "2019-2020" ) or ( request.args['year'] == "2020-2021" ) or ( request.args['year'] == "2021-2022" ) or  (request.args['year'] == "2022-2023")
+                except:
+                        return render_template('post_endpoint.html')
                 with open("data/json/" + request.args['year'] + "/pathways.json", "r") as route:
                         data= json.load(route)
                 return  data
-
-@app.route("/testing_pathawys")
+ # html template that just says this is a post endpoint, requires arg "year"
+        
+#open pathway_categories json file and converts it into a python dictionary
+@app.route("/testing_pathawy_categories")
 def host_pathways_data():
         with open("data/json/pathway_categories.json", "r") as route:
-                data= json.load(route)
+                data = json.load(route)
         return  data
 
+#open years.json file and converts it into a python dictionary
 @app.route("/testing_years")
 def host_years_data():
         with open("data/json/years.json", "r") as route:
-                data= json.load(route)
+                data = json.load(route)
         return  data
 
+#open courses.json file and converts it into a python dictionary
 @app.route("/testing_JSON_FILES_courses")
 def host_jsonfile_courses():
-        with open("JSONfiles/courses.json", "r") as route:
-                data= json.load(route)
+        with open("../JSONfiles/courses.json", "r") as route:
+                data = json.load(route)
         return  data
 
+#open pathways.json file and converts it into a python dictionary
 @app.route("/testing_JSON_FILES_pathways")
 def host_jsonfile_pathways():
         with open("../JSONfiles/pathways.json", "r") as route:
-                data= json.load(route)
+                data = json.load(route)
         return  data 
 
 if __name__ == '__main__':
         app.run(host='0.0.0.0', debug=True)
+
+# refining:
+#       - currently accepting post and get -- bad
+#       - comment your code
+#       - make sure year given is in years.json
+#       - add year endpoint
+#            - save that new data (should accept same files pathway.json ...) to a new folder amptly named after the year that was passed
+#              as another argument
+#            - attach a private key to this
+#               - protect it
+#            - second endpoint
+#               - set passkey (default passkey is something)
+#                       - former pass key, make sure it is equal to current, then change
+#                       - hash the passkey using cryptcontext (.hash() .verify())   .ppk .pem
