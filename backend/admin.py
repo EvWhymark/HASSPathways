@@ -62,27 +62,29 @@ def editAdmin():
         return jsonify(response)
 
 #opens courses.json file based on a certain year range
-@app.route("/testing_year_courses", methods=["POST","GET"])
+@app.route("/testing_year_courses", methods=["POST"])
 def host_year_courses_data():
-        if request.method == "GET":      
-                try:
-                        request.args['year'] = "2019-2020"
-                except:   
-                        return render_template('post_endpoint.html')    
+        if request.method == "POST":         
+                with open("data/json/years.json", "r") as route:
+                        data = json.load(route)
+                        if request.args['year'] not in data:
+                                year = request.args['year']
+                                return render_template("year_endpoint.html", year = year)         
                 with open("data/json/" + request.args['year'] + "/courses.json", "r") as route:
-                        data= json.load(route)
+                        data = json.load(route)   
                 return  data            
 
 #opens pathways.json file based on a certain year range
-@app.route("/testing_year_pathways", methods=["POST","GET"])
+@app.route("/testing_year_pathways", methods=["POST"])
 def host_year_pathways_data():
-        if request.method == "GET":
-                try:
-                        (request.args['year'] == "2019-2020" ) or ( request.args['year'] == "2020-2021" ) or ( request.args['year'] == "2021-2022" ) or  (request.args['year'] == "2022-2023")
-                except:
-                        return render_template('post_endpoint.html')
+        if request.method == "POST":
+                with open("data/json/years.json", "r") as route:
+                        data = json.load(route)
+                        if request.args['year'] not in data:
+                                year = request.args['year']
+                                return render_template("year_endpoint.html", year = year)  
                 with open("data/json/" + request.args['year'] + "/pathways.json", "r") as route:
-                        data= json.load(route)
+                        data = json.load(route)
                 return  data
  # html template that just says this is a post endpoint, requires arg "year"
         
@@ -118,10 +120,10 @@ if __name__ == '__main__':
         app.run(host='0.0.0.0', debug=True)
 
 # refining:
-#       - currently accepting post and get -- bad
-#       - comment your code
-#       - make sure year given is in years.json
-#       - add year endpoint
+#       - currently accepting post and get -- bad done done
+#       - comment your code done done
+#       - make sure year given is in years.json done
+#       - add year endpoint 
 #            - save that new data (should accept same files pathway.json ...) to a new folder amptly named after the year that was passed
 #              as another argument
 #            - attach a private key to this
