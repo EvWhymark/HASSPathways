@@ -2848,8 +2848,8 @@
       "uia": true
     },
     "prerequisites": [
-      "PSYC-2120",
-      "PHIL-2120"
+      "PHIL-2120",
+      "PSYC-2120"
     ],
     "properties": {
       "CI": false,
@@ -7147,6 +7147,28 @@
       "major_restricted": false
     },
     "subj": "MGMT"
+  },
+  "Freshwater Ecology": {
+    "ID": "4700",
+    "cross listed": [],
+    "description": "Freshwater ecology is the quantitative examination of major biological fresh water communities. Course discussions will delineate the physical and chemical regimes under which aquatic organisms exist. Basic limnological processes are studied to define aquatic systems of differing physical characteristics. Nutrient chemistry analyses of waters of varying acidity, alkalinity, and chemical loadings are related to their trophic status. Lecture and Laboratory are taught at the Darrin Fresh Water Institute at Lake George with field activities at various locations in the Adironacks. The course includes extensive hands-on laboratory work, as well as the writing of in-depth reports. This is a communication-intensive course.",
+    "name": "Freshwater Ecology",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BIOL"
   },
   "From Neuron to Behavior": {
     "ID": "4100",
