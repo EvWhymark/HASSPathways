@@ -34,26 +34,25 @@ def requests():
         email_got = request.args["email"]
         if Entry.query.filter_by(email=email_got).first(): #<search database
             return "failure"
-        #password_got = hash(request.args["password"]) #----- do I hash or dehash here
-
 
         newEntry = Entry(first=first_got, last=last_got, email=email_got, password = hash(request.args["password"])) #<- args should be (first=first_got ... )
-
-        #commit to the database
-        db.session.add(newEntry) #<- add entry object
+        db.session.add(newEntry)
         db.session.commit()
         return "success"
 #THIS ONE IS FOR LOGGING
 @app.route('/login',methods = ["GET", "POST"])
 def login():
     if request.method == 'POST':
+                    # if logged in sucess, if password was wrong (flash a message), usernme = if username exists
+        response = {'loggedin':0, 'passwrd': 0, 'usernme': 0}
         email_got = request.args["email"]
         if not Entry.query.filter_by(email=email_got):
-            return "Email not in the database"
-        if checkhash(hash(request.args["password"]),Entry.query.get(email_got).password):
-            return "success"
+            reponse['usernme'] = 1
+        elif checkhash(hash(request.args["password"]),Entry.query.get(email_got).password):
+            response['loggedin'] = 1
         else:
-            return "failure"
+            response['passwrd'] = 1
+        return response
 
 #maybe store censored email for multiple attempts? Nah you have to login w/ email so there's no point in sending a censored one
 #@app.route('/reset_pass1',methods = ["GET", "POST"])
