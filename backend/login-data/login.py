@@ -7,6 +7,7 @@ db = SQLAlchemy()
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+app.config["SECRET_KEY"] = #something
 db.init_app(app)
 
 #this is a row
