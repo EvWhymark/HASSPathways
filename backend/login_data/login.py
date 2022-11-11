@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, Blueprint
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 from passlib.context import CryptContext
@@ -8,6 +8,8 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
+
+login_app = Blueprint('login_app', __name__, static_folder='..')
 
 #this is a row
 class Entry(db.Model):
@@ -59,7 +61,7 @@ def login():
 #@app.route('/reset_pass1',methods = ["GET", "POST"])
 #def censored_email():
 #    if request.method == 'POST':
-#        email_got = 
+#        email_got =
 
 #maybe reset password?
 @app.route('/reset_password', methods = ["GET", "POST"])
@@ -71,6 +73,7 @@ def reset_password():
 
 #change personal info?
 @app.route('/change_info')
+def change_info():
     if request.method == 'POST':
         first_got = request.args["first"]
         last_got = request.args["last"]
