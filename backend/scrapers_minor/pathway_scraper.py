@@ -125,6 +125,8 @@ def parse_courses(core, name, year):
         subjID = course_from_string(course, depts)
         name = course.split("-", 1)[1].split("Credit")[0].strip()
         courses[name] = subjID
+    if '' in courses.keys():
+        del courses['']      
     return courses
 
 def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
@@ -140,10 +142,16 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
         data[name] = {}
         data[name]["name"] = name
         desc = []
-        if len(pathway.xpath("./content/p/span/text()")) >= 1:
+        if len(pathway.xpath("./content/p/span/text()")) >0:
             desc = pathway.xpath("./content/p/span/text()")
-        elif len(pathway.xpath("./content/p/text()")) >= 1:
+        elif len(pathway.xpath("./content/p/text()")) >0:
             desc = pathway.xpath("./content/p/text()")
+        if len(pathway.xpath("./content/p/em/a/text()"))>0:
+            desc.append(pathway.xpath("./content/p/em/a/text()")[0])
+        if len(pathway.xpath("./content/p/em/a/text()"))>0:
+            desc.append(pathway.xpath("./content/p/em/a/text()")[0])
+        if len(pathway.xpath("./content/ul/li/text()"))>0:
+            desc+=pathway.xpath("./content/ul/li/text()")
         for i in range(len(desc)):
             desc[i]=desc[i].strip().encode("ascii", "ignore").strip().decode()
         data[name]["description"] = ''
@@ -153,14 +161,14 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
         one_of_index = 0
         for core in cores:
             anchor_name = core.xpath("./anchors/a")[0].get('name').lower()
+            desc_more=[]
             desc_more=core.xpath("./content/p/text()")
-            for i in range(len(desc_more)):
-                desc_more[i]=desc_more[i].strip().encode("ascii", "ignore").strip().decode()
-            if len(desc_more)>0:
-                data[name]["description"]+=' '
-                data[name]["description"]+=' '.join(desc_more)
-            # biology minor only
-            desc_more=core.xpath("./content/ul/li/text()")
+            if len(desc_more)==0 and len(core.xpath("./content/p/em/text()"))>0:
+                desc_more=core.xpath("./content/p/em/text()")
+            if len(desc_more)==0 and len(core.xpath("./content/ul/li/text()"))>0:
+                desc_more=core.xpath("./content/ul/li/text()")
+            if len(desc_more)==0 and len(core.xpath("./content/ol/li/em/text()"))>0:
+                desc_more=core.xpath("./content/ol/li/em/text()")
             for i in range(len(desc_more)):
                 desc_more[i]=desc_more[i].strip().encode("ascii", "ignore").strip().decode()
             if len(desc_more)>0:
@@ -186,10 +194,11 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 courses = parse_courses(core, name, year)
                 if 'Remaining' not in data[name].keys():
                     data[name]["Remaining"] = courses
+                    data[name]["remaining_header"] = core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode()
                 else:
                     for i in courses.keys():
                         data[name]["Remaining"][i]=courses[i]
-                data[name]["remaining_header"] = core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode()
+               
 
         # get rid of duplicates (if it shows up in required, we don't want it to be optional too)
         if "Required" in data[name]:
@@ -199,9 +208,9 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                         del data[name][type][req]
     return data
 
-#a=get_pathway_ids('24')
-#b=get_pathway_data(['6387'], '24', '2022-2023')
-#print(b)
+a=get_pathway_ids('24')
+b=get_pathway_data(['6416'], '24', '2022-2023')
+print(b)
 
 def scrape_pathways():
     print("Starting pathway scraping")

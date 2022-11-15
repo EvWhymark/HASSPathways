@@ -10,7 +10,7 @@
       "Sonics Research Lab 1": "ARCH4870",
       "Sonics Research Lab 2": "ARCH4810"
     },
-    "description": "The minor in architectural acoustics is open to all Rensselaer students interested in advanced study focusing on the optimization of acoustical quality of performance spaces and other aurally sensitive environments. After completing the minor, the student will be well-prepared for an entry level position dealing with acoustics issues in architectural practice, in acoustical consulting, or as a preparation for graduate studies in acoustics, for example in the Graduate Program in Architectural Acoustics at Rensselaer Polytechnic Institute. The program consists of 15 credits.Proficiency in Calculus I is necessary to comprehend the basics of architectural acoustics. Approval required by director of program.",
+    "description": "The minor in architectural acoustics is open to all Rensselaer students interested in advanced study focusing on the optimization of acoustical quality of performance spaces and other aurally sensitive environments. After completing the minor, the student will be well-prepared for an entry level position dealing with acoustics issues in architectural practice, in acoustical consulting, or as a preparation for graduate studies in acoustics, for example in the Graduate Program in Architectural Acoustics at Rensselaer Polytechnic Institute. The program consists of 15 credits.Proficiency in Calculus I is necessary to comprehend the basics of architectural acoustics. Approval required by director of program. Students, with the assistance of their adviser, select 4 courses that best fit their educational objectives. Total at least 15 credits.",
     "name": "Architectural Acoustics Minor",
     "remaining_header": "Footnote"
   },
@@ -33,7 +33,7 @@
       "Materials and Design": "ARCH2510",
       "The Ethos of Architecture": "ARCH2150"
     },
-    "description": "A minor in architecture is directed toward Rensselaer students interested in architecture as asocio-cultural phenomenon, the student who intends to study architecture at the graduate level,and/or those envisioning a career in some segment of the building industry. The minor program provides an exposure to architecturewhat it is, what it includes, its history, how it is accomplished; and to architectswho they are and how they think and work. In order to earn a minor in architecture, students must compile at least 16 credits of architecture-related courses except for Architecture Design Studio, which is for B.Arch. majors only. Required courses for the minor in architecture are:",
+    "description": "A minor in architecture is directed toward Rensselaer students interested in architecture as asocio-cultural phenomenon, the student who intends to study architecture at the graduate level,and/or those envisioning a career in some segment of the building industry. The minor program provides an exposure to architecturewhat it is, what it includes, its history, how it is accomplished; and to architectswho they are and how they think and work. In order to earn a minor in architecture, students must compile at least 16 credits of architecture-related courses except for Architecture Design Studio, which is for B.Arch. majors only. Required courses for the minor in architecture are: Students select the remaining courses in architecture to build a concentration that supports their own disciplinary interests.",
     "name": "Architecture Minor",
     "remaining_header": "Footnote"
   },
@@ -66,7 +66,7 @@
     },
     "description": "The Departments of Biological Sciences, Chemistry and Chemical Biology, Earth and Environmental Sciences, and Physics, Applied Physics and Astronomy,participate in a multidisciplinary minor in Astrobiology. The minor requires at least 16 credits. To complete the minor, students must complete the following: *If the student has a dual major, the two selected courses must be outside one of the major fields of study. ",
     "name": "Astrobiology Minor",
-    "remaining_header": "Additional Information"
+    "remaining_header": "Choose two of the following:"
   },
   "Astronomy Minor": {
     "Remaining": {
@@ -194,14 +194,12 @@
     "name": "Biological Neuroscience Minor"
   },
   "Biology Minor": {
-    "Required": {
-      "": "BIOL4990"
-    },
+    "Required": {},
     "description": " Students who have passed / or have AP credit may complete a minor in Biology by taking and three 4000-level courses in Biology. may substitute for one of the three but is not required. Only a total of 4 credits may come from the following list: , , or . No more than 4 credits from research. BCBP, CBIO, BNSC, BHE majors cannot minor in Biology.",
     "name": "Biology Minor"
   },
   "Biomedical Engineering and Management Minor": {
-    "description": "The B.S. with Minor in Management can be completed by following the traditional BME Baccalaureate template and choosing appropriate classes from the Lally School for the four Free Electives. A list of acceptable classes for the different Management Minor programs can be found at",
+    "description": "The B.S. with Minor in Management can be completed by following the traditional BME Baccalaureate template and choosing appropriate classes from the Lally School for the four Free Electives. A list of acceptable classes for the different Management Minor programs can be found at http://lallyschool.rpi.edu/programs/undergraduate-programs/bs-business-management.",
     "name": "Biomedical Engineering and Management Minor"
   },
   "Chemistry Minor for Non-Chemistry Majors": {
@@ -250,7 +248,7 @@
     },
     "description": "Students pursuing this minor must satisfy the prerequisites and/or corequisites for these courses, which may involve other course work. Students not majoring in civil engineering may receive a minor in this field by completing five courses selected from the following list (subject to consultation with a civil engineering department program adviser): Given the close link between architecture and civil engineering, the following set of courses are recommended for students in the Bachelor of Architecture program who are interested in completing a minor in civil engineering with an emphasis in structural engineering. 1) Completion of is recommended prior to enrolling in Civil Engineering courses. However, is an acceptable alternative to . 2) The core engineering courses and are prerequisites for many of the civil engineering courses. These core courses are waived for students who have completed with a grade of B or higher. 3) Subject to approval of the School of Architecture program adviser, will be waived for students who complete , , and . Since is part of the Bachelor of Architecture core program, students will be required to substitute a 3-credit elective in its place. 4) Bachelor of Architecture students pursuing this minor should recognize that some of the civil engineering courses may rely on material from some of the core engineering courses (i.e., , , , , , and ). Thus, the student should anticipate the possible need for some self-study while taking the civil engineering courses.",
     "name": "Civil Engineering Minor",
-    "remaining_header": "Take two additional courses from the following:"
+    "remaining_header": "Recommended Courses for Students in Bachelor of Architecture Program"
   },
   "Cognitive Science Minor": {
     "description": "Students seeking a minor in Cognitive Science will develop a Plan of Study in consultation with a departmental adviser. To complete this minor, students must choose a minimum of four Cognitive Science (COGS) courses as described:",
@@ -278,7 +276,7 @@
     "name": "Computer Science Minor"
   },
   "Computer and Systems Engineering Minor": {
-    "description": "A minor in Computer and Systems Engineering consists of at least 15 credits from the courses below. Courses for the minor may not be taken on a Pass/No Credit basis. No more than 50% of the course credits applied to the minor requirement may be drawn from credits applied to the major. No course which is required for one minor can be used for another minor requirement. Students wishing to fulfill a minor need an approval from the ECSE curriculum chair. * Students can take as many elective courses as necessary to satisfy the rules above. Computer Components and Operations Credit Hours: 4 Computer Architecture, Networks, and Operating SystemsCredit Hours: 4 ECSE Enrichment Seminar Credit Hours: 1 A 4000-level ECSE course Credit Hours: 3  4 or a 4000-level Computer Engineering Elective Credit Hours: 3  4 Any ECSE courses at 2000-level and above. Data Structures Credit Hours: 4 Foundation of Computer Science Credit Hours: 4",
+    "description": "A minor in Computer and Systems Engineering consists of at least 15 credits from the courses below. Courses for the minor may not be taken on a Pass/No Credit basis. No more than 50% of the course credits applied to the minor requirement may be drawn from credits applied to the major. No course which is required for one minor can be used for another minor requirement. Students wishing to fulfill a minor need an approval from the ECSE curriculum chair. * Students can take as many elective courses as necessary to satisfy the rules above.",
     "minor": [
       "Required courses:",
       "ECSE 2610",
@@ -300,27 +298,27 @@
   },
   "Data Science and Engineering": {
     "Remaining": {
-      "Biomedical Data Science": null,
+      "Biomedical Data Science": "BMED4480",
       "Biostatistics": "BIOL4200",
-      "Biostatistics for Life Science Applications": null,
-      "Computational Intelligence": null,
+      "Biostatistics for Life Science Applications": "BMED4470",
+      "Computational Intelligence": "ISYE4810",
       "Data Mining": "CSCI4390",
       "Data Science": "ITWS4350",
       "Database Systems": "CSCI4380",
       "Econometrics": "ECON4570",
-      "Human Performance Modeling and Support": null,
-      "Mathematical Statistics": null,
+      "Human Performance Modeling and Support": "ISYE4260",
+      "Mathematical Statistics": "ISYE4760",
       "Research Methods and Statistics II": "PSYC4310",
       "X-Informatics": "ITWS4400"
     },
     "Required": {
-      "Design of Experiments": null,
-      "Information and Data Systems": null,
-      "Statistical Analysis": null
+      "Design of Experiments": "ISYE4330",
+      "Information and Data Systems": "ISYE2530",
+      "Statistical Analysis": "ISYE4140"
     },
     "description": "The Department of Industrial and Systems Engineering offers a minor inData Science and Engineering(DSE) for undergraduates (minimum of 17 credits required). The minor contributes to students' ability to organize, analyze and act upon data, particularly for data associated with engineered systems. (minimum six credits)",
     "name": "Data Science and Engineering",
-    "remaining_header": "Area 2: Inference and Learning"
+    "remaining_header": "Take a total of at least two courses from either or both of the following areas"
   },
   "Ecology Minor": {
     "Remaining": {
@@ -338,7 +336,7 @@
     },
     "description": "Ecology is a branch of Biology that studies the relations of organisms to one another and to their environment. RPI has a substantial depth in Ecological research and faculty expertise, as well as Institute-wide initiatives such as the Jefferson Project. The Institute offers a minor in Ecology to all students consisting of 16 credit hours, as noted below. Restricted Elective (See list of accepted courses below) Choose one elective from the following list. Other options by approval of Ecology Minor Faculty (email ).",
     "name": "Ecology Minor",
-    "remaining_header": "Restricted Elective"
+    "remaining_header": "Footnotes"
   },
   "Economics Minor": {
     "Remaining": {},
@@ -448,7 +446,7 @@
     "remaining_header": "Remaining credits from the following options:"
   },
   "Electrical Engineering Minor": {
-    "description": "A minor in Electrical Engineering consists of at least 15 credits from the courses below. Courses for the minor may not be taken on a Pass/No Credit basis. No more than 50% of the course credits applied to the minor requirement may be drawn from credits applied to the major. No course which is required for one minor can be used for another minor requirement. Students wishing to fulfill a minor need an approval from the ECSE curriculum chair. Any ECSE courses at 2000-level and above. * Students can take as many elective courses as necessary to satisfy the rules above. - Electric Circuits Credit Hours: 4 One of the following 4 courses: Fields and Waves I Credit Hours: 4, Electrical Energy Systems Credit Hours: 3, Intro to Electronics Credit Hours: 4, - Signals and Systems Credit Hours: 3 ECSE Enrichment Seminar Credit Hours: 1 A 4000-level ECSE course Credit Hours: 3  4",
+    "description": "A minor in Electrical Engineering consists of at least 15 credits from the courses below. Courses for the minor may not be taken on a Pass/No Credit basis. No more than 50% of the course credits applied to the minor requirement may be drawn from credits applied to the major. No course which is required for one minor can be used for another minor requirement. Students wishing to fulfill a minor need an approval from the ECSE curriculum chair. Any ECSE courses at 2000-level and above. * Students can take as many elective courses as necessary to satisfy the rules above.",
     "minor": [
       "Required courses:",
       "ECSE 2010",
@@ -485,7 +483,7 @@
     },
     "description": "An electronic arts minor consists of 16 credits from the electronic arts curriculum: required: required:",
     "name": "Electronic Arts Minor",
-    "remaining_header": "Studio Course Options"
+    "remaining_header": "History/Theory Course Options"
   },
   "Entrepreneurship Minor": {
     "Required": {
@@ -658,7 +656,7 @@
       "Light and Health": "LGHT4870",
       "Physics of Light": "LGHT4830"
     },
-    "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center. Light-dark patterns that reach the back of our eyes set the timing of the biological clock, and tell our bodies to do \"the right thing at the right time.\" A global lighting revolution is taking place because of the awareness of how profound the impact of light is in our daily lives. Humans and most terrestrial species perceive the time of day because of their internal biological or circadian clock. This circadian clock is a network of genes and proteins that regulates daily oscillations such as sleep, hormone release, rise and fall of blood pressure and body temperature, as well as other cellular functions and physiological responses. Because of this tight regulation, a disrupted circadian clock can be detrimental to daily function and human health, as evidenced by the increased rates of disease in nightshift workers and submariners, known to experience circadian disruption. Tailored lighting intervention, on the other hand, helps adolescents fall asleep earlier, premature infants be discharged from the hospital sooner, Alzheimer's disease patients sleep better, and cancer patients experience less fatigue. Because the light people are exposed to can have a profound impact on the proper timing of their circadian clocks, it is important to effectively specify, measure and apply lighting in the built environment. It is also important to understand how various species (human, mammals, and plants) respond to light. This minor will provide the foundation to understand the basic principles of how to specify, measure, and apply light to positively impact various species, and to work side-by-side with leading experts in the field in a professional project. This minor requires four courses with a minimum of 15 credits.",
+    "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center. Light-dark patterns that reach the back of our eyes set the timing of the biological clock, and tell our bodies to do \"the right thing at the right time.\" A global lighting revolution is taking place because of the awareness of how profound the impact of light is in our daily lives. Humans and most terrestrial species perceive the time of day because of their internal biological or circadian clock. This circadian clock is a network of genes and proteins that regulates daily oscillations such as sleep, hormone release, rise and fall of blood pressure and body temperature, as well as other cellular functions and physiological responses. Because of this tight regulation, a disrupted circadian clock can be detrimental to daily function and human health, as evidenced by the increased rates of disease in nightshift workers and submariners, known to experience circadian disruption. Tailored lighting intervention, on the other hand, helps adolescents fall asleep earlier, premature infants be discharged from the hospital sooner, Alzheimer's disease patients sleep better, and cancer patients experience less fatigue. Because the light people are exposed to can have a profound impact on the proper timing of their circadian clocks, it is important to effectively specify, measure and apply lighting in the built environment. It is also important to understand how various species (human, mammals, and plants) respond to light. This minor will provide the foundation to understand the basic principles of how to specify, measure, and apply light to positively impact various species, and to work side-by-side with leading experts in the field in a professional project. This minor requires four courses with a minimum of 15 credits. At least 4 credit hours are required for . may be substituted with any other 4 credit hour or greater LGHT course or a related BIOL/BCBP elective course with permission of the Lighting program director.",
     "name": "Lighting Minor in Biological Sciences",
     "remaining_header": "Footnote"
   },
@@ -675,7 +673,7 @@
     },
     "description": " AP credits do not count.",
     "name": "Linguistics Minor",
-    "remaining_header": "Notes"
+    "remaining_header": "16 credits from:"
   },
   "Literature and Creative Writing Minor": {
     "Required": {
@@ -700,7 +698,7 @@
       "Management in the Digital Age": "MGMT1100",
       "Managerial Finance": "MGMT2320"
     },
-    "description": " The minor in management usually consists of the following four courses: 4000-level Restricted Elective (see minor adviser)",
+    "description": " The minor in management usually consists of the following four courses:",
     "name": "Management Minor"
   },
   "Marketing Minor": {
@@ -769,7 +767,7 @@
     },
     "description": "A music minor consists of 16credits from the music curriculum. Students may select 12 credits from any combination of courses at the 1000 and 2000 levels. The remaining 4 credits should be earned at the 4000 level, or by approved substitution at the 2000 level. The courses in the music curriculum are organized in three broad categories: Music and Culture, Composition and Production, and Performance. Students may elect to focus their selection of courses within a single category, but this is not mandatory.Students may earn the minor within or by combining courses between any of the three categories. 1-credit courses can be repeated for credit toward the minor",
     "name": "Music Minor",
-    "remaining_header": "Performance"
+    "remaining_header": "Music & Culture"
   },
   "Nuclear Engineering Minor": {
     "description": "Students not majoring in nuclear engineering may receive a minor in this discipline by completing 1516 credit hours of study selected in consultation with their program adviser.",
@@ -895,7 +893,7 @@
       "Sculpture I": "ARTS2210",
       "Sculpture II": "ARTS4210"
     },
-    "description": "A studio arts minor consists of 16 credits from the studio arts curriculum, which includes courses in drawing, painting, and sculpture. All studio arts minors must take three studio courses, and at least one of these must be at the 4000 level. The remaining 4 credits may be filled by another studio course or an art history course.",
+    "description": "A studio arts minor consists of 16 credits from the studio arts curriculum, which includes courses in drawing, painting, and sculpture. All studio arts minors must take three studio courses, and at least one of these must be at the 4000 level. The remaining 4 credits may be filled by another studio course or an art history course. Must take at least 12 credits from studio courses; at least one 4000-level course Must completeone of the following courses:",
     "name": "Studio Arts",
     "remaining_header": "Art History Courses"
   },
@@ -951,7 +949,7 @@
     },
     "description": "Theminor allows students to study video, performance and social impact through the integration of theory and practice. Students are prepared to analyze and critique moving images; plan, produce and edit their own media productions in video/television and/or performance; and communicate through visual as well as audio medium. Strategically situating art, media and technology in a social context, students engage in a creative practice designed to make the change from the local to the global. The minor consists of 16 credits:",
     "name": "Video, Performance, and Social Practice",
-    "remaining_header": "The remaining (at least) 8 credits should be from:"
+    "remaining_header": "Choose Two:"
   },
   "Well-being": {
     "One Of0": {

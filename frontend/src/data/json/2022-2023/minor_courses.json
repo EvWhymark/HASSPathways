@@ -1,26 +1,4 @@
 {
-  "": {
-    "ID": "4990",
-    "cross listed": [],
-    "description": "No description available, course not listed on catalog, prereqs/crosslisted not checked.",
-    "name": "",
-    "offered": {
-      "even": false,
-      "fall": true,
-      "odd": false,
-      "spring": true,
-      "summer": false,
-      "text": ""
-    },
-    "prerequisites": [],
-    "professors": [],
-    "properties": {
-      "CI": true,
-      "HI": false,
-      "major_restricted": false
-    },
-    "subj": "BIOL"
-  },
   "2D Experimental Animation": {
     "ID": "2060",
     "cross listed": [],
@@ -687,6 +665,28 @@
     },
     "subj": "CHEM"
   },
+  "Advanced Systems Physiology": {
+    "ID": "4500",
+    "cross listed": [],
+    "description": "Applications of control theory and systems techniques to physiology. Emphasis is on entire systems and their interactions rather than isolated phenomena. Areas covered include cardiac, respiratory, renal, and gastrointestinal systems. Includes laboratory on the application of engineering techniques in the study of physiological systems. This course is taught at Albany Medical Center and enrollment is limited to BME students.",
+    "name": "Advanced Systems Physiology",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Advanced Topics in Linguistics": {
     "ID": "4780",
     "cross listed": [],
@@ -939,6 +939,28 @@
     },
     "subj": "MGMT"
   },
+  "Applied Data Science": {
+    "ID": "4360",
+    "cross listed": [],
+    "description": "This engineering course is an introduction to the fundamental concepts of machine learning in a lab-like environment. The course is structured in three main parts that mimic the daily workflow of a data scientist in a real organization: (i) data preparation; (ii) machine learning algorithms; and (iii) data visualization and decision making.",
+    "name": "Applied Data Science",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Applied Game Theory": {
     "ID": "4220",
     "cross listed": [],
@@ -1009,7 +1031,9 @@
   },
   "Applied Mathematical Methods in Materials": {
     "ID": "4720",
-    "cross listed": [],
+    "cross listed": [
+      "BMED-4720"
+    ],
     "description": "Students apply mathematical and numerical techniques to understand materials engineering topics such as materials structure, symmetry, diffusion, mechanics, and physics of solids. Class uses examples from materials science and engineering core courses to introduce mathematical concepts and materials-related problem-solving skills. Topics include linear algebra, eigenvalues and eigenvectors, quadratic forms, tensor operations, symmetry operations, calculus of several variables, ordinary and partial differential equations, Fourier analysis, integral transformations, numerical methods, and calculus of variations.",
     "name": "Applied Mathematical Methods in Materials",
     "offered": {
@@ -1913,6 +1937,28 @@
     },
     "subj": "ENVE"
   },
+  "BioMEMs": {
+    "ID": "4410",
+    "cross listed": [],
+    "description": "This course discusses state-of-the-art techniques in patterning biomolecules, biosensors, machining three-dimensional microstructures, and building microfluidic devices (Lab-on-a-Chip). Seminal and current literature will be used to discuss topics in BioMEMs ranging from device fabrication to applications in cell biology and medicine. Students cannot get credit for both BMED 4410 and BMED 6410 .",
+    "name": "BioMEMs",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Biochemistry Laboratory": {
     "ID": "4710",
     "cross listed": [
@@ -1985,6 +2031,50 @@
     },
     "subj": "STSO"
   },
+  "Bioimaging and Bioinstrumentation": {
+    "ID": "2300",
+    "cross listed": [],
+    "description": "This course serves as an introduction to biomedical instrumentation and imaging with focus on the acquisition and monitoring of vital signals. Basic principles for the selection and appropriate use of instruments for solving bioengineering and medical problems such as microscopy, magnetic resonance imaging, and ultrasounds, among others are addressed.",
+    "name": "Bioimaging and Bioinstrumentation",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biological Imaging Analysis": {
+    "ID": "4460",
+    "cross listed": [],
+    "description": "Survey of image analysis applications in biology and biotechnology; introduction to biological microscopy and selected biomedical imaging systems; image reconstruction and pre-processing; grayscale and geometric corrections; image segmentation; blob analysis, cell/colony counting, and cell morphometry; vessel and neuron tracing algorithms with applications to neurobiology and medicine; feature extraction, pattern analysis, cluster analysis and classification; image registration algorithms with applications to mosaicing, spatial referencing, motion estimation, and change detection.",
+    "name": "Biological Imaging Analysis",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Biological Processes in Environmental Engineering": {
     "ID": "4350",
     "cross listed": [],
@@ -2029,10 +2119,188 @@
     },
     "subj": "MTLE"
   },
-  "Biomedical Research": {
-    "ID": "4980",
+  "Biomaterials Science and Engineering": {
+    "ID": "2100",
     "cross listed": [],
-    "description": "Independent research in health sciences, supervised by a faculty member, for the purpose of developing research skills. Such skills include defining a research project, both as a written and oral exercise for a scientific and general audience, and gathering preliminary research data enabling both a written and oral description of the project in the form of a research proposal and an oral defense. Open to students in the accelerated physician-scientist curriculum only. This course is the Culminating Experience for students in this program. This is a communication-intensive course.",
+    "description": "Presents structure-property relationships of implant materials including metals, polymers, ceramics, and composites, with an emphasis on mechanical and surface properties in the broader context of implant design. Biological performance of biomaterials, case studies of traditional implantsas well as emerging, tissue-engineered materials are emphasized.",
+    "name": "Biomaterials Science and Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomechanics": {
+    "ID": "2540",
+    "cross listed": [],
+    "description": "Application of mechanics to the study of normal, diseased, and traumatized musculo-skeletal system. Areas covered include determination of joint and muscle forces, mechanical properties of biological tissues, and structural analysis of bone-implant systems. Case studies are discussed to illustrate the role of biomechanics and biomaterials in the design of implants.",
+    "name": "Biomechanics",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomechanics II": {
+    "ID": "4540",
+    "cross listed": [],
+    "description": "Examines biomechanics of human body movement through developing various models (e.g., lumped mass, planar rigid body, 3D) and exploring current techniques in Forward and Inverse Dynamic approaches. Topics are developed on a classical mechanics foundation, and simulations are constructed using software (e.g., OpenSIM) to describe normal movements, and investigate possible sources of abnormalities due to injury, disease, or dysfunction.",
+    "name": "Biomechanics II",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Data Science": {
+    "ID": "4480",
+    "cross listed": [],
+    "description": "Introduction of multivariate statistical methods to model and analyze recorded data from physiological systems in biomedical engineering. Statistical approaches related to applied multivariate statistics, classification and regression. Associated linear methods include principal component analysis, Fisher discriminant analysis, partial least squares, canonical correlation analysis and their nonlinear counterparts. Descriptive tools include scatter diagrams, Hotelling's T2 statistics and contribution plots. The course has a strong emphasis on biomedical applications.",
+    "name": "Biomedical Data Science",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Engineering Design": {
+    "ID": "4600",
+    "cross listed": [],
+    "description": "A guided approach to development of design skills. Students work individually and in teams to tackle a biomedical design problem using methods drawn as necessary from engineering and from the physical and mathematical sciences. Discussion sessions involve students in presentations of work. This is a communication-intensive course.",
+    "name": "Biomedical Engineering Design",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Engineering Laboratory": {
+    "ID": "4010",
+    "cross listed": [],
+    "description": "Theory and practice of biomedical measurements. An introduction to instrumentation and procedures for measurement of membrane transport, bioelectrical potentials, cell counting, biomechanical and biomaterial properties using invasive and noninvasive techniques. Transducers studied include strain gauge, differential transformer, spectrophometer, biopotential electrodes, microscope with camera, mechanical testing machine, piezoelectric transducer (or sensor). Also studied are instruments for determination of material properties.",
+    "name": "Biomedical Engineering Laboratory",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Fluid Mechanics": {
+    "ID": "4580",
+    "cross listed": [],
+    "description": "This course covers the dynamics of fluid flow in human physiological system. Engineering principles and fluid dynamic concepts will be taught in the context of cardiovascular system. Topics include: pulsatile flow in arteries, vascular compliance and wave propagation, impedance, cardiac mechanics, dynamic coupling of ventricle and systemic circulation, blood flow in vein, coronary circulation, microcirculation, blood flow at complex geometries, imaging techniques in clinical hemodynamic assessment, fluid mechanics in designing and testing circulatory implants.",
+    "name": "Biomedical Fluid Mechanics",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Product Development and Commercialization": {
+    "ID": "4260",
+    "cross listed": [],
+    "description": "Students are introduced to the major biomedical industries, markets, and stakeholders, with an emphasis on biomedical devices. Market drivers and hurdles are covered including regulatory, intellectual property, and reimbursement. The interactive class format includes case studies and industry experts providing a practical perspective. Students select topic areas for design projects and begin work toward the goal of developing functional design solutions to practical biomedical problems.",
+    "name": "Biomedical Product Development and Commercialization",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
+  "Biomedical Research": {
+    "ID": "4130",
+    "cross listed": [
+      "BIOL-4130"
+    ],
+    "description": "Independent research in health sciences, supervised by a faculty member, for the purpose of developing research skills. Such skills include defining a research project, both as a written and oral exercise for a scientific and general audience, and gathering preliminary research data enabling both a written and oral description of the project in the form of a research proposal and an oral defense. This is a communication-intensive course.",
     "name": "Biomedical Research",
     "offered": {
       "even": false,
@@ -2049,7 +2317,29 @@
       "HI": false,
       "major_restricted": false
     },
-    "subj": "BIOL"
+    "subj": "BMED"
+  },
+  "Biomedical Transport Phenomena": {
+    "ID": "4250",
+    "cross listed": [],
+    "description": "Quantitative analysis of transport phenomena in physiological systems, including fluid mechanics, thermodynamics, and mass transfer. Fluid statics, mass and energy conservation, laminar and turbulent flow, microscale and macroscale analytical methods, mass transport with biochemical reactions, applications to transport in tissue and organs will be introduced.",
+    "name": "Biomedical Transport Phenomena",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": true,
+      "text": "Fall, Spring, Summer annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Bioorganic Mechanisms": {
     "ID": "4310",
@@ -2072,6 +2362,28 @@
       "major_restricted": false
     },
     "subj": "CHEM"
+  },
+  "Biophotonics": {
+    "ID": "4440",
+    "cross listed": [],
+    "description": "Biophotonics, or biomedical optics, is a newly developing field, dealing with the application of optical science and technology to biomedical problems, including clinical applications. The course introduces students to the fundamentals in modern and classical optics, light-matter interaction and provides them with a broad overview of current topics and contemporary research in the area of optics and lasers in medicine and biology.",
+    "name": "Biophotonics",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Biopunk: Arts Lab Practice": {
     "ID": "4120",
@@ -2118,6 +2430,28 @@
       "major_restricted": false
     },
     "subj": "BIOL"
+  },
+  "Biostatistics for Life Science Applications": {
+    "ID": "4470",
+    "cross listed": [],
+    "description": "Starting with the introduction of the probability distribution of one or two continuous random variables, basic concepts of mean, variance, covariance and correlation coefficient are covered. Description techniques discussed include stem-and-leaf plots, histograms, box plots, and probability plots. Confidence intervals for a single sample and for two samples are constructed on means and variances. The procedure of hypothesis testing is introduced conceptually followed by solving real-life biomedical problems. The design and performance of engineering experiments involving a single factor are discussed.",
+    "name": "Biostatistics for Life Science Applications",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Brand Identity Design": {
     "ID": "4730",
@@ -2408,6 +2742,28 @@
       "major_restricted": false
     },
     "subj": "ISCI"
+  },
+  "Cell Biomechanics": {
+    "ID": "4550",
+    "cross listed": [],
+    "description": "This is an undergraduate/graduate course on the mechanics of biopolymers, cell cytoskeleton, cell membrane, the whole cell, and multicellular structures in the context of the modulation of cell function by mechanical stresses. Topics include state-of-the-art experimental techniques in cell biomechanics, and cutting-edge research in stem cell mechanobiology, cell motility, collective cell behavior, neurite growth, osteocyte sensing, cardiovascular diseases, and immunology.",
+    "name": "Cell Biomechanics",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Cellular Neuroscience": {
     "ID": "4150",
@@ -2785,6 +3141,28 @@
     },
     "subj": "CIVL"
   },
+  "Clinical Orthopaedics and Contemporary Research": {
+    "ID": "4420",
+    "cross listed": [],
+    "description": "An in-depth review of the underlying science, engineering, medicine, and contemporary research related to the nation's highest priorities for musculoskeletal diseases and care. Musculoskeletal anatomy, pathophysiology, epidemiology, and contemporary treatments are covered. Special topics will be presented relating state-of-the-art biomedical research to clinical practice. The clinical perspective of each topic will be presented by practicing clinicians with case studies. Topics conclude with live webcasts or recorded surgery from Albany Medical Center or the Capital Region Bone and Joint Center. Students cannot get credit for both BMED 4420 and BMED 6420 .",
+    "name": "Clinical Orthopaedics and Contemporary Research",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Cloud Atlas: 20th Century Architecture, Culture and Civilization": {
     "ID": "4120",
     "cross listed": [],
@@ -2948,6 +3326,28 @@
     },
     "subj": "COMM"
   },
+  "Complex Systems Models for Industrial and Systems Engineering": {
+    "ID": "4300",
+    "cross listed": [],
+    "description": "This course introduces simulation-based modeling methods for complex systems frequently encountered and used by industrial and systems engineers. Examples include production systems, queuing networks, communication systems, healthcare systems, supply chains, social networks, transportation systems, and financial markets. This course introduces techniques including discrete-event simulation and agent-based simulation for modeling and analyzing interdependent, interacting, and coupling variables, agents, components, and related subsystems.",
+    "name": "Complex Systems Models for Industrial and Systems Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Composition Seminar": {
     "ID": "4390",
     "cross listed": [],
@@ -3037,6 +3437,28 @@
       "major_restricted": false
     },
     "subj": "CSCI"
+  },
+  "Computational Intelligence": {
+    "ID": "4810",
+    "cross listed": [],
+    "description": "With ever-increasing computer power readily available, new engineering methods based on \"soft computing\" are emerging at a rapid rate. This course provides students a working knowledge in computational intelligence covering the basics of fuzzy logic, neural networks, genetic algorithms, simulated annealing, wavelet analysis, fractal structures, and chaotic time series analysis. Applications in control, optimization, data mining, fractal image compression, and time series analysis are illustrated with engineering case studies.",
+    "name": "Computational Intelligence",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of Instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Computational Materials Design": {
     "ID": "4500",
@@ -3996,6 +4418,30 @@
     },
     "subj": "ERTH"
   },
+  "Cyber-Physical Systems": {
+    "ID": "4340",
+    "cross listed": [],
+    "description": "An introduction to Cyber-Physical Systems (CPS) focuses on mechanisms that are controlled or monitored by computer-based algorithms, tightly integrated with the physical environment or a biological system. This course provides a step-by-step approach to one of those systems (e.g., brain-machine interfaces) to emphasize the importance of interdisciplinary work and understanding of the system as a whole.",
+    "name": "Cyber-Physical Systems",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor",
+      "uia": true
+    },
+    "prerequisites": [
+      "MATH-1020"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Cytoskeletal Biology": {
     "ID": "4140",
     "cross listed": [],
@@ -4252,6 +4698,28 @@
     },
     "subj": "CSCI"
   },
+  "Decision Focused Systems Engineering": {
+    "ID": "4280",
+    "cross listed": [],
+    "description": "The objective of this course is to introduce students to systems engineering, especially from a decision-focused perspective. System concepts, methodologies, models, and analysis are covered in relation to a system's design, development, test, evaluation, and operation. Decisions concerning a system's reliability, maintainability, usability, disposability, and affordability are systematically considered. A range of systems, including service systems, is also considered.",
+    "name": "Decision Focused Systems Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Deep Listening": {
     "ID": "2180",
     "cross listed": [],
@@ -4319,6 +4787,50 @@
       "major_restricted": false
     },
     "subj": "CSCI"
+  },
+  "Design and Analysis of Supply Chains": {
+    "ID": "4210",
+    "cross listed": [],
+    "description": "An overview of the principles involved in the design and operation of supply chains with applications to manufacturing and service industries. Topics include dynamics of manufacturing systems and supply chains, lean manufacturing, lead time reduction in manufacturing and office operations, advanced pull systems, concurrent design of products and supply chains, rapid new product introduction, remanufacturing and reverse supply chains, and integration of information technology in supply chain operations. The goal of the course is to enable students to synthesize models and tools and to understand how these could be applied to address emerging challenges in manufacturing and service systems and their supply chains.",
+    "name": "Design and Analysis of Supply Chains",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
+  "Design and Analysis of Work Systems": {
+    "ID": "4200",
+    "cross listed": [],
+    "description": "Analysis and design of work and workplace. Topics covered include human-machine systems, ergonomics, work measurement systems, methods and standards, process design, direct time study, standard time data, predetermined time systems, work sampling, work load balancing, and workplace layout. Computer-based analysis of problems in work systems.",
+    "name": "Design and Analysis of Work Systems",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Design and Innovation  Studio C": {
     "ID": "4610",
@@ -4519,6 +5031,30 @@
       "major_restricted": false
     },
     "subj": "CIVL"
+  },
+  "Design of Experiments": {
+    "ID": "4330",
+    "cross listed": [],
+    "description": "Methods of designing experiments so that statistical analysis of the resulting data will yield the maximum useful information. Testing of hypotheses; analysis of variance and covariance. Various designs, including the factorial and its modifications, incomplete blocks, Latin squares, and response surface designs are covered. Also discussed are optimality properties of design.",
+    "name": "Design of Experiments",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [
+      "ISYE-4140"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Design, Culture, and Society": {
     "ID": "2210",
@@ -4884,6 +5420,28 @@
     },
     "subj": "ECSE"
   },
+  "Discrete Event Simulation Modeling and Analysis": {
+    "ID": "4290",
+    "cross listed": [],
+    "description": "Introduction to discrete-event simulation modeling and analysis techniques including; graphical simulation modeling approaches, animation techniques, modeling large-scale and complex systems, pseudo-random number and random variate generation, stochastic processes, input modeling (data collection, analysis, and fitting distribution), output analysis (initial bias and termination bias, variance reduction techniques), sensitivity analysis, design of experiments, interactive simulation-based decision-support systems.",
+    "name": "Discrete Event Simulation Modeling and Analysis",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Dissertation": {
     "ID": "9990",
     "cross listed": [],
@@ -5130,6 +5688,28 @@
     },
     "subj": "CHEM"
   },
+  "Drug and Gene Delivery": {
+    "ID": "4450",
+    "cross listed": [],
+    "description": "The course presents several aspects of drug and gene delivery including: 1) definitions of what drugs or genes are; 2) pharmacokinetics and pharmacodynamics; 3) biomaterial selection considerations; 4) bioactivity considerations; 5) physiological and biochemical barriers to drug delivery; 6) diffusion controlled, dissolution controlled, and osmotic controlled drug delivery systems; 7) polymeric delivery systems; 8) ligand-based targeting and physical targeting; 9) viral mediated gene delivery; 10) non-viral gene delivery; 11) polymers in gene delivery.",
+    "name": "Drug and Gene Delivery",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Drugs in History": {
     "ID": "4430",
     "cross listed": [],
@@ -5367,12 +5947,10 @@
       "odd": false,
       "spring": true,
       "summer": false,
-      "text": "fall and spring terms annually",
+      "text": "Fall and spring terms annually",
       "uia": false
     },
-    "prerequisites": [
-      "IHSS-1200"
-    ],
+    "prerequisites": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5464,7 +6042,9 @@
       "text": "Fall and spring terms annually",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "IHSS-1200"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6050,6 +6630,28 @@
     },
     "subj": "ENGR"
   },
+  "Engineering Project Management": {
+    "ID": "4240",
+    "cross listed": [],
+    "description": "Planning, controlling, and evaluating engineering projects. Use of network analysis techniques, PERT/CPM, budget control, time/cost tradeoff, time estimation, resource allocation, and resource leveling. Extensions include probabilistic models, multiple resource models, project organization, risk analysis, technical forecasting, and network theory. Students cannot obtain credit for both this course and ENGR 4750 .",
+    "name": "Engineering Project Management",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Ensemble Nonlinear": {
     "ID": "4600",
     "cross listed": [
@@ -6478,6 +7080,30 @@
     },
     "subj": "PHIL"
   },
+  "Ethics of Modeling for Industrial and System Engineering": {
+    "ID": "4310",
+    "cross listed": [],
+    "description": "This course introduces students to past, current, and future issues in the ethics of information technology, and encourages students to develop their own standpoint from which to address the diverse range of ethical challenges faced in the information age. During the course, students will learn about a wide range of ethical theories, and then will apply these theories to address ethical dilemmas in creating models for decision support using an educational computer simulation.",
+    "name": "Ethics of Modeling for Industrial and System Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [
+      "ISYE-1100"
+    ],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Evolution": {
     "ID": "4860",
     "cross listed": [],
@@ -6721,6 +7347,28 @@
       "major_restricted": false
     },
     "subj": "ARTS"
+  },
+  "Facilities Design and Industrial Logistics": {
+    "ID": "4250",
+    "cross listed": [],
+    "description": "An in-depth study of the major design issues in location and physical configuration of production and service facilities. The course emphasizes the use of mathematical models, computer modeling, and quantitative analysis as aids to the design process. Topics include plant layout and location, material handling, material flow analysis, and distribution systems. Major course concepts are developed through case studies and projects.",
+    "name": "Facilities Design and Industrial Logistics",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Fiction: From Film to the Internet": {
     "ID": "1550",
@@ -8315,7 +8963,7 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1410"
+      "STSO-1110"
     ],
     "properties": {
       "CI": false,
@@ -8339,7 +8987,7 @@
       "uia": false
     },
     "prerequisites": [
-      "IHSS-1410"
+      "STSO-1110"
     ],
     "properties": {
       "CI": false,
@@ -8463,6 +9111,28 @@
       "major_restricted": false
     },
     "subj": "LGHT"
+  },
+  "Human Performance Modeling and Support": {
+    "ID": "4260",
+    "cross listed": [],
+    "description": "This course introduces methods, tools, and technologies for describing human performance via various types of models, and supporting this performance via tools and advanced technologies. The course is hands-on, involving student projects that investigate human performance in challenging domains as well as direct engagement with technologies for decision support.",
+    "name": "Human Performance Modeling and Support",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Human Physiology": {
     "ID": "4270",
@@ -8801,6 +9471,28 @@
       "major_restricted": false
     },
     "subj": "ITWS"
+  },
+  "Information and Data Systems": {
+    "ID": "2530",
+    "cross listed": [],
+    "description": "This course covers the design and implementation of computer-based systems to support the collection, organization and analysis of data and information. Topics include theory and techniques for transforming raw data from various sources into structured and usable information; the role of information and data systems in the engineering enterprise; and approaches to interacting with computer-based information systems to support decision making.",
+    "name": "Information and Data Systems",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Inorganic Chemistry I": {
     "ID": "2030",
@@ -9483,6 +10175,28 @@
       "major_restricted": false
     },
     "subj": "ECSE"
+  },
+  "Intro to Cell and Tissue Engineering": {
+    "ID": "4650",
+    "cross listed": [],
+    "description": "The principles and practice of tissue engineering are taught in this course. The principles underlying strategies for employing selected cells, biomaterial scaffolds, soluble regulators or their genes, and biomechanical loading and culture conditions, for the regeneration of tissues and organs in vitro and in vivo are addressed. Bioreactors, enabling technology and biomimetic approach for fabricating tissue-engineered products and devices for implantation are taught.",
+    "name": "Intro to Cell and Tissue Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Introduction to Air Quality": {
     "ID": "4330",
@@ -10264,6 +10978,28 @@
     },
     "subj": "ECSE"
   },
+  "Introduction to Industrial and Systems Engineering": {
+    "ID": "1100",
+    "cross listed": [],
+    "description": "An introduction to industrial and systems engineering (ISE). Major elements of the ISE disciplines are overviewed in the context of operations engineering problems. Topics include deterministic and stochastic applications of operations research methods, soft computing, applications of probability and statistics, engineering economics, discrete event simulation, and decision analysis.",
+    "name": "Introduction to Industrial and Systems Engineering",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Introduction to Information Technology and Web Science": {
     "ID": "1100",
     "cross listed": [],
@@ -10946,11 +11682,13 @@
       "HI": false,
       "major_restricted": false
     },
-    "subj": "BIOL"
+    "subj": "BMED"
   },
   "Investigative Medicine II": {
     "ID": "4120",
-    "cross listed": [],
+    "cross listed": [
+      "BIOL-4120"
+    ],
     "description": "Students will be exposed to several clinical experiences at a level typically found in college graduates/post graduates who are entering medical school.",
     "name": "Investigative Medicine II",
     "offered": {
@@ -10962,13 +11700,15 @@
       "text": "Spring term annually.",
       "uia": false
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "BIOL-4110"
+    ],
     "properties": {
       "CI": false,
       "HI": false,
       "major_restricted": false
     },
-    "subj": "BIOL"
+    "subj": "BMED"
   },
   "Investments I": {
     "ID": "4320",
@@ -11714,6 +12454,28 @@
     },
     "subj": "MGMT"
   },
+  "Management of Engineering and Technology": {
+    "ID": "4440",
+    "cross listed": [],
+    "description": "The study of the link between engineering, and management. Students will gain an in-depth understanding of the foundations of engineering management. Topics covered include the concept of engineering management, its relationship to engineering, and its historical underpinnings, the traditional roles of management with particular emphasis on leadership skills to manage projects and processes, as well as the organizational and administrative abilities required to oversee the day-to-day operational performance of complex engineering. The ethical dimensions of the organization and the engineering community are also explored.",
+    "name": "Management of Engineering and Technology",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "On Availability of Instructor",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Managerial Accounting": {
     "ID": "4250",
     "cross listed": [],
@@ -12324,6 +13086,28 @@
     },
     "subj": "MATP"
   },
+  "Mathematical Statistics": {
+    "ID": "4760",
+    "cross listed": [],
+    "description": "A course in the theory of statistics which will provide students with a basic foundation for more specialized statistical methodology courses. Topics include sampling and sampling distributions; point estimation including method of moments, maximum likelihood estimation, uniform minimum variance estimation and properties of the associated estimators; confidence intervals; hypothesis testing including uniformly most powerful, likelihood ratio approaches, chi-square tests for goodness-of-fit and independence. The course will conclude with an introduction to linear statistical models.",
+    "name": "Mathematical Statistics",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Mathematics in Medicine and Biology": {
     "ID": "4720",
     "cross listed": [],
@@ -12390,6 +13174,28 @@
     },
     "subj": "MTLE"
   },
+  "Mechanobiology": {
+    "ID": "4510",
+    "cross listed": [],
+    "description": "Mechanical regulation of biological systems. Topics include principles and concepts of mechanobiology; evolution, embryogenesis, and histogenesis of tissues with particular references to skeletal system; mechanical regulation of cellular behavior, tissue growth and organ development; concept and application of strain energy regulation in biology; application of mechanobiology to tissue regeneration; limits of mechanical regulation.",
+    "name": "Mechanobiology",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Spring term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Mechatronics": {
     "ID": "4090",
     "cross listed": [],
@@ -12455,6 +13261,28 @@
       "major_restricted": false
     },
     "subj": "IHSS"
+  },
+  "Medical Imaging": {
+    "ID": "4590",
+    "cross listed": [],
+    "description": "This course serves as an in-depth overview to medical imaging modalities. First, individual modalities are introduced, including CT, MRI, PET, SPECT, and US. Then, multimodality systems are described. A balance is made among physical, mathematical, algorithmic and architectural contents. Contemporary research and insights to improve the current systems are introduced throughout the course to inspire students and provide an understanding of newer tools under development.",
+    "name": "Medical Imaging",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Fall term annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Medicinal Chemistry": {
     "ID": "4300",
@@ -12774,6 +13602,28 @@
     },
     "subj": "ECSE"
   },
+  "Modeling of Biomedical Systems": {
+    "ID": "4200",
+    "cross listed": [],
+    "description": "Introduction of mathematical and computational methods to model physiological systems in biomedical engineering. Mathematical methods include solution techniques for systems of algebraic equations, systems of partial and partial differential equations. Computational methods include finite difference, finite element, and lumped parameter methods. Computational methods are programmed using commercial programming software.",
+    "name": "Modeling of Biomedical Systems",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": true,
+      "text": "Fall, spring, and summer terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Modern Communication Systems": {
     "ID": "4560",
     "cross listed": [],
@@ -13089,6 +13939,28 @@
       "major_restricted": false
     },
     "subj": "BIOL"
+  },
+  "Muscle Mechanics and Modeling": {
+    "ID": "4660",
+    "cross listed": [],
+    "description": "This graduate/advanced undergraduate hybrid course examines the structural and physiologic properties of muscle, as well as its force production and overall biomechanical function. Muscle structure and function will be explored at the protein, single fiber, and whole tissue levels. Discussions will focus primarily on skeletal muscle, and topics will include muscle morphology, cross-bridge theory, molecular motor and actomyosin interaction, Hill-type and Huxley-type models, electromyography, fatigue, muscle inhibition, history-dependent phenomena, in vitro and in vivo muscle function, and the response to injury. Each topic will be introduced and developed utilizing seminal articles in the literature as well as excerpts from texts and further discussion on current problems and state-of-the-art experimental techniques will draw on the current scientific literature.",
+    "name": "Muscle Mechanics and Modeling",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Music and Sound I": {
     "ID": "2380",
@@ -13670,6 +14542,28 @@
     },
     "subj": "MGMT"
   },
+  "Operations Research Methods": {
+    "ID": "4600",
+    "cross listed": [],
+    "description": "An introduction to commonly used methods of deterministic and stochastic operations research. Topics include linear programming, simplex algorithms, duality, linear networks, integer programming, dynamic programming, goa1 programming, location models, exact and heuristic solution procedures for integer and sequencing problems, queuing theory, Markov chains, multi-criteria decision making, and decision analysis. Students cannot get credit for both ISYE 4600 and ISYE 6610 .",
+    "name": "Operations Research Methods",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": false,
+      "summer": true,
+      "text": "Summer and fall terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Optical Communications and Integrated Optics": {
     "ID": "4640",
     "cross listed": [
@@ -13737,6 +14631,28 @@
       "major_restricted": false
     },
     "subj": "PHYS"
+  },
+  "Optimization Algorithms and Applications": {
+    "ID": "4220",
+    "cross listed": [],
+    "description": "Design, analysis, and implementation of algorithms for combinatorial optimization problems. Introduction to theoretical analysis of algorithms and applications that can be formulated as combinatorial optimization problems. Specific topics include complexity analysis, network flow problems, traveling salesperson problems, matching problems, knapsack problems, and greedy algorithms. Implementation of combinatorial algorithms in a commercial software language. An introduction to this software language will be given at the beginning of the course.",
+    "name": "Optimization Algorithms and Applications",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Ordinary Differential Equations and Dynamical Systems": {
     "ID": "4400",
@@ -14645,9 +15561,11 @@
     "subj": "MATP"
   },
   "Production and Operations Management": {
-    "ID": "2700",
-    "cross listed": [],
-    "description": "Overview of methods used in the design and operation of production and service systems and basic cost accounting. Topics include forecasting, capacity planning, line balancing, production scheduling, staff scheduling, inventory control, just in time, time study, project planning, and discrete item cost accounting. Goal of course is to educate students in basic operations management principles and models and in discrete goods cost accounting. Students cannot receive credit for this course and ISYE 2210 .",
+    "ID": "2210",
+    "cross listed": [
+      "ENGR-2700"
+    ],
+    "description": "Overview of methods used in the design and operation of production and service systems and basic cost accounting. Topics include forecasting, capacity planning, line balancing, production scheduling, staff scheduling, inventory control, just in time, time study, project planning, and discrete item cost accounting. Goal of course is to educate students in basic operations management principles and models and in discrete goods cost accounting. Students cannot receive credit for this course and ENGR 2700 .",
     "name": "Production and Operations Management",
     "offered": {
       "even": false,
@@ -14658,15 +15576,13 @@
       "text": "Spring term annually.",
       "uia": false
     },
-    "prerequisites": [
-      "MATH-1020"
-    ],
+    "prerequisites": [],
     "properties": {
       "CI": false,
       "HI": false,
       "major_restricted": false
     },
-    "subj": "ENGR"
+    "subj": "ISYE"
   },
   "Professional Development  2 –Technical Issues and Solutions": {
     "ID": "4100",
@@ -14960,6 +15876,28 @@
     },
     "subj": "CSCI"
   },
+  "Programming for BME": {
+    "ID": "2050",
+    "cross listed": [],
+    "description": "Introduction of number systems  decimal, binary and hexadecimal ; variable types including Boolean, integer, float, character and string; general overview of computer architecture and software, programming in \"C/C++\" including input/output, control statements, operators, functions, arrays, strings, classes, objects, inheritance, pointers, references, file processing, exceptions and operator overloading; overview of other programming languages including Matlab, R and Python; design of algorithms for applications that are relevant for biomedical engineering applications.",
+    "name": "Programming for BME",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and Spring annually",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Programming for Cognitive Science and Artificial Intelligence": {
     "ID": "4410",
     "cross listed": [],
@@ -15117,6 +16055,28 @@
       "major_restricted": false
     },
     "subj": "ECON"
+  },
+  "Quality Control": {
+    "ID": "4230",
+    "cross listed": [],
+    "description": "The statistical approach to manufacturing quality control is emphasized. Consideration is given to the managerial implications and responsibilities in implementing the statistical approach. Topical coverage includes construction and interpretation of various control charts; special control charts (e.g., CUSUM, EWMA); graphical methods; specifications, tolerance limits, process capability indices; acceptance sampling; discussion of experimental design; and Taguchi methods of quality improvement.",
+    "name": "Quality Control",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Quantitative Methods for Business": {
     "ID": "4100",
@@ -15497,6 +16457,28 @@
       "major_restricted": false
     },
     "subj": "ENVE"
+  },
+  "Readings in ISYE": {
+    "ID": "4940",
+    "cross listed": [],
+    "description": "",
+    "name": "Readings in ISYE",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Readings in Materials": {
     "ID": "2940",
@@ -17098,6 +18080,28 @@
     },
     "subj": "MGMT"
   },
+  "Statistical Analysis": {
+    "ID": "4140",
+    "cross listed": [],
+    "description": "Review of simple and multiple regression, selection procedures, regression diagnostics, residual analysis, stepwise regression, analysis of variance, design of experiments including factorial experiments, analysis of ordinal data and nonparametric inference, basic time series models. Extensive use of statistical software. Emphasis on statistical applications to industrial engineering.",
+    "name": "Statistical Analysis",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": true,
+      "summer": true,
+      "text": "Spring and Summer terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Statistical Methods": {
     "ID": "2100",
     "cross listed": [],
@@ -17418,6 +18422,28 @@
     },
     "subj": "MGMT"
   },
+  "Studies in Biomedical Engineering": {
+    "ID": "4940",
+    "cross listed": [],
+    "description": "Fall and spring terms annually.",
+    "name": "Studies in Biomedical Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
+  },
   "Studies in Environmental Engineering": {
     "ID": "4940",
     "cross listed": [],
@@ -17441,7 +18467,7 @@
     "subj": "ENVE"
   },
   "Studies in Games": {
-    "ID": "4940",
+    "ID": "2940",
     "cross listed": [],
     "description": "",
     "name": "Studies in Games",
@@ -17683,6 +18709,28 @@
       "major_restricted": false
     },
     "subj": "MGMT"
+  },
+  "Systems Engineering and Social Media": {
+    "ID": "4350",
+    "cross listed": [],
+    "description": "An introduction to social media analytics. Topics include obtaining and processing social media data, social network analysis, content analysis, descriptive, predictive, and prescriptive analytics using social media, ethical aspects of social media analytics.",
+    "name": "Systems Engineering and Social Media",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Team Research": {
     "ID": "4900",
@@ -17978,6 +19026,28 @@
     },
     "subj": "PHYS"
   },
+  "Theory of Production Scheduling": {
+    "ID": "4320",
+    "cross listed": [],
+    "description": "Problems of scheduling several tasks over time. Topics include measures of performance, single machine sequencing, flowshop scheduling, the job shop problem, and priority dispatching. Integer programming, dynamic programming, and heuristic approaches to various problems are also presented.",
+    "name": "Theory of Production Scheduling",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "Upon availability of instructor.",
+      "uia": true
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
+  },
   "Thermal and Fluids Engineering I": {
     "ID": "2250",
     "cross listed": [],
@@ -18133,6 +19203,28 @@
       "major_restricted": false
     },
     "subj": "ASTR"
+  },
+  "Topics in Biomedical Engineering": {
+    "ID": "4960",
+    "cross listed": [],
+    "description": "Fall and spring terms annually.",
+    "name": "Topics in Biomedical Engineering",
+    "offered": {
+      "even": false,
+      "fall": true,
+      "odd": false,
+      "spring": true,
+      "summer": false,
+      "text": "Fall and spring terms annually.",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "BMED"
   },
   "Topics in Circadian Biology": {
     "ID": "4240",
@@ -18399,6 +19491,28 @@
       "major_restricted": false
     },
     "subj": "ERTH"
+  },
+  "Topics in ISYE": {
+    "ID": "4960",
+    "cross listed": [],
+    "description": "",
+    "name": "Topics in ISYE",
+    "offered": {
+      "even": false,
+      "fall": false,
+      "odd": false,
+      "spring": false,
+      "summer": false,
+      "text": "",
+      "uia": false
+    },
+    "prerequisites": [],
+    "properties": {
+      "CI": false,
+      "HI": false,
+      "major_restricted": false
+    },
+    "subj": "ISYE"
   },
   "Topics in Interdisciplinary Humanities and Social Science Studies": {
     "ID": "4960",
