@@ -2,23 +2,26 @@ from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 from passlib.context import CryptContext
+from flask_login import UserMixin
+from flask_login import LoginManager, login_manager, login_required, logout_user, current_user
 
 db = SQLAlchemy()
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config["SECRET_KEY"] = #something
+app.config["SECRET_KEY"] = 'ball'
 db.init_app(app)
 
+login_manager = LoginManager()
+
+
 #this is a row
-class Entry(db.Model):
+class Entry(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     first = db.Column(db.String(1024))
     last = db.Column(db.String(1024))
     email = db.Column(db.String(1024), unique=True)
     password = db.Column(db.String(1024))
-
-# Entry(id=1, first='Nick', last='Dicosimo', email='asbasf@gasd.com', password='sadfsadf')
 
 def hash(password):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").hash(password)
@@ -29,6 +32,7 @@ def checkhash(password, hash):
 #THIS IS FOR ACCOUNT CREATION
 @app.route('/register',methods = ["GET", "POST"])   #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def requests():
+    
     if request.method=="POST":
         first_got = request.args["first"]
         last_got = request.args["last"]
@@ -40,6 +44,7 @@ def requests():
         db.session.add(newEntry)
         db.session.commit()
         return "success"
+
 #THIS ONE IS FOR LOGGING
 @app.route('/login',methods = ["GET", "POST"])
 def login():
