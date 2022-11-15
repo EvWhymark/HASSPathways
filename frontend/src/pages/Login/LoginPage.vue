@@ -1,14 +1,35 @@
 <template>
-    <div style="text-align: center">
-        <v-text-field
-            v-model="user"
-        ></v-text-field>
-        <v-text-field
-            v-model="pass"
-            :type="pass_visible ? text : password"
-        ></v-text-field>
-        <v-button>
-        </v-button>
+    <div class="center">
+        <div style="height: 50px" />
+        <v-card
+            raised
+            rounded
+            outlined
+            elevation="20"
+            max-width="500"
+        >
+            <v-card-title class="justify-center">
+                <h4>
+                    Login
+                </h4>
+            </v-card-title>
+            <v-spacer />
+            <v-card-text>
+                Username
+                <v-text-field
+                    v-model="user"
+                    prepend-icon="mdi-account"
+                />
+                Password
+                <v-text-field
+                    v-model="pass"
+                    :type="pass_visible ? text : 'password'"
+                    prepend-icon="mdi-lock"
+                    :append-icon="pass_visible ? 'mdi-eye' : 'mdi-eye-off'"
+                    @click:append="pass_visible = !pass_visible"
+                />
+            </v-card-text>
+        </v-card>
     </div>
 </template>
 
@@ -26,6 +47,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.center {
+    margin: auto;
+    width: 40%;
+}
 
 </style>
