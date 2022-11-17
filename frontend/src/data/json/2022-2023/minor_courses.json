@@ -14,6 +14,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -36,6 +37,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -58,6 +60,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -80,6 +83,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -104,6 +108,7 @@
     "prerequisites": [
       "ARTS-2230"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -126,6 +131,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -148,6 +154,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -170,6 +177,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -192,6 +200,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -214,6 +223,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -236,6 +246,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -258,6 +269,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -280,6 +292,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -302,6 +315,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -324,6 +338,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -346,6 +361,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -368,6 +384,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -390,6 +407,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -412,6 +430,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -434,6 +453,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -458,6 +478,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -482,6 +503,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -504,6 +526,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -526,6 +549,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -548,6 +572,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -570,6 +595,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -592,6 +618,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -614,6 +641,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -636,6 +664,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -658,6 +687,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -680,6 +710,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -704,6 +735,7 @@
     "prerequisites": [
       "COGS-2340"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -728,6 +760,7 @@
     "prerequisites": [
       "IHSS-1030"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -750,6 +783,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -772,6 +806,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -794,6 +829,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -816,6 +852,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -838,6 +875,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -860,6 +898,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -884,6 +923,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -908,6 +948,7 @@
     "prerequisites": [
       "ARTS-4060"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -932,6 +973,7 @@
     "prerequisites": [
       "MGMT-4100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -954,6 +996,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -978,6 +1021,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1000,6 +1044,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1022,6 +1067,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1046,6 +1092,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1068,6 +1115,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1092,6 +1140,7 @@
     "prerequisites": [
       "ERTH-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1114,6 +1163,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1136,6 +1186,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1158,6 +1209,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1182,6 +1234,7 @@
     "prerequisites": [
       "CHEM-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1204,6 +1257,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1226,6 +1280,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1248,6 +1303,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1270,6 +1326,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1292,6 +1349,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1316,6 +1374,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1340,6 +1399,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1364,6 +1424,7 @@
     "prerequisites": [
       "ARCH-2830"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1388,6 +1449,7 @@
     "prerequisites": [
       "ARCH-4770"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1410,6 +1472,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1432,6 +1495,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1454,6 +1518,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -1476,6 +1541,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1498,6 +1564,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1520,6 +1587,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1542,6 +1610,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1564,6 +1633,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1586,6 +1656,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1610,6 +1681,7 @@
     "prerequisites": [
       "PHYS-2220"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1632,6 +1704,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1656,6 +1729,7 @@
     "prerequisites": [
       "ARCH-4860"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1678,6 +1752,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1700,6 +1775,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1726,6 +1802,7 @@
     "prerequisites": [
       "ARCH-2330"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1748,6 +1825,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1770,6 +1848,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1792,6 +1871,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1814,6 +1894,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1838,6 +1919,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1862,6 +1944,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1886,6 +1969,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1908,6 +1992,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -1930,6 +2015,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1952,6 +2038,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1976,6 +2063,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -1998,6 +2086,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2024,6 +2113,7 @@
     "prerequisites": [
       "STSO-2510"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2046,6 +2136,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2068,6 +2159,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2090,6 +2182,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2112,6 +2205,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2134,6 +2228,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2156,6 +2251,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2178,6 +2274,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2200,6 +2297,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2222,6 +2320,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2244,6 +2343,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2266,6 +2366,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2288,6 +2389,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2312,6 +2414,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2334,6 +2437,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2356,6 +2460,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2378,6 +2483,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2400,6 +2506,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2424,6 +2531,7 @@
     "prerequisites": [
       "BIOL-1010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2446,6 +2554,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2468,6 +2577,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2490,6 +2600,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2512,6 +2623,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2534,6 +2646,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2558,6 +2671,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2582,6 +2696,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2604,6 +2719,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2626,6 +2742,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2648,6 +2765,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2670,6 +2788,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2692,6 +2811,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2714,6 +2834,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2736,6 +2857,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2758,6 +2880,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2780,6 +2903,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2802,6 +2926,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2824,6 +2949,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2846,6 +2972,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2868,6 +2995,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2890,6 +3018,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2914,6 +3043,7 @@
     "prerequisites": [
       "CHEM-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2936,6 +3066,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2958,6 +3089,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -2980,6 +3112,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3002,6 +3135,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3024,6 +3158,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3046,6 +3181,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3068,6 +3204,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3090,6 +3227,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3112,6 +3250,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3134,6 +3273,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3156,6 +3296,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3178,6 +3319,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3202,6 +3344,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3229,6 +3372,7 @@
       "PHIL-2120",
       "PSYC-2120"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3251,6 +3395,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3275,6 +3420,7 @@
     "prerequisites": [
       "PSYC-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3297,6 +3443,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3319,6 +3466,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3341,6 +3489,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3363,6 +3512,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3387,6 +3537,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3409,6 +3560,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3431,6 +3583,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3453,6 +3606,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3475,6 +3629,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3497,6 +3652,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3519,6 +3675,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3541,6 +3698,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3563,6 +3721,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3585,6 +3744,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3607,6 +3767,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3629,6 +3790,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3651,6 +3813,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3673,6 +3836,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3695,6 +3859,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3717,6 +3882,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3739,6 +3905,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3761,6 +3928,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3783,6 +3951,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3805,6 +3974,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3827,6 +3997,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3849,6 +4020,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3871,6 +4043,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3893,6 +4066,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3915,6 +4089,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3939,6 +4114,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3963,6 +4139,7 @@
     "prerequisites": [
       "MGMT-2430"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -3985,6 +4162,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4007,6 +4185,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4029,6 +4208,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4051,6 +4231,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4073,6 +4254,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4095,6 +4277,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4117,6 +4300,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4141,6 +4325,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4163,6 +4348,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4185,6 +4371,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4207,6 +4394,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4231,6 +4419,7 @@
     "prerequisites": [
       "ARTS-4840"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4253,6 +4442,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4275,6 +4465,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4299,6 +4490,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4323,6 +4515,7 @@
     "prerequisites": [
       "COGS-2340"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4345,6 +4538,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4367,6 +4561,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4389,6 +4584,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4411,6 +4607,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4435,6 +4632,7 @@
     "prerequisites": [
       "MATH-1020"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4459,6 +4657,7 @@
     "prerequisites": [
       "BIOL-4260"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4481,6 +4680,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4505,6 +4705,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4529,6 +4730,7 @@
     "prerequisites": [
       "MATP-4400"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4551,6 +4753,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4575,6 +4778,7 @@
     "prerequisites": [
       "MGMT-4100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4599,6 +4803,7 @@
     "prerequisites": [
       "CSCI-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4621,6 +4826,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4645,6 +4851,7 @@
     "prerequisites": [
       "ITWS-4350"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4669,6 +4876,7 @@
     "prerequisites": [
       "CSCI-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4691,6 +4899,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4713,6 +4922,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4735,6 +4945,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4759,6 +4970,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4781,6 +4993,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4803,6 +5016,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4825,6 +5039,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4849,6 +5064,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4871,6 +5087,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4893,6 +5110,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4915,6 +5133,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4937,6 +5156,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -4959,6 +5179,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -4981,6 +5202,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5003,6 +5225,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5025,6 +5248,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5049,6 +5273,7 @@
     "prerequisites": [
       "ISYE-4140"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5071,6 +5296,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5093,6 +5319,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5117,6 +5344,7 @@
     "prerequisites": [
       "MGMT-7050"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5141,6 +5369,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5163,6 +5392,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5185,6 +5415,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5209,6 +5440,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5233,6 +5465,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5257,6 +5490,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5281,6 +5515,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5303,6 +5538,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5325,6 +5561,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5347,6 +5584,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5369,6 +5607,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5391,6 +5630,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5413,6 +5653,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5435,6 +5676,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5457,6 +5699,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5479,6 +5722,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5501,6 +5745,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5523,6 +5768,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5547,6 +5793,7 @@
     "prerequisites": [
       "MGMT-7810"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5569,6 +5816,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5593,6 +5841,7 @@
     "prerequisites": [
       "MGMT-7800"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5615,6 +5864,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5637,6 +5887,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5659,6 +5910,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -5681,6 +5933,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5703,6 +5956,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5725,6 +5979,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5747,6 +6002,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5769,6 +6025,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5791,6 +6048,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5815,6 +6073,7 @@
     "prerequisites": [
       "ERTH-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5837,6 +6096,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5859,6 +6119,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5883,6 +6144,7 @@
     "prerequisites": [
       "ARTS-1020"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5907,6 +6169,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5929,6 +6192,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5951,6 +6215,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5975,6 +6240,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -5997,6 +6263,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6021,6 +6288,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6045,6 +6313,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6069,6 +6338,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6091,6 +6361,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6113,6 +6384,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6137,6 +6409,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6159,6 +6432,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6181,6 +6455,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6203,6 +6478,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6225,6 +6501,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6247,6 +6524,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6269,6 +6547,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6291,6 +6570,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6313,6 +6593,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6335,6 +6616,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6359,6 +6641,7 @@
     "prerequisites": [
       "MGMT-7810"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6381,6 +6664,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6403,6 +6687,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6425,6 +6710,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6447,6 +6733,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6469,6 +6756,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6491,6 +6779,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6513,6 +6802,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6535,6 +6825,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6557,6 +6848,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6579,6 +6871,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6601,6 +6894,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6623,6 +6917,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6645,6 +6940,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6669,6 +6965,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6691,6 +6988,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6715,6 +7013,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6741,6 +7040,7 @@
     "prerequisites": [
       "ARCH-5380"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6763,6 +7063,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6785,6 +7086,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6807,6 +7109,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6829,6 +7132,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6851,6 +7155,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6873,6 +7178,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6895,6 +7201,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6917,6 +7224,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6939,6 +7247,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6961,6 +7270,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -6983,6 +7293,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7007,6 +7318,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7029,6 +7341,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7051,6 +7364,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7073,6 +7387,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7097,6 +7412,7 @@
     "prerequisites": [
       "ISYE-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7119,6 +7435,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7141,6 +7458,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -7163,6 +7481,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7185,6 +7504,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7207,6 +7527,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7229,6 +7550,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7251,6 +7573,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7275,6 +7598,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7297,6 +7621,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7319,6 +7644,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7341,6 +7667,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7363,6 +7690,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7385,6 +7713,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -7407,6 +7736,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7429,6 +7759,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7451,6 +7782,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7473,6 +7805,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7495,6 +7828,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7519,6 +7853,7 @@
     "prerequisites": [
       "MGMT-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7543,6 +7878,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7565,6 +7901,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7589,6 +7926,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7611,6 +7949,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7633,6 +7972,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7655,6 +7995,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7677,6 +8018,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7699,6 +8041,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7721,6 +8064,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7743,6 +8087,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7765,6 +8110,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7789,6 +8135,7 @@
     "prerequisites": [
       "MGMT-7800"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7811,6 +8158,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7835,6 +8183,7 @@
     "prerequisites": [
       "BIOL-1010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7857,6 +8206,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7879,6 +8229,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7901,6 +8252,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7923,6 +8275,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7945,6 +8298,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7969,6 +8323,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -7991,6 +8346,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8015,6 +8371,7 @@
     "prerequisites": [
       "GSAS-4510"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8037,6 +8394,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8059,6 +8417,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8083,6 +8442,7 @@
     "prerequisites": [
       "ARTS-2230"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8105,6 +8465,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8127,6 +8488,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8149,6 +8511,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8173,6 +8536,7 @@
     "prerequisites": [
       "GSAS-2520"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8197,6 +8561,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8219,6 +8584,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8241,6 +8607,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8263,6 +8630,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8287,6 +8655,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8309,6 +8678,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8331,6 +8701,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8353,6 +8724,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8377,6 +8749,7 @@
     "prerequisites": [
       "CSCI-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8399,6 +8772,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8423,6 +8797,7 @@
     "prerequisites": [
       "ERTH-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8445,6 +8820,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8469,6 +8845,7 @@
     "prerequisites": [
       "ERTH-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8493,6 +8870,7 @@
     "prerequisites": [
       "BIOL-1010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8515,6 +8893,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8537,6 +8916,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8559,6 +8939,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8581,6 +8962,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8603,6 +8985,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8627,6 +9010,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8651,6 +9035,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8675,6 +9060,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8697,6 +9083,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8719,6 +9106,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8741,6 +9129,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -8763,6 +9152,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8785,6 +9175,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8809,6 +9200,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8831,6 +9223,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8853,6 +9246,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8875,6 +9269,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8897,6 +9292,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8919,6 +9315,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8941,6 +9338,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -8965,6 +9363,7 @@
     "prerequisites": [
       "STSO-1110"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -8989,6 +9388,7 @@
     "prerequisites": [
       "STSO-1110"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9011,6 +9411,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9035,6 +9436,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9059,6 +9461,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9083,6 +9486,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9105,6 +9509,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9127,6 +9532,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9149,6 +9555,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9173,6 +9580,7 @@
     "prerequisites": [
       "BIOL-1010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9197,6 +9605,7 @@
     "prerequisites": [
       "MGMT-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9219,6 +9628,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9241,6 +9651,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9263,6 +9674,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9285,6 +9697,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9309,6 +9722,7 @@
     "prerequisites": [
       "CHEM-2250"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9331,6 +9745,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9353,6 +9768,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9375,6 +9791,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9397,6 +9814,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9419,6 +9837,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9441,6 +9860,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9465,6 +9885,7 @@
     "prerequisites": [
       "ITWS-2210"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9487,6 +9908,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9509,6 +9931,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9531,6 +9954,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9553,6 +9977,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9575,6 +10000,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9597,6 +10023,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9619,6 +10046,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9643,6 +10071,7 @@
     "prerequisites": [
       "CSCI-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9665,6 +10094,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9687,6 +10117,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9709,6 +10140,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9731,6 +10163,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9753,6 +10186,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9775,6 +10209,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9799,6 +10234,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9823,6 +10259,7 @@
     "prerequisites": [
       "MGMT-4270"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9845,6 +10282,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9869,6 +10307,7 @@
     "prerequisites": [
       "ARTS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9893,6 +10332,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9917,6 +10357,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9941,6 +10382,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9963,6 +10405,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -9985,6 +10428,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10007,6 +10451,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10031,6 +10476,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10053,6 +10499,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10075,6 +10522,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10097,6 +10545,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10121,6 +10570,7 @@
     "prerequisites": [
       "IHSS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10145,6 +10595,7 @@
     "prerequisites": [
       "MGMT-2430"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10169,6 +10620,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10191,6 +10643,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10213,6 +10666,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10235,6 +10689,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10257,6 +10712,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10281,6 +10737,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10303,6 +10760,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10327,6 +10785,7 @@
     "prerequisites": [
       "BIOL-1015"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10349,6 +10808,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10371,6 +10831,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10393,6 +10854,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10415,6 +10877,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10437,6 +10900,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10461,6 +10925,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10483,6 +10948,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10505,6 +10971,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10527,6 +10994,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10549,6 +11017,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10571,6 +11040,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10593,6 +11063,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10615,6 +11086,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10637,6 +11109,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10659,6 +11132,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10681,6 +11155,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10703,6 +11178,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10725,6 +11201,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10747,6 +11224,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10769,6 +11247,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10791,6 +11270,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10813,6 +11293,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10839,6 +11320,7 @@
     "prerequisites": [
       "ERTH-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10861,6 +11343,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10883,6 +11366,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10905,6 +11389,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10927,6 +11412,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10949,6 +11435,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10971,6 +11458,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -10993,6 +11481,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11015,6 +11504,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11037,6 +11527,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11059,6 +11550,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11081,6 +11573,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11103,6 +11596,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11125,6 +11619,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11147,6 +11642,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11169,6 +11665,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11191,6 +11688,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11213,6 +11711,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11235,6 +11734,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11257,6 +11757,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11279,6 +11780,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11301,6 +11803,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11323,6 +11826,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11345,6 +11849,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11367,6 +11872,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11389,6 +11895,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11411,6 +11918,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11433,6 +11941,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11455,6 +11964,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11477,6 +11987,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11499,6 +12010,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11521,6 +12033,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11543,6 +12056,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11565,6 +12079,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11587,6 +12102,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11611,6 +12127,7 @@
     "prerequisites": [
       "PHYS-2210"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11633,6 +12150,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11655,6 +12173,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11677,6 +12196,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11703,6 +12223,7 @@
     "prerequisites": [
       "BIOL-4110"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11727,6 +12248,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11751,6 +12273,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11773,6 +12296,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11797,6 +12321,7 @@
     "prerequisites": [
       "CHEM-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11819,6 +12344,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11843,6 +12369,7 @@
     "prerequisites": [
       "BIOL-4850"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11865,6 +12392,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11887,6 +12415,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -11909,6 +12438,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11931,6 +12461,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11955,6 +12486,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -11977,6 +12509,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12001,6 +12534,7 @@
     "prerequisites": [
       "ECON-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12023,6 +12557,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -12045,6 +12580,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12067,6 +12603,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12089,6 +12626,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12111,6 +12649,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12133,6 +12672,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -12157,6 +12697,7 @@
     "prerequisites": [
       "LGHT-4840"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12179,6 +12720,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12201,6 +12743,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12223,6 +12766,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12245,6 +12789,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12269,6 +12814,7 @@
     "prerequisites": [
       "MATH-2010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12291,6 +12837,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12313,6 +12860,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12335,6 +12883,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12357,6 +12906,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12379,6 +12929,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12401,6 +12952,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12425,6 +12977,7 @@
     "prerequisites": [
       "MGMT-7840"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12447,6 +13000,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12469,6 +13023,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12493,6 +13048,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12515,6 +13071,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12537,6 +13094,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12559,6 +13117,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12581,6 +13140,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12603,6 +13163,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12625,6 +13186,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12649,6 +13211,7 @@
     "prerequisites": [
       "MGMT-2100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12671,6 +13234,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12695,6 +13259,7 @@
     "prerequisites": [
       "MGMT-2430"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12717,6 +13282,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12739,6 +13305,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12761,6 +13328,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12785,6 +13353,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12807,6 +13376,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12829,6 +13399,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12851,6 +13422,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12875,6 +13447,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12899,6 +13472,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12923,6 +13497,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12945,6 +13520,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12967,6 +13543,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -12989,6 +13566,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13011,6 +13589,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13033,6 +13612,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13057,6 +13637,7 @@
     "prerequisites": [
       "PSYC-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13079,6 +13660,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13101,6 +13683,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13123,6 +13706,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13145,6 +13729,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13167,6 +13752,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13189,6 +13775,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13211,6 +13798,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13233,6 +13821,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13255,6 +13844,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -13277,6 +13867,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13299,6 +13890,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13323,6 +13915,7 @@
     "prerequisites": [
       "STSO-2510"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13345,6 +13938,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13367,6 +13961,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13389,6 +13984,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13413,6 +14009,7 @@
     "prerequisites": [
       "BIOL-2120"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13435,6 +14032,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13459,6 +14057,7 @@
     "prerequisites": [
       "ECON-2010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13481,6 +14080,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13503,6 +14103,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13525,6 +14126,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13549,6 +14151,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -13571,6 +14174,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13595,6 +14199,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13617,6 +14222,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13639,6 +14245,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13661,6 +14268,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13683,6 +14291,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13705,6 +14314,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13729,6 +14339,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13751,6 +14362,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13773,6 +14385,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13795,6 +14408,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13817,6 +14431,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13839,6 +14454,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13861,6 +14477,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13885,6 +14502,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13907,6 +14525,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13933,6 +14552,7 @@
     "prerequisites": [
       "BIOL-4270"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13955,6 +14575,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -13979,6 +14600,7 @@
     "prerequisites": [
       "ARTS-1380"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14001,6 +14623,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14023,6 +14646,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14045,6 +14669,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14069,6 +14694,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14091,6 +14717,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14113,6 +14740,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14135,6 +14763,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14157,6 +14786,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14179,6 +14809,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14201,6 +14832,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -14223,6 +14855,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14245,6 +14878,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14267,6 +14901,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14289,6 +14924,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14311,6 +14947,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14333,6 +14970,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14355,6 +14993,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14379,6 +15018,7 @@
     "prerequisites": [
       "MATH-4800"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14401,6 +15041,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14423,6 +15064,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14445,6 +15087,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14469,6 +15112,7 @@
     "prerequisites": [
       "ECON-2020"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14491,6 +15135,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14513,6 +15158,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14535,6 +15181,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14557,6 +15204,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14581,6 +15229,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14603,6 +15252,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14625,6 +15275,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14647,6 +15298,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14669,6 +15321,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14691,6 +15344,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14713,6 +15367,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14735,6 +15390,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14757,6 +15413,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14779,6 +15436,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14801,6 +15459,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14825,6 +15484,7 @@
     "prerequisites": [
       "MGMT-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14847,6 +15507,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14869,6 +15530,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14891,6 +15553,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14913,6 +15576,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14935,6 +15599,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14957,6 +15622,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -14979,6 +15645,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15001,6 +15668,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15023,6 +15691,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15045,6 +15714,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15067,6 +15737,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15089,6 +15760,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15111,6 +15783,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -15133,6 +15806,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15155,6 +15829,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15177,6 +15852,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15199,6 +15875,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15221,6 +15898,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15243,6 +15921,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15265,6 +15944,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15289,6 +15969,7 @@
     "prerequisites": [
       "STSO-2010"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15311,6 +15992,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15333,6 +16015,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15355,6 +16038,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15377,6 +16061,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15399,6 +16084,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15421,6 +16107,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15443,6 +16130,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -15465,6 +16153,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15487,6 +16176,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15509,6 +16199,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15531,6 +16222,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15553,6 +16245,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15577,6 +16270,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15599,6 +16293,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15621,6 +16316,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15643,6 +16339,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15665,6 +16362,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15687,6 +16385,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15709,6 +16408,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15731,6 +16431,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15753,6 +16454,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15775,6 +16477,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15797,6 +16500,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15823,6 +16527,7 @@
     "prerequisites": [
       "ARCH-5330"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15847,6 +16552,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15869,6 +16575,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15891,6 +16598,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15915,6 +16623,7 @@
     "prerequisites": [
       "CSCI-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15937,6 +16646,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15961,6 +16671,7 @@
     "prerequisites": [
       "WRIT-1110"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -15983,6 +16694,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16005,6 +16717,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16027,6 +16740,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16049,6 +16763,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16071,6 +16786,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16095,6 +16811,7 @@
     "prerequisites": [
       "MGMT-2100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16119,6 +16836,7 @@
     "prerequisites": [
       "PHYS-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16143,6 +16861,7 @@
     "prerequisites": [
       "PHYS-2210"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16165,6 +16884,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16187,6 +16907,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -16209,6 +16930,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16231,6 +16953,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16253,6 +16976,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16275,6 +16999,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16297,6 +17022,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16319,6 +17045,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16341,6 +17068,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16363,6 +17091,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16385,6 +17114,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16407,6 +17137,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16429,6 +17160,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16451,6 +17183,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16473,6 +17206,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16495,6 +17229,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16517,6 +17252,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16539,6 +17275,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16561,6 +17298,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16583,6 +17321,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16605,6 +17344,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16627,6 +17367,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -16649,6 +17390,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16673,6 +17415,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16695,6 +17438,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16717,6 +17461,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16739,6 +17484,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16761,6 +17507,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16783,6 +17530,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16805,6 +17553,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16827,6 +17576,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16851,6 +17601,7 @@
     "prerequisites": [
       "MGMT-7800"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16873,6 +17624,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16895,6 +17647,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16917,6 +17670,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16939,6 +17693,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16961,6 +17716,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -16983,6 +17739,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17007,6 +17764,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17029,6 +17787,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17051,6 +17810,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17073,6 +17833,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17095,6 +17856,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17117,6 +17879,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17139,6 +17902,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -17161,6 +17925,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17183,6 +17948,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17205,6 +17971,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17227,6 +17994,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17249,6 +18017,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17271,6 +18040,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17293,6 +18063,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17315,6 +18086,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17337,6 +18109,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17359,6 +18132,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17381,6 +18155,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17403,6 +18178,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17425,6 +18201,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17447,6 +18224,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17469,6 +18247,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17493,6 +18272,7 @@
     "prerequisites": [
       "PSYC-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17519,6 +18299,7 @@
     "prerequisites": [
       "IHSS-1150"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17541,6 +18322,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17563,6 +18345,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17585,6 +18368,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17607,6 +18391,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17629,6 +18414,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17651,6 +18437,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17673,6 +18460,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17695,6 +18483,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17717,6 +18506,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17739,6 +18529,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17763,6 +18554,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17785,6 +18577,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -17807,6 +18600,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17829,6 +18623,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17851,6 +18646,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17875,6 +18671,7 @@
     "prerequisites": [
       "ARTS-2700"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17897,6 +18694,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17919,6 +18717,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17941,6 +18740,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17963,6 +18763,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -17985,6 +18786,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18007,6 +18809,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18029,6 +18832,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18051,6 +18855,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18073,6 +18878,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18095,6 +18901,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18117,6 +18924,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18139,6 +18947,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18161,6 +18970,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18183,6 +18993,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18207,6 +19018,7 @@
     "prerequisites": [
       "MGMT-2300"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18229,6 +19041,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18251,6 +19064,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18277,6 +19091,7 @@
     "prerequisites": [
       "PSYC-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18299,6 +19114,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18321,6 +19137,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18343,6 +19160,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18367,6 +19185,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18391,6 +19210,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18415,6 +19235,7 @@
     "prerequisites": [
       "MGMT-2320"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18437,6 +19258,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18459,6 +19281,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18481,6 +19304,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18503,6 +19327,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18525,6 +19350,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18547,6 +19373,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18569,6 +19396,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18593,6 +19421,7 @@
     "prerequisites": [
       "MGMT-4100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18615,6 +19444,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -18637,6 +19467,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18659,6 +19490,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18681,6 +19513,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18703,6 +19536,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18725,6 +19559,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18747,6 +19582,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18769,6 +19605,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18791,6 +19628,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -18813,6 +19651,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -18837,6 +19676,7 @@
     "prerequisites": [
       "BIOL-4620"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18861,6 +19701,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18883,6 +19724,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18905,6 +19747,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -18929,6 +19772,7 @@
     "prerequisites": [
       "CHEM-1100"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18953,6 +19797,7 @@
     "prerequisites": [
       "COGS-2340"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18975,6 +19820,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -18997,6 +19843,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19019,6 +19866,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19041,6 +19889,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19063,6 +19912,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19087,6 +19937,7 @@
     "prerequisites": [
       "PHYS-2220"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19109,6 +19960,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19131,6 +19983,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19153,6 +20006,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19175,6 +20029,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19197,6 +20052,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19219,6 +20075,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19243,6 +20100,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19265,6 +20123,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19287,6 +20146,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19309,6 +20169,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19331,6 +20192,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19353,6 +20215,7 @@
       "uia": true
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19375,6 +20238,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19397,6 +20261,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19419,6 +20284,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19441,6 +20307,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19463,6 +20330,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19485,6 +20353,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19507,6 +20376,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19529,6 +20399,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -19551,6 +20422,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19573,6 +20445,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19595,6 +20468,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19617,6 +20491,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19639,6 +20514,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19661,6 +20537,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19683,6 +20560,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19705,6 +20583,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19727,6 +20606,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19749,6 +20629,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19771,6 +20652,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19793,6 +20675,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19815,6 +20698,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19837,6 +20721,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19859,6 +20744,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19881,6 +20767,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19903,6 +20790,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19925,6 +20813,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19947,6 +20836,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19969,6 +20859,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -19991,6 +20882,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20013,6 +20905,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20035,6 +20928,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20057,6 +20951,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20079,6 +20974,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20101,6 +20997,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20123,6 +21020,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20145,6 +21043,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -20167,6 +21066,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -20189,6 +21089,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20211,6 +21112,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20233,6 +21135,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": true,
@@ -20255,6 +21158,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20277,6 +21181,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20299,6 +21204,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20321,6 +21227,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20343,6 +21250,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20367,6 +21275,7 @@
     "prerequisites": [
       "GSAS-4240"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20389,6 +21298,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20411,6 +21321,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20435,6 +21346,7 @@
     "prerequisites": [
       "CSCI-1200"
     ],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,
@@ -20459,6 +21371,7 @@
       "uia": false
     },
     "prerequisites": [],
+    "professors": [],
     "properties": {
       "CI": false,
       "HI": false,

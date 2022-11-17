@@ -173,6 +173,7 @@ def get_course_data(course_ids: List[str], catalog_id) -> Dict:
                     "even": even,
                     "text": offered_text
                 },
+                "professors": [],
                 "properties": {
                     "CI": False,
                     "HI": True if subj == "IHSS" else False,

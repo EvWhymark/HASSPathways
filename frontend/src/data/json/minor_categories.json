@@ -1,7 +1,7 @@
 [
     {
         "image": "ARTS.jpg",
-        "name":"Minor Category 1",
+        "name":"Art",
         "pathways":[
             "Electronic Arts Minor",
             "Music Minor",
@@ -61,6 +61,7 @@
             "Astronomy Minor",
             "Astrophysics Minor",
             "Biological Neuroscience Minor",
+            "Data Science and Engineering",
             "Biology Minor",
             "Biomedical Engineering and Management Minor",
             "Chemistry Minor for Non-Chemistry Majors",
