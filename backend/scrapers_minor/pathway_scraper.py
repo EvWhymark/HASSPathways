@@ -176,6 +176,10 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 desc_more[i]=desc_more[i].strip().encode("ascii", "ignore").strip().decode()
             while '' in desc_more:
                 desc_more.remove('')
+            if len(core.xpath("./content/p/a/em/text()"))==1 and '@rpi.edu' in core.xpath("./content/p/a/em/text()")[0]:
+                desc_more.insert(1,core.xpath("./content/p/a/em/text()")[0])
+            elif len(core.xpath("./content/ol/li/em/a/text()"))>0 and '@rpi.edu' in core.xpath("./content/ol/li/em/a/text()")[0]:
+                desc_more.insert(1,core.xpath("./content/ol/li/em/a/text()")[0])
             tmp=[]
             for i in desc_more:
                 if not (0<len(i)<30 and len(desc_more)<2):
@@ -190,7 +194,8 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 break
             if "require" in anchor_name or "takethefollowing" in anchor_name or "studiocourses" in anchor_name:
                 courses = parse_courses(core, name, year)
-                data[name]["Required"] = courses
+                if len(courses)>0:
+                    data[name]["Required"] = courses
             elif 'architectureminor'==anchor_name:
                 courses = parse_courses(core, name, year)
                 data[name]["Required"] = courses
@@ -200,14 +205,22 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 data[name][one_of_name] = courses
                 one_of_index += 1
             elif "minor" in anchor_name:
-                continue
+                if name=='Chemistry Minor for Non-Chemistry Majors':
+                    continue
                 minors = list(filter(lambda x: x != "", \
                  [minor.replace("Minor", "").replace("minor", "").encode("ascii", "ignore").strip().decode() \
                  for minor in core.xpath("./content/descendant::*/text()")]))
-                data[name]["minor"] = minors
+                for i in range(len(minors)):
+                    if minors[i][-1]=='4' or minors[i][-1]=='3' or minors[i][-1]=='1':
+                        minors[i]+=','
+                data[name]["description"]+='\n'
+                data[name]["description"]+=' '.join(minors)
             else:
                 if "additional" in anchor_name or 'note' in anchor_name or 'level' in anchor_name:
-                    desc_more.insert(0,(core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode()))
+                    more=(core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode())
+                    if len(more)<10:
+                        more+=', '
+                    desc_more.insert(0,more)
                 else:
                     data[name]["remaining_header"] = core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode()
                 courses = parse_courses(core, name, year)
@@ -218,15 +231,8 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                     for i in courses.keys():
                         data[name]["Remaining"][i]=courses[i]
             if len(desc_more)>0:
-                data[name]["description"]+=' '
+                data[name]["description"]+='\n'
                 data[name]["description"]+=' '.join(desc_more)
-            punctuations=[',','.',':','!','?',':']
-            add_space=list(data[name]["description"])
-            for i in range(len(add_space)-1):
-                if add_space[i] in punctuations and add_space[i+1]!=' ':
-                    add_space.insert(i+1,' ')
-            data[name]["description"]=''.join(add_space)
-               
 
         # get rid of duplicates (if it shows up in required, we don't want it to be optional too)
         if "Required" in data[name]:
@@ -236,8 +242,8 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                         del data[name][type][req]
     return data
 
-#a=get_pathway_ids('24')
-#b=get_pathway_data(['6336'], '24', '2022-2023')
+a=get_pathway_ids('24')
+b=get_pathway_data(a, '24', '2022-2023')
 #print(b)
 
 def scrape_pathways():
