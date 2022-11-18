@@ -1,47 +1,100 @@
 {
-  "Artificial Intelligence": {
-    "One Of0": {
-      "AI and Society,": "IHSS1972",
-      "Are Humans Rational?": "IHSS1235",
-      "Minds and Machines": "IHSS1140"
+  "Architectural Acoustics Minor": {
+    "Required": {
+      "Applied Psychoacoustics": "ARCH4860",
+      "Architectural Acoustics 1": "ARCH4840",
+      "Architectural Acoustics 2": "ARCH4850",
+      "Aural Architecture": "ARCH4880",
+      "Engineering Acoustics": "ARCH4890",
+      "Sonics Research Lab 1": "ARCH4870",
+      "Sonics Research Lab 2": "ARCH4810"
     },
+    "description": "The minor in architectural acoustics is open to all Rensselaer students interested in advanced study focusing on the optimization of acoustical quality of performance spaces and other aurally sensitive environments. After completing the minor, the student will be well-prepared for an entry level position dealing with acoustics issues in architectural practice, in acoustical consulting, or as a preparation for graduate studies in acoustics, for example in the Graduate Program in Architectural Acoustics at Rensselaer Polytechnic Institute. The program consists of 15 credits.Proficiency in Calculus I is necessary to comprehend the basics of architectural acoustics. Approval required by director of program.\nFootnote,  Students, with the assistance of their adviser, select 4 courses that best fit their educational objectives. Total at least 15 credits.",
+    "name": "Architectural Acoustics Minor"
+  },
+  "Architectural History Minor": {
+    "Required": {
+      "An Architectural Genealogy": "ARCH4100",
+      "Architectural Media": "ARCH2160",
+      "Cities and Their Territories": "ARCH4050",
+      "Cloud Atlas: 20th Century Architecture, Culture and Civilization": "ARCH4120",
+      "Contemporary Design Approaches": "ARCH4150",
+      "The Ethos of Architecture": "ARCH2150"
+    },
+    "description": "\nThe minor in architectural history is open to all Rensselaer students interested in the history of architecture as a socio-cultural phenomenon that examines architecture as a cultural artifact. It consists of the following courses.",
+    "name": "Architectural History Minor"
+  },
+  "Architecture Minor": {
+    "Required": {
+      "Energy, Comfort, and Ecology": "ARCH2370",
+      "Materials and Design": "ARCH2510",
+      "The Ethos of Architecture": "ARCH2150"
+    },
+    "description": "A minor in architecture is directed toward Rensselaer students interested in architecture as asocio-cultural phenomenon, the student who intends to study architecture at the graduate level,and/or those envisioning a career in some segment of the building industry. The minor program provides an exposure to architecturewhat it is, what it includes, its history, how it is accomplished; and to architectswho they are and how they think and work. In order to earn a minor in architecture, students must compile at least 16 credits of architecture-related courses except for Architecture Design Studio, which is for B.Arch. majors only.\nRequired courses for the minor in architecture are:\nFootnote,  Students select the remaining courses in architecture to build a concentration that supports their own disciplinary interests.",
+    "name": "Architecture Minor"
+  },
+  "Astrobiology Minor": {
     "Remaining": {
-      "Cognitive Modeling": "COGS4210",
-      "Ethics of AI": "PHIL4960",
-      "Game AI": "COGS4420",
-      "Intelligent Virtual Agents": "COGS4640",
-      "Language-Endowed Intelligent Agents": "COGS4880",
-      "Programming for Cognitive Science and Artificial Intelligence": "COGS4410",
-      "Topics in Cognitive Science": "COGS4960"
+      "Aqueous Geochemistry": "ERTH4690",
+      "Chemistry of the Environment": "CHEM4810",
+      "Earth Materials": "ERTH2330",
+      "Earth and Sky": "ASTR2120",
+      "Evolution": "BIOL4860",
+      "Genetics and Evolution": "BIOL2500",
+      "Instrumental Methods of Analysis": "CHEM4110",
+      "Introduction to Astrobiology": "ISCI1510",
+      "Introduction to Cell and Molecular Biology": "BIOL2120",
+      "Introduction to Geobiology": "ERTH2160",
+      "Introduction to Geochemistry": "ERTH2140",
+      "Introductory Astronomy and Astrophysics": "ASTR2050",
+      "Isotope Geochemistry": "ERTH4560",
+      "Macroscopic Physical Chemistry": "CHEM4410",
+      "Mass Spectrometry": "CHEM4130",
+      "Modern Techniques in Chemistry": "CHEM4530",
+      "Molecular Biochemistry I": "BIOL4760",
+      "Molecular Biochemistry II": "BIOL4770",
+      "Molecular Biology": "BIOL4620",
+      "Molecular Biology Laboratory": "BIOL4720",
+      "Organic Chemistry I": "CHEM2250",
+      "Organic Geochemistry": "ERTH4540",
+      "Physical Chemistry for Life Sciences": "CHEM4440",
+      "Stars, Galaxies, and the Cosmos": "ASTR1520"
+    },
+    "description": "The Departments of Biological Sciences, Chemistry and Chemical Biology, Earth and Environmental Sciences, and Physics, Applied Physics and Astronomy,participate in a multidisciplinary minor in Astrobiology. The minor requires at least 16 credits. To complete the minor, students must complete the following:           ISCI 1510 Introduction to Astrobiology (3 credits), ISCI 4510 Readings in Astrobiology and the Origins of Life (1 credit); taken at least 2 semesters, A 3-credit research project on a topic related to Astrobiology under the supervision of a RARE faculty member or other faculty member with permission of the RARE Director, ISCI 4610 Capstone in Astrobiology (1 credit), At least two additional courses from the list below to bring the total credits to at least 16. These additional courses must be outside the major field of study*\nAdditional Information *If the student has a dual major, the two selected courses must be outside one of the major fields of study.",
+    "name": "Astrobiology Minor",
+    "remaining_header": "Choose two of the following:"
+  },
+  "Astronomy Minor": {
+    "Remaining": {
+      "Astrophysics": "ASTR4220",
+      "Earth and Sky": "ASTR2120",
+      "General Relativity": "PHYS4240",
+      "Gravitation and Cosmology": "ASTR4240",
+      "Observational Astronomy": "ASTR4120",
+      "Topics in Astronomy and Astrophysics": "ASTR1960",
+      "Topics in Physics": "PHYS2960"
     },
     "Required": {
-      "Introduction to Cognitive Science": "COGS2120"
+      "Introductory Astronomy and Astrophysics": "ASTR2050"
     },
-    "description": "Artificial Intelligence is quickly becoming pervasive in our lives. Study how Artificial Intelligence can benefit from concepts and ideas from cognitive science, and explore the ways in which Artificial Intelligence is changing our lives.",
-    "minor": [
-      "Cognitive Science of Artificial Intelligence"
-    ],
-    "name": "Artificial Intelligence",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "\nAstronomy Minor - intended for students with a general interest or who might pursue a K-12 science education or outreach career.\n* Note that some courses on this list have Physics prerequisites that are not included in the minor. ** Other PHYS or ASTR topics courses may be used with the approval of the Undergraduate Program Committee.",
+    "name": "Astronomy Minor",
+    "remaining_header": "Plus 12 credits selected from:"
   },
-  "Arts History, Theory, and Criticism": {
-    "One Of0": {
-      "Art History": "ARTS1050",
-      "History of Animation": "IHSS1170",
-      "History of Jazz and Improvised Music": "IHSS1080",
-      "Open Source: Art, Music, Culture,": "IHSS1965",
-      "Race and Film in U.S. Culture and History": "IHSS1300",
-      "Songwriting Workshop": "IHSS1700",
-      "Topics in Interdisciplinary Humanities and Social Science Studies": "IHSS1960"
-    },
+  "Astrophysics Minor": {
     "Remaining": {
-      "New Media Theory": "ARTS4130",
-      "The Multimedia Century": "ARTS2540",
-      "Topics in the Arts": "ARTS4960"
+      "Astrophysics": "ASTR4220",
+      "General Relativity": "PHYS4240",
+      "Gravitation and Cosmology": "ASTR4240",
+      "Observational Astronomy": "ASTR4120"
     },
-    "description": "This pathway allows students to study a range of art history and media art histories and theories. This immersive study will give students a comprehensive view of how these histories have shaped our current day media and given rise to a variety of art making tools in our digital and computational era.",
-    "name": "Arts History, Theory, and Criticism",
-    "remaining_header": "Choose remaining credits from the following:"
+    "Required": {
+      "Introductory Astronomy and Astrophysics": "ASTR2050",
+      "Special Projects in Astronomy": "ASTR4940"
+    },
+    "description": "The Astrophysics Minor is intended primarily for students who intend to pursue a career in astronomy or astrophysics.\n* Note that some courses on this list have prerequisites that are not included in the minor.",
+    "name": "Astrophysics Minor",
+    "remaining_header": "And two courses from the following list:"
   },
   "Behavioral and Cognitive Neuroscience": {
     "Remaining": {
@@ -50,482 +103,449 @@
       "Drugs, Society, and Behavior": "PSYC4500",
       "Hormones, Brain, and Behavior": "PSYC4700",
       "Introduction to Cognitive Neuroscience": "PSYC4330",
-      "Stress and the Brain": "PSYC4610",
-      "Understanding Empathy,": "IHSS19XX"
+      "Stress and the Brain": "PSYC4610"
     },
     "Required": {
       "General Psychology": "PSYC1200"
     },
-    "description": "Behavioral and cognitive neuroscience focus on understanding the brain mechanisms that allow humans and other animals to perceive, think, feel, remember, and act. Students pursuing this pathway will cultivate an understanding of brain and behavior/cognition relationships by critically analyzing research findings.",
-    "minor": [
-      "Behavioral and Cognitive Neuroscience"
-    ],
+    "description": "This minor is designed for students who want to gain proficiency in the scientific study of behavioral and cognitive neuroscience. Students seeking a minor in Behavioral and Cognitive Neuroscience will develop a Plan of Study in consultation with a departmental adviser. To obtain the minor, the student must complete a minimum of 16 credits as described:",
     "name": "Behavioral and Cognitive Neuroscience",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000-level:"
+    "remaining_header": "Remaining credits should be chosen from:"
   },
-  "Chinese Language": {
+  "Biochemistry/Biophysics Minor for Biology Majors": {
+    "Remaining": {
+      "Genetic Engineering": "BCBP4310",
+      "Methods in Biophysics": "BCBP4800",
+      "Molecular Modeling": "BCBP4550",
+      "Protein Structure Determination": "BCBP4870",
+      "The Biology of Systems": "BCBP4660"
+    },
+    "Required": {
+      "Molecular Biochemistry II": "BCBP4770",
+      "Physical Chemistry for Life Sciences": "CHEM4440"
+    },
+    "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
+    "name": "Biochemistry/Biophysics Minor for Biology Majors",
+    "remaining_header": "And two of the following:"
+  },
+  "Biochemistry/Biophysics Minor for Biomedical Engineering Majors": {
+    "One Of0": {
+      "Biochemistry Laboratory": "BCBP4710",
+      "Bioorganic Mechanisms": "CHEM4310",
+      "Genetic Engineering": "BCBP4310",
+      "Mathematics in Medicine and Biology": "MATH4720",
+      "Methods in Biophysics": "BCBP4800",
+      "Molecular Biology": "BIOL4620",
+      "Protein Folding": "BCBP4780",
+      "Protein Structure Determination": "BCBP4870"
+    },
+    "Required": {
+      "Molecular Biochemistry I": "BCBP4760",
+      "Molecular Biochemistry II": "BCBP4770",
+      "Organic Chemistry I": "CHEM2250"
+    },
+    "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
+    "name": "Biochemistry/Biophysics Minor for Biomedical Engineering Majors"
+  },
+  "Biochemistry/Biophysics Minor for Chemical Engineering Majors": {
+    "Remaining": {
+      "Biochemistry Laboratory": "BCBP4710",
+      "Bioorganic Mechanisms": "CHEM4310",
+      "Genetic Engineering": "BCBP4310",
+      "Mathematics in Medicine and Biology": "MATH4720",
+      "Methods in Biophysics": "BCBP4800",
+      "Molecular Biology": "BIOL4620",
+      "Protein Folding": "BCBP4780",
+      "Protein Structure Determination": "BCBP4870"
+    },
+    "Required": {
+      "Molecular Biochemistry I": "BCBP4760",
+      "Molecular Biochemistry II": "BCBP4770"
+    },
+    "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
+    "name": "Biochemistry/Biophysics Minor for Chemical Engineering Majors",
+    "remaining_header": "And two of the following:"
+  },
+  "Biochemistry/Biophysics Minor for Chemistry Majors": {
+    "Remaining": {
+      "Biochemistry Laboratory": "BCBP4710",
+      "Bioorganic Mechanisms": "CHEM4310",
+      "Genetic Engineering": "BCBP4310",
+      "Mathematics in Medicine and Biology": "MATH4720",
+      "Methods in Biophysics": "BCBP4800",
+      "Molecular Biology": "BIOL4620",
+      "Protein Folding": "BCBP4780",
+      "Protein Structure Determination": "BCBP4870"
+    },
+    "Required": {
+      "Molecular Biochemistry I": "BCBP4760",
+      "Molecular Biochemistry II": "BCBP4770"
+    },
+    "description": "Students majoring in chemistry, biology, or biomedical or chemical engineering may obtain a minor in Biochemistryand Biophysics by completing the courses listed below. Since different essential courses are included in the requirements of each major, the minor requirements vary for different majors.",
+    "name": "Biochemistry/Biophysics Minor for Chemistry Majors",
+    "remaining_header": "And two of the following:"
+  },
+  "Biology Minor": {
+    "Required": {
+      "Introduction to Biology": "BIOL1010",
+      "Introduction to Biology Laboratory": "BIOL1015"
+    },
+    "description": "\nStudents who have passed BIOL 1010/1015 or have AP credit may complete a minor in Biology by taking BIOL 2120 and three 4000-level courses in Biology. BIOL 2500 may substitute for one of the three but is not required. Only a total of 4 credits may come from the following list: BIOL 4900, 4970, or 4990.",
+    "name": "Biology Minor"
+  },
+  "Biomedical Engineering and Management Minor": {
+    "description": "The B.S. with Minor in Management can be completed by following the traditional BME Baccalaureate template and choosing appropriate classes from the Lally School for the four Free Electives. A list of acceptable classes for the different Management Minor programs can be found at http://lallyschool.rpi.edu/programs/undergraduate-programs/bs-business-management.",
+    "name": "Biomedical Engineering and Management Minor"
+  },
+  "Chemistry Minor for Non-Chemistry Majors": {
+    "description": "",
+    "name": "Chemistry Minor for Non-Chemistry Majors"
+  },
+  "Chinese Language Minor": {
+    "One Of0": {
+      "American Politics in Crisis": "STSS4590",
+      "China and the United States": "STSS4540",
+      "Consumer Culture": "STSS4720",
+      "Contemporary Political Thought": "STSS4570",
+      "Design and Innovation  Studio C": "STSS4610",
+      "Design and Innovation Senior Project": "STSS4970",
+      "Design and Innovation Studio A": "STSS4600",
+      "Drugs in History": "STSS4430",
+      "Energy Politics": "STSS4310",
+      "Environmental Politics and Policy": "STSS4370",
+      "Food, Farms, and Famine": "STSS4260",
+      "Gender, Science, and Technology": "STSS4560",
+      "Globalization and Development": "STSS4500",
+      "Language and Culture": "COMM4620",
+      "Medicine, Culture, and Society": "STSS4400",
+      "Politics of Design": "STSS4350",
+      "Professional Development  2 Technical Issues and Solutions": "STSS4100",
+      "Public Service and Social Justice": "STSS4800",
+      "Readings in Science and Technology Studies, Anthropology/Archaeology, History, Political Science, or Sociology": "STSS4940",
+      "Research Design": "STSS4980",
+      "Resilience Planning": "STSS4320",
+      "STS and Sustainability Senior Project": "STSS4990",
+      "Self-Organization in Science and Society": "STSS4580",
+      "Social Demography: Society by the Numbers": "STSS4520",
+      "Sustainability Education": "STSS4280",
+      "Sustainability Problems": "STSS4270",
+      "Sustainability by Design": "STSS4290",
+      "Topics in Science and Technology Studies": "STSS4960"
+    },
     "Remaining": {
       "Chinese I": "LANG1410",
-      "Chinese II": "LANG2410",
+      "Chinese II": "LANG2410"
+    },
+    "Required": {
       "Chinese III": "LANG4420",
       "Chinese IV": "LANG4430",
       "Chinese V": "LANG4470"
     },
-    "description": "Integrated with Chinese culture, students will learn all four types of language skills (listening, speaking, reading, and writing). After completing the Chinese pathway, students will be able to communicate in Chinese at their targeted proficiency levels and think critically and creatively with global and multicultural awareness.",
-    "minor": [
-      "Chinese Language"
-    ],
-    "name": "Chinese Language",
-    "remaining_header": "Choose 12 credits of the following:"
+    "description": "16 credits (4 courses) consist of:\nTerm of Study Abroad in a Chinese speaking institute; student obtains approval to transfer at least 4 credits toward minor. Internship Abroad in a Chinese speaking region or regional internship involving substantial use of Chinese language. Any 4000-level topics course on Chinese culture in COMM, STSH, or STSS",
+    "name": "Chinese Language Minor",
+    "remaining_header": "Prerequisites:"
   },
-  "Creative Design and Innovation": {
-    "One Of0": {
-      "Digital Filmmaking": "ARTS1030",
-      "Digital Imaging": "ARTS1020",
-      "Fundamentals of Music and Sound": "ARTS1380",
-      "History of Animation": "IHSS1170",
-      "History of Design": "IHSS1969",
-      "Remixing in Digital Culture": "IHSS19XX",
-      "Songwriting Workshop": "IHSS1700"
+  "Civil Engineering Minor": {
+    "Required": {
+      "Concrete Design": "CIVL4080",
+      "Foundation Engineering": "CIVL4010",
+      "Geotechnical Design": "CIVL4150",
+      "Highway Engineering": "CIVL4670",
+      "Introduction to Environmental Engineering": "ENVE2110",
+      "Introduction to Geotechnical Engineering": "CIVL2630",
+      "Introduction to Structural Engineering": "CIVL2670",
+      "Introduction to Transportation Engineering": "CIVL2030",
+      "Matrix Structural Analysis": "CIVL4440",
+      "Steel Design": "CIVL4070",
+      "Traffic Engineering": "CIVL4660"
     },
-    "Remaining": {
-      "Cognitive Engineering": "COGS4620",
-      "Color Theory": "COMM4XXX",
-      "Fundamentals of 2D Design": "ARTS2220",
-      "Human Factors in Design": "PSYC2220",
-      "Introduction to Cognitive Science": "COGS2120",
-      "Introduction to Graphic Design": "COMM2660",
-      "Music and Sound I": "ARTS2380",
-      "Sculpture I": "ARTS2210",
-      "Sculpture II": "ARTS4210",
-      "Sound Recording and Production I": "ARTS2700",
-      "Sustainability by Design": "STSS4290",
-      "Topics in Communication": "COMM4960",
-      "Topics in the Arts": "ARTS4960",
-      "Typography": "COMM2570",
-      "Visual Design: Theory and Application": "COMM4460",
-      "Visual Poetics and Narrative": "COMM4320"
-    },
-    "description": "This pathway looks at creative design and innovation from various humanities, arts, and social science points of view. Students will learn about the cognitive and communicative principles behind design and innovation, the economic policies, markets, and other social institutions driving and shaping design and innovation, and how to engage in sustainable and socially responsible design and innovation for local and global impact.",
-    "name": "Creative Design and Innovation",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "Students pursuing this minor must satisfy the prerequisites and/or corequisites for these courses, which may involve other course work.\nStudents not majoring in civil engineering may receive a minor in this field by completing five courses selected from the following list (subject to consultation with a civil engineering department program adviser):",
+    "name": "Civil Engineering Minor"
   },
-  "Design, Innovation, and Society": {
+  "Cognitive Science Minor": {
+    "description": "Students seeking a minor in Cognitive Science will develop a Plan of Study in consultation with a departmental adviser. To complete this minor, students must choose a minimum of four Cognitive Science (COGS) courses as described: COGS 2120  Introduction to Cognitive Science is required. The remaining three courses should be chosen from COGS, with at least two at the 4000 level.",
+    "name": "Cognitive Science Minor"
+  },
+  "Cognitive Science of Artificial Intelligence Minor": {
     "Remaining": {
-      "Design and Innovation  Studio C": "STSS4610",
-      "Design and Innovation Studio B": "STSH4610",
-      "Design and Innovation Studio C": null
+      "Cognitive Modeling": "COGS4210",
+      "Ethics of AI": "PHIL4XXX",
+      "Game AI": "COGS4420",
+      "Intelligent Virtual Agents": "COGS4640",
+      "Language-Endowed Intelligent Agents": "COGS4880",
+      "Minds and Machines": "IHSS1140",
+      "Programming for Cognitive Science and Artificial Intelligence": "COGS4410"
     },
     "Required": {
-      "Design and Innovation Studio I": "IHSS1610",
-      "Design and Innovation Studio II": "IHSS2610"
+      "Introduction to Cognitive Science": "COGS2120"
     },
-    "description": "The pathway in Design, Innovation, and Society (DIS) provides creative, socially conscious students deep context for a broad education in design and innovation. Students take a sequence of studio-based courses that address real-world social and environmental challenges.",
-    "name": "Design, Innovation, and Society",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "This minor is designed for students who want to gain a cognitive science perspective on Artificial Intelligence. Students seeking this minor will develop a Plan of Study in consultation with the departmental coordinator of the Minor program. To obtain the minor, the student must complete a minimum of four courses as described:\nChoose remaining credits from the following with at least 8 credits at the 4000-level:",
+    "name": "Cognitive Science of Artificial Intelligence Minor"
   },
-  "Economics": {
-    "One Of0": {
+  "Computer Science Minor": {
+    "description": "A computer science minor requires a minimum of four CSCI courses, which must include CSCI 2300 Introduction toAlgorithms andthree additional 3- or 4-credit courses at the 2000 level or above, excluding CSCI 2200 Foundations of Computer Science. At least two of these three additional courses must be at the 4000 (or 6000) level. Overall, at least two courses must be taken at RPI. Given that RPI requires a minimum of 15 credits for a minor, if the above required four courses falls below this 15-credit requirement, any other CSCI credits may be used.Reading and independent study courses and courses required by name for the student's major(s) cannot be used for the minor. The Pass/No Credit option cannot be used for any of these courses.",
+    "name": "Computer Science Minor"
+  },
+  "Computer and Systems Engineering Minor": {
+    "description": "\nApproved ECSE Elective Credits: 34,",
+    "name": "Computer and Systems Engineering Minor"
+  },
+  "Ecology Minor": {
+    "Remaining": {
+      "Chemistry of the Environment": "CHEM4810",
+      "Earth's Climate: Past, Present, and Future": "ERTH4500",
+      "Environmental and Resource Economics": "ECON4260",
+      "Human Population": "BIOL4961",
+      "Lake George Limnology and Underwater Ecology (BLUE)": "BIOL4870"
+    },
+    "Required": {
+      "Non-thesis Research": "BIOL4970",
+      "Principles of Ecology": "BIOL4850",
+      "Senior Research Thesis": "BIOL4990",
+      "The Global Environment": "BIOL4880"
+    },
+    "description": "Ecology is a branch of Biology that studies the relations of organisms to one another and to their environment. RPI has a substantial depth in Ecological research and faculty expertise, as well as Institute-wide initiatives such as the Jefferson Project. The Institute offers a minor in Ecology to all students consisting of 16 credit hours, as noted below.\nRestricted Elective (See list of accepted courses below)\nFootnotes,  Independent Research can be conducted over multiple semesters or during The Arch Summer Semester. Topics studied must be ecological in nature, and research should be 10-12 hours per week during a single standard semester, equivalent to 4 credit hours of course credit. Experience should include presenting a poster or presentation. Faculty can be from Biology or other department, but non-Biology faculty must be approved by the Ecology Minor Faculty (email rosek4@rpi.edu ).\nChoose one elective from the following list. Other options by approval of Ecology Minor Faculty (email rosek4@rpi.edu ).",
+    "name": "Ecology Minor",
+    "remaining_header": "Restricted Elective"
+  },
+  "Economics Minor": {
+    "Required": {
+      "Intermediate Microeconomic Theory": "ECON2010",
       "Introductory Economics": "ECON1200",
       "Principles of Economics": "IHSS1200"
     },
-    "One Of1": {
+    "description": "Students must complete 16 credits for the Economics Minor.\nAny 2000-level Economics course Any 4000-level Economics course",
+    "name": "Economics Minor",
+    "remaining_header": "Remaining credits from the following options:"
+  },
+  "Economics of Banking and Finance Minor": {
+    "One Of0": {
       "Intermediate Macroeconomic Theory": "ECON2020",
       "Intermediate Microeconomic Theory": "ECON2010"
     },
     "Remaining": {
-      "Applied Game Theory": "ECON4220",
-      "Behavioral Economics": "ECON4270",
       "Behavioral Financial Economics": "ECON4340",
-      "Cost-Benefit Analysis": "ECON4210",
-      "Development of Economic Thought": "ECON4180",
-      "Econometric Methods for Big Data": "ECON4280",
-      "Econometrics": "ECON4570",
-      "Economic Models of Decision-Making": "ECON4320",
-      "Economics of Biotech and Medical Innovations": "ECON4290",
-      "Economics of Financial Institutions and Markets": "ECON4330",
-      "Economics of Government Regulation and Firm Strategy": "ECON4150",
-      "Economics of Innovation and New Technologies": "ECON4110",
-      "Economy, Technology, and Sustainability": "ECON4250",
-      "Environmental Economics": "ECON4230",
-      "Environmental and Resource Economics": "ECON4260",
-      "Experimental Economics": "ECON4360",
-      "Health Economics and Policy": "ECON4170",
-      "International Economics and Globalization": "ECON4190",
-      "Law and Economics": "ECON4310",
-      "Mathematical Methods in Economics": "ECON4120",
-      "Microeconomics of Decision-Making": "ECON4350",
-      "Money and Banking": "ECON4130",
-      "Natural Resource Economics": "ECON4240",
-      "Open Economy Macroeconomics": "ECON4200",
-      "Public Finance": "ECON4160",
-      "Readings in Economics": "ECON4940",
-      "Seminar in Economics": "ECON4900",
-      "Structure of Industry:  Competition, Innovation, Entrepreneurship, Policy": "ECON4140",
-      "Topics in Economics": "ECON4960"
-    },
-    "description": "Study different types of theories and statistical methods used by economists. Students are prepared to gain a broad understanding of how consumers, firms and governments make decisions, and their implications.",
-    "minor": [
-      "Economics"
-    ],
-    "name": "Economics",
-    "remaining_header": "Choose remaining credits from:"
-  },
-  "Economics of Banking and Finance": {
-    "One Of0": {
-      "Introductory Economics": "ECON1200",
-      "Principles of Economics": "IHSS1200"
-    },
-    "Required": {
       "Economics of Financial Institutions and Markets": "ECON4330",
       "Money and Banking": "ECON4130"
     },
-    "description": "Study markets and policies in banking and finance. Students are prepared to use different types of mathematical models and econometric techniques used by economists to study the behavior of individuals, firms, and the economy.",
-    "minor": [
-      "Economics of Banking and Finance"
-    ],
-    "name": "Economics of Banking and Finance"
-  },
-  "Economics of Biotech and Medical Markets": {
-    "One Of0": {
+    "Required": {
       "Introductory Economics": "ECON1200",
       "Principles of Economics": "IHSS1200"
     },
-    "Remaining": {
-      "Behavioral Economics": "ECON4270",
-      "Health Economics and Policy": "ECON4170",
-      "Topics in Economics": "ECON4960"
-    },
-    "description": "Study different types of markets related to pharmaceuticals, medical devices, and healthcare. Students are prepared to use theory, econometric models, and data to study the role of R&D, patents, innovation, and policies in healthcare markets, and in pharmaceuticals and medical devices.",
-    "name": "Economics of Biotech and Medical Markets",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The Minor in Economics of Banking and Finance consists of 16 credits from the following template:\nRemaining credits from the following 4000-level options:",
+    "name": "Economics of Banking and Finance Minor"
   },
-  "Economics of Policy and Regulations": {
-    "One Of0": {
-      "Introductory Economics": "ECON1200",
-      "Principles of Economics": "IHSS1200"
-    },
+  "Economics of Biotech and Medical Innovation Minor": {
     "Remaining": {
-      "Economics of Government Regulation and Firm Strategy": "ECON4150",
-      "Health Economics and Policy": "ECON4170",
-      "International Economics and Globalization": "ECON4190",
-      "Law and Economics": "ECON4310",
-      "Open Economy Macroeconomics": "ECON4200"
-    },
-    "description": "Study different types of regulations and economic policy measures, and their impact on individuals, markets, and the economy. Students are prepared to use economic models, quantitative methods, and data to assess different types of regulations and policies, and their impact.",
-    "minor": [
-      "Economics of Policy and Regulations"
-    ],
-    "name": "Economics of Policy and Regulations",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Economics of Quantitative Modeling": {
-    "One Of0": {
-      "Introductory Economics": "ECON1200",
-      "Principles of Economics": "IHSS1200"
-    },
-    "Remaining": {
-      "Applied Game Theory": "ECON4220",
-      "Behavioral Economics": "ECON4270",
-      "Econometric Methods for Big Data": "ECON4280",
-      "Econometrics": "ECON4570"
-    },
-    "description": "Study different types of mathematical models and econometric techniques used in Economics. Students are prepared to use economic theory, and econometric and statistical methods to study behavior of individuals and firms in the economy.",
-    "minor": [
-      "Economics of Quantitative Modeling"
-    ],
-    "name": "Economics of Quantitative Modeling",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Economics of Technology and Innovation": {
-    "One Of0": {
-      "Introductory Economics": "ECON1200",
-      "Principles of Economics": "IHSS1200"
-    },
-    "Remaining": {
-      "Economics of Innovation and New Technologies": "ECON4110",
-      "Structure of Industry:  Competition, Innovation, Entrepreneurship, Policy": "ECON4140",
-      "Topics in Economics": "ECON4960"
-    },
-    "description": "Study different types of economic models related to innovation and new technologies. Students are prepared to use economic theory, econometric and statistical methods, and data to examine patents, R&D, and innovation more broadly, as well as in specific industries in the economy.",
-    "minor": [
-      "Economics of Technology and Innovation"
-    ],
-    "name": "Economics of Technology and Innovation",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Electronic Arts": {
-    "One Of0": {
-      "Art History": "ARTS1050",
-      "Behind the Television Screen": "IHSS19XX",
-      "Digital Imaging": "ARTS1020",
-      "Remixing in Digital Culture": "IHSS19XX"
-    },
-    "Remaining": {
-      "2D Experimental Animation": "ARTS2060",
-      "3D Animation": "ARTS4070",
-      "3D Digital Modeling": "ARTS2230",
-      "3D Visual Effects": "ARTS4060",
-      "Advanced Digital Imaging": "ARTS4860",
-      "Art and Code and Interactivity": "ARTS4090",
-      "Graphic Storytelling": "ARTS2070",
-      "Intermediate Digital Imaging": "ARTS2040",
-      "Sound Recording and Production I": "ARTS2700"
-    },
-    "description": "This pathway allows students to study a range of approaches to electronic, or digital arts, such as digital imaging, graphic storytelling, interactive media, and 3D animation. This immersive study will give students a comprehensive view of how to use digital tools to tell stories, and to critically and creatively explore the arts at the intersection of the humanities, and the physical, computational, engineering, and social sciences.",
-    "minor": [
-      "Electronic Arts"
-    ],
-    "name": "Electronic Arts",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Environmental Futures": {
-    "One Of0": {
-      "A Century of Environmental Thought": "IHSS1320",
-      "Designing Climate Justice": "IHSS19XX",
-      "Law, Values, and Public Policy: Perspectives on Science and Technology": "IHSS1350",
-      "Music and Nature": "IHSS1720",
-      "Music and Protest": "IHSS1966",
-      "Nature/Society": "IHSS1110",
-      "Principles of Economics": "IHSS1200",
-      "Sustainability Debates": "IHSS1240"
-    },
-    "Remaining": {
-      "Art, Community, and Technology": "ARTS4080",
-      "Bioethics": "STSH4250",
-      "Consumer Culture": "STSS4720",
-      "Eco Chic: Living Art": "ARTS4240",
-      "Environmental Economics": "ECON4230",
-      "Environmental Law": "STSH4700",
-      "Environmental Philosophy": "PHIL4300",
-      "Resilience Planning": "STSS4320",
-      "Sustainability Education": "STSS4280",
-      "Sustainability by Design": "STSS4290",
-      "Topics in the Arts": "ARTS4960"
-    },
-    "description": "The future seems up for grabs as climate change challenges human and nonhuman societies to meet basic needs for clean air, water, soil, food, and energy. How will humans adapt, reduce harm, or mitigate the problems of the past and present? This pathway involves courses in sustainability, defined as the means to ensure the well-being of the planet and quality of life of present and future generations. Courses integrate research and insights from the social sciences, arts, and humanities to pursue a healthy environment, economic prosperity, and social justice by building on the present to inform the future.",
-    "name": "Environmental Futures",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Ethics, Integrity, and Social Responsibility": {
-    "One Of0": {
-      "Designing Climate Justice": "IHSS19XX",
-      "Global Health Challenges": "IHSS1420",
-      "Law, Values, and Public Policy: Perspectives on Science and Technology": "IHSS1350",
-      "Minds and Machines": "IHSS1140",
-      "Science and Scientific Misconduct": "IHSS1160",
-      "Science, Technology, and Society": "STSS1110",
-      "Sociology ofInequality": "IHSS19XX",
-      "Technology and Social Interaction": "IHSS19XX",
-      "The Genome and You": "IHSS1150"
-    },
-    "Remaining": {
-      "Art, Community, and Technology": "ARTS4080",
-      "Bioethics": "STSH4250",
-      "Eco Chic: Living Art": "ARTS4240",
-      "Engineering Ethics": "STSH4210",
-      "Environmental Philosophy": "STSH4340",
-      "Ethics": "PHIL4240",
-      "Hactivism": "ARTS4560",
-      "Law and Society": "STSS2700",
-      "Medicine, Culture, and Society": "STSS4400"
-    },
-    "description": "In this Pathway, students analyze many aspects of the complex relationship between ethics and areas in science, technology, and engineering. These conversations are critical to ensure the ethical and accessible use of technology and to allow scientists and engineers to think critically and make informed decisions on personal, professional, and public policy levels.",
-    "name": "Ethics, Integrity, and Social Responsibility",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Extent and Limits of Rationality": {
-    "One Of0": {
-      "Are Humans Rational?": "IHSS1235",
-      "Minds and Machines": "IHSS1140",
-      "Principles of Economics": "IHSS1200",
-      "The Art of Listening": "IHSS1180",
-      "War and Society": "IHSS1510",
-      "War and Technology: Past, Present, and Future": "IHSS1570"
-    },
-    "Remaining": {
-      "Applied Game Theory": "ECON4220",
-      "Behavioral Economics": "ECON4270",
-      "Cognitive Psychology": "PSYC4370",
-      "Communication Theory and Practice": "COMM2520",
-      "Critical Thinking": "PSYC2100",
-      "History of Science and Technology": "STSH4530",
-      "Introduction to Cognitive Science": "COGS2120",
-      "Introduction to Logic": "PHIL2140",
-      "Proposing and Persuading": "WRIT4550",
-      "Speech Communication": "WRIT2340"
-    },
-    "description": "Humans can do, and have done, some really stupid things: People are not as rational as they would like to think and are subject to scores of cognitive and social biases. That said, however, people also have the power to correct for these, and to do good and constructive work. It is time to see how such cognitive and social powers can be harnessed for the good. How can critical thinking be used constructively? How can people learn from their past mistakes? How can social institutions and policies be set up to ensure that wise decisions are made to create a world that lasts into the extended future?",
-    "name": "Extent and Limits of Rationality",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Fact and Fiction": {
-    "One Of0": {
-      "Digital Filmmaking": "ARTS1030",
-      "Documentary: Whose Narrative?": "IHSS19XX",
-      "Fiction from Film to the Internet": "IHSS1976",
-      "Introduction to Philosophy": "PHIL1110",
-      "Media and Society": "IHSS1560",
-      "Race and Film in U.S. Culture and History": "IHSS1300",
-      "Science and Scientific Misconduct": "IHSS1160"
-    },
-    "Remaining": {
-      "Advertising and Culture": "COMM4580",
-      "American Politics in Crisis": "STSS4590",
-      "Contemporary Political Thought": "STSS4570",
-      "Creative Writing:  The Short Story": "WRIT2330",
-      "Creative Writing: Creative Non-Fiction": "WRIT2320",
-      "Critical Thinking": "PSYC2100",
-      "Documentary Film": "COMM2440",
-      "Drugs in History": "STSS4430",
-      "Hactivism": "ARTS4560",
-      "Philosophy of Science": "PHIL4130",
-      "Reality TV and Post-Factual Media": "COMM4530",
-      "Rethinking Documentary: Video Production": "ARTS4040",
-      "Science Fictions": "ARTS4640",
-      "Science and Fiction": "LITR4150",
-      "Writing for the Screen": "COMM2110"
-    },
-    "description": "A pathway for those who are curious about what makes something fake or factual and how such concepts are evolving in contemporary political and popular culture. Students will learn how to think more precisely and analytically about the distinctions between fact, fiction, truth, and reality.",
-    "name": "Fact and Fiction",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Foreign Language": {
-    "Remaining": {
-      "Chinese I": "LANG1410",
-      "Chinese II": "LANG2410",
-      "Chinese III": "LANG4420",
-      "Chinese IV": "LANG4430",
-      "Chinese V": "LANG4470",
-      "Language Studies": "LANG4940"
-    },
-    "description": "This pathway promotes the development of skills to help students effectively communicate both domestically, and internationally, as well as enhance appreciation for other cultures. Students who select this pathway must have all courses that are part of the pathway be in the",
-    "name": "Foreign Language",
-    "remaining_header": "Choose 12 credits from the following, with at least 8 credit hours at, or above, the 2000-level and at least 3 credit hours at the 4000-level:"
-  },
-  "Game Studies": {
-    "Remaining": {
-      "Introduction to Game Design": "GSAS2510",
-      "Introduction to Game Programming": "GSAS2540",
-      "Introduction to Game Storytelling": "GSAS2520"
+      ": Behavioral Economics": "ECON4XXX",
+      ": Economics of Biotech and Medical Innovation": "ECON4XXX",
+      "Health Economics and Policy": "ECON4170"
     },
     "Required": {
-      "History and Culture of Games": "GSAS1600"
+      "Intermediate Microeconomic Theory": "ECON2010",
+      "Principles of Economics": "IHSS1200"
     },
-    "description": "This pathway explores the design, creation, and analysis of games. Students completing this pathway will develop depth in creative and critical thinking, technological proficiency, and multicultural awareness.",
-    "name": "Game Studies",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The minor in Economics of Biotech and Medical Innovation is a 16-credit requirement using the following template:",
+    "name": "Economics of Biotech and Medical Innovation Minor",
+    "remaining_header": "Choose 2 of the following:"
   },
-  "Gender, Race, Sexuality, Ethnicity, and Social Change": {
-    "One Of0": {
-      "Health in Contemporary Africa": "IHSS1430",
-      "Media and Society": "IHSS1560",
-      "Popular Music and Society": "IHSS1710",
-      "Race and Film in U.S. Culture and History": "IHSS1300",
-      "Race, Class, Gender, and Technology": "IHSS19XX",
-      "Religion in a Global World": "IHSS1666",
-      "Revolutions in Comparative Perspective": "IHSS19XX",
-      "Sociology ofInequality": "IHSS19XX",
-      "Songs of Identity": "IHSS1968",
-      "Technology and Social Interaction": "IHSS19XX",
-      "The Genome and You": "IHSS1150"
-    },
+  "Economics of Policy and Regulations": {
     "Remaining": {
-      "Cultural Anthropology": "STSS2510",
-      "Documentary Film": "COMM2440",
-      "Gender, Science, and Technology": "STSS4560",
-      "Language and Culture": "COMM4620",
-      "Language in Real Time": "COMM2120",
-      "Religion in the Media": "COMM4550",
-      "Social Demography: Society by the Numbers": "STSS4520",
-      "Sociology": "STSS2520",
-      "Women Writers": "LITR4770"
+      "Economics of Government Regulation and Firm Strategy": "ECON4150",
+      "Law and Economics": "ECON4310",
+      "Public Finance": "ECON4160"
     },
-    "description": "This pathway enables students to cultivate an appreciation of how diverse identities are lived, experienced, and analyzed. Courses in this pathway center gender, dis/ability, race/ethnicity, and social class as ways of knowing and as analytic approaches for understanding distinctions that human societies make and unmake over time. Gender is used as an analytic tool for critical thinking about such topics as studies of sex differences and sexualities; race and gender in science, engineering, or gaming; or studies of the environment, war and peace, and other social impacts. Racial-ethnic formation is similarly used as an analytical tool for visualizing intersecting inequalities; history of science, medicine, arts, and technology.",
-    "name": "Gender, Race, Sexuality, Ethnicity, and Social Change",
-    "remaining_header": "Choose remaining credits from the following:"
+    "Required": {
+      "Intermediate Microeconomic Theory": "ECON2010",
+      "Introductory Economics": "ECON1200",
+      "Principles of Economics": "IHSS1200"
+    },
+    "description": "The minor in Economics of Policy and Regulations is a 16-credit requirement using the following template:",
+    "name": "Economics of Policy and Regulations",
+    "remaining_header": "Remaining credits from the following options:"
   },
-  "Graphic Design": {
+  "Economics of Quantitative Modeling": {
     "Remaining": {
-      "2D Motion Graphics": "COMM2XXX",
-      "Color Theory": "COMMX960",
-      "Communication Theory and Practice": "COMM2520",
-      "History of Design": "IHSS1969",
+      "Applied Game Theory": "ECON4220",
+      "Behavioral Economics": "ECON4270",
+      "Behavioral Financial Economics": "ECON4340",
+      "Econometric Methods for Big Data": "ECON4280",
+      "Econometrics": "ECON4570",
+      "Economic Models of Decision-Making": "ECON4320"
+    },
+    "Required": {
+      "Intermediate Microeconomic Theory": "ECON2010",
+      "Introductory Economics": "ECON1200",
+      "Principles of Economics": "IHSS1200"
+    },
+    "description": "The Economics of Quantitative Modeling Minor consists of 16 credits from the following template:",
+    "name": "Economics of Quantitative Modeling",
+    "remaining_header": "Remaining credits from the following options:"
+  },
+  "Economics of Technology and Innovation Minor": {
+    "Remaining": {
+      "Economics of Biotech and Medical Innovations": "ECON4290",
+      "Economics of Innovation and New Technologies": "ECON4110",
+      "Structure of Industry:  Competition, Innovation, Entrepreneurship, Policy": "ECON4140"
+    },
+    "Required": {
+      "Intermediate Microeconomic Theory": "ECON2010",
+      "Introductory Economics": "ECON1200",
+      "Principles of Economics": "IHSS1200"
+    },
+    "description": "The Minor in Economics of Technology and Regulation requires 16 credits from the following:",
+    "name": "Economics of Technology and Innovation Minor",
+    "remaining_header": "Remaining credits from the following options:"
+  },
+  "Electrical Engineering Minor": {
+    "description": "Minors in the ECSE curricula are open to undergraduates not majoring in any of these disciplines. The ECSE curriculum chair must approve all minors.\nApproved ECSE Elective Credit Hours: 34,",
+    "name": "Electrical Engineering Minor"
+  },
+  "Electronic Arts Minor": {
+    "Remaining": {
+      "Art History": "ARTS1050",
+      "Art for Interactive Media": "GSAS1040",
+      "Basic Drawing": "ARTS1200",
+      "Digital Filmmaking": "ARTS1030",
+      "Digital Imaging": "ARTS1020",
+      "Exploring Music @Rensselaer": "IHSS1010",
+      "Music and Sound I": "ARTS2380",
+      "The Multimedia Century": "ARTS2540",
+      "Western Music Appreciation": "IHSS1740",
+      "World Music": "ARTS2520"
+    },
+    "description": "An electronic arts minor consists of 16 credits from the electronic arts curriculum: History/Theory Course Options: Studio Course Options: Art Elective: (of which, must be at the 4000-level)",
+    "name": "Electronic Arts Minor",
+    "remaining_header": "Studio Course Options"
+  },
+  "Entrepreneurship Minor": {
+    "Required": {
+      "Introduction to Management": "MGMT1100",
+      "Introduction to Technological Entrepreneurship": "MGMT4520",
+      "Invention, Innovation, and Entrepreneurship": "MGMT4510",
+      "Starting Up a New Venture": "MGMT4530"
+    },
+    "description": "\nThe minor in entrepreneurship usually consists of the following four courses:",
+    "name": "Entrepreneurship Minor"
+  },
+  "Environmental Engineering Minor": {
+    "Remaining": {
+      "Environmental Chemodynamics": "ENVE4320",
+      "Introduction to Air Quality": "ENVE4330",
+      "Solid and Hazardous Waste Engineering": "ENVE4200"
+    },
+    "Required": {
+      "Applied Hydrology and Hydraulics": "ENVE4310",
+      "Biological Processes in Environmental Engineering": "ENVE4260",
+      "Physicochemical Processes in Environmental Engineering": "ENVE4340"
+    },
+    "description": "\nStudents not majoring in environmental engineering may receive a minor in this discipline by completing 15-16 credit hours of study beyond the Introduction to Environmental Engineering course. Typically these courses are chosen in consultation with the environmental engineering program adviser but may include:",
+    "name": "Environmental Engineering Minor",
+    "remaining_header": "And one or more of:"
+  },
+  "Environmental Science Minor": {
+    "description": "A minor in Environmental Science will consist of at least 16 credit hours, eight of which must be at the 4000 level. Interested students should consult with the Director of Environmental Science to develop an appropriate list of courses.",
+    "name": "Environmental Science Minor"
+  },
+  "Finance Minor": {
+    "Remaining": {
+      "Advanced Corporate Finance": "MGMT4340",
+      "Derivatives Markets": "MGMT4380",
+      "Financial Trading and Investing": "MGMT4310",
+      "Investments I": "MGMT4320",
+      "Risk Management": "MGMT4370"
+    },
+    "Required": {
+      "Financial Accounting": "MGMT2300",
+      "Managerial Finance": "MGMT2320"
+    },
+    "description": "",
+    "name": "Finance Minor",
+    "remaining_header": "Plus any two of these:"
+  },
+  "General Psychology Minor": {
+    "Required": {
+      "General Psychology": "PSYC1200"
+    },
+    "description": "The customized minor is designed for students who want to sample a variety of topics within psychology or select a set of courses that share a common theme.\nThree additional PSYC courses, with at least one at the 4000 level.",
+    "name": "General Psychology Minor"
+  },
+  "Geology Minor": {
+    "description": "\nStudents not majoring in geology may take a minor by completing from the ERTH group at least 16 credit hours, 8 of which should be at the 4000 level. ERTH 1030 and 1040 (Natural Sciences) do not count towards the minor.",
+    "name": "Geology Minor"
+  },
+  "Graphic Design Minor": {
+    "Required": {
+      "2D Motion Graphics": "COMM29XX",
+      "Brand Identity and Design": "COMM49XX",
+      "Color Theory": "COMM29XX",
+      "Interactive Data Visualization": "COMM4880",
+      "Interface Design: Hypermedia Theory and Application": "COMM4690",
       "Introduction to Graphic Design": "COMM2660",
       "Media and Society": "IHSS1560",
-      "Topics in Communication": "COMM4960",
       "Typography": "COMM2570",
       "Visual Design: Theory and Application": "COMM4460",
-      "Visual Poetics and Narrative": "COMM4320",
-      "Writing in Context": "WRIT1110"
+      "Visual Poetics and Narrative": "COMM4320"
     },
-    "description": "Study Graphic Design through the integration of theory and practice, in print and digital media. Students are prepared to use creative and critical thinking to solve visual communication problems and reach target audiences with words, symbols and images.",
-    "minor": [
-      "Graphic Design"
-    ],
-    "name": "Graphic Design",
-    "remaining_header": "Choose 12 credits from the following, with at least 4 credits at the 4000-level:"
+    "description": "Study graphic design through the integration of theory and practice, in print and digital media. Use creative and critical thinking to solve visual communication problems and reach target audiences with words, symbols, and images.\nComplete 16 credits from the following list. At least 4 credits must be completed at the 4000 level.",
+    "name": "Graphic Design Minor"
   },
-  "History": {
+  "History Minor": {
     "One Of0": {
       "A Century of Environmental Thought": "IHSS1320",
       "Century of the Gene": "IHSS1410",
       "Human Rights in History": "IHSS1500",
-      "Revolutions in Comparative Perspective": "IHSS19XX",
       "Science, Technology, and Society": "STSS1110",
-      "Sociology ofInequality": "IHSS19XX",
       "War and Technology: Past, Present, and Future": "IHSS1570"
     },
     "Remaining": {
-      "Bioethics": "STSH4250",
       "Consumer Culture": "STSS4720",
-      "Design and Innovation Studio B": "STSH4610",
       "Drugs in History": "STSS4430",
-      "Engineering Ethics": "STSH4210",
-      "Environmental Law": "STSH4700",
-      "Environmental Philosophy": "STSH4340",
       "History of American Technology": "STSH4510",
       "History of Medicine": "STSH4420",
       "History of Mental Health": "STSH4440",
-      "History of Science and Technology": "STSH4530",
-      "Readings in Science and Technology Studies": "STSH4940",
-      "Sustainability Careers": "STSH4300"
+      "History of Science and Technology": "STSH4530"
     },
     "Required": {
       "American History": "STSH2500"
     },
-    "description": "The pathway in History is designed for students interested in U.S. and world history. Courses primarily focus on the social history and evolution of technology, scientific enterprise, medicine, and law.",
-    "minor": [
-      "History"
-    ],
-    "name": "History",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The minor in History is designed for students interested in the U.S. and world history. Courses primarily focus on the social history and evolution of technology, scientific enterprise, medicine, and law. A minor in History requires completion of 16 credits from the following:\nRemaining credits from the following 4000-level options:",
+    "name": "History Minor"
   },
-  "Information Technology and Web Sciences": {
-    "Remaining": {
+  "Human-Computer Interaction (HCI) Minor": {
+    "Required": {
       "Communication Theory and Practice": "COMM2520",
-      "Critical Thinking": "PHIL2100",
-      "Design, Culture, and Society": "STSS2210",
-      "General Psychology": "PSYC1200",
-      "Introduction to Cognitive Science": "COGS2120",
-      "Introduction to Graphic Design": "COMM2660",
-      "Introduction to Logic": "PHIL2140",
-      "Principles of Economics": "IHSS1200",
-      "Science, Technology, and Society": "STSS1110",
-      "Speech Communication": "WRIT2340",
-      "Strategic Writing": "WRIT2110",
-      "The Multimedia Century": "ARTS2540"
+      "Foundations of HCI Usability": "COMM4420"
+    },
+    "description": "To complete this minor, students must choose a minimum of four courses as described:\n",
+    "name": "Human-Computer Interaction (HCI) Minor"
+  },
+  "Hydrogeology Minor": {
+    "Required": {
+      "Environmental Geology": "ERTH4180",
+      "Groundwater Hydrology": "ERTH4710"
+    },
+    "description": "\nStudents not majoring in hydrogeology may take a minor by taking the following courses and electing from the ERTH group at least two additional courses except for ERTH 1030 and ERTH 1040.",
+    "name": "Hydrogeology Minor"
+  },
+  "Information Technology and Web Science Minor": {
+    "One Of0": {
+      "IT and Society": "ITWS1220"
+    },
+    "One Of1": {
+      "Database Systems": "CSCI4380",
+      "Introduction to Algorithms": "CSCI2300",
+      "Web Systems Development": "ITWS2110"
     },
     "Required": {
-      "IT and Society": "ITWS1220",
-      "Introduction to Human Computer Interaction": "ITWS2210"
+      "Introduction to Information Technology and Web Science": "ITWS1100",
+      "Managing IT Resources": "ITWS4310"
     },
-    "description": "The pathway in Information Technology and Web Science (ITWS) is designed to introduce students to the social aspects and human interactions that technology provides in our lives and workplaces. Students will gain knowledge of the social, legal, and ethical issues in employing technology around the world and will learn how to recognize and respond to human-centered design issues to make technology more usable.",
-    "name": "Information Technology and Web Sciences",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The ITWS minor requires16 credit hours that must be approved by the minor adviser in ITWS.\nFootnotes,  Other courses as approved by the minor adviser in ITWS.",
+    "name": "Information Technology and Web Science Minor"
   },
-  "Interactive Media/Data Design": {
-    "Remaining": {
+  "Interactive Media/Data Design Minor": {
+    "Required": {
       "Communication Theory and Practice": "COMM2520",
       "Foundations of HCI Usability": "COMM4420",
       "Information Design": "COMM4470",
@@ -536,20 +556,14 @@
       "Media and Society": "IHSS1560",
       "Writing in Context": "WRIT1110"
     },
-    "description": "The Interactive Media/Data Design pathway covers communication design theory and practice, interaction design theory and practice, and information design to prepare students for creating different forms of interactive, multimedia communication and data representation. Students use critical thinking, creative thinking, multimedia design, and data representation to develop effective forms of communication in diverse global contexts.",
-    "minor": [
-      "Graphic Design"
-    ],
-    "name": "Interactive Media/Data Design",
-    "remaining_header": "Choose 12 credits from the following, with at least 4 credits at the 4000 level:"
+    "description": "This minor covers communication, interaction, and information design theory and practice to prepare students for creating different forms of interactive, multimedia communication, and data representation.\nComplete 16 creditsfrom the following list. At least 4 creditsmust be completed at the 4000 level.",
+    "name": "Interactive Media/Data Design Minor"
   },
-  "Law and Policy": {
+  "Law and Policy Minor": {
     "One Of0": {
       "Human Rights in History": "IHSS1500",
       "Law, Values, and Public Policy: Perspectives on Science and Technology": "IHSS1350",
-      "Revolutions in Comparative Perspective": "IHSS19XX",
       "Science, Technology, and Society": "STSS1110",
-      "Sociology ofInequality": "IHSS19XX",
       "War and Society": "IHSS1510"
     },
     "Remaining": {
@@ -563,322 +577,236 @@
       "Gender, Science, and Technology": "STSS4560",
       "Public Service and Social Justice": "STSS4800",
       "Resilience Planning": "STSS4320",
+      "Self-Organization in Science and Society": "STSS4580",
       "Social Demography: Society by the Numbers": "STSS4520"
     },
     "Required": {
       "Law and Society": "STSS2700"
     },
-    "description": "The Law and Policy pathway is designed for students interested in the design of policy and legislation and students on a pre-law track. Skills and knowledge may be applied to fields such as environment and climate change, technological innovation, public health law, or intellectual property law.",
-    "minor": [
-      "Law and Policy"
-    ],
-    "name": "Law and Policy",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The Law and Policy minor is designed for students interested in the design of policy and legislation, and students on a pre-law track. Skills and knowledge may be applied to fields such as environment and climate change, technological innovation, public health law, or intellectual property law. A minor in Law and Policy is accomplished by completing 16 credits from the following:\nChoose remaining credits from the following 4000-level options:",
+    "name": "Law and Policy Minor"
   },
-  "Linguistics": {
+  "Lighting Minor": {
+    "Required": {
+      "Advanced Individual Projects in Lighting": "LGHT4940",
+      "Human Factors in Lighting": "LGHT4840",
+      "Light and Health": "LGHT4870",
+      "Lighting Design": "LGHT4230",
+      "Lighting Technologies and Applications": "LGHT4770",
+      "Lighting Workshop": "LGHT4760",
+      "Physics of Light": "LGHT4830"
+    },
+    "description": "The minor in lighting gives students the awareness and the confidence to extend their creative work through controlled use of light. The program covers human responses to light, both visual andnon-visual, and the means by which light is produced and controlled. Interactions of light with form, texture, and color are examined in the contexts of daylight, electric lighting, and their integration. The Lightingminor requires 15 credits.\nFootnotes,  Other 4000-level or higher course (from a related discipline) with the approval of the Lighting Program Director Students, with the assistance of their adviser, select 4 courses that best fit their educational objectives.",
+    "name": "Lighting Minor"
+  },
+  "Lighting Minor in Biological Sciences": {
+    "Required": {
+      "Advanced Individual Projects in Lighting": "LGHT4940",
+      "Human Factors in Lighting": "LGHT4840",
+      "Light and Health": "LGHT4870",
+      "Physics of Light": "LGHT4830"
+    },
+    "description": "This minor program is offered as a joint program by the Department of Biological Sciences and the Lighting Research Center. Light-dark patterns that reach the back of our eyes set the timing of the biological clock, and tell our bodies to do \"the right thing at the right time.\" A global lighting revolution is taking place because of the awareness of how profound the impact of light is in our daily lives. Humans and most terrestrial species perceive the time of day because of their internal biological or circadian clock. This circadian clock is a network of genes and proteins that regulates daily oscillations such as sleep, hormone release, rise and fall of blood pressure and body temperature, as well as other cellular functions and physiological responses. Because of this tight regulation, a disrupted circadian clock can be detrimental to daily function and human health, as evidenced by the increased rates of disease in nightshift workers and submariners, known to experience circadian disruption. Tailored lighting intervention, on the other hand, helps adolescents fall asleep earlier, premature infants be discharged from the hospital sooner, Alzheimer's disease patients sleep better, and cancer patients experience less fatigue. Because the light people are exposed to can have a profound impact on the proper timing of their circadian clocks, it is important to effectively specify, measure and apply lighting in the built environment. It is also important to understand how various species (human, mammals, and plants) respond to light. This minor will provide the foundation to understand the basic principles of how to specify, measure, and apply light to positively impact various species, and to work side-by-side with leading experts in the field in a professional project. This minor requires four courses with a minimum of 15 credits.\nFootnote,  At least 4 credit hours are required for LGHT 4940. LGHT 4940 may be substituted with any other 4 credit hour or greater LGHT course or a related BIOL/BCBP elective course with permission of the Lighting program director.",
+    "name": "Lighting Minor in Biological Sciences"
+  },
+  "Linguistics Minor": {
     "Remaining": {
       "Advanced Topics in Linguistics": "COGS4780",
-      "Chinese I": "LANG1410",
-      "Chinese II": "LANG2410",
-      "Chinese III": "LANG4420",
-      "Chinese IV": "LANG4430",
-      "Chinese V": "LANG4470",
       "Cross-linguistic Perspectives": "COGS4560",
-      "Language Studies": "LANG4940",
-      "Language and Culture": "COMM4620",
-      "Language in Real Time": "COMM2120",
+      "Introduction to Linguistics": "COGS2340",
       "Language-Endowed Intelligent Agents": "COGS4880",
       "The Linguistics of Computational Linguistics": "COGS4340"
     },
-    "Required": {
-      "Introduction to Linguistics": "COGS2340"
-    },
-    "description": "Study linguistics from various perspectives, from cognitive analysis of linguistic expressions to the use of language for communication and other social settings. You'll also learn how to effectively communicate and handle foreign languages.",
-    "minor": [
-      "Linguistics"
-    ],
-    "name": "Linguistics",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000-level:"
+    "description": "\nA maximum of 4 credits of a faculty-approved foreign language course taken during the student's college-level study.\nNotes,  With permission of the Director of the Linguistics Minor, any of the following that have significant linguistic content can be applied to the minor: special topics courses, independent studies, and senior theses. At least 8 of the credits taken must be offered through the Cognitive Science Department. However, the departmenthas the power to waive this requirement.",
+    "name": "Linguistics Minor",
+    "remaining_header": "16 credits from:"
   },
-  "Literature and Creative Writing": {
-    "Remaining": {
+  "Literature and Creative Writing Minor": {
+    "Required": {
       "Creative Writing:  The Short Story": "WRIT2330",
       "Creative Writing: Creative Non-Fiction": "WRIT2320",
       "Creative Writing: Poetry": "WRIT2310",
-      "Fiction from Film to the Internet": "IHSS1976",
-      "Film Theory": "LITR4410",
+      "Fiction from Film to Internet": "IHSS19XX",
       "Interactive Narrative": "COMM4780",
       "Introduction to Literature": "LITR2110",
       "Irish Literature": "LITR4230",
-      "Literature Studies": "LITR2940",
-      "Literature and Media": "LITR2120",
       "Modern and Contemporary Literature": "LITR2150",
       "Science and Fiction": "LITR4150",
-      "Speech Communication": "WRIT2340",
-      "Strategic Writing": "WRIT2110",
-      "The American Dream": "IHSS19XX",
-      "Topics in Literature": "LITR4960",
       "Visual Poetics and Narrative": "COMM4320",
       "Women Writers": "LITR4770",
       "Writing for the Screen": "COMM2110",
       "Writing in Context": "WRIT1110"
     },
-    "description": "The Literature and Creative Writing Pathway offers discussion-oriented courses across a range of literary genres and themes, with a choice of emphasis on either literature, creative writing, or both. Students will learn to read and write literary art critically and creatively, with clarity and imagination, and with sensitivity to multi-cultural expressions of diversity.",
-    "minor": [
-      "Literature and Creative Writing"
-    ],
-    "name": "Literature and Creative Writing",
-    "remaining_header": "Choose 12 credits from the following, at least 4 credits at the 4000 level:"
+    "description": "The Literature and Creative Writing minor offers discussion-oriented courses across a range of literary genres and themes, with a choice of emphasis on either literature, creative writing, or both. Students will learn to read and write literary art critically and creatively, with clarity and imagination, and with sensitivity to multi-cultural expressions of diversity.\nComplete 16 credits from the following list. At least 4 credits must be completed at the 4000 level.",
+    "name": "Literature and Creative Writing Minor"
   },
-  "Living in a World of Data": {
+  "Management Minor": {
+    "Required": {
+      "Financial Accounting": "MGMT2300",
+      "Introduction to Management": "MGMT1100",
+      "Managerial Finance": "MGMT2320"
+    },
+    "description": "\nThe minor in management usually consists of the following four courses:",
+    "name": "Management Minor"
+  },
+  "Marketing Minor": {
     "One Of0": {
-      "IT and Society": "ITWS1220",
-      "Minds and Machines": "IHSS1140",
-      "Open Source: Art, Music, Culture": "IHSS1965",
-      "Principles of Economics": "IHSS1200",
-      "Science and Scientific Misconduct": "IHSS1160",
-      "The Genome and You": "IHSS1150"
-    },
-    "Remaining": {
-      "Applied Game Theory": "ECON4220",
-      "Behavioral Economics": "ECON4270",
-      "Critical Thinking": "PSYC2100",
-      "Econometrics": "ECON4570",
-      "Information Design": "COMM4470",
-      "Interactive Data Visualization": "COMM4880",
-      "Interface Design: Hypermedia Theory and Application": "COMM4690",
-      "Mathematical Methods in Psychological Science": "PSYC4350",
-      "Research Methods and Statistics I": "PSYC2310",
-      "Social Demography: Society by the Numbers": "STSS4520"
-    },
-    "description": "Humans live in the age of information  and misinformation  of big data, data mining, and machine learning ... of new media presenting unparalleled means of communication ... of unseen and opaque algorithms driving our news feeds... and of rushing to judgment on viral videos. It is important to develop some 'information intelligence' and 'data dexterity'. Such dexterity and intelligence includes technical skills of quantitative data analysis and IT technology, but also includes critical thinking skills regarding how information is collected, judged, interpreted, and represented, and how big data and information is feeding humans' collective awareness driving their decisions and affecting their world surroundings.",
-    "name": "Living in a World of Data",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Logical Thinking": {
-    "Remaining": {
-      "Computability and Logic": "PHIL4420",
-      "Critical Thinking": "PSYC2100",
-      "Inductive Logic": "PHIL4960",
-      "Intermediate Logic": "PHIL4140",
-      "Introduction to Logic": "PHIL2140"
+      "Advertising Strategy and Promotions": "MGMT4490",
+      "Consumer Behavior and Product Design": "MGMT4460"
     },
     "Required": {
-      "Are Humans Rational?": "IHSS1235"
+      "Introduction to Management": "MGMT1100",
+      "Marketing Principles": "MGMT2430",
+      "Marketing Research": "MGMT4470"
     },
-    "description": "This Pathway is for students with an interest in symbolic logic, and the connections between formal logic and mathematics, computer science, Artificial Intelligence, and the human mind.",
-    "minor": [
-      "Philosophy of Logic, Computation, and Mind"
-    ],
-    "name": "Logical Thinking",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000 level:"
+    "description": "\nThe minor in marketing usually consists of the following three courses:",
+    "name": "Marketing Minor"
   },
-  "Media and Culture": {
-    "Remaining": {
+  "Materials Engineering Minor": {
+    "description": "Students not majoring in Materials Engineering may receive a minor in this discipline by completing 15 credit hours of courses with a MTLE designation. As general preparation for these courses,students should have taken ENGR 1600 Materials Science for Engineers. A list of suggested courses is given below.These are only suggestions, and courses can be chosen according tointerest and scheduling. It ispossible to take some courses out of sequence if the student iswilling to put in the appropriate effort. Note, that some courses in the Department of Materials Science and Engineering are offered once a year, whereas some electives are offered only every other year. An excellent program for a Minor in Materials Engineering, givingstudents a solid foundation, would be to take Structure of Engineering Materials (MTLE 2100), plus any two of the 4-credit courses:Thermodynamics of Materials (MTLE 4100), Kinetics in Materials Science (MTLE 4150),Electrical and Optical Propertiesof Materials (MTLE 4200), Mechanical Properties ofMaterials (MTLE 4250), plus one 3-credit materials elective.",
+    "name": "Materials Engineering Minor"
+  },
+  "Mathematics Minor": {
+    "description": "Students not majoring in mathematics may receive a minor in math by taking four courses at the 4000 level or above from the MATH and MATP course groups. These courses should form a coherent program and have the prior approval of the chairman of the Department of Mathematical Sciences.",
+    "name": "Mathematics Minor"
+  },
+  "Media and Culture Minor": {
+    "Required": {
       "Advertising and Culture": "COMM4580",
-      "Behind the Television Screen": "IHSS19XX",
       "Communication Theory and Practice": "COMM2520",
       "Documentary Film": "COMM2440",
-      "Documentary: Whose Narrative?": "IHSS19XX",
       "Media and Society": "IHSS1560",
       "Perspectives on Photography": "COMM2410",
       "Reality TV and Post-Factual Media": "COMM4530",
       "Religion in the Media": "COMM4550",
-      "Remixing in Digital Culture": "IHSS19XX",
-      "Technology and the Top Ten": "IHSS19XX",
-      "The American Dream": "IHSS19XX",
       "Visual Culture": "COMM4540",
       "Writing for the Screen": "COMM2110"
     },
-    "description": "This pathway examines different forms of expression and their cultural contexts in a variety of media, including film, television, photography, and new media. Its components will enhance creative and critical thinking, communication practices, and awareness of cultural and individual identities. The focus on cultural and media literacy will improve the career readiness and social awareness of those in any program at RPI.",
-    "minor": [
-      "Media and Culture"
-    ],
-    "name": "Media and Culture",
-    "remaining_header": "Choose 12 credits from the following, with at least 4 credits at the 4000-level:"
+    "description": "This minor examines different forms of expression and their cultural contexts in a variety of media, including film, television, photography, and new media. Its components will enhance creative and critical thinking, communication practices, and awareness of cultural and individual identities.\nComplete four courses from the following list. At least one must be completed at the 4000-level. Other courses can be approved on an individual basis by the curriculum coordinator.",
+    "name": "Media and Culture Minor"
   },
-  "Mind, Brain, and Intelligence": {
+  "Music Minor": {
     "One Of0": {
-      "AI and Society": "IHSS1972",
-      "Are Humans Rational?": "IHSS1235",
-      "Minds and Machines": "IHSS1140"
+      "Deep Listening": "ARTS2180",
+      "Introduction to Afro-Cuban Percussion": "ARTS2340",
+      "Music and Technology II": "ARTS4160",
+      "Western Music Appreciation": "IHSS1740",
+      "World Music": "ARTS2520"
     },
     "Remaining": {
-      "Advanced Topics in Linguistics": "COGS4780",
-      "Cognition and the Brain": "COGS4600",
-      "Cognitive Psychology": "PSYC4370",
-      "Cross-linguistic Perspectives": "COGS4560",
-      "Game AI": "COGS4420",
-      "Intelligent Virtual Agents": "COGS4640",
-      "Introduction to Cognitive Neuroscience": "COGS4330",
-      "Language-Endowed Intelligent Agents": "COGS4880",
-      "Learning and Advanced Game AI": "COGS4430",
-      "Mathematical Methods in Psychological Science": "PSYC4350",
-      "Programming for Cognitive Science and Artificial Intelligence": "COGS4410",
-      "Readings in Cognitive Science": "COGS4940",
-      "Sensation and Perception": "PSYC4410",
-      "The Linguistics of Computational Linguistics": "COGS4340",
-      "Topics in Cognitive Science": "COGS4960"
-    },
-    "Required": {
-      "Introduction to Cognitive Science": "COGS2120"
-    },
-    "description": "Discover Cognitive Science: a young but fast-growing field focused on the study of mind from the perspectives of philosophy, psychology, neuroscience, linguistics, and artificial intelligence.",
-    "minor": [
-      "Cognitive Science"
-    ],
-    "name": "Mind, Brain, and Intelligence",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Music Composition and Production": {
-    "One Of0": {
+      "Deep Listening": "ARTS2180",
       "Exploring Music @Rensselaer": "IHSS1010",
-      "Fundamentals of Music and Sound": "ARTS1380",
-      "History of Jazz and Improvised Music": "IHSS1080",
-      "Popular Music and Society": "IHSS1710",
-      "Remixing in Digital Culture": "IHSS19XX",
-      "Songwriting Workshop": "IHSS1700",
-      "Technology and the Top Ten": "IHSS19XX",
-      "Western Music Appreciation": "IHSS1740"
-    },
-    "Remaining": {
-      "Ensemble Nonlinear": "ARTS2600",
       "Music and Sound I": "ARTS2380",
       "Music and Sound II": "ARTS4380",
       "Music and Technology I": "ARTS2020",
       "Music and Technology II": "ARTS4160",
-      "Sound Recording and Production I": "ARTS2700"
-    },
-    "description": "Students learn to compose music starting with the Western Classical tradition then branching out to modern and experimental methods. Students also learn to program and apply modern information technology to music creation and production.",
-    "minor": [
-      "Music"
-    ],
-    "name": "Music Composition and Production",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Music Performance": {
-    "One Of0": {
-      "Exploring Music @Rensselaer": "IHSS1010",
-      "Fundamentals of Music and Sound": "ARTS1380",
-      "History of Jazz and Improvised Music": "IHSS1080",
-      "Popular Music and Society": "IHSS1710",
-      "Remixing in Digital Culture": "IHSS19XX",
-      "Western Music Appreciation": "IHSS1740"
-    },
-    "Remaining": {
-      "Chamber Music Ensemble": "ARTS2350",
-      "Deep Listening": "ARTS2180",
-      "Ensemble Nonlinear": "ARTS2600",
-      "Introduction to Afro-Cuban Percussion": "ARTS2340",
-      "Rensselaer Concert Choir": "ARTS2310",
-      "Rensselaer Orchestra": "ARTS2300",
-      "Roots of Africa Music Ensemble": "ARTS2360",
-      "Topics in Deep Listening": "ARTS4180",
-      "Topics in the Arts": "ARTS2960"
-    },
-    "description": "Students learn to perform focal and instrumental music from a variety of styles, Classical to Afro-Cubanto experimental.",
-    "minor": [
-      "Music"
-    ],
-    "name": "Music Performance",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Music and Culture": {
-    "One Of0": {
-      "Exploring Music @Rensselaer": "IHSS1010",
-      "Fundamentals of Music and Sound": "ARTS1380",
-      "History of Jazz and Improvised Music": "IHSS1080",
-      "Open Source: Art, Music, Culture": "IHSS1965",
-      "Popular Music and Society": "IHSS1710",
-      "Songwriting Workshop": "IHSS1700",
-      "Technology and the Top Ten": "IHSS19XX",
-      "Western Music Appreciation": "IHSS1740"
-    },
-    "Remaining": {
-      "Introduction to Afro-Cuban Percussion": "ARTS2340",
-      "Sound Recording and Production I": "ARTS2700",
-      "Topics in the Arts": "ARTS4960",
+      "The Multimedia Century": "ARTS2540",
+      "Western Music Appreciation": "IHSS1740",
       "World Music": "ARTS2520"
     },
-    "description": "Students gainhistorical and inter-cultural knowledge of music from the Western and various non-Western cultures.",
-    "minor": [
-      "Music"
-    ],
-    "name": "Music and Culture",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "A music minor consists of 16credits from the music curriculum. Students may fulfill the Music minor by fulfilling the requirements in one of the three tracks listed below:\n8 credits of performance ensemble or private music lessons",
+    "name": "Music Minor",
+    "remaining_header": "4 credits of:"
   },
-  "Philosophy": {
+  "Nuclear Engineering Minor": {
+    "description": "Students not majoring in nuclear engineering may receive a minor in this discipline by completing 1516 credit hours of study selected in consultation with their program adviser.",
+    "name": "Nuclear Engineering Minor"
+  },
+  "Philosophy Minor": {
     "One Of0": {
-      "Critical Thinking": "PSYC2100",
-      "Great Ideas in Philosophy": "IHSS1165",
-      "Introduction to Logic": "PHIL2140",
+      ": Philosophy, Technology, and the Human Future": "IHSS19XX",
       "Introduction to Philosophy": "PHIL1110",
-      "Philosophy, Technology, and the Human Future": "IHSS19XX",
-      "Science and Scientific Misconduct": "IHSS1160",
-      "The Genome and You": "IHSS1150"
+      "Minds and Machines": "IHSS1140"
+    },
+    "description": "The Minor in Philosophy allows the interested student to attain a foundation in philosophy that will complement any academic major. To complete this minor, students must choose a minimum of four (4) Philosophy courses, distributed as follows:\nChoose three (3) additional PHIL courses, at least one of which must be at the 4000 level and at least one designated as communication intensive (could be the same course or two different courses).",
+    "name": "Philosophy Minor"
+  },
+  "Philosophy of Logic, Computation, and Mind Minor": {
+    "One Of0": {
+      "Introduction to Philosophy": "PHIL1110",
+      "Minds and Machines": "IHSS1140",
+      "Philosophy, Technology, and the Human Future": "IHSS1XXX"
     },
     "Remaining": {
-      "Capstone Experience in Philosophy": "PHIL4990",
       "Computability and Logic": "PHIL4420",
-      "Critical Thinking": "PSYC2100",
-      "Environmental Philosophy": "PHIL4300",
-      "Ethics": "PHIL4240",
+      "Critical Thinking": "PHIL2100",
       "Intermediate Logic": "PHIL4140",
-      "Introduction to Logic": "PHIL2140",
-      "Introduction to Philosophy of Religion": "PHIL2830",
+      "Introduction to Cognitive Science": "PHIL2120",
       "Metaphysics and Consciousness": "PHIL4480",
-      "Philosophy Studies": "PHIL2940",
-      "Philosophy of Artificial Intelligence": "PHIL4260",
-      "Philosophy of Biology": "PHIL2400",
-      "Philosophy of Science": "PHIL4130",
-      "Scientific Revolutions": "PHIL4310",
-      "Topics in Philosophy": "PHIL4940"
+      "Philosophy of Artificial Intelligence": "PHIL4260"
     },
-    "description": "Learn to reason more precisely, think more critically, and ask more penetrating and foundational questions about enduring and contemporary problems in ethics, science, technology, religion, and politics  including some of the biggest challenges that humanity currently faces.",
-    "minor": [
-      "Philosophy"
-    ],
-    "name": "Philosophy",
-    "remaining_header": "Choose remaining credits from the following with at least 4 credits at the 4000-level:"
+    "Required": {
+      "Introduction to Logic": "PHIL2140"
+    },
+    "description": "This minor focuses on the nature of reasoning and formal systems, and the relations they bear on the study of mind and consciousness whether natural or artificial (artificial intelligence, AI). To complete this minor, students must choose a minimum of four (4) Philosophy courses distributed as follows:\nChoose two (2) additional courses from the following list (4 credit hours each) (At least one of these two courses must be at the 4000 level.)",
+    "name": "Philosophy of Logic, Computation, and Mind Minor"
   },
-  "Public Health": {
+  "Physics Minor": {
+    "description": "Students not majoring in physics may minor in this subject by taking at least 16 credit hours of physics courses (coded PHYS) at the 2000 level or higher.",
+    "name": "Physics Minor"
+  },
+  "Professional Writing Minor": {
+    "One Of0": {
+      "Strategic Writing": "WRIT2110",
+      "Writing in Context": "WRIT1110"
+    },
+    "Remaining": {
+      "Creative Writing: Creative Non-Fiction": "WRIT2320",
+      "Information Design": "COMM4470",
+      "Interactive Narrative": "COMM4780",
+      "Proposing and Persuading": "WRIT4550",
+      "Speech Communication": "WRIT2340",
+      "Writing for Promotion and Marketing": "WRIT4170"
+    },
+    "Required": {
+      "Communication Theory and Practice": "COMM2520"
+    },
+    "description": "To complete this minor, students must take four courses from the following:",
+    "name": "Professional Writing Minor",
+    "remaining_header": "Choose two:"
+  },
+  "Psychological Science Minor": {
+    "One Of0": {
+      "Research Methods and Statistics I": "PSYC2310",
+      "Research Methods and Statistics II": "PSYC4310"
+    },
+    "Required": {
+      "General Psychology": "PSYC1200"
+    },
+    "description": "This minor is designed for students who want to gain proficiency in research methods and statistics and their application in the scientific study of behavior and mental processes.\nTwo additional PSYC courses; including one at the 4000 level if PSYC 4310 is not chosen.",
+    "name": "Psychological Science Minor"
+  },
+  "Public Health Minor": {
     "One Of0": {
       "Century of the Gene": "IHSS1410",
       "General Psychology": "PSYC1200",
       "Global Health Challenges": "IHSS1420",
       "Health in Contemporary Africa": "IHSS1430",
       "Science, Technology, and Society": "STSS1110",
-      "Technology and Social Interaction": "IHSS19XX",
       "The Genome and You": "IHSS1150"
     },
     "Remaining": {
+      "Behavioral Neuroscience": "PSYC4360",
       "Bioethics": "STSH4250",
       "Drugs in History": "STSS4430",
       "Drugs, Society, and Behavior": "PSYC4500",
       "Food, Farms, and Famine": "STSS4260",
       "Gender, Science, and Technology": "STSS4560",
+      "Health Economics and Policy": "ECON4170",
       "History of Medicine": "STSH4420",
       "History of Mental Health": "STSH4440",
       "Hormones, Brain, and Behavior": "PSYC4700",
-      "Medicine, Culture, and Society": "STSS4400",
-      "Stress and the Brain": "PSYC4610"
+      "Medicine, Culture, and Society": "STSS4400"
     },
     "Required": {
       "Sociology": "STSS2520"
     },
-    "description": "The pathway in Public Health is designed for students interested in health-related careers who wish to develop skills and knowledge about global public health challenges. It also offers important courses for students on a pre-medical track.",
-    "minor": [
-      "Public Health"
-    ],
-    "name": "Public Health",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The minor in Public Health is designed for students interested in health-related careers who wish to develop skills and knowledge about global public health challenges. It also offers important courses for students on a pre-medical track. A minor in Public Health is completed by completing 16 credits from the following:\n4000-level option in STS:\n4000-level option in COGS or ECON:",
+    "name": "Public Health Minor"
   },
-  "Science, Technology, and Society": {
+  "Science, Technology, and Society Minor": {
     "One Of0": {
-      "IT and Society": "ITWS1220",
-      "Race, Class, Gender, and Technology": "IHSS19XX",
-      "Science, Technology, and Society": "STSS1110",
-      "Technology and Social Interaction": "IHSS19XX"
+      "Science, Technology, and Society": "STSS1110"
     },
     "One Of1": {
       "American History": "STSH2500",
@@ -887,89 +815,55 @@
       "Law and Society": "STSS2700",
       "Sociology": "STSS2520"
     },
-    "Remaining": {
-      "Bioethics": "STSH4250",
-      "Design and Innovation Studio B": "STSH4610",
-      "Engineering Ethics": "STSH4210",
-      "Environmental Law": "STSH4700",
-      "Environmental Philosophy": "STSH4340",
-      "History of American Technology": "STSH4510",
-      "History of Medicine": "STSH4420",
-      "History of Mental Health": "STSH4440",
-      "History of Science and Technology": "STSH4530",
-      "Readings in Science and Technology Studies": "STSH4940",
-      "Sustainability Careers": "STSH4300"
-    },
-    "description": "The pathway in Science, Technology, and Society (STS) is designed for students broadly interested in the social and political dimensions of science, technology, engineering, and medicine. Students use political and social science methods to investigate scientific and technological developments.",
-    "minor": [
-      "Science, Technology, and Society"
-    ],
-    "name": "Science, Technology, and Society",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The minor in Science, Technology, and Society (STS) is designed for students broadly interested in the social and political dimensions of science, technology, engineering, and medicine. Students use political and social science methods to investigate scientific and technological developments. A minor in Science, Technology, and Society is completed by taking the following courses:\nRemaining credits should be from 4000-level STSS or STSH courses.",
+    "name": "Science, Technology, and Society Minor"
   },
   "Strategic Communication": {
-    "Remaining": {
+    "Required": {
       "Advertising and Culture": "COMM4580",
       "Communication Theory and Practice": "COMM2520",
-      "Documentary Film": "COMM2440",
-      "Introduction to Graphic Design": "COMM2660",
       "Language and Culture": "COMM4620",
-      "Language in Real Time": "COMM2120",
-      "Media and Society": "IHSS1560",
-      "Perspectives on Photography": "COMM2410",
       "Proposing and Persuading": "WRIT4550",
       "Research Writing": "WRIT4410",
       "Speech Communication": "WRIT2340",
       "Strategic Writing": "WRIT2110",
-      "Topics in Writing": "WRIT4960",
-      "Typography": "COMM2570",
       "Writing and Response": "WRIT4380",
-      "Writing and Society": "IHSS19XX",
       "Writing for Promotion and Marketing": "WRIT4170",
-      "Writing for the Screen": "COMM2110",
       "Writing in Context": "WRIT1110"
     },
-    "description": "This pathway is designed to train versatile, critical, and self-possessed 21st- century communicators. Students who successfully complete this pathway will demonstrate the ability to make focused, audience-appropriate arguments; communicate effectively across diverse rhetorical, sociocultural, and disciplinary contexts; and respond creatively to the analytical demands involved with developing, arranging, and revising ideas and arguments.",
-    "minor": [
-      "Strategic Communication"
-    ],
-    "name": "Strategic Communication",
-    "remaining_header": "Choose 12 credits of the following, with at least 4 credits at the 4000 level:"
+    "description": "The minor in Strategic Communication is designed to train versatile, critical, and self-possessed communicators. Students who successfully complete this minor will demonstrate the ability to make focused, audience-appropriate arguments and communicate effectively across diverse rhetorical, sociocultural, and disciplinary contexts.\nComplete 16 credits from the following list. At least 4 credits must be completed at the 4000-level.",
+    "name": "Strategic Communication"
   },
   "Studio Arts": {
     "Remaining": {
+      "Art History": "ARTS1050",
+      "The Multimedia Century": "ARTS2540"
+    },
+    "Required": {
       "Advanced Drawing": "ARTS4200",
       "Basic Drawing": "ARTS1200",
-      "Digital Filmmaking": "ARTS1030",
-      "Digital Imaging": "ARTS1020",
       "Fundamentals of 2D Design": "ARTS2220",
-      "Fundamentals of Music and Sound": "ARTS1380",
+      "Graphic Storytelling": "ARTS2070",
       "Intermediate Drawing": "ARTS2200",
       "Life Drawing and Anatomy for Artists": "ARTS4260",
       "Painting": "ARTS4220",
+      "Radical Graphics/Screenprinting": "ARTS2090",
       "Sculpture I": "ARTS2210",
       "Sculpture II": "ARTS4210"
     },
-    "Required": {
-      "Art History": "ARTS1050"
-    },
-    "description": "Study traditional studio arts such as drawing, painting, sculpture in conjunction with art history to learn techniques, history, and theory in the visual arts. Students will develop basic skills in perspective, proportion, composition, form making, light and shadow, color,2 and 3D Design,and learn toarticulate ideas abouttheir own,other students', and historicalworksthrough class discussions and critiques.",
-    "minor": [
-      "Studio Arts"
-    ],
+    "description": "A studio arts minor consists of 16 credits from the studio arts curriculum, which includes courses in drawing, painting, and sculpture. All studio arts minors must take three studio courses, and at least one of these must be at the 4000 level. The remaining 4 credits may be filled by another studio course or an art history course.\nMust take at least 12 credits from studio courses; at least one 4000-level course\nMust completeone of the following courses:",
     "name": "Studio Arts",
-    "remaining_header": "Choose remaining credits from the following:"
+    "remaining_header": "Art History Courses"
   },
-  "Sustainability": {
+  "Sustainability Studies Minor": {
     "One Of0": {
       "A Century of Environmental Thought": "IHSS1320",
-      "Designing Climate Justice": "IHSS19XX",
       "Nature/Society": "IHSS1110",
       "Science, Technology, and Society": "STSS1110",
       "Sustainability Debates": "IHSS1240"
     },
     "Remaining": {
-      "Consumer Culture": "STSH4720",
+      "Consumer Culture": "STSS4720",
       "Energy Politics": "STSS4310",
       "Environmental Law": "STSH4700",
       "Environmental Philosophy": "STSH4340",
@@ -987,161 +881,95 @@
     "Required": {
       "Environment and Society": "STSS2300"
     },
-    "description": "The pathway in Sustainability focuses on the interactions between various systems - social, political, cultural, economic, technological and ecological - that undergird environmental sustainability. Students use interdisciplinary approaches to investigate environmental problems.",
-    "minor": [
-      "Sustainability Studies"
-    ],
-    "name": "Sustainability",
-    "remaining_header": "Choose remaining credits from the following:"
+    "description": "The minor in Sustainability Studies focuses on the interactions between various systemssocial, political, cultural, economic, technological, and ecological that undergird environmental sustainability. Students use interdisciplinary approaches to investigate environmental problems. A minor in Sustainability Studies is completed by taking 16 credits from the following:",
+    "name": "Sustainability Studies Minor",
+    "remaining_header": "Choose two of the following:"
   },
-  "Thinking with Science": {
-    "One Of0": {
-      "Open Source: Art, Music, Culture": "IHSS1965",
-      "Science and Scientific Misconduct": "IHSS1160",
-      "Science, Technology, and Society": "STSS1110",
-      "Technology and Social Interaction": "IHSS19XX",
-      "War and Technology: Past, Present, and Future": "IHSS1570",
-      "Well-being: Cultivating Curiosity": "IHSS1175"
-    },
-    "Remaining": {
-      "Communication Theory and Practice": "COMM2520",
-      "Critical Thinking": "PSYC2100",
-      "Eco Chic: Living Art": "ARTS4240",
-      "History of American Technology": "STSH4510",
-      "History of Science and Technology": "STSH4530",
-      "Medicine, Culture, and Society": "STSS4400",
-      "Philosophy of Biology": "PHIL2400",
-      "Philosophy of Science": "PHIL4130",
-      "Proposing and Persuading": "WRIT4550",
-      "Research Writing": "WRIT4410",
-      "Science and Fiction": "LITR4150",
-      "Strategic Writing": "WRIT2110",
-      "Topics in the Arts": "ARTS4960"
-    },
-    "description": "This pathway offers instruction in identifying and understanding dissemination and the methods and media for scientific knowledge. Students who successfully complete this pathway will demonstrate the ability to critique how textual and social representations create diverse and competing receptions of scientific knowledge; analyze the social construction of scientific knowledge; and solve problems through disseminating scientific knowledge across a variety of social and rhetorical contexts.",
-    "name": "Thinking with Science",
-    "remaining_header": "Choose remaining credits from the following:"
-  },
-  "Transfer Student Arts and Humanities": {
-    "Remaining": {
-      "ARTSXXXX": "ARTSXXXX",
-      "COMMXXXX": "COMMXXXX",
-      "GSASXXXX": "GSASXXXX",
-      "IHSSXXXX": "IHSSXXXX",
-      "LANGXXXX": "LANGXXXX",
-      "LITRXXXX": "LITRXXXX",
-      "PHILXXXX": "PHILXXXX",
-      "STSHXXXX": "STSHXXXX",
-      "WRITXXXX": "WRITXXXX"
-    },
-    "description": "Thispathwayis intended for transfer students that enter with junior status andwho have completed significant coursework within the arts and humanities to be applied toward a pathway. Coursework may include a mix of transfer courses that come in as electives or courses taken at Rensselaer.",
-    "name": "Transfer Student Arts and Humanities",
-    "remaining_header": "Choose 12 credits of the following course prefixes, with at least 8 credit hours at, or above, the 2000 level and at least 3 credit hours at the 4000 level:"
-  },
-  "Transfer Student Social Science": {
-    "Remaining": {
-      "COGSXXXX": "COGSXXXX",
-      "ECONXXXX": "ECONXXXX",
-      "GSASXXXX": "GSASXXXX",
-      "IHSSXXXX": "IHSSXXXX",
-      "PSYCXXXX": "PSYCXXXX",
-      "STSSXXXX": "STSSXXXX"
-    },
-    "description": "This pathway is intended for transfer students that enter with junior status andwho have completed significant coursework within the social sciencesto be applied toward a pathway. Coursework may include a mix of transfer courses that come in as electives or courses taken at Rensselaer.",
-    "name": "Transfer Student Social Science",
-    "remaining_header": "Choose 12 credits of the following course prefixes, with at least 8 credit hours at, or above, the 2000 level and at least 3 credit hours at the 4000 level:"
-  },
-  "Understanding Human Behavior": {
-    "Remaining": {
-      "Abnormal Psychology": "PSYC4720",
-      "Behavioral Neuroscience": "PSYC4360",
-      "Cognition and the Brain": "PSYC4600",
-      "Cognitive Engineering": "PSYC4620",
-      "Cognitive Modeling": "PSYC4510",
-      "Cognitive Psychology": "PSYC4370",
-      "Critical Thinking": "PSYC2100",
-      "Drugs, Society, and Behavior": "PSYC4500",
-      "Forensic Psychology": "PSYC4750",
-      "Hormones, Brain, and Behavior": "PSYC4700",
-      "Human Factors Seminar": "PSYC4160",
-      "Human Factors in Design": "PSYC2220",
-      "Human Sexuality": "PSYC4340",
-      "Industrial and Organizational Psychology": "PSYC4200",
-      "Introduction to Cognitive Neuroscience": "PSYC4330",
-      "Introduction to Cognitive Science": "PSYC2120",
-      "Introduction to Sports Psychology": "PSYC2800",
-      "Learning": "PSYC4450",
-      "Mathematical Methods in Psychological Science": "PSYC4350",
-      "Moral Development": "PSYC2600",
-      "Motivation and Performance": "PSYC4110",
-      "Personality": "PSYC4400",
-      "Positive Psychology": "PSYC4730",
-      "Professional Development II: Leadership Theories": "PSYC4170",
-      "Psychological Tests and Measurements": "PSYC4260",
-      "Psychology and The Law": "PSYC4740",
-      "Psychology of Mindfulness": "PSYC4430",
-      "Psychopharmacology and Behavioral Toxicology": "PSYC4770",
-      "Readings in Psychology": "PSYC4940",
-      "Research Methods and Statistics I": "PSYC2310",
-      "Research Methods and Statistics II": "PSYC4310",
-      "Sensation and Perception": "PSYC4410",
-      "Sensibilities": "PSYC4440",
-      "Social Psychology": "PSYC2730",
-      "Sport Psychology Seminar": "PSYC4800",
-      "Stress and the Brain": "PSYC4610",
-      "Topics in Psychology": "PSYC4960",
-      "Undergraduate Thesis": "PSYC4990",
-      "Understanding Empathy": "IHSS19XX"
-    },
+  "Technology in Commercialization and Entrepreneurship": {
     "Required": {
-      "General Psychology": "PSYC1200"
+      "Modeling and Analysis of Uncertainty": "ENGR2600",
+      "Statistical Methods": "MGMT2100"
     },
-    "description": "The ability to understand and predict how people act and think is more important than ever in addressing many of the greatest challenges that we face as a society. In this pathway, students will learn how behavior and thought are influenced by cognitive, emotional, developmental, social, and environmental factors, and how to apply psychological principles.",
-    "minor": [
-      "General Psychology",
-      "Psychological Science"
-    ],
-    "name": "Understanding Human Behavior",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000 level::"
+    "description": "This is a special Management minor for undergraduate students from other departments who are interested in the M.S. in Management in TC&E.It is suggested that students from these departments take the following strong minor in Management in order to enter the M.S. in TC&E with a sound knowledge of business fundamentals.",
+    "name": "Technology in Commercialization and Entrepreneurship"
   },
-  "Video, Performance, and Social Impact": {
+  "Video, Performance, and Social Practice": {
     "One Of0": {
-      "Behind the Television Screen": "IHSS19XX",
-      "Digital Filmmaking": "ARTS1030",
-      "Documentary: Whose Narrative?": "IHSS19XX",
-      "Open Source: Art, Music, Culture": "IHSS1965",
-      "Race and Film in U.S. Culture and History": "IHSS1300",
-      "Remixing in Digital Culture": "IHSS19XX",
-      "Technology and the Top Ten": "IHSS19XX"
+      "2D Experimental Animation": "ARTS2060",
+      "3D Digital Modeling": "ARTS2230",
+      "Chamber Music Ensemble": "ARTS2350",
+      "Contemporary Improvisation Ensemble": "ARTS2080",
+      "Deep Listening": "ARTS2180",
+      "Fundamentals of 2D Design": "ARTS2220",
+      "Graphic Storytelling": "ARTS2070",
+      "Intermediate Digital Imaging": "ARTS2040",
+      "Intermediate Drawing": "ARTS2200",
+      "Intermediate Video": "ARTS2010",
+      "Introduction to Afro-Cuban Percussion": "ARTS2340",
+      "Music and Sound I": "ARTS2380",
+      "Music and Technology I": "ARTS2020",
+      "Private Music Lessons": "ARTS2750",
+      "Radical Graphics/Screenprinting": "ARTS2090",
+      "Rensselaer Concert Choir": "ARTS2310",
+      "Rensselaer Orchestra": "ARTS2300",
+      "Roots of Africa Music Ensemble": "ARTS2360",
+      "Sculpture I": "ARTS2210",
+      "Sound Recording and Production I": "ARTS2700",
+      "The Multimedia Century": "ARTS2540",
+      "World Music": "ARTS2520"
     },
     "Remaining": {
+      "3D Animation": "ARTS4070",
+      "3D Visual Effects": "ARTS4060",
+      "Advanced Digital 3D Projects": "ARTS4020",
+      "Advanced Digital Imaging": "ARTS4860",
+      "Advanced Drawing": "ARTS4200",
+      "Animation Production": "ARTS4460",
+      "Art and Code and Interactivity": "ARTS4090",
       "Art, Community, and Technology": "ARTS4080",
+      "B.S. EARTS Thesis": "ARTS4990",
+      "Composition Seminar": "ARTS4390",
+      "Creative Data Design": "ARTS4870",
       "Eco Chic: Living Art": "ARTS4240",
+      "Electronic Arts Theory Seminar": "ARTS4100",
+      "Ensemble Nonlinear": "ARTS4600",
+      "Experimental Telepresence": "ARTS4420",
+      "Exploring Movement and Sound": "ARTS4620",
       "Hactivism": "ARTS4560",
-      "Intermediate Video": "ARTS2010",
+      "Inflatable Sculpture": "ARTS4230",
+      "Interactive Arts Programming": "ARTS4010",
+      "Interdisciplinary Research Seminar": "ARTS4880",
+      "Life Drawing and Anatomy for Artists": "ARTS4260",
+      "Media Watch": "ARTS4150",
+      "Multimedia Performance Systems": "ARTS4030",
+      "Music and Sound II": "ARTS4380",
+      "Music and Technology II": "ARTS4160",
       "New Media Theory": "ARTS4130",
+      "Painting": "ARTS4220",
       "Rethinking Documentary: Video Production": "ARTS4040",
       "Science Fictions": "ARTS4640",
-      "The Multimedia Century": "ARTS2540",
+      "Sculpture II": "ARTS4210",
+      "Sound Recording and Production II": "ARTS4700",
+      "Studies in the Arts": "ARTS4940",
+      "Topics in Deep Listening": "ARTS4180",
+      "Topics in the Arts": "ARTS4960",
+      "Topics in the History and Analysis of Music": "ARTS4500",
       "Writing and Directing for Video": "ARTS4630"
     },
-    "description": "This pathway allows students to study video, performance, and social impact through the integration of theory and practice. Students are prepared to analyze and critique moving images; plan, produce and edit their own media productions in video/television and/or performance; and communicate through visual as well as audio mediums. Strategically situating art, media and technology in a social context, students engage in creative practice designed to make change from the local to the global.",
-    "minor": [
-      "Electronic Arts",
-      "Video, Performance, and Social Practice"
-    ],
-    "name": "Video, Performance, and Social Impact",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000 level:"
+    "Required": {
+      "Digital Filmmaking": "ARTS1030"
+    },
+    "description": "Theminor allows students to study video, performance and social impact through the integration of theory and practice. Students are prepared to analyze and critique moving images; plan, produce and edit their own media productions in video/television and/or performance; and communicate through visual as well as audio medium. Strategically situating art, media and technology in a social context, students engage in a creative practice designed to make the change from the local to the global. The minor consists of 16 credits:",
+    "name": "Video, Performance, and Social Practice",
+    "remaining_header": "The remaining (at least) 8 credits should be from:"
   },
-  "Well-being: Body and Mind": {
+  "Well-being": {
     "One Of0": {
       "Basic Drawing": "ARTS1200",
       "Minds and Machines": "IHSS1140",
       "Music and Nature": "IHSS1720",
       "Nature/Society": "IHSS1110",
-      "Songwriting Workshop": "IHSS1700",
       "The Art of Listening": "IHSS1180",
-      "Understanding Empathy": "IHSS19XX",
       "Well-being: Cultivating Curiosity": "IHSS1175"
     },
     "Remaining": {
@@ -1149,6 +977,7 @@
       "Creative Writing: Creative Non-Fiction": "WRIT2320",
       "Creative Writing: Poetry": "WRIT2310",
       "Drugs, Society, and Behavior": "PSYC4500",
+      "Empathy and Emotion": "PSYC49XX",
       "Ethics": "PHIL4240",
       "General Psychology": "PSYC1200",
       "Hormones, Brain, and Behavior": "PSYC4700",
@@ -1156,15 +985,9 @@
       "Psychology of Mindfulness": "PSYC4430",
       "Rensselaer Concert Choir": "ARTS2310",
       "Sensibilities": "PSYC4440",
-      "Stress and the Brain": "PSYC4610",
-      "Topics in Psychology": "PSYC4960",
-      "Topics in the Arts": "ARTS2960"
+      "Stress and the Brain": "PSYC4610"
     },
-    "description": "How do humans maintain a sense of well-being in their lives?",
-    "minor": [
-      "Well-being"
-    ],
-    "name": "Well-being: Body and Mind",
-    "remaining_header": "Choose remaining credits from the following, with at least 4 credits at the 4000 level:"
+    "description": "How do people maintain a sense of well-being in their lives? Each person's path to well-being in body and mind is uniquearising from an awareness of his or her needs, goals, and what each finds fulfilling. The Well-being minor includes a wide variety of courses that explore the nature of what it is to be human and to orient oneself in the world, to have relationships, make decisions, be creative, and make discoveries. Sixteen credits are required for the minor in Well-being.\nChoose at least three of the following (at least 4 credits at the 4000-level):",
+    "name": "Well-being"
   }
 }

@@ -39,7 +39,7 @@ def get_catalogs() -> List[Tuple[str, int]]:
 
 
 # Returns a list of course ids for a given catalog
-def get_pathway_ids(catalog_id: str) -> List[str]:
+def get_minor_ids(catalog_id: str) -> List[str]:
     programs_xml = html.fromstring(
         requests.get(
             f"{BASE_URL}search/programs{DEFAULT_QUERY_PARAMS}&method=listing&options[limit]=0&catalog={catalog_id}"
@@ -71,7 +71,8 @@ def handle_electives(cont, courses, depts, year):
     if subj == "TEMP":
         return
     path = '../../frontend/src/data/json/' + str(year)
-    f = open(path + '/minor_courses.json', 'r')
+    #f = open(path + '/minor_courses.json', 'r')
+    f = open(path + '/courses.json', 'r')
     all_courses = json.load(f)
     for course in all_courses:
         ID = all_courses[course]["ID"]
@@ -129,37 +130,41 @@ def parse_courses(core, name, year):
         del courses['']      
     return courses
 
-def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
+def get_minor_data(minor_ids: List[str], catalog_id, year) -> Dict:
     data = {}
 
-    ids = "".join([f"&ids[]={path}" for path in pathway_ids])
+    ids = "".join([f"&ids[]={path}" for path in minor_ids])
     url = f"{BASE_URL}content{DEFAULT_QUERY_PARAMS}&method=getItems&options[full]=1&catalog={catalog_id}&type=programs{ids}"
 
-    pathways_xml = html.fromstring(requests.get(url).text.encode("utf8"))
-    pathways = pathways_xml.xpath("//programs/program[not(@child-of)]");
-    for pathway in pathways:
-        name = pathway.xpath("./title/text()")[0].strip()
+    minors_xml = html.fromstring(requests.get(url).text.encode("utf8"))
+    minors = minors_xml.xpath("//programs/program[not(@child-of)]");
+    for minor in minors:
+        name = minor.xpath("./title/text()")[0].strip()
         data[name] = {}
         data[name]["name"] = name
         desc = []
-        if len(pathway.xpath("./content/p/span/text()")) >0:
-            desc = pathway.xpath("./content/p/span/text()")
-        elif len(pathway.xpath("./content/p/text()")) >0:
-            desc = pathway.xpath("./content/p/text()")
-        if len(pathway.xpath("./content/p/em/a/text()"))>0:
-            desc.append(pathway.xpath("./content/p/em/a/text()")[0])
-        if len(pathway.xpath("./content/ul/li/text()"))>0:
-            desc+=pathway.xpath("./content/ul/li/text()")
+        if len(minor.xpath("./content/p/span/text()")) >0:
+            desc = minor.xpath("./content/p/span/text()")
+        elif len(minor.xpath("./content/p/text()")) >0:
+            desc = minor.xpath("./content/p/text()")
+        if len(minor.xpath("./content/p/em/a/text()"))>0:
+            desc.append(minor.xpath("./content/p/em/a/text()")[0])
+        if len(minor.xpath("./content/ul/li/text()"))>0:
+            desc+=minor.xpath("./content/ul/li/text()")
+        if len(minor.xpath("./content/ul/li/p/text()"))>0:
+            bull=minor.xpath("./content/ul/li/p/text()")
+            for i in range(len(bull)-1):
+                bull[i]+=','
+            desc+=bull
         for i in range(len(desc)):
             desc[i]=desc[i].strip().encode("ascii", "ignore").strip().decode()
         data[name]["description"] = ''
         data[name]["description"]+=' '.join(desc)
-        cores = pathway.xpath("./cores/core")
-        cores += pathway.xpath("./cores/core/children/core")
+        cores = minor.xpath("./cores/core")
+        cores += minor.xpath("./cores/core/children/core")
         one_of_index = 0
         for core in cores:
             anchor_name = core.xpath("./anchors/a")[0].get('name').lower()
-            #print(anchor_name)
             desc_more=[]
             desc_more=core.xpath("./content/p/text()")
             for i in range(len(desc_more)):
@@ -216,7 +221,7 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 data[name]["description"]+='\n'
                 data[name]["description"]+=' '.join(minors)
             else:
-                if "additional" in anchor_name or 'note' in anchor_name or 'level' in anchor_name:
+                if "additional" in anchor_name or 'note' in anchor_name or 'level' in anchor_name or 'areas' in anchor_name:
                     more=(core.xpath("./title/text()")[0].strip().encode("ascii", "ignore").strip().decode())
                     if len(more)<10:
                         more+=', '
@@ -240,22 +245,23 @@ def get_pathway_data(pathway_ids: List[str], catalog_id, year) -> Dict:
                 for type in data[name]:
                     if (type == "Remaining" or type[0:6] == "One Of") and req in data[name][type]:
                         del data[name][type][req]
+        
     return data
 
-a=get_pathway_ids('24')
-b=get_pathway_data(a, '24', '2022-2023')
+#a=get_minor_ids('24')
+#b=get_minor_data(['6387'], '24', '2022-2023')
 #print(b)
 
-def scrape_pathways():
-    print("Starting pathway scraping")
+def scrape_minors():
+    print("Starting minor scraping")
     catalogs = get_catalogs()
 
     catalogs = catalogs[:4]
-    pathways_per_year = {}
+    minors_per_year = {}
     for index, (year, catalog_id) in enumerate(tqdm(catalogs)):
-        pathway_ids = get_pathway_ids(catalog_id)
-        data = get_pathway_data(pathway_ids, catalog_id, year)
+        minor_ids = get_minor_ids(catalog_id)
+        data = get_minor_data(minor_ids, catalog_id, year)
 
-        pathways_per_year[year] = data
-    print("Finished pathway scraping")
-    return pathways_per_year
+        minors_per_year[year] = data
+    print("Finished minor scraping")
+    return minors_per_year

@@ -1,98 +1,135 @@
 [
   {
-    "image": "ARTS.jpg",
-    "name": "Art",
-    "pathways": [
-      "Art History, Theory, and Criticism",
-      "Electronic Arts",
-      "Music Composition and Production",
-      "Music Performance",
-      "Music and Culture",
-      "Studio Arts",
-      "Video, Performance, and Social Practice"
-    ]
+      "image": "ARTS.jpg",
+      "name":"Art",
+      "pathways":[
+          "Electronic Arts Minor",
+          "Music Minor",
+          "Video, Performance, and Social Practice",
+          "Studio Arts"
+
+      ]
   },
   {
-    "image": "COGS.jpg",
-    "name": "Cognitive Science",
-    "pathways": [
-      "Artificial Intelligence",
-      "Behavioral and Cognitive Neuroscience",
-      "Logical Thinking",
-      "Mind, Brain, and Intelligence",
-      "Philosophy",
-      "Understanding Human Behavior",
-      "Well-being: Body and Mind"
-    ]
+      "image": "COGS.jpg",
+      "name":"Cognitive Science",
+      "pathways":[
+          "Philosophy Minor",
+          "Philosophy of Logic, Computation, and Mind Minor",
+          "Behavioral and Cognitive Neuroscience",
+          "Cognitive Science Minor",
+          "Cognitive Science of Artificial Intelligence Minor",
+          "Well-being",
+          "General Psychology Minor",
+          "Psychological Science Minor",
+          "Human-Computer Interaction (HCI) Minor"
+      ]
   },
   {
-    "image": "COMM.jpg",
-    "name": "Communication and Media",
-    "pathways": [
-      "Graphic Design",
-      "Interactive Media/Data Design",
-      "Media and Culture"
-    ]
+      "image": "COMM.jpg",
+      "name":"Communication and Media",
+      "pathways":[
+          "Strategic Communication Minor",
+          "Strategic Communication",
+          "Interactive Media/Data Design Minor",
+          "Graphic Design Minor",
+          "Media and Culture Minor"
+      ]
   },
   {
-    "image": "ECON.jpg",
-    "name": "Economics",
-    "pathways": [
-      "Economics",
-      "Economics of Banking and Finance",
-      "Economics of Decision-Making",
-      "Economics of Healthcare Markets",
-      "Economics of Policy and Regulations",
-      "Economics of Quantitative Modeling",
-      "Economics of Technology and Innovation"
-    ]
+      "image": "ECON.jpg",
+      "name":"Economics",
+      "pathways":[
+          "Economics Minor",
+          "Economics of Banking and Finance Minor",
+          "Economics of Decision-Making",
+          "Economics of Healthcare Markets Minor",
+          "Economics of Policy and Regulations",
+          "Economics of Quantitative Modeling",
+          "Economics of Technology and Innovation Minor",
+          "Economics of Biotech and Medical Innovation Minor"
+      ]
   },
   {
-    "image": "INTE.jpg",
-    "name": "Interdisciplinary",
-    "pathways": [
-      "Creative Design and Innovation",
-      "Environmental Futures",
-      "Extent and Limits of Rationality",
-      "Fact and Fiction",
-      "Gender, Race, Sexuality, Ethnicity, and Social Change",
-      "Living in a World of Data",
-      "Pre-Health Pathway",
-      "Strategic Communication",
-      "Thinking with Science",
-      "Transfer Student Arts and Humanities",
-      "Transfer Student Social Science"
-    ]
+      "image": "INTE.jpg",
+      "name":"Science, Technology, Engineering, and Mathematics",
+      "pathways":[
+          "Lighting Minor",
+          "Lighting Minor in Biological Sciences",
+          "Materials Engineering Minor",
+          "Mathematics Minor",
+          "Nuclear Engineering Minor",
+          "Physics Minor",
+          "Astrobiology Minor",
+          "Astronomy Minor",
+          "Astrophysics Minor",
+          "Biological Neuroscience Minor",
+          "Data Science and Engineering",
+          "Biology Minor",
+          "Biomedical Engineering and Management Minor",
+          "Chemistry Minor for Non-Chemistry Majors",
+          "Civil Engineering Minor",
+          "Computer and Systems Engineering Minor",
+          "Computer Science Minor",
+          "Ecology Minor",
+          "Electrical Engineering Minor",
+          "Environmental Design",
+          "Environmental Engineering Minor",
+          "Environmental Science Minor",
+          "Geology Minor",
+          "Hydrogeology Minor",
+          "Information Technology and Web Science Minor"
+      ]
   },
   {
-    "image": "LANG.jpg",
-    "name": "Language and Literature",
-    "pathways": [
-      "Chinese Language",
-      "Language",
-      "Linguistics",
-      "Literature and Creative Writing"
-    ]
+      "image": "COGS.jpg",
+      "name":"Architecture",
+      "pathways":[
+          "Architectural Acoustics Minor",
+          "Architectural History Minor",
+          "Architecture Minor"
+      ]
   },
   {
-    "image": "MAJR.jpg",
-    "name": "Major Restricted",
-    "pathways": [
-      "Design, Innovation, and Society",
-      "Game Studies",
-      "Information Technology and Web Sciences"
-    ]
+      "image": "MAJR.jpg",
+      "name":"Managment",
+      "pathways":[
+          "Finance Minor",
+          "Management Minor",
+          "Entrepreneurship Minor",
+          "Marketing Minor"
+      ]
   },
   {
-    "image": "STSO.jpg",
-    "name": "Science and Technology Studies",
-    "pathways": [
-      "Ethics, Integrity, and Social Responsibility",
-      "History",
-      "Law and Policy",
-      "Public Health",
-      "Science, Technology, and Society",
-      "Sustainability"
-    ]
+      "image": "LANG.jpg",
+      "name":"Language and Literature",
+      "pathways":[
+          "Linguistics Minor",
+          "Literature and Creative Writing Minor",
+          "Chinese Language Minor",
+          "Writing Minor",
+          "Law and Policy Minor",
+          "Professional Writing Minor"
+      ]
+  },
+  {
+      "image": "MAJR.jpg",
+      "name":"Major Restricted",
+      "pathways":[
+          "Biochemistry/Biophysics Minor for Biology Majors",
+          "Biochemistry/Biophysics Minor for Biomedical Engineering Majors",
+          "Biochemistry/Biophysics Minor for Chemical Engineering Majors",
+          "Biochemistry/Biophysics Minor for Chemistry Majors"
+      ]
+  },
+  {
+      "image": "STSO.jpg",
+      "name":"Science and Technology Studies",
+      "pathways":[
+          "History Minor",
+          "Public Health Minor",
+          "Science, Technology, and Society Minor",
+          "Sustainability Studies Minor"
+      ]
   }
 ]

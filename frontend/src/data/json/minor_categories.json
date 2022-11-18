@@ -5,33 +5,32 @@
         "pathways":[
             "Electronic Arts Minor",
             "Music Minor",
-            "Video, Performance, and Social Practice",
-            "Studio Arts"
-
+            "Studio Arts",
+            "Video, Performance, and Social Practice"
         ]
     },
     {
         "image": "COGS.jpg",
         "name":"Cognitive Science",
         "pathways":[
-            "Philosophy Minor",
-            "Philosophy of Logic, Computation, and Mind Minor",
             "Behavioral and Cognitive Neuroscience",
             "Cognitive Science Minor",
             "Cognitive Science of Artificial Intelligence Minor",
-            "Well-being",
             "General Psychology Minor",
-            "Psychological Science Minor"
+            "Philosophy Minor",
+            "Philosophy of Logic, Computation, and Mind Minor",
+            "Psychological Science Minor",
+            "Well-being"
         ]
     },
     {
         "image": "COMM.jpg",
         "name":"Communication and Media",
         "pathways":[
-            "Strategic Communication Minor",
-            "Interactive Media/Data Design Minor",
             "Graphic Design Minor",
-            "Media and Culture Minor"
+            "Interactive Media/Data Design Minor",
+            "Media and Culture Minor",
+            "Strategic Communication Minor"
         ]
     },
     {
@@ -51,30 +50,30 @@
         "image": "INTE.jpg",
         "name":"Science, Technology, Engineering, and Mathematics",
         "pathways":[
-            "Lighting Minor",
-            "Lighting Minor in Biological Sciences",
-            "Materials Engineering Minor",
-            "Mathematics Minor",
-            "Nuclear Engineering Minor",
-            "Physics Minor",
             "Astrobiology Minor",
             "Astronomy Minor",
             "Astrophysics Minor",
             "Biological Neuroscience Minor",
-            "Data Science and Engineering",
             "Biology Minor",
             "Biomedical Engineering and Management Minor",
             "Chemistry Minor for Non-Chemistry Majors",
             "Civil Engineering Minor",
             "Computer and Systems Engineering Minor",
             "Computer Science Minor",
+            "Data Science and Engineering",
             "Ecology Minor",
             "Electrical Engineering Minor",
             "Environmental Design",
             "Environmental Engineering Minor",
             "Geology Minor",
             "Hydrogeology Minor",
-            "Information Technology and Web Science Minor"
+            "Information Technology and Web Science Minor",
+            "Lighting Minor",
+            "Lighting Minor in Biological Sciences",
+            "Materials Engineering Minor",
+            "Mathematics Minor",
+            "Nuclear Engineering Minor",
+            "Physics Minor"
         ]
     },
     {
@@ -90,9 +89,9 @@
         "image": "MAJR.jpg",
         "name":"Managment",
         "pathways":[
+            "Entrepreneurship Minor",
             "Finance Minor",
             "Management Minor",
-            "Entrepreneurship Minor",
             "Marketing Minor"
         ]
     },
@@ -100,9 +99,9 @@
         "image": "LANG.jpg",
         "name":"Language and Literature",
         "pathways":[
-            "Linguistics Minor",
-            "Literature and Creative Writing Minor",
             "Chinese Language Minor",
+            "Literature and Creative Writing Minor",
+            "Linguistics Minor",
             "Writing Minor"
         ]
     },

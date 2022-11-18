@@ -60,7 +60,7 @@
       "Physical Chemistry for Life Sciences": "CHEM4440",
       "Stars, Galaxies, and the Cosmos": "ASTR1520"
     },
-    "description": "The Departments of Biological Sciences, Chemistry and Chemical Biology, Earth and Environmental Sciences, and Physics, Applied Physics and Astronomy,participate in a multidisciplinary minor in Astrobiology. The minor requires at least 16 credits. To complete the minor, students must complete the following:          \nAdditional Information *If the student has a dual major, the two selected courses must be outside one of the major fields of study.",
+    "description": "The Departments of Biological Sciences, Chemistry and Chemical Biology, Earth and Environmental Sciences, and Physics, Applied Physics and Astronomy,participate in a multidisciplinary minor in Astrobiology. The minor requires at least 16 credits. To complete the minor, students must complete the following:           Introduction to Astrobiology (3 credits), Readings in Astrobiology and the Origins of Life (1 credit); taken at least 2 semesters, A 3-credit research project on a topic related to Astrobiology under the supervision of a RARE faculty member or other faculty member with permission of the RARE Director, Capstone in Astrobiology (1 credit), At least two additional courses from the list below to bring the total credits to at least 16. These additional courses must be outside the major field of study*\nAdditional Information *If the student has a dual major, the two selected courses must be outside one of the major fields of study.",
     "name": "Astrobiology Minor",
     "remaining_header": "Choose two of the following:"
   },
@@ -284,7 +284,7 @@
       "Information and Data Systems": "ISYE2530",
       "Statistical Analysis": "ISYE4140"
     },
-    "description": "The Department of Industrial and Systems Engineering offers a minor inData Science and Engineering(DSE) for undergraduates (minimum of 17 credits required). The minor contributes to students' ability to organize, analyze and act upon data, particularly for data associated with engineered systems.",
+    "description": "The Department of Industrial and Systems Engineering offers a minor inData Science and Engineering(DSE) for undergraduates (minimum of 17 credits required). The minor contributes to students' ability to organize, analyze and act upon data, particularly for data associated with engineered systems.\nTake a total of at least two courses from either or both of the following areas",
     "name": "Data Science and Engineering",
     "remaining_header": "Area 2: Inference and Learning"
   },

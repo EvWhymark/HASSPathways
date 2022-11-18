@@ -1,5 +1,5 @@
 import courses_scraper
-import pathway_scraper
+import minor_scraper
 import fill_empty
 import sis_scraper
 import category_assembler
@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 if __name__ == "__main__":
     years = list(map(lambda x: x[0], courses_scraper.get_catalogs()))
-    years = years[:1]
+    years = years[:4]
     all_courses = courses_scraper.scrape_courses()
 
     for year in tqdm(years):
@@ -20,7 +20,8 @@ if __name__ == "__main__":
             os.mkdir(path)
         except Exception:
             print(f"Folder for {str(year)} already made")
-        f = open(path + '/minor_courses.json', 'w')
+        #f = open(path + '/minor_courses.json', 'w')
+        f = open(path + '/courses.json', 'w')
         json.dump(all_courses[year], f, sort_keys=True, indent=2, ensure_ascii=False)
         f.close()
 
@@ -28,12 +29,13 @@ if __name__ == "__main__":
     #asyncio.run(sis_scraper.scrape_CI(years, '../../frontend/src/data/json/'))
     print("Finished scraping CI courses")
 
-    all_pathways = pathway_scraper.scrape_pathways()
+    all_minors = minor_scraper.scrape_minors()
     for year in years:
         path = '../../frontend/src/data/json/' + str(year)
 
-        f = open(path + '/minors.json', 'w')
-        json.dump(all_pathways[year], f, sort_keys=True, indent=2, ensure_ascii=True)
+        #f = open(path + '/minors.json', 'w')
+        f = open(path + '/pathways.json', 'w')
+        json.dump(all_minors[year], f, sort_keys=True, indent=2, ensure_ascii=True)
         f.close()
 
     print("Starting to fill non-catalog courses")
