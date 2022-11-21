@@ -4,6 +4,9 @@ from flask import Flask, request, json, jsonify, session, redirect, url_for, ren
 from flask_cors import CORS, cross_origin
 from cas import CASClient
 import flask
+from werkzeug.utils import secure_filename
+import os
+import logging
 flask.__version__
 app = Flask(__name__)
 c = CORS(app)
@@ -64,9 +67,11 @@ def editAdmin():
 #opens courses.json file based on a certain year range
 @app.route("/testing_year_courses", methods=["POST"])
 def host_year_courses_data():
-        if request.method == "POST":         
+        if request.method == "POST":      
+               #loads all the years from a json into a list
                 with open("data/json/years.json", "r") as route:
                         data = json.load(route)
+                        #checks if the inputted list range is valid
                         if request.args['year'] not in data:
                                 year = request.args['year']
                                 return render_template("year_endpoint.html", year = year)         
@@ -78,15 +83,16 @@ def host_year_courses_data():
 @app.route("/testing_year_pathways", methods=["POST"])
 def host_year_pathways_data():
         if request.method == "POST":
+                #loads all the years from a json into a list
                 with open("data/json/years.json", "r") as route:
                         data = json.load(route)
+                         #checks if the inputted list range is valid
                         if request.args['year'] not in data:
                                 year = request.args['year']
                                 return render_template("year_endpoint.html", year = year)  
                 with open("data/json/" + request.args['year'] + "/pathways.json", "r") as route:
                         data = json.load(route)
                 return  data
- # html template that just says this is a post endpoint, requires arg "year"
         
 #open pathway_categories json file and converts it into a python dictionary
 @app.route("/testing_pathawy_categories")
@@ -116,15 +122,31 @@ def host_jsonfile_pathways():
                 data = json.load(route)
         return  data 
 
+@app.route('/upload', methods=['GET'])
+def fileUpload():
+        if request.method == "GET":
+                # year = request.args['year']
+                # #create new folder
+                # os.makedirs('data/json/' + year)
+                #turn json year file into a string
+                with open('data/json/years.json') as data_file:
+                        years = json.load(data_file)
+                print(years)
+                json_string = json.dumps('data/json/years.json')
+                print(json_string)
+                return years      
+                # #write it into a string
+                # # with open('data/json/years.json', 'w') as outfile:
+                # #         outfile.write(year)
+                # content = request.get_json()
+                # print(content)
+                # return jsonify(content)
+                # return response
+
 if __name__ == '__main__':
         app.run(host='0.0.0.0', debug=True)
-
-# refining:
-#       - currently accepting post and get -- bad done done
-#       - comment your code done done
-#       - make sure year given is in years.json done
-#       - add year endpoint 
-#            - save that new data (should accept same files pathway.json ...) to a new folder amptly named after the year that was passed
+# frontend sends two files (figure it out and pathways and course) -> takes both files and store them in folder
+# and check if its valid different cant be mroe than 1, create a folder naemd after year, put them in
 #              as another argument
 #            - attach a private key to this
 #               - protect it
@@ -132,3 +154,4 @@ if __name__ == '__main__':
 #               - set passkey (default passkey is something)
 #                       - former pass key, make sure it is equal to current, then change
 #                       - hash the passkey using cryptcontext (.hash() .verify())   .ppk .pem
+# endpoints are used to process data

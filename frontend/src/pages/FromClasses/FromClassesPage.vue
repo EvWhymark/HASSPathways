@@ -184,7 +184,7 @@
                 >
                     <!-- Remove select all / unselect all button to prevent
                          users accidentally clearing their selections -->
-                    <template #header.data-table-select />
+                    <template #header .data-table-select />
 
                     <!-- Override default row HTMl so we can add ripples + custom click stuff -->
                     <template #item="{ item, isSelected, select }">
