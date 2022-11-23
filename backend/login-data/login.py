@@ -20,7 +20,6 @@ db.init_app(app)
 
 login_manager = LoginManager()
 
-
 #this is a row
 class Entry(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -58,9 +57,12 @@ def login():
                     # if logged in sucess, if password was wrong (flash a message), usernme = if username exists
         response = {'loggedin':0, 'passwrd': 0, 'usernme': 0}
         email_got = request.args["email"]
+
+        entry = Entry..query.filter_by(email=email_get).first()
         if not Entry.query.filter_by(email=email_got):
             reponse['usernme'] = 1
         elif checkhash(hash(request.args["password"]),Entry.query.get(email_got).password):
+            login_user(entry)
             response['loggedin'] = 1
         else:
             response['passwrd'] = 1
@@ -73,7 +75,10 @@ def login():
 #        email_got = 
 
 #maybe reset password?
+
+
 @app.route('/change_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
+@login_required
 def reset_password():
     if request.method == 'POST':
         email_got = request.args["email"]
@@ -88,18 +93,19 @@ def reset_password():
     #how to sennd passwod
     #generate unique number, store it somewhere(local) json file: key: name, code check if code same
 
-@app.route('/reset_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
-def reset_password():
-    if request.method == 'POST':
-        email_got == request.args["email"]
+# @app.route('/reset_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
+# def reset_password():
+#     if request.method == 'POST':
+#         email_got == request.args["email"]
 
-           #rand is good
+#            #rand is good
 
-    #how to sennd passwod
-    #generate unique number, store it somewhere(local) json file: key: name, code check if code same
+#     #how to sennd passwod
+#     #generate unique number, store it somewhere(local) json file: key: name, code check if code same
 
 #change personal info?
 @app.route('/change_info', methods = ["GET", "POST"])
+@login_required
 def change_info():
     if request.method == 'POST':
         old_email_got = request.args["old_email"]
