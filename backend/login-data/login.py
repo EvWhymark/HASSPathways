@@ -15,10 +15,11 @@ db = SQLAlchemy()
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config["SECRET_KEY"] = 'ball'
+app.config["SECRET_KEY"] = 'ball' # Please make this a ppk or pem. thanks : ) (also prob shouldnt be ball)
 db.init_app(app)
 
 login_manager = LoginManager()
+login_manager.login_view = 'login'
 
 #this is a row
 class Entry(UserMixin, db.Model):
@@ -75,7 +76,14 @@ def login():
 #        email_got = 
 
 #maybe reset password?
-
+@app.route('/register', methods=['GET'])
+@login_required
+def logout():
+    try:
+        logout_user()
+        return {'success':1}
+    except:
+        return {'success':0}
 
 @app.route('/change_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 @login_required
