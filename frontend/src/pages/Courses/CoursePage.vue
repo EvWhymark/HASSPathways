@@ -51,6 +51,11 @@
             Comment it
         </button>
         <h3><br></h3>
+        <template>
+            <div>
+                <Rating :star="this.star" :disabled="disabled" :maxstars="this.maxstars" :starsize="this.starsize" :hasresults="this.hasresults" :hasdescription="this.hasdescription" :ratingdescription="this.ratingdescription" />
+            </div>
+        </template>
         <h3>Comments from other users</h3>
         <li v-for="comment in comments[course.name]" v-bind:key = "comment">
             {{comment}}
@@ -68,6 +73,7 @@ import { courseCategories } from '../../data/data.js'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import breadcrumbs from '../../data/breadcrumbs.js'
 import CourseTableModifiers from '../../components/CourseTableModifiers'
+import Rating from "./rating"
 import course_comment from './comments.json'
 
 export default {
@@ -75,6 +81,7 @@ export default {
     components: {
         Breadcrumbs,
         CourseTableModifiers,
+        Rating
     },
     data() {
         return {
@@ -83,34 +90,6 @@ export default {
             panel: [],
             comment: "",
             comments: course_comment,
-            // star: 5, // default star
-            // ratingdescription: [
-            //     {
-            //     text: 'Poor',
-            //     class: 'star-poor'
-            //     },
-            //     {
-            //     text: 'Below Average',
-            //     class: 'star-belowAverage'
-            //     },
-            //     {
-            //     text: 'Average',
-            //     class: 'star-average'
-            //     },
-            //     {
-            //     text: 'Good',
-            //     class: 'star-good'
-            //     },
-            //     {
-            //     text: 'Excellent',
-            //     class: 'star-excellent'
-            //     }
-            // ],
-            // hasresults: true,
-            // hasdescription: true,
-            // starsize: 'lg', //[xs,lg,1x,2x,3x,4x,5x,6x,7x,8x,9x,10x],
-            // maxstars: 5,
-            // disabled: false
         }
     },
     computed: {
