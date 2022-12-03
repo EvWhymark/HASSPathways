@@ -1,10 +1,33 @@
 <template>
     <v-card class="card" elevation="1">
-        <h1>Test Minor Page</h1>
         <div class="darken" />
         <v-card-title class="'font-weight-bold text-truncate card-title">
             {{ title }}
         </v-card-title>
+
+        <ul class="pathways-container">
+            <v-tooltip
+                v-for="minor in filteredMinors"
+                :key="minor"
+
+                bottom
+                eager
+                color="black"
+                offset-overflow
+                max-width="400px"
+                open-delay="700"
+                transition="none"
+            >
+                <template #activator="{ on, attrs }">
+                    <li class="pathway" v-bind="attrs" v-on="on">
+                        <a :href="`/pathway?pathway=${encodeURIComponent(minor)}`" class="text-decoration-none">
+                            <b>{{ minor }}</b>
+                        </a>
+                    </li>
+                </template>
+                <span v-if="minorsData[minor]">{{ minorsData[minor].description }}</span>
+            </v-tooltip>
+        </ul>
     </v-card>
 </template>
 
@@ -19,6 +42,10 @@ export default {
         minors:{
             type: Array,
             default: () => []
+        },
+        text: {
+            type: String,
+            required: true
         }
     },
     data() {return {minorsData: {}};},
