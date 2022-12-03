@@ -20,7 +20,7 @@
             >
                 <template #activator="{ on, attrs }">
                     <li class="pathway" v-bind="attrs" v-on="on">
-                        <a :href="`/pathway?pathway=${encodeURIComponent(minor)}`" class="text-decoration-none">
+                        <a :href="`/minor?minor=${encodeURIComponent(minor)}`" class="text-decoration-none">
                             <b>{{ minor }}</b>
                         </a>
                     </li>
@@ -62,7 +62,7 @@ export default {
     },
     created() {
         const year=this.$store.state.year;
-        import('../data/json/' + year+ 'minor_test.json').then((val) => this.minorsData = Object.freeze(val));
+        import('../data/json/' + year+ '/minor_test.json').then((val) => this.minorsData = Object.freeze(val));
     }
 }
 </script>
