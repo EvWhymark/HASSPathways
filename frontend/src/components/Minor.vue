@@ -15,15 +15,27 @@ export default {
         title: {
             type: String,
             required: true
+        },
+        minors:{
+            type: Array,
+            default: () => []
         }
     },
     data() {return {minorsData: {}};},
     computed: {
-
+        filteredMinors() {
+            let output=[];
+            for (const minor in this.minors) {
+                if(this.minorsData[this.minors[minor]]) {
+                    output.push(this.minors[minor]);
+                }
+            }
+            return output;
+        }
     },
     created() {
         const year=this.$store.state.year;
-        import('../data/json/' + year+ '')
+        import('../data/json/' + year+ 'minor_test.json').then((val) => this.minorsData = Object.freeze(val));
     }
 }
 </script>

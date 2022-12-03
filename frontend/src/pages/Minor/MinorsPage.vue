@@ -9,16 +9,15 @@
 
             <v-divider class="my-4" />
 
-            <!-- <div class="pathway-categories fade-in">
-                <PathwayCategory 
-                    v-for="item in pathwayCategories"
+            <div class="pathway-categories fade-in">
+                <!-- <Minor
+                    v-for="item in minorCategories"
                     :key="item.name"
                     :title="item.name"
-                    :image="item.image"
                     :text="item.name"
-                    :pathways="item.pathways"
-                />
-            </div> -->
+                    
+                /> -->
+            </div>
             <Minor
 
             />

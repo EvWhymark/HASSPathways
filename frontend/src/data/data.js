@@ -6,7 +6,7 @@ import yearsJSON from './json/years.json'
 // Sort pathways in pathway categories
 pathwayCategoriesJSON.forEach(category => category.pathways.sort());
 //Sort minor categories
-minor_categories_json.forEach(minor=>minor.minor.sort())
+minor_categories_json.forEach(minor=>minor.minors.sort())
 
 // Prevent accidental modification
 Object.freeze(yearsJSON);
