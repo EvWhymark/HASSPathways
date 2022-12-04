@@ -7,7 +7,7 @@
             outlined
             elevation="20"
             max-width="500"
-            class="pb-5"
+            class="pb-5 shown-card"
         >
             <v-card-title class="justify-center">
                 <h4>
@@ -31,7 +31,7 @@
                 Email
                 <v-text-field
                     v-model="email"
-                    prepend-icon="mdi-account"
+                    prepend-icon="mdi-email"
                 />
                 Password
                 <v-text-field
@@ -53,7 +53,7 @@
                     Secret Key
                     <v-text-field
                         v-model="skey"
-                        prepend-icon="mdi-lock"
+                        prepend-icon="mdi-key"
                     />
                 </div>
             </v-card-text>
@@ -66,7 +66,7 @@
                     <v-btn @click="pagetype = 'Register'">
                         Register
                     </v-btn>
-                    <v-btn>
+                    <v-btn @click="clearMessages()">
                         Login
                     </v-btn>
                 </v-row>
@@ -78,7 +78,7 @@
                     <v-btn @click="pagetype = 'Login'">
                         Login
                     </v-btn>
-                    <v-btn>
+                    <v-btn @click="showMessage(' let\'s register')">
                         Register
                     </v-btn>
                 </v-row>
@@ -88,7 +88,7 @@
 </template>
 
 <script>
-
+import axios from 'axios'
 
 export default {
     data() {
@@ -102,6 +102,54 @@ export default {
             pass_visible: false,
             confirm_pass_visible: false,
             pagetype: "Login"
+        }
+    },
+    methods: {
+        showMessage(message) {
+            let root = document.getElementsByClassName("shown-card")[0];
+            let msg = document.createElement('p');
+            msg.textContent = message;
+            root.appendChild(document.createElement('br'))
+            msg.setAttribute('class', 'text-center');
+            root.appendChild(msg);
+        },
+        clearMessages() {
+            let root = document.getElementsByClassName("shown-card")[0];
+            let ps = root.getElementsByTagName('p');
+            while (ps.length != 0) {
+                ps[0].remove();
+            }
+            let brs = root.getElementsByTagName('br');
+            while (brs.length != 0) {
+                brs[0].remove();
+            }
+        },
+        submit(action) {
+            const endpoint = 'http://127.0.0.1:5000/edit'
+            if (action == 'register') {
+                if (this.pass != this.confirm_pass) {
+                    this.showMessage('yes');
+                }
+                axios.post(endpoint, {
+                })
+                    .then(response => {
+                        console.log(response);
+                    })
+                    .catch(err =>{
+                        console.log(err);
+                    });
+            }
+            if (action == 'login') {
+                axios.post(endpoint, {
+
+                })
+                    .then(response => {
+                        console.log(response);
+                    })
+                    .catch(err =>{
+                        console.log(err);
+                    });
+            }
         }
     }
 }
