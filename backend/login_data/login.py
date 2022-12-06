@@ -13,10 +13,10 @@ db = SQLAlchemy()
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config["SECRET_KEY"] = 'apple'#something
+app.config["SECRET_KEY"] = 'apple'#change this
 db.init_app(app)
 
-login_app = Blueprint('login_app', __name__, static_folder='..')
+login_app = Blueprint('login_app', __name__)
 
 #this is a row
 class Entry(db.Model):
@@ -35,7 +35,7 @@ def checkhash(password, hash):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").verify(password, hash)
 #how to write a route for flask
 #THIS IS FOR ACCOUNT CREATION
-@app.route('/register',methods = ["GET", "POST"])   #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
+@login_app.route('/register',methods = ["GET", "POST"])   #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def requests():
     if request.method=="POST":
         first_got = request.args["first"]
@@ -49,7 +49,7 @@ def requests():
         db.session.commit()
         return "success"
 #THIS ONE IS FOR LOGGING
-@app.route('/login',methods = ["GET", "POST"])
+@login_app.route('/login',methods = ["GET", "POST"])
 def login():
     if request.method == 'POST':
                     # if logged in sucess, if password was wrong (flash a message), usernme = if username exists
@@ -70,7 +70,7 @@ def login():
 #        email_got =
 
 #maybe reset password?
-@app.route('/change_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
+@login_app.route('/change_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def reset_password():
     if request.method == 'POST':
         email_got = request.args["email"]
@@ -85,7 +85,7 @@ def reset_password():
     #how to sennd passwod
     #generate unique number, store it somewhere(local) json file: key: name, code check if code same
 
-@app.route('/reset_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
+@login_app.route('/reset_password', methods = ["GET", "POST"]) #what is this one for? Post/Get? Post = send data to fnction, Get = give data to client
 def change_password():
     if request.method == 'POST':
         email_got == request.args["email"]
@@ -96,7 +96,7 @@ def change_password():
     #generate unique number, store it somewhere(local) json file: key: name, code check if code same
 
 #change personal info?
-@app.route('/change_info')
+@login_app.route('/change_info')
 def change_info():
     if request.method == 'POST':
         old_email_got = request.args["old_email"]
