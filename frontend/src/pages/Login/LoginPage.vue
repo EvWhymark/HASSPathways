@@ -66,7 +66,7 @@
                     <v-btn @click="pagetype = 'Register'">
                         Register
                     </v-btn>
-                    <v-btn @click="clearMessages()">
+                    <v-btn @click="submit('login')">
                         Login
                     </v-btn>
                 </v-row>
@@ -78,7 +78,7 @@
                     <v-btn @click="pagetype = 'Login'">
                         Login
                     </v-btn>
-                    <v-btn @click="showMessage(' let\'s register')">
+                    <v-btn @click="submit('register')">
                         Register
                     </v-btn>
                 </v-row>
@@ -111,6 +111,7 @@ export default {
             msg.textContent = message;
             root.appendChild(document.createElement('br'))
             msg.setAttribute('class', 'text-center');
+            msg.style.color = 'red';
             root.appendChild(msg);
         },
         clearMessages() {
@@ -125,30 +126,45 @@ export default {
             }
         },
         submit(action) {
-            const endpoint = 'http://127.0.0.1:5000/edit'
-            if (action == 'register') {
-                if (this.pass != this.confirm_pass) {
-                    this.showMessage('yes');
+            this.clearMessages();
+            if (action === 'register') {
+                let endpoint = 'http://127.0.0.1:5000/register';
+                if (this.pass !== this.confirm_pass) {
+                    this.showMessage('Passwords do not match');
                 }
-                axios.post(endpoint, {
-                })
-                    .then(response => {
-                        console.log(response);
-                    })
-                    .catch(err =>{
+                else if (this.skey !== 'open sesame') {
+                    this.showMessage('Incorrect secret key');
+                }
+                else {
+                    axios.post(endpoint, {
+                        first: this.fname,
+                        last: this.lname,
+                        email: this.email,
+                        password: this.pass
+                    }).then(response => {
+                        if (response === 'failure') {
+                            this.showMessage('Email already exists');
+                        }
+                    }).catch(err =>{
                         console.log(err);
                     });
+                }
             }
             if (action == 'login') {
+                let endpoint = 'http://127.0.0.1:5000/login';
                 axios.post(endpoint, {
-
-                })
-                    .then(response => {
-                        console.log(response);
-                    })
-                    .catch(err =>{
-                        console.log(err);
-                    });
+                    email: this.email,
+                    password: this.pass
+                }).then(response => {
+                    if (response.usernme === 1) {
+                        this.showMessage('Email does not exist');
+                    }
+                    else if (response.passwrd === 1) {
+                        this.showMessage('Incorrect password');
+                    }
+                }).catch(err =>{
+                    console.log(err);
+                });
             }
         }
     }
