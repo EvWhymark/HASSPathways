@@ -68,7 +68,7 @@
                         x-large
                         block
                         color="primary"
-                        :to="{ name: 'minor' }"
+                        :to="{ name: 'minors' }"
                     >
                         <v-icon left dark>
                             mdi-compass
