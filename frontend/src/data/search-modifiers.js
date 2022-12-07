@@ -5,33 +5,33 @@ export const modifiers = {
         name: 'Fall',
         tooltip: 'Offered in the fall',
         icon: null, // 'mdi-leaf-maple',
-        color: colors.orange.accent3,
+        color: colors.red.darken3,
         search: ['fall', 'autumn']
     },
     'Summer': {
         name: 'Summer',
         tooltip: 'Offered in the summer',
         icon: null, // 'mdi-weather-sunset',
-        color: colors.cyan.darken1,
+        color: colors.orange.darken3,
         search: ['summer']
     },
     'Spring': {
         name: 'Spring',
         tooltip: 'Offered in the spring',
         icon: null, // 'mdi-flower',
-        color: colors.green.accent4,
+        color: colors.green.darken3,
         search: ['spring']
     },
     'CI': {
         name: 'CI',
         tooltip: 'Communication intensive',
-        color: colors.lightBlue.accent2,
+        color: colors.blue.darken3,
         search: ['communication intensive', 'ci', 'com']
     },
     'HI': {
         name: 'HI',
         tooltip: 'HASS inqury',
-        color: colors.blue.lighten1,
+        color: colors.blue.darken3,
         search: ['hass inqury', 'hi', 'inqury', 'hass']
     }
 };
