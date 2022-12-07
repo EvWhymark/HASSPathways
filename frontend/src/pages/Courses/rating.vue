@@ -1,3 +1,4 @@
+//this file used code pubished by Jebasuthan on github 
 <template>
     <div class="rating">
         <ul class="list" :class="{'disabled': disabled}">

@@ -46,8 +46,8 @@
             <h3>This class is not being provided in the current semester</h3>
         </template>
         <h3>Leave your comment for this class: </h3>
-        <input v-model="comment" type="text" placeholder="Your comment" @keyup.enter="getData()">
-        <button type="button" v-on:click="getData()">
+        <input v-model="comment" type="text" placeholder="Your comment">
+        <button type="button" v-on:click="submit_comment">
             Comment it
         </button>
         <h3><br></h3>
@@ -57,9 +57,6 @@
             </div>
         </template>
         <h3>Comments from other users</h3>
-        <li v-for="comment in comments[course.name]" v-bind:key = "comment">
-            {{comment}}
-        </li>
         <CourseTableModifiers
             class="mt-4 class-card__subtitle__modifiers"
             :item="course"
@@ -73,8 +70,8 @@ import { courseCategories } from '../../data/data.js'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import breadcrumbs from '../../data/breadcrumbs.js'
 import CourseTableModifiers from '../../components/CourseTableModifiers'
-import Rating from "./rating"
-import course_comment from './comments.json'
+import comments from './comments.json'
+import Rating from './rating'
 
 export default {
     // name: 'app',
@@ -89,7 +86,6 @@ export default {
             professorsData: {},
             panel: [],
             comment: "",
-            comments: course_comment,
         }
     },
     computed: {
@@ -161,14 +157,18 @@ export default {
             }
             this.panel = tmpPanel
         },
-        async getData(){
-            if (this.course.name in course_comment){
-                course_comment[this.course.name].push(this.comment);
-            }
-            else{
-                course_comment[this.course.name] = [];
-                course_comment[this.course.name].push(this.comment);
-            }
+        submit_comment(){
+            const coursename = this.course.name;
+            const userInput = this.comment; // Get the user's input
+            fetch('/submit-comment', {
+                method: 'POST',
+                body: JSON.stringify({ user_input: userInput, course_name: coursename}),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(response => {
+                location.reload;
+            })
         },
         none(prof) {
             let tmpPanel = []
@@ -179,8 +179,7 @@ export default {
                     tmpPanel.push(this.panel[i]);
             }
             this.panel = tmpPanel
-
-        },
+        }
     }
 }
 

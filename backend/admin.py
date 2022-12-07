@@ -28,6 +28,8 @@ def guard(method=['GET']):
 def index():
         return redirect(url_for('login'))
 
+
+
 @app.route('/login/rpi', methods=["POST", "GET"])
 def login():
         #print(next)
@@ -60,6 +62,20 @@ def editAdmin():
                 response['message'] = 'Success!'
 
         return jsonify(response)
+
+@app.route('/submitcomment', methods=['POST'])
+def submitcomment():
+        # Get the user's input data from the request
+        user_input = request.form['user_input']
+        course_name = request.form['user_input']
+        
+        with open('../fontend/src/pages/Courses/comments.json/comment.json', 'r') as f:
+                json_data = json.load(f)
+                json_data[course_name].append(user_input)
+        with open('../fontend/src/pages/Courses/comments.json/comment.json', 'w') as f:
+                json.dump(json_data, f)
+        # Store the data in a database, file, or other persistent storage
+        return 'Success'
 
 @app.route('/test', methods=["GET"])
 def test():
