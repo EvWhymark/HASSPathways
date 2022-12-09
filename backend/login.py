@@ -8,9 +8,6 @@ import smtplib
 # Import the email modules we'll need
 from email.message import EmailMessage
 login_app = Blueprint('login_app', __name__)
-login_app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///Credentials.sqlite"
-login_app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-login_app.config["SECRET_KEY"] = 'apple'#change this
 db = SQLAlchemy()
 db.init_app(login_app)
 #this is a row
