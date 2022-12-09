@@ -36,7 +36,7 @@
                 Password
                 <v-text-field
                     v-model="pass"
-                    :type="pass_visible ? text : 'password'"
+                    :type="pass_visible ? 'text' : 'password'"
                     prepend-icon="mdi-lock"
                     :append-icon="pass_visible ? 'mdi-eye' : 'mdi-eye-off'"
                     @click:append="pass_visible = !pass_visible"
@@ -45,7 +45,7 @@
                     Confirm Password
                     <v-text-field
                         v-model="confirm_pass"
-                        :type="confirm_pass_visible ? text : 'password'"
+                        :type="confirm_pass_visible ? 'text' : 'password'"
                         prepend-icon="mdi-lock"
                         :append-icon="confirm_pass_visible ? 'mdi-eye' : 'mdi-eye-off'"
                         @click:append="confirm_pass_visible = !confirm_pass_visible"
@@ -128,7 +128,7 @@ export default {
         submit(action) {
             this.clearMessages();
             if (action === 'register') {
-                let endpoint = 'http://127.0.0.1:5000/register';
+                let endpoint = 'http://localhost:5000/register';
                 if (this.pass !== this.confirm_pass) {
                     this.showMessage('Passwords do not match');
                 }
@@ -140,7 +140,7 @@ export default {
                         first: this.fname,
                         last: this.lname,
                         email: this.email,
-                        password: this.pass
+                        password: this.pass,
                     }).then(response => {
                         if (response === 'failure') {
                             this.showMessage('Email already exists');
@@ -151,10 +151,10 @@ export default {
                 }
             }
             if (action == 'login') {
-                let endpoint = 'http://127.0.0.1:5000/login';
+                let endpoint = 'http://localhost:5000/login';
                 axios.post(endpoint, {
                     email: this.email,
-                    password: this.pass
+                    password: this.pass,
                 }).then(response => {
                     if (response.usernme === 1) {
                         this.showMessage('Email does not exist');
