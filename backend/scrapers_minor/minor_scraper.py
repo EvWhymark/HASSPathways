@@ -7,7 +7,7 @@ from tqdm import tqdm
 import json
 from lxml import etree
 import csv
-
+# this is the modified version of the pathway scraper, this scraper will be for minors
 # The api key is public so it does not need to be hidden in a .env file
 BASE_URL = "http://rpi.apis.acalog.com/v1/"
 # It is ok to publish this key because I found it online already public

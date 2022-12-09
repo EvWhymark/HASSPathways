@@ -1,5 +1,4 @@
-# This scraper is mainly sourced from the QUACs team and
-# is a modified version of their catalog scraper
+# This scraper is mainly sourced from the courses scraper for pathways
 
 from typing import Dict, List, Tuple
 import requests
