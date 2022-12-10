@@ -113,39 +113,15 @@ def change_info():
         Entry.query.get(old_email_got).email = new_email_got
         return "success"
 
+@app.route('/logout', methods=['GET'])
+@login_required
+def logout():
+    try:
+        logout_user()
+        return {'success':1}
+    except:
+        return {'success':0}
 
-# cas = CASClient(
-#         version = 3,
-#         service_url='https://ec2-52-90-250-109.compute-1.amazonaws.com/login/rpi',
-#         server_url='https://cas.auth.rpi.edu/cas/'
-#         )
-
-
-@app.route('/guard')
-def guard(method=['GET']):
-        if 'username' in session:
-                return jsonify('{"auth": "1"}')
-        else:
-                return jsonify('{"auth": "0"}')
-
-@app.route('/admin')
-def index():
-        return redirect(url_for('login'))
-
-
-@app.route("/edit", methods=["POST", "GET"])
-def editAdmin():
-        response = {'status':'success'}
-        if request.method == "POST":
-                dat = request.get_json()
-                name = dat.get('courses'),
-                pathways = dat.get('pathways')
-                print(name)
-                print(pathways)
-
-                response['message'] = 'Success!'
-
-        return jsonify(response)
 
 @app.route("/faq")
 def faq():
