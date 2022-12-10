@@ -63,18 +63,23 @@ def editAdmin():
 
         return jsonify(response)
 
-@app.route('/submitcomment', methods=['POST'])
+"""The part below is try get input of the comments user write and the course name from 
+../fontend/src/pages/Courses/Coursepage.vue and store it to comments.json(in the same
+folder as CoursePage.vue), but it still have some error there so just leave the comment 
+there for people who will fix this in the future"""
+@app.route('/submitcomment', methods=['POST', 'GET'])
 def submitcomment():
         # Get the user's input data from the request
-        user_input = request.form['user_input']
-        course_name = request.form['user_input']
-        
-        with open('../fontend/src/pages/Courses/comments.json/comment.json', 'r') as f:
-                json_data = json.load(f)
-                json_data[course_name].append(user_input)
-        with open('../fontend/src/pages/Courses/comments.json/comment.json', 'w') as f:
-                json.dump(json_data, f)
-        # Store the data in a database, file, or other persistent storage
+        if request.method == "GET":
+                user_input = request.form['user_input']
+                course_name = request.form['course_name']
+        elif request.method =="POST":
+                # Store the data in a database, file, or other persistent storage
+                with open('../fontend/src/pages/Courses/comments.json/comment.json', 'r') as f:
+                        json_data = json.load(f)
+                        json_data[course_name].append(user_input)
+                with open('../fontend/src/pages/Courses/comments.json/comment.json', 'w') as f:
+                        json.dump(json_data, f)
         return 'Success'
 
 @app.route('/test', methods=["GET"])

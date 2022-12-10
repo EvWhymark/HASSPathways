@@ -47,9 +47,13 @@
         </template>
         <h3>Leave your comment for this class: </h3>
         <input v-model="comment" type="text" placeholder="Your comment">
+        //"submit_comment" was planed to send user's input and the current course name
+        //to flask after using click "comment if", but there are some frontend issue that
+        //I can't fix it, so it is not working yet.
         <button type="button" v-on:click="submit_comment">
             Comment it
         </button>
+        {{this.comment}}
         <h3><br></h3>
         <template>
             <div>
@@ -157,6 +161,9 @@ export default {
             }
             this.panel = tmpPanel
         },
+        // this function is suppose to send infromation to flask and store the information
+        // to .json file using flask, but there is an error in backend, so it is not 
+        // working
         submit_comment(){
             const coursename = this.course.name;
             const userInput = this.comment; // Get the user's input
@@ -166,8 +173,14 @@ export default {
                 headers: {
                     'Content-Type': 'application/json'
                 }
-            }).then(response => {
-                location.reload;
+            }).then(response => response.json())
+            .then(result => { 
+                if (result.status === "success") {
+                    this.reload;
+                }
+                else{
+                    alert("An error occurred: " + result.message);
+                }
             })
         },
         none(prof) {

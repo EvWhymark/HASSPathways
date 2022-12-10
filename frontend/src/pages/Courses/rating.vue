@@ -85,6 +85,10 @@ export default {
         }
     },
     methods: {
+        //in this function, after set this.stars it also supposed can send number of stars
+        //to backtend and use flask to store in the file. Since I was struggle to send and
+        //store comments, so I am not able to finish this part as well, just leave comments
+        //for people going to implement in the futrue
         rate(star) {
             if (this.disabled) {
                 return;
